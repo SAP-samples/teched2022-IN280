@@ -4,6 +4,9 @@
 
 This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
 
+As IT landscapes with cloud applications and on-premise solutions are evolving quickly it is crucial today to oversee and react on business-critical issues instantly. The Integration & Exception Monitoring application of SAP Cloud ALM helps integration experts in their daily work to centrally get an overview of exceptions and failed messages across the entire landscape. 
+In this session you will get a detailed overview on the capabilities of Integration Monitoring in SAP Cloud ALM. You will learn how to navigate through the application in order to monitor and analyze integration related issues and complete end-to-end message flows, how to search specific messages via application context information, how to configure scenarios and alerts and how to use the alert inbox.
+
 ## Overview
 
 This session introduces attendees to...
