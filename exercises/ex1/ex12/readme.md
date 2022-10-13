@@ -2,13 +2,18 @@
 
 In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectivity to a registered Cloud Integration instance. This endpoint will be valid for all ALM monitoring use cases.
 
-0. If not already done, please login to SAP Cloud ALM, navigate to section *Administration* and click on *Landscape Management* tile. 
-    Select the registered Cloud Integration instance.
+0. If not already done, please 
+
+    - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
+    - Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
+    - Select the registered Cloud Integration instance.
 
 1. Use the button *Add* in the *Endpoints* section
        
 2.	In the upcoming window under *General* maintain the fields:
-    - Endpoint name: `CALM-IntSuite-EU1_<userID-digits>`. Take the `<userID-digits>` from the tenant booker application, while removing the starting P/S character.
+    - Endpoint name: `CALM-IntSuite-EU1_<userID-digits>`. 
+        
+        Take the `<userID-digits>` from the tenant booker application, while removing the starting P/S character.
     - Optionally maintain a description
     - Use Case: select all monitoring use cases
       -- `Exception Monitoring`
