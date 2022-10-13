@@ -36,13 +36,12 @@ When you run through the exercise steps, you need to ensure that the technical I
 
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - Setup the monitoring of SAP Integration Suite through SAP CLoud ALM](exercises/ex1/)
-- [Exercise 2 - Monitoring a deployment issue](exercises/ex2/)
-- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](exercises/ex3/)
-    - [Search for a specific message via application context](exercises/ex3/ex31)
-    - [Search for a specific message via application context](exercises/ex3/ex32)
-- [Exercise 4 - Analyze exhausted resources](exercises/ex4/)
+- [Getting Started](/exercises/ex0/)
+- [Exercise 1 - Setup the monitoring of SAP Integration Suite through SAP CLoud ALM](/exercises/ex1/README.md)
+- [Exercise 2 - Monitoring a deployment issue](exercises/ex2/README.md)
+- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](/exercises/ex3/README.md)
+    - [Search for a specific message via application context](/exercises/ex3/ex31/README.md)
+- [Exercise 4 - Analyze exhausted resources](/exercises/ex4/README.md)
 
 ## How to obtain support
 
