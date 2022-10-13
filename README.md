@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# IN280 - Central monitoring of integration scenarios using SAP Cloud ALM
 
 ## Description
 
@@ -17,47 +17,32 @@ In this session you get a deeper insight how to monitor integration scenarios ce
 2.	How monitor end-to-end integration scenarios, perform a drill-down to single message details, and navigate to the local monitoring tools for issue resolution. 
 3.	You learn how to configure alerts and get receive auto-notifications through email.
 
-The exercise consists of four parts:
--	Setup the monitoring of SAP Integration Suite with SAP Cloud ALM
--	Analyze certificates for expiry and configure alerts
--	Central monitoring of an integration scenario end-to-end 
--	Monitoring of a deployment issue
--	Search for a specific message via application context
--	Configure alerts for get notifications
-
 ## Requirements
 
 The requirements to follow the exercises in this repository are...
 
 ## System details
-- User / password provided by Booker app
-- SAP Cloud ALM tenant  https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com
-- SAP Integration Suite tenant  https://teched-calm01.integrationsuite.cfapps.eu10-003.hana.ondemand.com
-    - URL   
-    - Client ID
-    - Secret ID
-    - Token Service ID
+
+For running through the exercise steps, we will provide you access to the following systems:
+
+- SAP Cloud ALM tenant
+- SAP Integration Suite tenant
+
+The details will be provided to you by the instructors.
+
+When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse the digital numbers of your user.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 1 - Setup the monitoring of SAP Integration Suite through SAP CLoud ALM](exercises/ex1/)
+- [Exercise 2 - Monitoring a deployment issue](exercises/ex2/)
+- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](exercises/ex3/)
+    - [Search for a specific message via application context](exercises/ex3/ex31)
+    - [Search for a specific message via application context](exercises/ex3/ex32)
+- [Exercise 4 - Analyze exhausted resources](exercises/ex4/)
 
 ## How to obtain support
 
