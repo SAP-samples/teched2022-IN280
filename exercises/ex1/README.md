@@ -1,6 +1,11 @@
-# Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM
+# Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM
+
+In this exercise, we will create...
+
 
 ## Exercise steps
+
+Run through the exercise steps in the given order.
 
 1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
  
@@ -24,7 +29,7 @@
 
 You've now set up the connectivity between SAP Cloud ALM monitoring use cases *Integration & Exception Monitoring* and *Health Montoring* to the a registered intance of a Cloud Integration capability of SAP Integration Suite. This is necessary to pull Cloud Integration for monitoring data.
 
-Continue to - [Exercise 2](../ex2/README.md)
+Next we will .....Continue to - [Exercise 2](../ex2/README.md)
 
 <!--
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
