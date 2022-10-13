@@ -1,35 +1,36 @@
 # Register a Cloud Integration tenant in SAP Cloud ALM
 
-In this exercise, you will learn how to register a Cloud Integration instance to SAP Cloud ALM.
-
-0. If not already done, please login to SAP Cloud ALM, navigate to section *Administration* and click on *Landscape Management* tile.
-
-1. OPTIONAL Use the *Add* button in the upper right corner.
-      
-    >(Should we create the service upfront?
+   >(Should we create the service upfront?
     >
     > Usually, your cloud services are imported from the System Landscape Information Service (SLIS). As we are not in a customer landscape, we have to add the cloud service to the Landscape Management Service (LMS). 
     >
     > As SAP Integration Suite has to be pulled for monitoring information from SAP Cloud ALM and this set up isn’t configured by default the instance has to be registered manually.
 
+
+In this exercise, you will learn how to register a Cloud Integration instance in SAP Cloud ALM.
+
+0. If not already done, please login to SAP Cloud ALM, navigate to section *Administration* and click on the *Landscape Management* tile.
+
+1. Use the *Add* button in the upper right corner
+
+      <br>![](/exercises/ex1/images/LMSAdd.png)
+      
 2.	Enter all mandatory parameters under *General Properties*
-    - Name: `CALM-IntSuite-EU10`
+    - *Name*: `CloudIntegration-TECHED-<tenant_name>_<userID-digits>`
+       
+       Copy the `<userID-digits>` from the tenant booker application, while removing the starting P/S character.
     - Optionally maintain a description
-    - Tenant ID: `12345678901` (must be unique, we have to use userIDs)
-        > We can also use 1234 concatecanted by the digits after the userID
-    - Service Type: `SAP Integration Suite (Cloud Integration)`
-    - Tenant Type: `Test`
-    - Root URL: `https://teched-calm01.integrationsuite.cfapps.eu10-003.hana.ondemand.com` or use the URL that has been provided to you from the Tenant Booker application under *Tenant URL for SAP Cloud Integration*. Please remove the ending path `/itspaces/`.
+    - *Tenant ID*: `01234567<userID-digits>` 
+    - *Service Type*: `SAP Integration Suite (Cloud Integration)`
+    - *Tenant Type*: `Test`
+    - *Root URL*: Copy the URL provided by the Tenant Booker application under the field *Tenant URL for SAP Cloud Integration*. Please remove the ending `/itspaces/`.
    
-   > PICTURE
+       <br>![](/exercises/ex1/images/LMSAddCPIservice.png)
 
   3. When done, click on *Save*
+  
+## Summary
 
-    > PICTURE
-    
-##### After completing these steps you will have....
+After completing these steps you will have registered a new instance of a Cloud Integration capability of SAP Integration Suite to the SAP Cloud ALM by leveraging the Landscape Management Service (LMS) service.
 
-registered a new instance of a Cloud Integration capability of SAP Integration Suite to the SAP Cloud ALM by leveraging the Landscape Management Service (LMS) service.
-
-
-Continue to - [Create a HTTP endpoint](exercises/ex1/ex12/README.md)
+Next we will create an HTTP endpoint to establish authenticated connectivity to this tenant. Continue to - [Exercise 1.2](../ex12/)
