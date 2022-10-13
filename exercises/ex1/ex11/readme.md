@@ -1,4 +1,4 @@
-# Add a Cloud Integration tenant to SAP Cloud ALM
+# Register a Cloud Integration tenant in SAP Cloud ALM
 
 In this exercise, you will how to register a Cloud Integration instance to SAP Cloud ALM.
 
@@ -27,14 +27,9 @@ In this exercise, you will how to register a Cloud Integration instance to SAP C
 
     > PICTURE
     
-  In the following steps the endpoint has to be added to establish an authenticated connection to a prepared Cloud Integration tenant.
-
-3.	Please use the Add button.
-
-
 ##### After completing these steps you will have....
 
-added a new Cloud Integration capability of SAP Integration Suite to the SAP Cloud ALM by using the LMS service.
+registered a new instance of a Cloud Integration capability of SAP Integration Suite to the SAP Cloud ALM by leveraging the Landscape Management Service (LMS) service.
 
 
 Continue to - [Create a HTTP endpoint](exercises/ex1/ex12/README.md)
