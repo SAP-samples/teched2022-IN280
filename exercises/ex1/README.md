@@ -23,9 +23,7 @@
 
 set up the connectivity between SAP Cloud ALM monitoring use cases *Integration & Exception Monitoring* and *Health Montoring* to the a registered intance of a Cloud Integration capability of SAP Integration Suite. This is necessary to pull Cloud Integration for monitoring data.
 
-Continue to - [Monitoring a deployment issue](exercises/ex2/README.md)
-
-Start the exercises [2022 TechEd - IN262 - Hands_On_Guide.pdf](https://github.com/SAP-samples/teched2022-IN262/files/9734812/2022.TechEd.-.IN262.-.Hands_On_Guide.pdf)
+Continue to - [Monitoring a deployment issue](../ex2/README.md)
 
 <!--
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
