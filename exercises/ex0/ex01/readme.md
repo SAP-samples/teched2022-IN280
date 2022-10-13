@@ -16,4 +16,4 @@ In the SAP Cloud ALM subaccount the role *Integration Monitoring Integration Arc
 
 For further information on how to the setup especially SAP Integration Suite running in the Neo environment please read the documentation at the [SAP Cloud ALM - Expert Portal pages](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-cpi-neo.html).
 
-Continue to - [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1)
+Continue to - [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../../ex1/)
