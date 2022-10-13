@@ -1,7 +1,8 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Monitoring a deployment issue
 
 In this exercise, we will create...
 
+<!--
 ## Exercise 2.1 Sub Exercise 1 Description
 
 After completing these steps you will have created...
@@ -13,8 +14,6 @@ After completing these steps you will have created...
 ```abap
 response->set_text( |Hello ABAP World! | ). 
 ```
-
-
 
 ## Exercise 2.2 Sub Exercise 2 Description
 
@@ -31,12 +30,11 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
   ENDIF.
 
 ```
+-->
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
 You've now ...
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3](../ex3/README.md)
