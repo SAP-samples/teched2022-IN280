@@ -1,12 +1,12 @@
 # Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM
 
-1. [Retrieve user / password](/exercises/ex0/ex02/README.md) for SAP Integration Suite and SAP Cloud ALM
+1. [Retrieve user / password](../../ex0/ex02/README.md) for SAP Integration Suite and SAP Cloud ALM
  
 2. Login to SAP Cloud ALM using the link [teched22-cloudalm-003](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
 
 3. Within the SAP Cloud ALM landing page navigate to section *Administration* and click on the tile *Landscape Management*
 
-4. [Register a Cloud Integration tenant in SAP Cloud ALM](/exercises/ex1/ex11/README.md)
+4. [Register a Cloud Integration tenant in SAP Cloud ALM](./ex11/README.md)
 
 5. [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/README.md)
     
