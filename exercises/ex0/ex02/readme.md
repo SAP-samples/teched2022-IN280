@@ -14,7 +14,7 @@
      
    While performing the exercises please ignore *CLient ID* and *Client Secret*. This info is related to other TechEd sessions that use the booker app, too.
    
-   Regarding the second URL *Tenant URL for SAP Cloud Integration*, we will leverage this URL without `/itspaces/` during the exercise [Add an HTTP endpoint to a managed service](../../ex/ex12).
+   Regarding the second URL *Tenant URL for SAP Cloud Integration*, we will leverage this URL without `/itspaces/` during the exercise [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12).
 
 Keep the browser tab open for accessing *user/password* assigned to you.
 
