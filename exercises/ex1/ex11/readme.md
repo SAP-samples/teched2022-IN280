@@ -1,6 +1,6 @@
 # Register a Cloud Integration tenant in SAP Cloud ALM
 
-In this exercise, you will how to register a Cloud Integration instance to SAP Cloud ALM.
+In this exercise, you will learn how to register a Cloud Integration instance to SAP Cloud ALM.
 
 0. If not already done, please login to SAP Cloud ALM, navigate to section *Administration* and click on *Landscape Management* tile.
 
