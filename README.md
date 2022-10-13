@@ -37,11 +37,11 @@ When you run through the exercise steps, you need to ensure that the technical I
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
 - [Getting Started](/exercises/ex0/)
-- [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/README.md)
+- [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](exercises/ex1/README.md)
 - [Exercise 2 - Monitoring a deployment issue](exercises/ex2/README.md)
-- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](/exercises/ex3/README.md)
-    - [Search for a specific message via application context](/exercises/ex3/ex31/README.md)
-- [Exercise 4 - Analyze exhausted resources](/exercises/ex4/README.md)
+- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](exercises/ex3/README.md)
+    - [Search for a specific message via application context](exercises/ex3/ex31/README.md)
+- [Exercise 4 - Analyze exhausted resources](exercises/ex4/README.md)
 
 ## How to obtain support
 
@@ -49,3 +49,26 @@ Support for the content in this repository is available during the actual time o
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+
+
+<!--
+Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+
+- [Getting Started](exercises/ex0/)
+- [Exercise 1 - First Exercise Description](exercises/ex1/)
+    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 2 - Second Exercise Description](exercises/ex2/)
+    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+
+
+
+**OR** Link to the Tutorial Navigator for example...
+
+Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+
+**IMPORTANT**
+
+Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+-->
