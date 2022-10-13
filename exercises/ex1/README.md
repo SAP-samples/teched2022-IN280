@@ -1,7 +1,6 @@
 # Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM
 
-In this exercise, we will create...
-
+In this exercise, we will perform all steps to establish the monitoring of a Cloud Integration instance.
 
 ## Exercise steps
 
@@ -9,21 +8,11 @@ Run through the exercise steps in the given order.
 
 1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
  
-2. Login to *SAP Cloud ALM* using the link [teched22-cloudalm-003](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
+2. [Register a Cloud Integration tenant in SAP Cloud ALM](./ex11/)
 
-3. Within the SAP Cloud ALM landing page navigate to section *Administration* and click on the tile *Landscape Management*
-
-4. [Register a Cloud Integration tenant in SAP Cloud ALM](./ex11/)
-
-5. [Add an HTTP endpoint to a managed service](./ex12/)
+3. [Add an HTTP endpoint to a managed service](./ex12/)
     
-6.  Oversee the lifecycle status of managed services
-
-    The service you have registered should be now in status *Active*. If not do a browser refresh to get the page updated.
-
-    > PICTURE
-    
-7. Activate the data collection of the selected monitoring use cases
+4. Activate the data collection of the selected monitoring use cases
 
    For *Health Monitoring* the data collection is already activated automaticalls after the creation of the HTTP endpoint.
    
