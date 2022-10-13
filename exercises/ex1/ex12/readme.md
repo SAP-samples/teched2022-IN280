@@ -1,4 +1,4 @@
-# Add an HTTP endpoint
+# Add an HTTP endpoint to a managed service
 
 In this exercise, you will learn how to add an HTTP endpoint for the monitoring use cases to establish authenticated connectivity to a registered Cloud Integration instance.
 
