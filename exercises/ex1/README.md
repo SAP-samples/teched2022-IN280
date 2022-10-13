@@ -23,7 +23,11 @@ Run through the exercise steps in the given order.
 
     > PICTURE
     
-7. [Activate data collection for the use case Integration & Exception Monitoring](./ex13/)
+7. Activate the data collection of the selected monitoring use cases
+
+   For *Health Monitoring* the data collection is already activated automaticalls after the creation of the HTTP endpoint.
+   
+   For the *Integration & Expception Monitoring* perform the steps descripbed in [Activate data collection for the use case Integration & Exception Monitoring](./ex13/)
 
 ## Summary
 
