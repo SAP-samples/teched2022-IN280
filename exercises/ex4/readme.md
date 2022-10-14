@@ -1,20 +1,83 @@
 # Exercise 4 - Analyze exhausted resources
 
-In this exercise, we will create...
+In this exercise, we will create track resources of the Cloud Integration tenant as the JMS queues and certificates. 
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
-1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
- 
-2. Login to *SAP Cloud ALM* using the link [teched22-cloudalm-003](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
+#### Prequisites:
+The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
+
+If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+
+1.	Navigate to section *SAP Cloud ALM for Operation* and click on the card *Health Monitoring*.
+
+   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
+
+2. Comprehend the Health Monitoring overview page 
+
+   It provides a central view of the healthiness of all connected service on the level of their types, as over all Cloud Integration tenants. With that it gives a first indicator where crucial changes and adjustments are necessary. 
+
+   The health of a service is defined by a rating percentage, which determines its rating color. The overall health of a monitored service type is calculated by all it’s instances. In this exercise we have only one service in scope. Therefore the tenant's healthiness matches with the overall rating over all Cloud Integration tenants.
+
+   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
+
+3. **Optional**: Check the quality of the data collection
+
+   Click on the colored quality icon in the lower left corner of the Cloud Integration card. For each instance you may check whether the data collection is running.
+   
+   Select the instance you have created in [Exercise 1.1](../ex/ex11/) and see that data collection has run successfully at the listed time.
+   
+   <br>![](/exercises/ex1/images/HMDataQuality.png)
+
+4. Click on the card SAP Integration Suite (Cloud Integration) to **drill one level down**
+
+5. Comprehend the *service type monitoring page* 
+
+   This pages depends on the underlying service type and the monitored metrics. In case of the Cloud Integration capability of SAP Integration Suite it provides ........
+
+6. **Recommended but optional**: [Understand ratings in Health Monitoring](./ex41/))
+
+   The Cloud Integration tenant we are connecting to has a rating of ... with a percentage of ....
+
+7.	Click on the service instance you have created in Exercise ... to drill one level down.
+
+   Cloud Integration offers as of today the status of JMS queue resources and the validity of certificates and key pairs is monitored. The thresholds are the same as you know them from the local Cloud Integration monitoring, only the thresholds names differ.
+
+8. **Recommended but optional**: Available metrics for Cloud Integration
+
+9. Comprehend the metrics overview page of a particular Cloud Integration tenant
+
+   This page is the centerpiece of Health Monitoring and offers a quick health overview particular tenant. The grouping of available metrics is pre-configured and varies from the service type to another. 
+   
+   In the case of Cloud Integration, groups for certificate validity and JMS resources are shown up. By means rating colors it is easy to track all monitored metrics briefly. Any rating in red on the page attracts attention and should be examined more closely.
+
+    For identification purposes of various metrics of the same type of Health Monitoring has introduced labels. Each JMS queue has a label ‘queue’ for its name. Certificates have the labels ‘alias’ and ‘type’ for the differentiation between a certificate and a key pair.
+
+    In the lower section of the Metrics Overview table, one can also see also tiles for each JMS queue, titled with their label. They have their own metrics such as its activation, the status, and the number of messages, therefore they are visualized as separate tiles.
+
+   <br>![](/exercises/ex1/images/HMDataQuality.png)
+
+10. Click on the tab *All Metrics*
+
+    In the parallel tab All Metrics (see picture below) the details of all metrics of a particular service such as all certificate validities including the remaining days until their expiry. By the timestamp you can see the last data collection. As default, Cloud Integration tenants are pulled every 5 minutes using the OData APIs.
+
+    As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels. In the screenshot below one can see all metrics of type ‘Certificate validity’ grouped by the label ‘type’ (certificate, key pair).
+
+Important:
+Health monitoring does not offer any tools to update certificates or queues directly. This is only possible in the keystore monitor or manage stores monitor of Cloud Integration itself. You may argue that the local Cloud Integration monitoring is much better suited to really work on these monitored resources. This is correct, one can get similar information in the local monitoring tool. A big advantage of SAP Cloud ALM is, as already mentioned above, that one can get an overview of the health rating of all monitored Cloud Integration services at a glance or even all connected services and systems of your IT landscape. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools. And they have the possibility to navigate from the health monitoring application to the Cloud Integration monitoring.
+
+On the other hand, it is not possible to track a specific metric, like for example the certificate validity across all services. But an expired validity of a certificate influences the health rating of a service and with that attracts your attention anyway. See Security artifact renewal in case of an upcoming expiration.
+
+11. Historical view on a particular metric
+
+   The metric history graph is helpful to see how the metrics have evolved, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. It is possible to see the collected data of selected labels for the last 30 days. Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
+
+12. Customize thresholds
 
 
-    > PICTURE
-    
-
-
+   
 ## Summary
 
 You've now ...
