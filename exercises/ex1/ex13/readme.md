@@ -10,25 +10,22 @@ If not already done, please login to SAP Cloud ALM.
 1. Navigate to section *SAP Cloud ALM for Operations* and click on the card *Integration & Exception Monitoring*
       
     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
-    
-
+  
 2. Bring the **Cloud Integration tenant into the scope**
 
    If you start *Integration & Exception Monitoring* the first time the *Scope Selection* Diaglog opens automatically.
    
     <br>![](/exercises/ex1/images/InitialScopeSelection.png)
+   
+    a)  Filter for *Services*
     
-    <br>![](/exercises/ex1/images/InitialScopeSelectionII.png)
+    b)  Click on *Go* in the upper right corner for filtering
     
-    b)  Filter for *Services*
-    
-    c)  Click on *Go*
-    
-    d)  Select the Cloud Integration service instance that you have registered in Exercise [Register a Cloud Integration tenant in SAP Cloud ALM](exercises/ex1/ex11)
+    c)  Search and select the Cloud Integration service instance that you have registered in Exercise [Register a Cloud Integration tenant in SAP Cloud ALM](exercises/ex1/ex11)
 
-    e)  Click on the button *Apply*
+    d)  Click on the button *Apply* to save the configuration
       
-     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
+     <br>![](/exercises/ex1/images/ScopeSelectionService.png)
 
 3. **Activate the data collection** the Cloud Integration instance
 
@@ -36,12 +33,11 @@ If not already done, please login to SAP Cloud ALM.
     
     b)	Use the *toggle button* to turn on the data collection
       
-    > PICTURE
+    <br>![](/exercises/ex1/images/ActivateDataCollection.png)
 
     
-##### After completing these steps you will have....
+### Summary
 
-activated the data collection of *Integration & Exception Monitoring* for a managed Cloud Integration tenant.
+After completing these steps you will have activated the data collection of *Integration & Exception Monitoring* for a managed Cloud Integration tenant.
 
-
-Return back to - [Setup the monitoring of SAP Integration Suite through SAP CLoud ALM](exercises/ex1/README.md)
+Return back to mainpage of [Exercise 1](../../ex1/README.md)
