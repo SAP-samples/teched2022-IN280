@@ -2,29 +2,33 @@
 
 In this exercise, you will learn how to activate the data collection specifically for the use case *Integration & Exception Monitoring*.
 
-######Prequisites:
-The service is already registered and an endpoint is created for this use case.
-> add links to exercises
+#### Prequisites:
+The service is already registered and endpoints are created for *Integration Monitoring* and *Exception Monitoring*. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/) and [Add an HTTP endpoint to a managed service](../ex12/).
 
-0. If not already done, please login to SAP Cloud ALM
+If not already done, please login to SAP Cloud ALM.
 
 1. Navigate to section *SAP Cloud ALM for Operations* and click on the card *Integration & Exception Monitoring*
       
-    > PICTURE
+    <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
+    
 
 2. Bring the **Cloud Integration tenant into the scope**
 
-    a)  Use the *Scope Selection* button in the black top row
+   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* Diaglog opens automatically.
+   
+    <br>![](/exercises/ex1/images/InitialScopeSelection.png)
+    
+    <br>![](/exercises/ex1/images/InitialScopeSelectionII.png)
     
     b)  Filter for *Services*
     
-    c)	Click on *Go*
+    c)  Click on *Go*
     
-    d)	Select the Cloud Integration service instance that you have registered in Exercise [Register a Cloud Integration tenant in SAP Cloud ALM](exercises/ex1/ex11)
+    d)  Select the Cloud Integration service instance that you have registered in Exercise [Register a Cloud Integration tenant in SAP Cloud ALM](exercises/ex1/ex11)
 
-    e)	Click on the button *Apply*
+    e)  Click on the button *Apply*
       
-    > PICTURE
+     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
 3. **Activate the data collection** the Cloud Integration instance
 
