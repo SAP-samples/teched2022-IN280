@@ -74,7 +74,15 @@ On the other hand, it is not possible to track a specific metric, like for examp
 
    The metric history graph is helpful to see how the metrics have evolved, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. It is possible to see the collected data of selected labels for the last 30 days. Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
 
-12. Customize thresholds
+12. Alerts
+
+      >
+      > Health Monitoring comes with embedded alerting leveraged for various ALM use cases. A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
+      >
+
+   a) Activate alerts on metric level in configuration page
+   
+13. Customize thresholds
 
 
    
