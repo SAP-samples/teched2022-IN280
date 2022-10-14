@@ -3,7 +3,7 @@
 In this exercise, you will learn how to activate the data collection specifically for the use case *Integration & Exception Monitoring*.
 
 #### Prequisites:
-The service is already registered and endpoints are created for *Integration Monitoring* and *Exception Monitoring*. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/) and [Add an HTTP endpoint to a managed service](../ex12/).
+The Cloud Integration tenant is already registered and endpoints are created for *Integration Monitoring* and *Exception Monitoring*. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/) and [Add an HTTP endpoint to a managed service](../ex12/).
 
 If not already done, please login to SAP Cloud ALM.
 
@@ -36,7 +36,7 @@ If not already done, please login to SAP Cloud ALM.
     <br>![](/exercises/ex1/images/ActivateDataCollection.png)
 
     
-### Summary
+## Summary
 
 After completing these steps you will have activated the data collection of *Integration & Exception Monitoring* for a managed Cloud Integration tenant.
 
