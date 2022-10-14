@@ -11,7 +11,7 @@ The instance CALM-IntSuite-EU10 is rated as Warning with a high score of 92%. Fo
 
 You've now ...
 
-Continue to the main page of - [Exercise 4](../ex4/)
+Continue to the main page of - [Exercise 4](../../ex4/)
 
 <!--
 ## Exercise 2.1 Sub Exercise 1 Description
