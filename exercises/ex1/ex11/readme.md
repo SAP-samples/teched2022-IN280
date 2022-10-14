@@ -1,4 +1,4 @@
-# Register a Cloud Integration tenant in SAP Cloud ALM
+# Register a Cloud Integration tenant in LMS
 
    >(Should we create the service upfront?
     >
@@ -7,7 +7,7 @@
     > As SAP Integration Suite has to be pulled for monitoring information from SAP Cloud ALM and this set up isn’t configured by default the instance has to be registered manually.
 
 
-In this exercise, you will learn how to register a Cloud Integration instance in SAP Cloud ALM.
+In this exercise, you will learn how to register a Cloud Integration instance in Landscape Management Service (LMS.
 
 0. If not already done, please 
 
