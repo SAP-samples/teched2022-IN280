@@ -1,15 +1,24 @@
 # Understand ratings in Health Monitoring
 
-In this exercise, we will understand 
+This part is for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM.
+
+All technical metrics from the monitored services and on-premise systems are collected on a regular basis and can be used to calculate the overall health of a monitored service. The metrics are defined by the service types themselves and therefore may differ. In a later part of this blog post, I will explain the metrics offered by Cloud Integration.
+
+The service health is calculated bottom up: each metric, as a specific certificate validity or the activation status of a JMS (Java Messaging Service) queue, gets rated individually. Thresholds define when a metric receives a certain rating, such as *OK* or *Critical*. The metric rating is mapped to a metric health score to automate the calculation of the overall service’s health score. See the picture below to understand the assignment. The health score of the overall service is determined by the mean score of all individual metrics. A service health percentage of less than 100% determines a service as in Warning, with less than 80% as in *Critical* state. And as soon as one metric is rated as Fatal the entire service has a health score of 0% and is in *Critical* state.
+
+<br>![](/exercises/ex2/images/HMRatingDiagram.png)
+
+Some metrics have only informative character, such as the total number of messages in a JMS queue. They are not included in the health calculation of a service.
+
+Example: In the below screenshot of the monitoring page that is listing all monitored Cloud Integration instances, one can see that the first one is in Critical state, colored red. 41 metrics are available for this instance, 3 metrics have only informative values and are not counted, these are the total number of messages in a JMS queue. Therefore, sum up 10 in Critical 0%, 1 in Warning 50%, and 27 with Ok 100% divided by the 38 relevant metrics. This results to a service rating score of 72%. The service is rated as Critical.
+
+<br>![](/exercises/ex2/images/HMRatingExample.png)
+
+Example: In the below screenshot of the monitoring page that is listing all monitored Cloud Integration instances, one can see that the first one is in Critical state, colored red. 41 metrics are available for this instance, 3 metrics have only informative values and are not counted, these are the total number of messages in a JMS queue. Therefore, sum up 10 in Critical 0%, 1 in Warning 50%, and 27 with Ok 100% divided by the 38 relevant metrics. This results to a service rating score of 72%. The service is rated as Critical.
+
+This particula instance is rated as Warning with a high score of 92%. For this calculation 58 metrics are used. 13 metrics have only informative value and are not counted. 4 metrics are in *Critical* state and don’t get any metric high score. 41 out of 58 are Ok with 100%. The sum up divided by the relevant (58-13) metrics leads to a service rating score of 92%. The tenant is rated as *Critical*. 
 
 
-
-The instance CALM-IntSuite-EU10 is rated as Warning with a high score of 92%. For this calculation 58 metrics are used. 13 metrics have only informative value and are not counted. 4 metrics are in Critical state and don’t get any metric high score. 41 out of 58 are Ok with 100%. The sum up divided by the relevant (58-13) metrics leads to a service rating score of 92%. The tenant is rated as Critical. 
-
-
-## Summary
-
-You've now ...
 
 Continue to the main page of - [Exercise 4](../../ex4/)
 
