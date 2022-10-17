@@ -3,8 +3,8 @@
 In this exercise, we will create track resources of the Cloud Integration tenant as the JMS queues and certificates. 
 
 #### Prequisites:
-- The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
 - You are loggedin to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+- The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
 
 ## Exercise steps
 
@@ -18,27 +18,45 @@ Run through the exercise steps in the given order.
 
    This central view shows the healthiness of connected services on the level of service types, e.g. all Cloud Integration tenants. It offers a first indicator where crucial changes and adjustments are necessary. 
 
-   <br>![](/exercises/ex4/images/HMOverviewpage.png)
+   <br>![](/exercises/ex4/images/HMDrillDownToType.png)
 
-3. *Optional*: [Check the quality of the data collection](./ex47/readme.md)
+      a. *Optional*: Check whether the collection of data is running successfully
+      
+          Click on the colored quality icon. For each Cloud Integration instance you may check whether the data collection is running.
+   
+          Select the instance you have created in Exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully at the listed time.
+   
+          <br>![](/exercises/ex4/images/HMDataQuality.png)
+ 
+      b. *Optional*: Check quickly the rating of an instance
+      
+         Click on the "info" icon. For each Cloud Integration instance you may get a first overview on it's rating.
+         
+               <br>![](/exercises/ex4/images/HMDataQuality.png)
+      
+      c. *Optional*: Set a service type to you favourite ones
+            
+         Click on the *Star* icon to set  tenants of type *Cloud Integration capability* to your favorite ones and track them more easily.
 
-4. Click on the card SAP Integration Suite (Cloud Integration) to **drill one level down**
+3. Click on the card SAP Integration Suite (Cloud Integration) to **drill one level down**
 
-5. Comprehend the *service type monitoring page* 
+4. Comprehend the *service type monitoring page* 
 
    This pages depends on the underlying service type and the monitored metrics. In case of the Cloud Integration capability of SAP Integration Suite it provides ........
 
-6. *Recommended but optional*: [Understand ratings in Health Monitoring](./ex41/))
+5. *Recommended but optional*: [Understand metric ratings](./ex41/))
 
    The Cloud Integration tenant we are connecting to has a service health percentage of 92% and the service is rated as *Critical*.
 
-7.	Click on the service instance you have created in Exercise ... to drill one level down.
+6.	Click on the service instance you have created in Exercise ... to drill one level down.
 
    Cloud Integration offers as of today the status of JMS queue resources and the validity of certificates and key pairs is monitored. The thresholds are the same as you know them from the local Cloud Integration monitoring, only the thresholds names differ.
 
-8. *Recommended but optional*: Available metrics for Cloud Integration
+7. *Recommended but optional*: Available metrics for Cloud Integration
 
-9. Comprehend the metrics overview page of a particular Cloud Integration tenant
+      The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available for Cloud Integration so far.
+
+8. Comprehend the metrics overview page of a particular Cloud Integration tenant
 
    This page is the centerpiece of Health Monitoring and offers a quick health overview particular tenant. The grouping of available metrics is pre-configured and varies from the service type to another. 
    
