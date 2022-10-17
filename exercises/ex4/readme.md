@@ -34,41 +34,47 @@ Run through the exercise steps in the given order.
 
 4.	Click on the service instance you have created in exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md) and drill one level down to the **metric overview of a Cloud Integration tenant**
 
-      This pages depends on the service type and offered metrics.
-
-      a. *Recommended but optional*: Available metrics for Cloud Integration
-
-      The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available for Cloud Integration.
-
-      Cloud Integration offers as of today the status of JMS queue resources and the validity of certificates and key pairs is monitored. The thresholds are the same as you know them from the local Cloud Integration monitoring.
-
-      b. Comprehend the metrics overview page of a particular Cloud Integration tenant
-
-      This page is the centerpiece of Health Monitoring and offers a quick health overview particular tenant. The grouping of available metrics is pre-configured and varies from the service type to another. 
       
-      In the case of Cloud Integration, groups for **certificate validity** and **JMS resources** show up. By means of rating colors it is easy to track all monitored metrics briefly. Any rating in red on the page attracts attention and should be examined more closely.
+      This page is the centerpiece of Health Monitoring and offers a quick health overview for a particular tenant, in our case a Cloud Integration tenant. The grouping of available metrics is pre-configured and depends on the service type and offered metrics. Cloud Integration offers as of today the status of **JMS queue resources** and the **validity of certificates**. The thresholds are the same as you know them from the local Cloud Integration monitoring. The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available for Cloud Integration.
+       
+      <br>![](/exercises/ex4/images/HMMetricOverview.png)
       
-      For identification purposes of various metrics of the same type of Health Monitoring has introduced labels. Each JMS queue has a label ‘queue’ for its name. Certificates have the labels ‘alias’ and ‘type’ for the differentiation between a certificate and a key pair.
+      By means of **rating colors** it is easy to track all monitored metrics briefly. Any rating in red on the page attracts attention and should be examined more closely.
       
-      In the lower section of the Metrics Overview table, one can also see also tiles for each JMS queue, titled with their label. They have their own metrics such as its activation, the status, and the number of messages, therefore they are visualized as separate tiles.
+      For identification purposes of various metrics of the same type **labels** has been introduced: 
+      
+      - Each JMS queue has a label 'queue* for its name. 
+      - Certificates have the labels *alias* and *type* for the differentiation between a certificate and a key pair.
+      
+      In the lower section, one can also see also tiles for each JMS queue, titled with their label. They have their own metrics such as its *activation*, the *status*, and the *number of messages*, therefore they are visualized as separate tiles.
 
-      <br>![](/exercises/ex1/images/HMMetricOverview.png)
+      a. Click on the tab *All Metrics*
 
-      c. Click on the tab *All Metrics*
+      See all metrics that are offered by Cloud Integration such as all *certificate validities* including the remaining days until their expiry. 
+      
+      >
+      > *Information*: As default, Cloud Integration tenants are pulled every 5 minutes using the OData APIs.
+      > 
 
-      In the parallel tab All Metrics (see picture below) the details of all metrics of a particular service such as all certificate validities including the remaining days until their expiry. By the timestamp you can see the last data collection. As default, Cloud Integration tenants are pulled every 5 minutes using the OData APIs.
-
+      b. Filtering and sorting possibilities
+      
       As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels. In the screenshot below one can see all metrics of type ‘Certificate validity’ grouped by the label ‘type’ (certificate, key pair).
 
-   Important:
-  
-   Health monitoring does not offer any tools to update certificates or queues directly. This is only possible in the keystore monitor or manage stores monitor of Cloud Integration itself. You may argue that the local Cloud Integration monitoring is much better suited to really work on these monitored resources. This is correct, one can get similar information in the local monitoring tool. A big advantage of SAP Cloud ALM is, as already mentioned above, that one can get an overview of the health rating of all monitored Cloud Integration services at a glance or even all connected services and systems of your IT landscape. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools. And they have the possibility to navigate from the health monitoring application to the Cloud Integration monitoring.
+      c. Click on the icon .... to open the *history graph* for a particular metric
 
-   On the other hand, it is not possible to track a specific metric, like for example the certificate validity across all services. But an expired validity of a certificate influences the health rating of a service and with that attracts your attention anyway. See Security artifact renewal in case of an upcoming expiration.
+      The graph shows how the metrics have evolved, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
+      
+      It is possible to see the collected data of selected labels for the last 30 days. 
+      
+      Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
 
-      d. Historical view on a particular metric
-
-         The metric history graph is helpful to see how the metrics have evolved, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. It is possible to see the collected data of selected labels for the last 30 days. Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
+>
+>
+> *Important*: Health monitoring does not offer any tools to update certificates or queues directly. This is only possible in the *keystore monitor* or *manage stores monitor* of Cloud Integration itself. 
+>
+> With *SAP Cloud ALM* one can get an overview of the health rating of all monitored Cloud Integration services at a glance or even all connected services and systems of your IT landscape. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools. And they have the possibility to navigate from the health monitoring application to the Cloud Integration monitoring.
+>
+>
 
 9. Alerts
 
