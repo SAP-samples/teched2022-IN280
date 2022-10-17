@@ -1,4 +1,4 @@
-# Understand ratings in Health Monitoring
+# Understand metric ratings
 
 This section servies for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM.
 
