@@ -3,7 +3,7 @@
 In this exercise, we will create track resources of the Cloud Integration tenant as the JMS queues and certificates. 
 
 #### Prequisites:
-- You are loggedin to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
 - The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
 
 ## Exercise steps
@@ -22,23 +22,22 @@ Run through the exercise steps in the given order.
 
       a. *Optional*: Check whether the collection of data is running successfully
       
-          Click on the colored quality icon. For each Cloud Integration instance you may check whether the data collection is running.
-   
-          Select the instance you have created in Exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully at the listed time.
-   
-          <br>![](/exercises/ex4/images/HMDataQuality.png)
- 
+      Click on the colored quality icon. For each Cloud Integration instance you may check whether the data collection is running.
+      
+      Select the instance you have created in Exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully at the listed time.
+      <br>![](/exercises/ex4/images/HMDataQuality.png)
+      
       b. *Optional*: Check quickly the rating of an instance
       
-         Click on the "info" icon. For each Cloud Integration instance you may get a first overview on it's rating.
+      Click on the "info" icon. For each Cloud Integration instance you may get a first overview on it's rating.
          
-               <br>![](/exercises/ex4/images/HMDataQuality.png)
+      <br>![](/exercises/ex4/images/HMDataQuality.png)
       
       c. *Optional*: Set a service type to you favourite ones
             
-         Click on the *Star* icon to set  tenants of type *Cloud Integration capability* to your favorite ones and track them more easily.
+      Click on the *Star* icon to set  tenants of type *Cloud Integration capability* to your favorite ones and track them more easily.
 
-3. Click on the card SAP Integration Suite (Cloud Integration) to **drill one level down**
+3. Click on the card SAP Integration Suite (Cloud Integration) to drill one level down
 
 4. Comprehend the *service type monitoring page* 
 
