@@ -32,7 +32,7 @@ d. Check quickly the **rating of instances**
 
 
 
-<br><br><br>Go back to the main [Exercise 4](../../ex4/)
+<br><br><br>Go back to the main [Exercise 4](../../ex4/readme.md)
 
 
 
