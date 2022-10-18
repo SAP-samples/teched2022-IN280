@@ -15,17 +15,17 @@ First we have to activate alerts on metric level
 
 <br>![](/exercises/ex4/images/HMConfigSwitchToEvents.png)
 
-3. Click on the metric *Expired Certificate*
+3. Click on the event *Expired Certificate*
 
 <br>![](/exercises/ex4/images/HMConfigSelectEventCertificate.png)
 
-4. Use the toggle button to activate the alert and save the configuration for this metric
+4. Use the toggle button to activate the alert and save the configuration for this event
 
 <br>![](/exercises/ex4/images/HMConfigTurnOnEventCertificate.png)
 
-5. Do same steps *c.* and *d.* for the metrics *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* 
+5. Do same steps *c.* and *d.* for the events *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* 
 
-After the configuration you see all metrics activated
+After the configuration you see all events activated
 
 <br>![](/exercises/ex4/images/HMConfigActiveAlerts.png)
 
@@ -36,7 +36,7 @@ Keep in mind this configuration is valid for a particular registered service and
 
 ## Summary
 
-You've now activated alerts for all metrics of the service your have registered
+You've now activated alerts for all events of the service your have registered. Alerts will be displayed in the page *Alerting*.
 
 Go back to [Exercise 4](../../ex4/readme.md)
 
