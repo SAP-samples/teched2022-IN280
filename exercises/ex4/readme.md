@@ -47,6 +47,61 @@ Run through the exercise steps in the given order.
 
       In the lower section, one can also see also tiles for each JMS queue, titled with their label. They have their own metrics such as its *activation*, the *status*, and the *number of messages*, therefore they are visualized as separate tiles.
 
+4. Check alerts under **Alerting**
+
+      Health Monitoring comes with embedded alerting leveraged for various ALM use cases as for *Health Monitoring* or for *Integration & Exception Monitoring*. 
+
+      a. Activate alerts
+
+      In the exercise [Activate alerts](../ex45/readme.md) you have to activate all possible events for the Cloud Integration service that you have registered.
+
+      b. Go to ***Alerting*** using the left-navigation
+
+      <br>![](/exercises/ex4/images/HMAlerting.png)
+
+      In the *Alerting* page one alert per cloud service since the last data collection is listed.
+
+      c. Click on on the alert *JMS Queue Capacity* 
+
+      The *alert details page* opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. .........
+      You see the rating, all raised messages (single alerts), operation automation logs, and *ServiceNow* tickets
+
+      <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+
+      d. Click on *Actions* and then on *Processor* and *Assign*
+
+      >
+      > A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow. 
+      >
+      | ==Check how we can do this== |
+
+
+      Assign a processor who should care for the issue that has occured ....
+
+      <br>![](/exercises/ex4/images/HMAlertingActions.png)
+
+      e. In *Notification Management* add email recipient, send invitation for email verification, you have ot give your consent, afterwards assign processor
+
+      Message in your browser shows up: *You are subscribed to SAP Cloud ALM notifications.*
+
+      Back in alert inbox you can assign processor for an alert.
+
+      Save
+
+      f. Click on Expired Certificates
+
+      This alert is rated as *Ok*
+
+      <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
+
+      > 
+      > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the active alerts since the last data collection are displayed with their properties. Cloud Integration is actively pulled every 5 minutes and therefore you might get alerts in this frequency. An alert is active, if one of the metric’s entries (labels) is in a *Warning* or *Critical* state. All alerts related to the same metric and service instance are aggregated to avoid overwhelming the alert inbox.
+      >    
+
+      g. You may also send notification to email recipients after activation and adding at least one recipient in the configuration of a service.
+
+      h. Operations Flow and ServiceNow
+
 5. Customize thresholds
 
    a. Edit metric configuration
@@ -54,6 +109,12 @@ Run through the exercise steps in the given order.
    Set threshold for cloud services, either for all metrics of a cloud service in the clouser service overview or for specific metrics after selecting the correpoind service
    
    With treshold active you can override the metric rating reported by the service by creating custom rules. Seleect the metric you want to configure
+   
+>
+> *Important*: Health monitoring does not offer any tools to update certificates or queues directly. This is only possible in the *keystore monitor* or *manage stores monitor* of Cloud Integration itself. 
+>
+> With *SAP Cloud ALM* one can get an overview of the health rating of all monitored Cloud Integration services at a glance or even all connected services and systems of your IT landscape. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools. And they have the possibility to navigate from the health monitoring application to the Cloud Integration monitoring.
+>
    
 ## Summary
 
