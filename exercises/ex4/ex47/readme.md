@@ -42,6 +42,54 @@ If not already done, please login to [SAP Cloud ALM tenant](https://teched22-clo
     > *Important:*
     > Health monitoring do.....
     >
+## Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+
+## Task list
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+- [ ] \(Optional) Open a followup issue
+
+##H Highlights
+
+I need to highlight these ==very important words==.
+
+## Subscript
+
+H~2~O
+
+## Emoji
+
+That is so funny! :joy:
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
+## Heading ID
+
+### My Great Heading {#custom-id}
+
+## Nested lists
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+## Flow chart
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 ## Summary
 
