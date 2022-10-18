@@ -1,4 +1,4 @@
-# Exercise 4 - Analyze exhausted resources
+# Exercise 4 - Analyze Cloud Integration resources
 
 In this exercise, we will create track resources of the Cloud Integration tenant as the JMS queues and certificates. 
 
@@ -22,15 +22,13 @@ Run through the exercise steps in the given order.
 
 3. Click on the card *SAP Integration Suite (Cloud Integration)* to drill one level down to the **service type monitoring page** 
 
-      a. Perceive the service type monitoring page
-      
-      It offers an overview on all connected Cloud Integration tenants along with number of raised alerts, the tenant health rating, and the information on data quality. If alerts exist for an instance you may jump directly to the embedded alert inbox.
-      
-      <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
+   It offers an overview on all connected Cloud Integration tenants along with number of raised alerts, the tenant health rating, and the information on data quality. If alerts exist for an instance you may jump directly to the embedded alert inbox.
 
-      b. *Recommended but optional*: [Understand metric ratings](./ex41/)
-      
-      The selected Cloud Integration tenant has a service health percentage of 92% and the service is rated as *Critical*.
+   <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
+
+   The selected Cloud Integration tenant has a service health percentage of 92% and the service is rated as *Critical*.
+   
+   *Recommended but optional*: [Understand how a tenant's health rating is calculated](./ex41/)
 
 4.	Click on the service instance you have created in exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md) and drill one level down to the **metric overview of a Cloud Integration tenant**
 
@@ -87,12 +85,12 @@ Run through the exercise steps in the given order.
 10. Check alerts in **alert inbox**
 
    a. Go to the alert inbox using the left-navigation
-   
-   PICTURE
+
+   <br>![](/exercises/ex4/images/HMAlerting.png)
    
    There is one entry per metric and cloud service is listed.
       
-   b. Click on on the alert item *JMS Queue Capacity* 
+   b. Click on on the alert *JMS Queue Capacity* 
    
    The alert details page opens for the selected metric. The total queue capacity of the tracked Cloud Integration tenant tends to get exceeded the max queue capacity. .........
    You see the rating, all raised messages (single alerts), operation automation logs, and servicenow tickets
@@ -103,7 +101,7 @@ Run through the exercise steps in the given order.
    
    Several actions are possible on alerts. We assign a processor who should care for the issue that has occured.
    
-   PICTURE Assign
+   <br>![](/exercises/ex4/images/HMAlertingActions.png)
    
    d. In *Notification Management* add email recipient, send invitation for email verification, you have ot give your consent, afterwards assign processor
    
@@ -117,8 +115,10 @@ Run through the exercise steps in the given order.
    
    This alert is rated as *Ok*
    
+   <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
+   
    > 
-   > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the metrics with their properties are displayed.
+   > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the active alerts since the last data collection are displayed with their properties. Cloud Integration is actively pulled every 5 minutes and therefore you might get alerts in this frequency. An alert is active, if one of the metric’s entries (labels) is in a *Warning* or *Critical* state. All alerts related to the same metric and service instance are aggregated to avoid overwhelming the alert inbox.
    >
 
    f. You may also send notification to email recipients after activation and adding at least one recipient in the configuration of a service.
@@ -131,7 +131,7 @@ Run through the exercise steps in the given order.
    
    Set threshold for cloud services, either for all metrics of a cloud service in the clouser service overview or for specific metrics after selecting the correpoind service
    
-   With trehsold active you can override the metric rating reported by the service by creating custom rules. Seleect the metric you want to configure
+   With treshold active you can override the metric rating reported by the service by creating custom rules. Seleect the metric you want to configure
    
 ## Summary
 
