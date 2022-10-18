@@ -18,8 +18,7 @@ Below you see an overview of this integration scenario.
 >
 
 #### Prequisites:
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
-- The Cloud Integration tenant is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md).
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
 
 ## Exercise steps
 
