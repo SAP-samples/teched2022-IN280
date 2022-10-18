@@ -1,54 +1,122 @@
 # Exercise 3.1 - Search for a specific message via application context
 
-In this exercise, we will create...
+In this exercise, we will search for a message
 
+#### Prequisites:
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/login)
 
-## Exercise steps
+## Exercise step
 
-Run through the exercise steps in the given order.
+1.	*Optionally* *click* 
 
-1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
- 
-2. Login to *SAP Cloud ALM* using the link [teched22-cloudalm-003](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
+   <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+   
+   Text
+   
+2.	*Optionally* *click* 
 
-3. Within the SAP Cloud ALM landing page navigate to section *Administration* and click on the tile *Landscape Management*
+   <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+   
+   Text   
 
+3.	*Optionally* *click* 
+
+   <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+   
+   Text
 
 
 ## Summary
 
 You've now ...
-
-Next we will .....Continue to - [Exercise 3](../ex3/README.md)
-
-
-<!--
-## Exercise 2.1 Sub Exercise 1 Description
-
 After completing these steps you will have created...
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+Next we will ....... Continue to - [Exercise 3.2](../ex32/readme.md
+
+<br><br><br>Go back to main page of [Exercise 3](../../ex3/readme.md)
+
+<!--
+# Available metrics for Cloud Integration
+
+In this exercise, we will ...
+
+## Exercise steps
+
+Run through the exercise steps in the given order.
+
+#### Prequisites:
+The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
+
+If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+
+1.	Navigate t...
+
+   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
+   
+    >
+    > *Important:*
+    > Health monitoring do.....
+    >
+## Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+
+## Task list
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+- [ ] \(Optional) Open a followup issue
+
+##H Highlights
+
+I need to highlight these ==very important words==.
+
+## Subscript
+
+H~2~O
+
+## Emoji
+
+That is so funny! :joy:
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
+## Heading ID
+
+### My Great Heading {#custom-id}
+
+## Nested lists
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+## Flow chart
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+## Summary
+
+You've now ...
+After completing these steps you will have created...
+
+Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
+
 
 2.	Insert this line of code.
 ```abap
 response->set_text( |Hello ABAP World! | ). 
 ```
 
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
 -->
-
