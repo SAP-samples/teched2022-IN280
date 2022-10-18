@@ -46,7 +46,7 @@ Run through the exercise steps in the given order.
 
 3.	*Optionally* you may *add* this scenario to your *favorites*
 
-     <br>![](/exercises/ex3/images/IMWorkforceFavourite.png) 
+     <br>![](/exercises/ex3/images/IMWorkforceFavorite.png) 
 
 4.	*Click* on the information icon **(i)** and understand the color coding of a service’s status
 
