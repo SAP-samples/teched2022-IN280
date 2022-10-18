@@ -76,13 +76,10 @@ Run through the exercise steps in the given order.
 >
 >
 
-9. Alerts
+9. [Activate alerts](ex45/readme.md)
 
-      >
-      > Health Monitoring comes with embedded alerting leveraged for various ALM use cases. A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
-      >
-
-   a) Activate alerts on metric level in configuration page
+      
+   Health Monitoring comes with embedded alerting leveraged for various ALM use cases. A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
    
 10. Customize thresholds
 
