@@ -5,7 +5,7 @@ In this exercise, we will activate the alerting for a particular Cloud Integrati
 
 Run through the exercise steps in the given order.
 
-First we have to activate alerts on metric level
+First we have to **activate alerts** on metric level
 
 1. Click on the *configuration icon* and select the service you have registered
 
@@ -19,7 +19,7 @@ First we have to activate alerts on metric level
 
 <br>![](/exercises/ex4/images/HMConfigSelectEventCertificate.png)
 
-4. Use the toggle button to activate the alert and save the configuration for this event
+4. Use the switch button to activate the alert and save the configuration for this event
 
 <br>![](/exercises/ex4/images/HMConfigTurnOnEventCertificate.png)
 
