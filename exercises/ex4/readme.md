@@ -78,12 +78,60 @@ Run through the exercise steps in the given order.
 
 9. [Activate alerts](ex45/readme.md)
 
-      
-   Health Monitoring comes with embedded alerting leveraged for various ALM use cases. A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
+   Health Monitoring comes with embedded alerting leveraged for various ALM use cases as for Health Monitoring or for Integration & Exception Monitoring. 
    
-10. Customize thresholds
+   A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
+   
+   In the linked exercise you activate all metrics for the Cloud Integration service you have registered.
+   
+10. Check alerts in **alert inbox**
 
+   a. Go to the alert inbox using the left-navigation
+   
+   PICTURE
+   
+   There is one entry per metric and cloud service is listed.
+      
+   b. Click on on the alert item *JMS Queue Capacity* 
+   
+   The alert details page opens for the selected metric. The total queue capacity of the tracked Cloud Integration tenant tends to get exceeded the max queue capacity. .........
+   You see the rating, all raised messages (single alerts), operation automation logs, and servicenow tickets
+   
+   PICTURE with CPI API result
+   
+   c. Click on *Actions* and then on *Processor* and *Assign*
+   
+   Several actions are possible on alerts. We assign a processor who should care for the issue that has occured.
+   
+   PICTURE Assign
+   
+   d. In *Notification Management* add email recipient, send invitation for email verification, you have ot give your consent, afterwards assign processor
+   
+   Message in your browser shows up: *You are subscribed to SAP Cloud ALM notifications.*
+   
+   Back in alert inbox you can assign processor for an alert.
+   
+   Save
+   
+   e. Click on Expired Certificates
+   
+   This alert is rated as *Ok*
+   
+   > 
+   > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the metrics with their properties are displayed.
+   >
 
+   f. You may also send notification to email recipients after activation and adding at least one recipient in the configuration of a service.
+   
+   g. Operations Flow and ServiceNow
+
+12. Customize thresholds
+
+   a. Edit metric configuration
+   
+   Set threshold for cloud services, either for all metrics of a cloud service in the clouser service overview or for specific metrics after selecting the correpoind service
+   
+   With trehsold active you can override the metric rating reported by the service by creating custom rules. Seleect the metric you want to configure
    
 ## Summary
 
