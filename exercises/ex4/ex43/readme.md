@@ -11,7 +11,21 @@ In this exercise, we will ...
 
 Run through the exercise steps in the given order.
 
-1. *Click* on the tab *All Metrics*
+1. *Click* on the card *Certificate Validity*
+
+   A *Details page* opens showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value. You oversee the certificates that have to be updated.
+   
+   *Click* on one *info* icon to see the API result from Cloud Integration. 
+   
+2. *Inspect* the queue issue 
+   
+   From the left metric overview side you see that a queue is rated as *Critical* or *Fatal*. Also the card *JMS Queue Capacity* shows that the may queue capacity has been reached. 
+
+   *Click* on the card *JMS Queues Status* and examine which queue caused the rating.
+   
+   <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)   
+
+3. *Click* on the tab *All Metrics*
 
    <br>![](/exercises/ex4/images/HMSwitchToAllMetrics.png)   
 
@@ -33,8 +47,6 @@ Run through the exercise steps in the given order.
    
    Reset the filter again.
    
-   b. 
-   
    c. Group the list per certificate *Type* and additional search for *certificate* to exclude JMS queues
 
    <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
@@ -49,12 +61,12 @@ Run through the exercise steps in the given order.
 
    Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
 
-   
+<br>
 ## Summary
 
-You've now ...
+You've understood how to work with Cloud Integration metrics.
 
-Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
+Go back to [Exercise 4](../../ex4/readme.md)
 
 
 
