@@ -1,25 +1,44 @@
-# Configure alerts
-In this exercise, we will ...
+# Activate alerts
+In this exercise, we will activate the alerting for a particular Cloud Integration service on the level of the metrics
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
-#### Prequisites:
-The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
+First we have to activate alerts on metric level
 
-If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+1. Click on the *configuration icon* and select the service you have registered
 
-1.	Navigate t...
+<br>![](/exercises/ex4/images/HMSelectConfiguration.png)
 
-   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
+2. Switch to the *Events* tab if necessary
+
+<br>![](/exercises/ex4/images/HMConfigSwitchToEvents.png)
+
+3. Click on the metric *Expired Certificate*
+
+<br>![](/exercises/ex4/images/HMConfigSelectEventCertificate.png)
+
+4. Use the toggle button to activate the alert and save the configuration for this metric
+
+<br>![](/exercises/ex4/images/HMConfigTurnOnEventCertificate.png)
+
+5. Do same steps *c.* and *d.* for the metrics *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* 
+
+After the configuration you see all metrics activated
+
+<br>![](/exercises/ex4/images/HMConfigActiveAlerts.png)
+
+Keep in mind this configuration is valid for a particular registered service and not for all Cloud Integration services
+
+6. *Close* the configuration and click again on the configuration icon to close the right configuration frame.
    
 
 ## Summary
 
-You've now ...
+You've now activated alerts for all metrics of the service your have registered
 
-Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
+Go back to [Exercise 4](../../ex4/readme.md)
 
 
 
