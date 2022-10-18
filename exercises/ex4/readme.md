@@ -73,33 +73,36 @@ Run through the exercise steps in the given order.
 > With *SAP Cloud ALM* one can get an overview of the health rating of all monitored Cloud Integration services at a glance or even all connected services and systems of your IT landscape. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools. And they have the possibility to navigate from the health monitoring application to the Cloud Integration monitoring.
 >
 >
-
-9. [Activate alerts](ex45/readme.md)
+   
+9. Check alerts under **Alerting**
 
    Health Monitoring comes with embedded alerting leveraged for various ALM use cases as for Health Monitoring or for Integration & Exception Monitoring. 
    
-   A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow.
-   
-   In the linked exercise you activate all metrics for the Cloud Integration service you have registered.
-   
-10. Check alerts in **alert inbox**
+   a. Activate alerts
 
-   a. Go to the alert inbox using the left-navigation
+   In the exercise [Activate alerts](../ex45/readme.md) you have to activate all possible events for the Cloud Integration service that you have registered.
+   
+   a. Go to ***Alerting*** using the left-navigation
 
    <br>![](/exercises/ex4/images/HMAlerting.png)
    
-   There is one entry per metric and cloud service is listed.
+   In the *Alerting* page one alert per cloud service since the last data collection is listed.
       
    b. Click on on the alert *JMS Queue Capacity* 
    
-   The alert details page opens for the selected metric. The total queue capacity of the tracked Cloud Integration tenant tends to get exceeded the max queue capacity. .........
-   You see the rating, all raised messages (single alerts), operation automation logs, and servicenow tickets
+   The *alert details page* opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. .........
+   You see the rating, all raised messages (single alerts), operation automation logs, and *ServiceNow* tickets
    
-   PICTURE with CPI API result
+   <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
    
    c. Click on *Actions* and then on *Processor* and *Assign*
    
-   Several actions are possible on alerts. We assign a processor who should care for the issue that has occured.
+   >
+   > A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow. 
+   > Check how we can do this
+   >
+
+   Assign a processor who should care for the issue that has occured ....
    
    <br>![](/exercises/ex4/images/HMAlertingActions.png)
    
