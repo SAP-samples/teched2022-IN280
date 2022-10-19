@@ -2,6 +2,45 @@
 
 In this exercise, we will create...
 
+1.	Navigate to section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+
+     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
+
+2. Bring the *Cloud Integration* service that you have registered **into the scope**
+
+   a) Select the *Scope selection* icon in the black top row
+
+     <br>![](/exercises/ex3/images/IMScopeSelectionWorkforce.png)
+
+   b)  Filter for *Services*
+
+   c)  Click on *Go* in the upper right corner for filtering
+
+   d)  Select the *Cloud Integration* service that you have registered in Exercise ....
+
+   d)  Click on the button *Apply* to save the configuration
+
+     <br>![](/exercises/ex3/images/ScopeSelectionService.png)
+
+3.	*Optionally* you may *add* this service to your *favorites*
+
+     <br>![](/exercises/ex3/images/IMWorkforceFavorite.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
 ## Exercise 2.1 Sub Exercise 1 Description
 
