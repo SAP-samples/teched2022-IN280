@@ -1,12 +1,21 @@
 # Exercise 2 - Monitoring a deployment issue
 
-In this exercise, we will create...
+In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in the *Integration & Exception Monitoring*. 
+
+#### Prequisites:
+
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the SAP Integration Suite tenant you are assigned to.
+- Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md).
+
+## Exercise steps
+
+Run through the exercise steps in the given order.
 
 1.	Navigate to section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
 
      <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
-2. Bring the *Cloud Integration* service that you have registered **into the scope**
+2. Bring the *Cloud Integration* service that you have registered **into scope**
 
    a) Select the *Scope selection* icon in the black top row
 
@@ -25,20 +34,22 @@ In this exercise, we will create...
 3.	*Optionally* you may *add* this service to your *favorites*
 
      <br>![](/exercises/ex3/images/IMWorkforceFavorite.png) 
+     
+4. Activate alerts regarding exception of integration artifacts
 
+5. In SAP Integration Suite copy an integration flow and deploy it
 
+6. Understand the iflow
 
+7. In SAP Cloud ALM see the alerts
 
+8. In SAP Integration Suite correct the iflow and deploy it again
 
+9. In SAP Cloud ALM see the alerting again
 
+## Summary
 
-
-
-
-
-
-
-
+You've now seen that ...
 
 
 <!--
