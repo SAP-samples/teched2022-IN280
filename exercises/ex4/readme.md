@@ -4,7 +4,7 @@ In this exercise, we will work with the *Health Monitoring* use case of SAP Clou
 
 #### Prequisites:
 - You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
-- The Cloud Integration tenant is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md).
+- Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration service in LMS](../ex1/ex11/readme.md).
 
 ## Exercise steps
 
@@ -30,10 +30,10 @@ Run through the exercise steps in the given order.
    
    *Recommended but optional*: [Understand how the health rating of a service is calculated](./ex41/)
 
-4.	Click on the service instance you have created in exercise [Register a Cloud Integration tenant in LMS](../ex1/ex11/readme.md) and drill one level down to the **metric overview of a Cloud Integration tenant**
+4.	Click on the service instance you have created in exercise [Register a Cloud Integration service in LMS](../ex1/ex11/readme.md) and drill one level down to the **metric overview of a Cloud Integration service**
 
       >
-      > This page is the centerpiece of Health Monitoring and offers a quick health overview for a particular tenant, in our case a Cloud Integration tenant. The grouping of available metrics is pre-configured and depends on the service type and offered metrics. Cloud Integration offers as of today the status of **JMS queue resources** and the **validity of certificates**. The thresholds are the same as you know them from the local Cloud Integration monitoring. The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available for Cloud Integration.
+      > This page is the centerpiece of Health Monitoring and offers a quick health overview for a particular service, in our case a Cloud Integration tenant. The grouping of available metrics is pre-configured and depends on the service type and offered metrics. Cloud Integration offers as of today the status of **JMS queue resources** and the **validity of certificates**. The thresholds are the same as you know them from the local Cloud Integration monitoring. The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available for Cloud Integration.
        >  
     
       <br>![](/exercises/ex4/images/HMMetricOverview.png)
