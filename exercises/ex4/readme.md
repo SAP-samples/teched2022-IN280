@@ -16,7 +16,9 @@ Run through the exercise steps in the given order.
 
 2. Look over the **Health Monitoring overview page** 
 
-   This central view shows the healthiness of connected services on the level of service types, e.g. all Cloud Integration tenants. It offers a first indicator where crucial changes and adjustments are necessary. 
+   This central view shows the healthiness of connected services on the level of service types, e.g. all Cloud Integration tenants. It offers a first indicator where crucial changes and adjustments are necessary.
+   
+   The exercise [Understand the Health Monitoring overview page](./ex41/) provides you the insights of the color-coding and functionalities this page is offering.
    
    <br>![](/exercises/ex4/images/HMDrillDownToType.png)
 
