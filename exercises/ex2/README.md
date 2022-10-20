@@ -19,7 +19,7 @@ Run through the exercise steps in the given order.
 
    a) Select the *Scope selection* icon in the black top row
 
-     <br>![](/exercises/ex3/images/IMScopeSelectionWorkforce.png)
+     <br>![](/exercises/ex2/images/ScopeSelectionService.png)
 
    b)  Filter for *Services*
 
@@ -27,15 +27,23 @@ Run through the exercise steps in the given order.
 
    d)  Select the *Cloud Integration* service that you have registered in Exercise ....
 
-   d)  Click on the button *Apply* to save the configuration
+   e)  Click on the button *Apply* to save the configuration
 
-     <br>![](/exercises/ex3/images/ScopeSelectionService.png)
+     <br>![](/exercises/ex2/images/ScopeSelectionService.png)
 
-3.	*Optionally* you may *add* this service to your *favorites*
+3.	Look over the **Integration & Exception Monitoring overview page**
 
-     <br>![](/exercises/ex3/images/IMWorkforceFavorite.png) 
-     
-4. Activate alerts regarding exception of integration artifacts
+     This central view shows the status of integration scenarios and services in scope or set to favorites. It offers a first indicator where faulty messages or in case of Cloud Integration deployment exceptions of integration artifacts occurred.
+
+     The exercise [Understand the Integration & Exception Monitoring overview page](./ex21/readme.md) provides you the insights of the color-coding and functionalities this page is offering.
+
+4.	*Optionally* Click on the *Select the Time Frame* icon in the black top row and then on *Last 24 Hours*
+
+     Adapt the time frame to display messages and exceptions monitored in a particular time period. Data are persisted 14 days. 
+
+     <br>![](/exercises/ex2/images/IMTimeFrame.png) 
+       
+5. Activate alerts regarding exception of integration artifacts
 
 5. In SAP Integration Suite copy an integration flow and deploy it
 
