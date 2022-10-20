@@ -1,32 +1,32 @@
 # Understand the Integration & Exception Monitoring overview page
 
-In this exercise, we will understand which information you may retrieve from the overpage page of Health Monitoring.
+In this exercise, you will understand which information you may retrieve from the overpage page of Integration & Exception Monitoring.
 
 All these steps are optional and only for your information.
 
-<br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
+<br>![](/exercises/ex2/images/IMOverviewpageDetails.png)
 
-a. Check whether the **data collection** is running successfully
+*Note*: The screenshot above is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope of these exercises.<br>
 
-   Click on the colored quality icon. For each Cloud Integration instance you may check whether the data collection is running.
+a. *Click* on the *quality icon* and check whether the **data collection** is running successfully. 
 
-   Select the instance you have created in exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully.
+   For each entry you may check whether the data collection is running.
 
-   <br>![](/exercises/ex4/images/HMDataQuality.png)
+   *Select* the instance you have created in exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully.
 
-b. In case of raised alerts you would be able to jump directly to the embedded **alert inbox**
+   <br>![](/exercises/ex4/images/IMDataQuality.png)
 
-c. Check the **status of business service events** with the time-calender-icon
+b. In case of raised alerts you would be able to jump directly to the embedded **alerting**
+
+c. *Check* the **status of business service events** with the time-calender-icon
 
    It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
 
-d. Set a service type to your **favourite** ones
+d. *Click* on the *Star* icon to set an entry to your **favorite** ones and track them more easily.
 
-   Click on the *Star* icon to set tenants of type *Cloud Integration* capability to your favorite ones and track them more easily.
+d. *Click* on the *info* icon. 
 
-d. Check quickly the **rating of instances**
-
-   Click on the *info* icon. For each Cloud Integration instance you may get a first overview on it's rating.
+   For each Cloud Integration service you may get a first overview on it's rating.
 
    <br>![](/exercises/ex4/images/HMOverviewCIRating.png)
 
