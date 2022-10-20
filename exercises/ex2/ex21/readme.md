@@ -32,7 +32,7 @@ e. *Click* on the *info* icon and get an understanding of the color-coding on th
    - In case of monitoring a single cloud service the status of monitoring messages is separated from monitoring exceptions. Clicking on the red bar you may get directly to the list of faulty messages. Same for the others. 
    - In case of monitoring an integration scenario you see the status of each involved service by it's color
 
-   <br>![](/exercises/ex4/images/IMOverviewInfoButton.png)
+   <br>![](/exercises/ex2/images/IMOverviewInfoButton.png)
 
 <br><br><br>Go back to the main [Exercise 2](../../ex2/readme.md)
 
