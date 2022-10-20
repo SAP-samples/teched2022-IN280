@@ -18,7 +18,7 @@ First we have to **activate alerts** on metric level
 
 2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
-<br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
+<br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
 During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These two use cases are displayed here as *monitoring categories*:
 - *SAP Integration Suite Messages* for *Integration Monitoring*
