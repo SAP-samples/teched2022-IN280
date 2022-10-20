@@ -14,25 +14,40 @@ First we have to **activate alerts** on metric level
 
 1. Click on the *configuration icon* and *select* the *Cloud Integration* service you have registered
 
-<br>![](/exercises/ex2/images/IMExceptSelectConfiguration.png)
+   <br>![](/exercises/ex2/images/IMExceptSelectConfiguration.png)
 
 2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
-<br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
+   <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
-During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These two use cases are displayed here as *monitoring categories*:
-- *SAP Integration Suite Messages* for *Integration Monitoring*
-- *Integration Artifact Deployements* for *Exception Monitoring*
+   During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These two use cases are displayed here as *monitoring categories*:
+   - *SAP Integration Suite Messages* for *Integration Monitoring*
+   - *Integration Artifact Deployements* for *Exception Monitoring*
 
-If there are several endpoints available you may switch between them.
+   If there are several endpoints available you may switch between them.
 
-The *data collection* toogle should be switched on to collect the data from the *Cloud Integration* tenant.
+   The *data collection* toogle should be switched on to collect the data from the *Cloud Integration* tenant.
+	
+	From docu: The Monitoring page displays existing categories. For each alert, choose Active to toggle between turning on or off the alert.
+The Events page displays existing events. An event is any detectable occurrence or change of state that has significance for the management of an IT service, a configuration item, or an IT infrastructure. From here, you can add, edit, and delete configurable event actions such as creating alerts, sending email notifications, or triggering the automatic execution of an operation automation procedure.
 
-3. *Click* on the arrow on the right side of the *Integration Artifact Deployments*
+3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
 
-<br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
+   <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
-4. 
+4. *Add a filter* on integration artificats deployments that might occur
+	
+	a. *Click* on the button *Add*
+	
+	b. *Specify* a filter name: `<userID> exceptions` while `userID` is the one provided you by the Tenant Booker application.
+	
+	c. Add an additional filter criteria: the *Artiface Name* should contain the world *Hallo*. Adapt the tree fields accordingly
+	
+	d. *Save* the filter
+	
+	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
+	
+6. 
 
 
 
