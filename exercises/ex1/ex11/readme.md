@@ -1,4 +1,4 @@
-# Register a Cloud Integration tenant in LMS
+# Register a Cloud Integration service in LMS
 
    >(Should we create the service upfront?
     >
