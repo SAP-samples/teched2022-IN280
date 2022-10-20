@@ -24,7 +24,7 @@ c. *Check* the **status of business service events** with the time-calender-icon
 
 d. *Click* on the *Star* icon to set an entry to your **favorite** ones and track them more easily also in cases there are **not selected to your scope**
 
-e. *Click* on the *info* icon and get an understanding of the color-coding on this page
+e. *Click* on the *info* icon and get an understanding of the **color-coding** on this page
 
    The color of the left side of each card is the overall status of the integration scenario or the service. It depends on the selected time frame.
    
@@ -34,7 +34,7 @@ e. *Click* on the *info* icon and get an understanding of the color-coding on th
 
    <br>![](/exercises/ex2/images/IMOverviewInfoButton.png)
 
-<br><br><br>Go back to the main [Exercise 2](../../ex2/readme.md)
+<br><br><br>Go back to the main [Exercise 2](../../ex2/)
 
 
 
