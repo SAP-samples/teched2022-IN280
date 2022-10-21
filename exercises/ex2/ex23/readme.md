@@ -4,7 +4,7 @@ In this exercise you will copy a prepared integration flow, configure, deploy it
 
 #### Prequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the SAP Integration Suite tenant you are assigned to.
+- You are logged in to the SAP Integration Suite tenant you are assigned to.
 - Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/).
 
 ## Exercise steps
