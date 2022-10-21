@@ -1,6 +1,6 @@
 # Deploy a faulty integration flow
 
-In this exercise you will copy a prepared integration flow, configure, and deploy it
+In this exercise you will copy a prepared integration flow, configure, deploy it, and provoke a deployment exception.
 
 #### Prequisites:
 
@@ -25,13 +25,13 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex2/images/SuiteDesignerSelectPackage.png)
     
-4. *Switch* to the *Artifacts* tab, *select* *Actions* and then *Copy* the prepared integration flow as your own one
+4. *Switch* to the *Artifacts* tab, *select* the button *Actions* and then *click* on *Copy* to copy the prepared integration flow
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
   
-5. In the copy dialog *replace* the `userID` in field *Name* of the targeted integration flow with the userID you got from the Tenant Booker application. 
+5. In the copy dialog *replace* the `userID` in field *Name* with the userID you got from the Tenant Booker application. 
 
-    The new integration flow should be *Hallo World -* `userID` and part of the existing integraion package.
+    The new integration flow should be named *Hallo World -* `userID` and be part of the existing integration package.
 
     <br>![](/exercises/ex2/images/SuiteDesignerCopyFlow.png)
 
@@ -41,9 +41,9 @@ Run through the steps in the given order
     
 7. *Set* in field *userID* the userID you have got via the Tenant Booker application. 
     
-    **Don't** change any the channel fields.
+    **Don't change any the channel fields to provoke a deployment error**.
     
-    *Deploy* the integration flow. 
+    *Deploy* the integration flow *Hallo World -* `userID`.
     
     <br>![](/exercises/ex2/images/SuiteDesignerConfigureUser.png)
     
@@ -59,7 +59,7 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex2/images/SuiteMonitorMoveToContent.png)
 
-10. *Reload* the list of deployed artifacts until the integration flow you have deployed switches from *Starting* to status *Error*
+10. *Reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* to status *Error*
 
     <br>![](/exercises/ex2/images/SuiteMPLConsumer001ExistsAlready.png)
 
