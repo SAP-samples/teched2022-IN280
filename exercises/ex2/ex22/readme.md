@@ -10,7 +10,7 @@ Prerequisites:
 
 Run through the exercise steps in the given order.
 
-1. *Activate data collection if not already done
+1. **Activate data collection** if not already done
 
     The card for your registered *Cloud Integration* service likely doesn't collect no data so far
     
@@ -28,7 +28,7 @@ Run through the exercise steps in the given order.
     
     <br>![](/exercises/ex2/images/IMOverviewDataCollectionActivated.png)
 
-2. *Click* on the *three dots* and then on *Edit Configuration* the *Cloud Integration* service you have registered
+2. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
 
    <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
 
@@ -36,9 +36,9 @@ Run through the exercise steps in the given order.
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
-   During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These two use cases are displayed here as *monitoring categories*:
-   - *SAP Integration Suite Messages* for *Integration Monitoring*
-   - *Integration Artifact Deployments* for *Exception Monitoring*
+   During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These **two use cases** are displayed here as *monitoring categories*:
+   - *SAP Integration Suite Messages* for **Integration Monitoring**
+   - *Integration Artifact Deployments* for **Exception Monitoring**
 
    If there are several endpoints available you *select* one.
 
@@ -50,11 +50,15 @@ Run through the exercise steps in the given order.
 	
 	a. *Click* on the button *Add*
 	
-	b. *Specify* a filter name: `<userID> exceptions` while `userID` is the one provided you by the Tenant Booker application.
+	b. *Specify* the name of the filter: `<userID> exceptions` while `userID` is the one provided you by the Tenant Booker application.
 	
-	c. Add an additional filter criteria: the *Artifact Name* should contain the world *Hallo*. Adapt the tree fields accordingly
+	c. Add an additional filter criteria: the *Artifact Name* should contain ´Hallo´. Adapt the tree fields accordingly
 	
 	d. *Save* the filter
+	
+	>
+	> By means of this filter you will see exception that occur on all *Hallo World* integration flows that all participants will deploy. The filter can be adpated later to display only your exceptions.
+	> 
 	
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 	
@@ -77,7 +81,7 @@ Run through the exercise steps in the given order.
 
 You've now activated events and alerts for all deployment exception that might occor in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
 
-Go back to [Exercise 4](../../ex4/readme.md)
+Go back to [Exercise 2](../../ex2/)
 
 
 
