@@ -10,9 +10,25 @@ Prerequisites:
 
 Run through the exercise steps in the given order.
 
-First we have to **activate alerts** on metric level
+1. *Activate data collection if not already done
 
-1. Click on the *configuration icon* and *select* the *Cloud Integration* service you have registered
+    The card reflecting the Cloud Integration service has currently no data. 
+    
+   <br>![](/exercises/ex2/images/IMOverviewNoData.png)
+
+    a. *Click* on the *three dots* and then on *Edit Configuration*
+    
+    <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
+    
+    b. *Switch on* the data collection using the *toggle button*, save the configuration and close the diaglog
+    
+    <br>![](/exercises/ex2/images/IMConfigDataCollection.png)
+	
+    c. Proof whether the data collection is running successfully
+    
+    <br>![](/exercises/ex2/images/IMOverviewDataCollectionActivated.png)
+
+2. *Click* on the *three dots* and then on *Edit Configuration* the *Cloud Integration* service you have registered
 
    <br>![](/exercises/ex2/images/IMExceptSelectConfiguration.png)
 
