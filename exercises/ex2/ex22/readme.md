@@ -1,4 +1,4 @@
-# Activate alerts for deployement exceptions for integration artifacts
+# Activate alerts for deployment exceptions for integration artifacts
 
 In this exercise, you will activate the alerting for a particular Cloud Integration service to get an alert once a deployment exception happens
 
@@ -12,7 +12,7 @@ Run through the exercise steps in the given order.
 
 1. *Activate data collection if not already done
 
-    The card reflecting the Cloud Integration service has currently no data. 
+    The card for your registered *Cloud Integration* service likely doesn't collect no data so far
     
    <br>![](/exercises/ex2/images/IMOverviewNoData.png)
 
@@ -20,7 +20,7 @@ Run through the exercise steps in the given order.
     
     <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
     
-    b. *Switch on* the data collection using the *toggle button*, save the configuration and close the diaglog
+    b. *Switch on* the data collection using the *toggle button*, save the configuration, and close the dialog
     
     <br>![](/exercises/ex2/images/IMConfigDataCollection.png)
 	
@@ -30,7 +30,7 @@ Run through the exercise steps in the given order.
 
 2. *Click* on the *three dots* and then on *Edit Configuration* the *Cloud Integration* service you have registered
 
-   <br>![](/exercises/ex2/images/IMExceptSelectConfiguration.png)
+   <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
 
 2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
@@ -38,58 +38,44 @@ Run through the exercise steps in the given order.
 
    During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These two use cases are displayed here as *monitoring categories*:
    - *SAP Integration Suite Messages* for *Integration Monitoring*
-   - *Integration Artifact Deployements* for *Exception Monitoring*
+   - *Integration Artifact Deployments* for *Exception Monitoring*
 
-   If there are several endpoints available you may switch between them.
-
-   The *data collection* toogle should be switched on to collect the data from the *Cloud Integration* tenant.
-	
-	From docu: The Monitoring page displays existing categories. For each alert, choose Active to toggle between turning on or off the alert.
-The Events page displays existing events. An event is any detectable occurrence or change of state that has significance for the management of an IT service, a configuration item, or an IT infrastructure. From here, you can add, edit, and delete configurable event actions such as creating alerts, sending email notifications, or triggering the automatic execution of an operation automation procedure.
+   If there are several endpoints available you *select* one.
 
 3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
-4. *Add a filter* on integration artificats deployments that might occur
+4. *Add a filter* on integration artifact deployments that might occur
 	
 	a. *Click* on the button *Add*
 	
 	b. *Specify* a filter name: `<userID> exceptions` while `userID` is the one provided you by the Tenant Booker application.
 	
-	c. Add an additional filter criteria: the *Artiface Name* should contain the world *Hallo*. Adapt the tree fields accordingly
+	c. Add an additional filter criteria: the *Artifact Name* should contain the world *Hallo*. Adapt the tree fields accordingly
 	
 	d. *Save* the filter
 	
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 	
-6. 
+5. Switch to the *Events* tab 
 
+	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
+6. Use the switch button to *activate* the event *Erroneous Integration Artifact*, *save* the configuration for this event, and *switch* to the *Events Details*
 
+	<br>![](/exercises/ex2/images/IMExceptConfigActivateEvent.png)
+	
+7. *Activate* the alert for the *Alerting* section by switching the *toggle* 
 
-5. 
-6. 
-7. 
-8. 
-9. Use the switch button to activate the alert and save the configuration for this event
-
-<br>![](/exercises/ex4/images/HMConfigTurnOnEventCertificate.png)
-
-5. Do same steps *c.* and *d.* for the events *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* 
-
-After the configuration you see all events activated
-
-<br>![](/exercises/ex4/images/HMConfigActiveAlerts.png)
-
-Keep in mind this configuration is valid for a particular registered service and not for all Cloud Integration services
-
-6. *Close* the configuration and click again on the configuration icon to close the right configuration frame.
+	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
+	
+6. *Save* and *close* the configuration
    
 
 ## Summary
 
-You've now activated alerts for all events of the service your have registered. Alerts will be displayed in the page *Alerting*.
+You've now activated events and alerts for all deployment exception that might occor in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
 
 Go back to [Exercise 4](../../ex4/readme.md)
 
