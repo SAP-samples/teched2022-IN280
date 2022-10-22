@@ -18,34 +18,22 @@ Run through the steps in the given order
 
 	<br>![](/exercises/ex2/images/IMExceptOverviewMoveToAlerting.png)
 
-2. *Click* on 
+2. *Look over* the alterting page ...
 
-	<br>![](/exercises/ex2/images/xxx.png)
+	<br>![](/exercises/ex2/images/IMExceptAlerting.png)
+	
+3. 	*Click* on the alert link, the *Alert Details page* opens
 
+	<br>![](/exercises/ex2/images/IMExceptAlertDetails.png)
 
-
-
-
-
-
-
-
-1. *Click* on 
-
-	<br>![](/exercises/ex2/images/xxx.png)
-
-
-
-
-
-
+	
 
 
 ## Summary
 
 You've now seen how ....
 
-Go back to the main [Exercise 2](/exercises/ex2/)
+Go back to the main [Exercise 2](/exercises/ex2/readme.md)
 
 
 
