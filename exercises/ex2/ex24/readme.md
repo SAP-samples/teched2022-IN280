@@ -2,7 +2,7 @@
 
 In this exercise you will check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
 
-#### Prequisites:
+#### Prerequisites:
 
 - You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and within *Integration & Exception Monitoring*
 - Events for *Integration Exceptions* are activated and you have provoked a deployment exception in SAP Integration Suite
@@ -30,29 +30,21 @@ Run through the steps in the given order
     <br>![](/exercises/ex2/images/IMExceptPageNavigateToDetails.png)
 	
 	>
-	> Description of the page ncessary ...
+	> Description of the page necessary ...
 	> 
 
-5. *Login* 
+5. Within the *exception details page* you can see that it is a integration exception that occured at the named tenant. Also the related integration artifact and the responsible user are listed.
 
-    <br>![](/exercises/ex2/images/xxx.png)
-
-
+    <br>![](/exercises/ex2/images/IMExceptDetailsHalloUser.png)
 
 
-
-
-
-X. xxxxxx 
-
-    <br>![](/exercises/ex2/images/xxx.png)
 
 
 ## Summary
 
-You've now copied an existing integration flow, configured and deployed it and provoke an exception error. 
+You've now seen how an integration exception shows up in SAP Cloud ALM and where to get the details.
 
-Go back to the main [Exercise 2](../../ex2/) to check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
+Continue with the next exercise [Exercise 2](/exercises/ex2/ex25) to watch the same exception in the altering section of SAP Cloud ALM.
 
 
 
