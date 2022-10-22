@@ -43,13 +43,15 @@ Run through the exercise steps in the given order.
 
      <br>![](/exercises/ex2/images/IMTimeFrame.png) 
        
-5. Activate alerts regarding exception of integration artifacts
+5. [Activate alerts for deployment exceptions of integration artifacts](./ex22/readme.md)
 
-5. In SAP Integration Suite copy an integration flow and deploy it
+5. [Deploy faulty integration flow](./ex23/readme.md)
 
 6. Understand the iflow
 
-7. In SAP Cloud ALM see the alerts
+7. [Display the deployment exception](./ex24/readme.md) in SAP Cloud ALM
+
+8. [Watch a deployment exception in altering](/exercises/ex2/ex25)
 
 8. In SAP Integration Suite correct the iflow and deploy it again
 
