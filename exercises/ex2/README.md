@@ -53,7 +53,7 @@ Run through the exercise steps in the given order.
 
 8. [Watch a deployment exception in altering](/exercises/ex2/ex25)
 
-8. In SAP Integration Suite correct the iflow and deploy it again
+8. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex26/)
 
 9. In SAP Cloud ALM see the alerting again
 
