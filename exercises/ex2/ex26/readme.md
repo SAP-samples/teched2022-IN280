@@ -5,7 +5,7 @@ In this exercise you will configure the integration fow  using correct ProcessDi
 #### Prequisites:
 
 - You are logged in to the SAP Integration Suite tenant and navigated to the integration package *TechEd 2022 IN280*
-- You had deployed the incorrect integration flow in exercice [Deploy a faulty integration flow](/exercise/ex2/ex23/readme.md)
+- You had deployed the incorrect integration flow in exercice [Deploy a faulty integration flow](../../ex2/ex23/)
 
 ## Exercise steps
 
@@ -13,7 +13,7 @@ Run through the steps in the given order
 
 1. *Click* on *Actions* of your integration flow *Hallo World - *`userID` and then on *Configure*
 
-    <br>![](/exercises/ex2/images/SuiteDesignerConfigureCorrectly.png)
+    <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
     
 2. *Set* the fields *consumerChannel* and *producerChannel* to `channel_userID`and the field *userID* to `userID
     
@@ -27,13 +27,15 @@ Run through the steps in the given order
     
     Another popup appears regarding the deployment, *click* on *Ok*.
 
-4. *Switch* to the *Integration Content Monitor* as done in exercise .....
+4. *Switch* to the *Integration Content Monitor* as done in [exercise 2.3](../../ex2/ex23/) step 8.
 
 5. *Reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* to status *Started*
 
+    <br>![](/exercises/ex2/images/SuiteMPLSuccess.png)
+    
 6. Use the *Overview* link of the breadcrumb  in the top row to get back to the monitor overview page
 
-7. *Click* on the first tile *All Integration Flows* of the section *Monitor Message Processing* to switch to the  MPL monitor
+7. *Click* on the first tile *All Integration Flows* of the section *Monitor Message Processing* to switch to the *MPL monitor*
 
 9. *Click* on your message that has been exchanged successfully. *Hallo World - * `userID`
 
