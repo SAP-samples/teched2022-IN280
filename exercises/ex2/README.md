@@ -55,7 +55,7 @@ Run through the exercise steps in the given order.
 
 8. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex26/)
 
-9. In SAP Cloud ALM see the alerting again
+9. [Watch the resolved deployment exception](./ex27/) in the SAP Cloud ALM
 
 ## Summary
 
