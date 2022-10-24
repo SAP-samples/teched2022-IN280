@@ -2,13 +2,13 @@
 
 In this exercise, you will activate the alerting for a particular Cloud Integration service to get an alert once a deployment exception happens
 
-###
-Prerequisites:
-......
+#### Prequisites:
+
+- You are in *Integration & Exception Monitoring* and have your *Cloud Integration service* in scope
 
 ## Exercise steps
 
-Run through the exercise steps in the given order.
+Run through the steps in the given order.
 
 1. **Activate data collection** if not already done
 
@@ -32,7 +32,7 @@ Run through the exercise steps in the given order.
 
    <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
 
-2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
+3. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
@@ -42,11 +42,11 @@ Run through the exercise steps in the given order.
 
    If there are several endpoints available you *select* one.
 
-3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
+4. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
-4. *Add a filter* on integration artifact deployments that might occur
+5. *Add a filter* on integration artifact deployments that might occur
 	
 	a. *Click* on the button *Add*
 	
@@ -62,19 +62,19 @@ Run through the exercise steps in the given order.
 	
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 	
-5. Switch to the *Events* tab 
+6. Switch to the *Events* tab 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-6. Use the switch button to *activate* the event *Erroneous Integration Artifact*, *save* the configuration for this event, and *switch* to the *Events Details*
+7. Use the switch button to *activate* the event *Erroneous Integration Artifact*, *save* the configuration for this event, and *switch* to the *Events Details*
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateEvent.png)
 	
-7. *Activate* the alert for the *Alerting* section by switching the *toggle* 
+8. *Activate* the alert for the *Alerting* section by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-6. *Save* and *close* the configuration
+9. *Save* and *close* the configuration
    
 
 ## Summary
