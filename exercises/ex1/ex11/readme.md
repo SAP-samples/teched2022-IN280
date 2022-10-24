@@ -9,10 +9,15 @@
 
 In this exercise, you will learn how to register a Cloud Integration instance in Landscape Management Service (LMS.
 
-0. If not already done, please 
+### Prerequisites
 
-    - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
-    - Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
+- Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
+
+- Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
+
+## Exercise steps
+
+Run through the steps in the given order.
 
 1. Use the *Add* button in the upper right corner
 
@@ -24,8 +29,9 @@ In this exercise, you will learn how to register a Cloud Integration instance in
 	
     - *Name*: `CloudIntegration-<tenant_name>_<userID-digits>`
        
-		-- Copy the `<userID-digits>` from the tenant booker application, while removing the starting P/S character.
-		-- Copy the tenant name from  the *Tenant Booker application*
+		- Copy the `<userID-digits>` from the tenant booker application, while removing the starting P/S character
+		
+		- Copy the tenant name from  the *Tenant Booker application*
 	   
     - Optionally maintain a description
     - *Tenant ID*: `01234567<userID-digits>` 
