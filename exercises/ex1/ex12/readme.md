@@ -17,9 +17,11 @@ Run through the steps in the given order.
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
 2.	In the upcoming window under *General* maintain the fields:
-    - Endpoint name: `CALM-IntSuite-EU1_<userID-digits>`. 
+    
+    - Endpoint name: `<tenantID>-<userID-digits>`. 
         
-        Take the `<userID-digits>` from the tenant booker application, while removing the starting P/S character.
+        Take the `<userID-digits>` from the tenant booker application.
+		
     - Optionally maintain a description
     - Use Case: select all monitoring use cases
       -- `Exception Monitoring`
