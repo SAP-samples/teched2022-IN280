@@ -33,7 +33,7 @@ Run through the steps in the given order.
 	
     - *Name*: `CloudIntegration-<tenant_name>_<userID-digits>`
        
-		- Copy the `<userID-digits>` from the tenant booker application, while removing the starting P/S character
+		- Copy the `<userID-digits>` from the tenant booker application
 		
 		- Copy the tenant name from  the *Tenant Booker application*
 	   
