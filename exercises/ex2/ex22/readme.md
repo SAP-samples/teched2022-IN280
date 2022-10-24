@@ -46,11 +46,11 @@ Run through the steps in the given order.
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
-5. *Add a filter* on integration artifact deployments that might occur
+5. *Add a filter* on integration artifact deployments
 	
 	a. *Click* on the button *Add*
 	
-	b. *Specify* the name of the filter: `<userID> exceptions` while `userID` is the one provided you by the Tenant Booker application.
+	b. *Specify* the name of the filter: `<userID> exceptions` while `userID` is the one provided to you
 	
 	c. Add an additional filter criteria: the *Artifact Name* should contain ´Hallo´. Adapt the tree fields accordingly
 	
