@@ -66,15 +66,15 @@ Run through the steps in the given order.
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-7. Use the switch button to *activate* the event *Erroneous Integration Artifact*, *save* the configuration for this event, and *switch* to the *Events Details*
+7. *Add* a new *event* 
 
-	<br>![](/exercises/ex2/images/IMExceptConfigActivateEvent.png)
+	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-8. *Activate* the alert for the *Alerting* section by switching the *toggle* 
+8. *Choose* the event type **Erroneous Integration Artifact**  and *activate* the alert for the *Alerting* section by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-9. *Save* and *close* the configuration
+10. *Save*  the configuration for this event and *close* the configuration
    
 
 ## Summary
