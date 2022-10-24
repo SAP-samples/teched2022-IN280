@@ -10,7 +10,7 @@ In this exercise, you will learn how to add an HTTP endpoint to establish authen
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order. 
 
 1. *Click* on the button *Add* in the *Endpoints* section
 
