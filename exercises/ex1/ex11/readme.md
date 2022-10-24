@@ -11,7 +11,7 @@ In this exercise, you will learn how to register a Cloud Integration instance in
 
 0. If not already done, please 
 
-    - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
+    - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
     - Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
     - Select the registered Cloud Integration instance.
 
