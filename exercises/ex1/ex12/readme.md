@@ -2,13 +2,19 @@
 
 In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectivity to a registered Cloud Integration instance. This endpoint will be valid for all ALM monitoring use cases.
 
-0. If not already done, please 
+### Prerequisites
 
-    - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).
-    - Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
-    - Select the registered Cloud Integration instance.
+- Login to *SAP Cloud ALM* and navigate to the *Landscape Management* service.
 
-1. Use the button *Add* in the *Endpoints* section
+- A *Cloud Integration* service is registered as described in [Exercise 1.1](/exercises/ex1/ex11/)
+
+## Exercise steps
+
+Run through the steps in the given order.
+
+1. *Click* on the button *Add* in the *Endpoints* section
+
+    <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
 2.	In the upcoming window under *General* maintain the fields:
     - Endpoint name: `CALM-IntSuite-EU1_<userID-digits>`. 
@@ -27,7 +33,7 @@ In this exercise, you will learn how to add an HTTP endpoint to establish authen
     - Authentication type: `OAuth2ClientCredentials`
     - Copy/paste the *client ID, client secret*, and *token service URL* provided via the Tenant Booker app.
     
-4. Check the network connection to verify if the entered parameters are correct
+4. *Check* the *network connection* to verify if the entered parameters are correct
 
     <br>![](/exercises/ex1/images/LMSEndpointConnectionCheck.png)
     
@@ -43,7 +49,7 @@ In this exercise, you will learn how to add an HTTP endpoint to establish authen
     
     Close the detailed page for the selected service.
     
-7.  Oversee the lifecycle status of managed services
+7.  Oversee the lifecycle status of all managed services
 
     The service you have registered should be now in status *Active*. If not do a browser refresh to get the page updated.
 
@@ -51,7 +57,7 @@ In this exercise, you will learn how to add an HTTP endpoint to establish authen
     
 ## Summary
 
-After completing these steps you will have added an HTTP endpoint in LMS for all monitoring use cases to establish authenticated connectivity to a registered Cloud Integration instance.
+After completing these steps you will have added an HTTP endpoint in LMS for all monitoring use cases to establish an authenticated connectivity from your registered Cloud Integration service to the *Cloud Integration tenant*.
 
 Next we will activate the data collection for monitoring the Cloud Integration tenant. 
 
