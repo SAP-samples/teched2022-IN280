@@ -11,9 +11,9 @@ In this exercise you will check whether the deployment exception is displayed in
 
 Run through the steps in the given order
 
-1. *Click* on the *AUtomatic Refresh* icon at the black top row to pull for data from Cloud Integration tenant every *15 sec*.
+1. *Click* on the *Automatic Refresh* icon at the black top row and change the resresh frequency to every *15 sec*.
 
-	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data every 5 minutes. We want to avoid to wait 5 minutes will reset this right after we have received the event.
+	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes. We want to avoid to wait 5 minutes will reset this right after we have received the event.
 
 	<br>![](/exercises/ex2/images/IMExceptRefresh15sec.png)
 
