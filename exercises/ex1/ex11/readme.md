@@ -9,6 +9,10 @@
 
 In this exercise, you will learn how to register a Cloud Integration instance in Landscape Management Service (LMS.
 
+### Overview on available SAP Integration Suite tenants and SAP Cloud ALM tenant for this session
+
+<br>![](/exercises/ex1/images/RegisteredServicesToSuiteTenants.png)
+
 ### Prerequisites
 
 - Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
