@@ -13,7 +13,7 @@ Run through the steps in the given order
 
 1. *Click* on the *Automatic Refresh* icon at the black top row and change the resresh frequency to every *15 sec*.
 
-	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes. We want to avoid to wait 5 minutes will reset this right after we have received the event.
+	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
 
 	<br>![](/exercises/ex2/images/IMExceptRefresh15sec.png)
 
@@ -23,7 +23,7 @@ Run through the steps in the given order
  
  	> Improve the screenshot to have 0 messages, 1 exception and 1 alert
 
-3. *Click* on the *Exceptions* link
+3. *Click* on the *Exceptions* link of your *Cloud Integration* service
 
 4. Look over the **Exception page** and afterwards *navigate* to the details page
 
