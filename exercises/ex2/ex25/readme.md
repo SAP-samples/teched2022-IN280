@@ -32,6 +32,7 @@ Run through the steps in the given order
 ## Summary
 
 You've now seen how ....
+In this exercise you will see a deployment exception as an example of an alert in Integration & Exception Monitoring.
 
 Go back to the main [Exercise 2](/exercises/ex2/readme.md)
 
