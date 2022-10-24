@@ -1,10 +1,10 @@
 # Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM
 
-In this exercise, we will perform all steps to establish the monitoring of a Cloud Integration instance.
+In this exercise, we will establish an authenticated connection to a Cloud Integration tenant to get it monitored.
 
 ## Exercise steps
 
-Run through the exercise steps in the given order.
+Run through the steps in the given order.
 
 1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
  
