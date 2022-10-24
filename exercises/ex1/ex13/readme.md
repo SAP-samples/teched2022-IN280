@@ -37,7 +37,8 @@ Run through the steps in the given order.
       
     <br>![](/exercises/ex1/images/ActivateDataCollection.png)
 
-    
+      It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card is updated.
+
 ## Summary
 
 After completing these steps you will have activated the data collection of *Integration & Exception Monitoring* for a managed Cloud Integration tenant.
