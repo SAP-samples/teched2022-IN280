@@ -2,16 +2,18 @@
 
 In this exercise you will copy a prepared integration flow, configure, deploy it, and provoke a deployment exception.
 
-#### Prequisites:
+#### Prerequisites:
 
-- You are logged in to the SAP Integration Suite tenant you are assigned to.
-- Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/).
+Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/).
+*If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>` should be connected already to the Cloud Integration tenant and alerting should be activated. If not please run through exercise [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/readme.md).
+
+
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Login* to *SAP Integration Suite* leveraging user / password retrieved from the Tenant Booker application
+1. *Login* to *SAP Integration Suite* leveraging user / password retrieved from the *Tenant Booker application*
 
     <br>![](/exercises/ex2/images/Login.png)
 
@@ -27,7 +29,7 @@ Run through the steps in the given order
     
 4. *Switch* to the *Artifacts* tab, *select* the button *Actions* and then *click* on **Copy** to copy the prepared integration flow.
     
-    Please don't use the original integration flow!
+    **Please don't use the original integration flow!**
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
   
@@ -73,4 +75,4 @@ Run through the steps in the given order
 
 You've now copied an existing integration flow, configured and deployed it and provoke an exception error. 
 
-Go back to the main [Exercise 2](../../ex2/) to check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
+Go back to the main [Exercise 2](/exercises/ex2/) to check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
