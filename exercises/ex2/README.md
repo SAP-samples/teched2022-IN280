@@ -2,10 +2,10 @@
 
 In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in *Integration & Exception Monitoring*. 
 
-#### Prequisites:
+#### Prerequisites:
 
 - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the respective SAP Integration Suite tenant you have been assigned to (see Tenant Booker application)
-- *If you perform configurations yourself*, your Cloud Integration service in SAP Cloud ALM is already connected to the real Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1/readme.md).
+- *If you want to perform configurations yourself:* your Cloud Integration service in SAP Cloud ALM has to connected to the real Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1/readme.md).
 
 ## Exercise steps
 
@@ -31,17 +31,11 @@ Run through the steps in the given order.
 
      <br>![](/exercises/ex2/images/ScopeSelectionService.png)
 
-3.	Look over the **Integration & Exception Monitoring overview page**
+3.	Familiarize yourself with the **Integration & Exception Monitoring overview page**
 
      This central view shows the status of integration scenarios and services in scope or set to favorites. It offers a first indicator where faulty messages or in case of Cloud Integration deployment exceptions of integration artifacts occurred.
 
      The exercise [Understand the Integration & Exception Monitoring overview page](./ex21/readme.md) provides you the insights of the color-coding and functionalities this page is offering.
-
-4.	*Optionally* Click on the *Select the Time Frame* icon in the black top row and then on *Last 24 Hours*
-
-     Adapt the time frame to display messages and exceptions monitored in a particular time period. Data are persisted 14 days. 
-
-     <br>![](/exercises/ex2/images/IMTimeFrame.png) 
        
 5. *If you perform configurations yourself* [Activate alerts for deployment exceptions of integration artifacts](./ex22/readme.md)
 
