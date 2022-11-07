@@ -1,6 +1,6 @@
 # Exercise 3 - Central monitoring of an integration scneario end-to-end
 
-For the following end-to-end monitoring exercise, one part of the integrated workflow of the SAP S/4HANA Lean Procurement has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging the prebuilt integration package on : **[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)** from [SAP API Business Hub](https://api.sap.com/). 
+For the following end-to-end monitoring exercise, one part of the integrated workflow of the **SAP S/4HANA Lean Procurement** has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging a prebuilt integration package (**[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)**) from [SAP API Business Hub](https://api.sap.com/). 
 
 The relevant integration flows for the scenario are the following:
 - [Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA](https://api.sap.com/integrationflow/Replicate_Purchase_Requisition_from_Fieldglass_to_S4HANA)
@@ -9,22 +9,22 @@ The relevant integration flows for the scenario are the following:
 
 See also the documentation of the process flow [Purchase Order and Invoicing](https://help.sap.com/docs/SAP_FIELDGLASS_INTEGRATION/bf3d1caf8c1f4f69801b37a45ac1d1b3/046b0d5f642346bd8624f1b741956585.html)
 
-Below you see an overview of this integration scenario.
+Below you see an overview of the integration scenario, relevant for this exercise.
 
 <br>![](/exercises/ex3/images/IMDiagramFieldglassS4Int.png)
 
 >
-> As we don’t have any chance to provide real services, we have injected demo data to your SAP Cloud ALM tenants that was been extracted from a real service landscape. Therefore, jumping to local monitoring to the respective cloud services isn’t possible.
+> As we don’t have any chance to provide real services in a TechEd demo environment, we have injected demo data to the SAP Cloud ALM tenant. The demo data had been extracted from a real service landscape. Therefore, jumping to local monitoring to the respective cloud services isn’t possible.
 >
 
 #### Prequisites:
-- You are logged in to the [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
+- You are logged in to  [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
-1.	Navigate to section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+1.	Navigate to section *SAP Cloud ALM for Operation* and open the application *Integration & Exception Monitoring*.
 
      <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
