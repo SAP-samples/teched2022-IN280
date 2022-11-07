@@ -4,8 +4,9 @@ In this exercise you will check whether the deployment exception is displayed in
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to *Integration & Exception Monitoring*
-- Events for *Integration Exceptions* are activated and you have provoked a deployment exception in SAP Integration Suite
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
+- *If you are performing configurations yourself:* Events for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
+- You should have provoked a deployment exception of an integration flow in SAP Integration Suite
 
 ## Exercise steps
 
