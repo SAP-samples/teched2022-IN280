@@ -3,7 +3,7 @@
 In this exercise, we will search for a message
 
 #### Prequisites:
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/login)
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 
 ## Exercise step
 
