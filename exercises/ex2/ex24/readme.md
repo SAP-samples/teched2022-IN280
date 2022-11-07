@@ -4,7 +4,7 @@ In this exercise you will check whether the deployment exception is displayed in
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and navigated to *Integration & Exception Monitoring*
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to *Integration & Exception Monitoring*
 - Events for *Integration Exceptions* are activated and you have provoked a deployment exception in SAP Integration Suite
 
 ## Exercise steps
