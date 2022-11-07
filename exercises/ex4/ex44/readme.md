@@ -6,10 +6,10 @@ In this exercise, we will ...
 
 Run through the exercise steps in the given order.
 
-#### Prequisites:
+#### Prerequisites:
 The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
 
-If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+If not already done, please login to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).  
 
 1.	Navigate t...
 
