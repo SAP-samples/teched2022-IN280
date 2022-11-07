@@ -1,6 +1,6 @@
 # Activate alerts for deployment exceptions of integration artifacts
 
-In this exercise, you will activate the alerting for a particular Cloud Integration service to get an alert once a deployment exception happens
+In this exercise, you will activate the alerting for a particular Cloud Integration service to get an alert once a deployment exception happens. This exercise is only required if you want to perform all configurations yourself.
 
 #### Prequisites:
 
