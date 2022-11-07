@@ -3,7 +3,7 @@
 In this exercise, we will work with the *Health Monitoring* use case of SAP Cloud ALM and track resources of Cloud Integration as the JMS queues and certificates. 
 
 #### Prequisites:
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).  
 - Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration service in LMS](../ex1/ex11/readme.md).
 
 ## Exercise steps
