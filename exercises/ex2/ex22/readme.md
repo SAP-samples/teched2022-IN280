@@ -20,15 +20,15 @@ Run through the steps in the given order.
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
-   During setting up the service for the *Cloud Integration* tenant in the *Landscape Management Service* application we have selected three use cases. The below **two use cases** are displayed in *Integration & Exception Monitoring* as *monitoring categories*:
+3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
+
+   <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
+   
+    During setting up the service for the *Cloud Integration* tenant in the *Landscape Management Service* application we have selected three use cases. The below **two use cases** are displayed in *Integration & Exception Monitoring* as *monitoring categories*:
    - *SAP Integration Suite Messages* for **Integration Monitoring**
    - *Integration Artifact Deployments* for **Exception Monitoring**
 
    If there are several endpoints available *select* one.
-
-3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
-
-   <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
 4. *Add a filter* on integration artifact deployments
 	
