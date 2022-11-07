@@ -11,17 +11,13 @@ In this exercise you will check whether the deployment exception is displayed in
 
 Run through the steps in the given order
 
-1. *Optionally* *click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*.
-
+1. *Optionally* *click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*. 
+	
 	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
+	
+	After receiving the event the number of exceptions and the number of alerts increase in the card of the Cloud Integration service you are watching. *Reset* the *automatic refresh* to default.
 
 	<br>![](/exercises/ex2/images/IMExceptRefresh15sec.png)
-
-2. After receiving the event the number of exceptions and the number of alerts increase in the card of the Cloud Integration service you are watching. *Reset* the *automatic refresh* to default.
-
-    <br>![](/exercises/ex2/images/IMExceptRefreshReset.png)
- 
- 	> Improve the screenshot to have 0 messages, 1 exception and 1 alert
 
 3. *Click* on the *Exceptions* link of your *Cloud Integration* service and familiarize yourself with the **Exception page** 
 
