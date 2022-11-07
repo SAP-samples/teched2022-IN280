@@ -4,7 +4,7 @@ In this exercise you will see a deployment exception as an example of an alert i
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and have navigated to *Integration & Exception Monitoring*
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and have navigated to *Integration & Exception Monitoring*
 - *If you are performing all configurations yourself:* Alerting for *Integration Exceptions* should be activated for that Cloud Integration service you have registered: `CloudIntegration-<tenant_name>_<userID>`
     
     In the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` the alerting to integration exceptions is already activated and nothing has to be done.
