@@ -5,49 +5,32 @@ In this exercise, you will activate the **monitoring** and the **alerting** of i
 
 #### Prerequisites:
 
-- You are in *Integration & Exception Monitoring* and have your *Cloud Integration service* in scope
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` or `CloudIntegration-<tenant_name>` in scope.
+- You have activited the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/).
 
 ## Exercise steps
 
 Run through the steps in the given order.
 
-1. **Activate data collection** if not already done
+1. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
 
-    The card for your registered *Cloud Integration* service likely doesn't collect no data so far
-    
-   <br>![](/exercises/ex2/images/IMOverviewNoData.png)
+   <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
 
-    a. *Click* on the *three dots* and then on *Edit Configuration*
-    
-    <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
-    
-    b. *Switch on* the data collection using the *toggle button*, save the configuration, and close the dialog
-    
-    <br>![](/exercises/ex2/images/IMConfigDataCollection.png)
-	
-    c. Proof whether the data collection is running successfully
-    
-    <br>![](/exercises/ex2/images/IMOverviewDataCollectionActivated.png)
-
-2. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
-
-   <br>![](/exercises/ex2/images/IMOverviewEditConfiguration.png)
-
-3. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
+2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
-   During setting up the service for the *Cloud Integration* tenant *Landscape Management Service* we have selected several use cases. These **two use cases** are displayed here as *monitoring categories*:
+   During setting up the service for the *Cloud Integration* tenant in the *Landscape Management Service* application we have selected three use cases. The below **two use cases** are displayed in *Integration & Exception Monitoring* as *monitoring categories*:
    - *SAP Integration Suite Messages* for **Integration Monitoring**
    - *Integration Artifact Deployments* for **Exception Monitoring**
 
-   If there are several endpoints available you *select* one.
+   If there are several endpoints available *select* one.
 
-4. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
+3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
 
-5. *Add a filter* on integration artifact deployments
+4. *Add a filter* on integration artifact deployments
 	
 	a. *Click* on the button *Add*
 	
@@ -63,26 +46,26 @@ Run through the steps in the given order.
 	
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 	
-6. Switch to the *Events* tab 
+5. Switch to the *Events* tab 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-7. *Add* a new *event* 
+6. *Add* a new *event* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-8. *Choose* the event type **Erroneous Integration Artifact**  and *activate* the alert for the *Alerting* section by switching the *toggle* 
+7. *Choose* the event type **Erroneous Integration Artifact**  and *activate* the alert for the *Alerting* section by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-10. *Save*  the configuration for this event and *close* the configuration
+8. *Save*  the configuration for this event and *close* the configuration
    
 
 ## Summary
 
 You've now activated events and alerts for all deployment exception that might occor in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
 
-Go back to [Exercise 2](../../ex2/)
+Go back to [Exercise 2](../../ex2/) 
 
 
 
