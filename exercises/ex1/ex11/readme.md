@@ -31,14 +31,14 @@ Run through the steps in the given order.
 
 	<br>![](/exercises/ex1/images/LMSAddCPIservice.png)
 	
-    - *Name*: `CloudIntegration-<tenant_name>_<userID-digits>`
+    - *Name*: `CloudIntegration-<tenant_name>_<userID>`
        
-		- Copy the `<userID-digits>` from the tenant booker application
+		- Use your `<userID>`
 		
 		- Copy the tenant name from  the *Tenant Booker application*
 	   
     - Optionally maintain a description
-    - *Tenant ID*: `01234567<userID-digits>` 
+    - *Tenant ID*: `01234567<userID-digits>` removing the beginning character of your userId
     - *Service Type*: `SAP Integration Suite (Cloud Integration)`
     - *Tenant Type*: `Test`
     - *Root URL*: Copy the URL provided by the Tenant Booker application under the field *Tenant URL for SAP Cloud Integration*. Please remove the ending `/itspaces/`.
