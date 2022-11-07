@@ -1,11 +1,11 @@
 # Exercise 2 - Monitoring a deployment issue
 
-In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in the *Integration & Exception Monitoring*. 
+In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in *Integration & Exception Monitoring*. 
 
 #### Prequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the SAP Integration Suite tenant you are assigned to (see Tenant Booker application)
-- Your Cloud Integration service is already connected. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1/readme.md).
+- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the respective SAP Integration Suite tenant you have been assigned to (see Tenant Booker application)
+- *If you perform configurations yourself*, your Cloud Integration service in SAP Cloud ALM is already connected to the real Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1/readme.md).
 
 ## Exercise steps
 
@@ -43,7 +43,7 @@ Run through the steps in the given order.
 
      <br>![](/exercises/ex2/images/IMTimeFrame.png) 
        
-5. [Activate alerts for deployment exceptions of integration artifacts](./ex22/readme.md)
+5. *If you perform configurations yourself* [Activate alerts for deployment exceptions of integration artifacts](./ex22/readme.md)
 
 5. [Deploy faulty integration flow](./ex23/readme.md)
 
