@@ -138,7 +138,17 @@ Run through the exercise steps in the given order.
     > *Note:* As we are in a demo environment this isn't possible.
     > 
     
-15. We want to watch the alert that has been raised for the failed message. Click on the *exclamation mark* **!** icon in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
+15. We want to search the failed message in the *tracking* section. *Click* on the *magnifying glass.* icon in the left-side navigation. 
+
+     *Select* the business service *ExternalWorkforce*. All business scenarios in scope are proposed in a drop down list.
+     
+     *Enter* the search criteria `1EGT*` or `1EGT0e1kEW2C6kPVvE3GCitCRHyw` and start the search
+
+    <br>![](/exercises/ex3/images/IMWorkforceTrackingFailedMessage.png)
+    
+     From the *tracking results* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw`.
+
+16. We want to watch the alert that has been raised for the failed message. *Click* on the *exclamation mark* **!** icon in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
 
     <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessage.png)
     
@@ -148,7 +158,7 @@ Run through the exercise steps in the given order.
     
     It is possible to assign a processor ..
     
-    From the *alert details page* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT...`.
+    From the *alert details page* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw`.
     
 
 ## Summary
