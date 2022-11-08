@@ -1,4 +1,4 @@
-# Exercise 3 - Central monitoring of an integration scneario end-to-end
+# Exercise 3 - Central monitoring of an integration scenario end-to-end
 
 For the following end-to-end monitoring exercise, one part of the integrated workflow of the **SAP S/4HANA Lean Procurement** has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging a prebuilt integration package (**[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)**) from [SAP API Business Hub](https://api.sap.com/). 
 
@@ -14,10 +14,10 @@ Below you see an overview of the integration scenario, relevant for this exercis
 <br>![](/exercises/ex3/images/IMDiagramFieldglassS4Int.png)
 
 >
-> As we don’t have any chance to provide real services in a TechEd demo environment, we have injected demo data to the SAP Cloud ALM tenant. The demo data had been extracted from a real service landscape. Therefore, jumping to local monitoring to the respective cloud services isn’t possible.
+> *Note*: As we don’t have any chance to integrate real services in a TechEd demo environment, we have injected demo data to the SAP Cloud ALM tenant. The demo data had been extracted from a real service landscape. Therefore, you see valid data but jumping to local monitoring of the respective cloud services isn’t possible.
 >
 
-#### Prequisites:
+#### Prerequisites:
 - You are logged in to  [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
 
 ## Exercise steps
@@ -28,7 +28,7 @@ Run through the exercise steps in the given order.
 
      <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
-2. Bring the **end-to-end business scenario into the scope**
+2. Bring the **end-to-end business scenario *ExternalWorkforce* into the scope**
 
    a) Select the *Scope selection* icon in the black top row
 
@@ -44,17 +44,19 @@ Run through the exercise steps in the given order.
 
      <br>![](/exercises/ex3/images/ScopeSelectionService.png)
 
-3.	*Click* on the information icon **(i)** and recognize that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
+3.	*Recognize* that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
 
      <br>![](/exercises/ex3/images/IMWorkforce.png)
 
-     If you want to familiarize yourself with the overview page and understand the color-coding of a service's status please go through [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercise/ex2/ex21/)
+     You may also *click* on the information icon *i*. 
+     
+     If you want to know more about the overview page and understand the color-coding of a service's status please go through [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercise/ex2/ex21/)
 
-4.	*Click* on the three dots and select *Go to Details* to navigate to the **topology page**
+4.	*Click* on the *three dots ...* and select *Go to Details* to navigate to the **topology page**
 
     <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
    
-5.	Oversee the numbers in the **topology view**: 36 messages have been exchanged, more than 100 exceptions detected, and 5 alerts has been raised
+5.	Oversee the numbers in the **topology view** of the *ExternalWorkforce* scenario: 29 messages have been exchanged, no exceptions have been detected, and 2 alerts have been raised
 
     <br>![](/exercises/ex3/images/IMWorkforceTopology.png) 
 
@@ -67,16 +69,20 @@ Run through the exercise steps in the given order.
 6.	*Optionally* *click* on the SAP Fieldglass node *MyFieldGlass_01*
 
     <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
-   
-7.	Click on the Cloud Integration node *MyCPI_01* and to messages on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
+    
+    > *Integration & Exception Monitoring* is is retrieving monitoring information from SAP Fieldglass a webservice.
+
+7.	*Optionally* *click* on the SAP S/4HANA Cloud node *MyS4HANACloud_01*
+
+    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+    
+    > *Integration & Exception Monitoring* is retrieving monitoring information from SAP S/4HANA over AIF (SAP Application Interface Framework) messages
+    
+8.	Click on the Cloud Integration node *MyCPI_01* and to *SAP Integration Suite Messages* on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
 
     <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
-   
-8.	....
-
-    <br>![](/exercises/ex3/images/IMWorkforceTopoS4.png) 
-    
-9.	Use the *arrow* on the right of the first interface to drill down to the next level of information, the **list of SAP Integration Suite messages**
+     
+9.	*Familiarize* yourself with the **SAP Integration Suite messages** page
 
     <br>![](/exercises/ex3/images/IMWorkforceCPIMessages.png) 
 
@@ -94,11 +100,13 @@ Run through the exercise steps in the given order.
     > Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
     >
 
-11.	*Click* on the first message to navigate to the **message view**
+10.	*Click* on the first message to navigate to the **message view**. It consists of two sections:
+     
+     - *Click* on the first message to navigate to the **message view**
 
     <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
    
-12.	*Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
+     - *Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
 
     <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
 
@@ -106,7 +114,7 @@ Run through the exercise steps in the given order.
 
     The message *S43..* has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
    
-13.	*Click* on *Technical Correlation* to see the parameters of **SAP Passport**
+     - *Click* on *Technical Correlation* to see the parameters of **SAP Passport**
 
     <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
     
