@@ -52,66 +52,64 @@ Run through the exercise steps in the given order.
 
 4.	*Click* on the three dots and select *Go to Details* to navigate to the **topology page**
 
-   <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
+    <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
    
 5.	Oversee the numbers in the **topology view**: 36 messages have been exchanged, more than 100 exceptions detected, and 5 alerts has been raised
 
-   <br>![](/exercises/ex3/images/IMWorkforceTopology.png) 
-   
-   >
-   > In the *topology view* of the *Monitoring* section you see the involved services of a scenario. It offers you the collected stats within a selected time period.
-   >
-   > Each node represents a service. Also the border of the nodes may change depending on the status of the incoming and outgoing messages transferred and depending on the exceptions that may occur. All three services have some issues with the message exchange.
-   >
+    <br>![](/exercises/ex3/images/IMWorkforceTopology.png) 
+
+    >
+    > In the *topology view* of the *Monitoring* section you see the involved services of a scenario. It offers you the collected stats within a selected time period.
+    >
+    > Each node represents a service. Also the border of the nodes may change depending on the status of the incoming and outgoing messages transferred and depending on the exceptions that may occur. All three services have some issues with the message exchange.
+    >
    
 6.	*Optionally* *click* on the SAP Fieldglass node *MyFieldGlass_01*
 
-   <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
    
 7.	Click on the Cloud Integration node *MyCPI_01* and to messages on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
 
-   <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
    
 8.	....
 
-   <br>![](/exercises/ex3/images/IMWorkforceTopoS4.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceTopoS4.png) 
     
-9.	Use the *arrow* on the right of the first interface to drill down to the next level of information, the **interface list**
+9.	Use the *arrow* on the right of the first interface to drill down to the next level of information, the **list of SAP Integration Suite messages**
 
-   <br>![](/exercises/ex3/images/IMWorkforceCPIInterfaceList.png) 
-   
-   All relevant integration flows of Cloud Integration relevant for the selected business scenario are listed.
-   
-10.	*Optionally* adapt the message list as per your needs
+    <br>![](/exercises/ex3/images/IMWorkforceCPIMessages.png) 
 
-   <br>![](/exercises/ex3/images/IMWorkforceMessageListAdapt.png) 
-   
-   The message level page lists all messaging for a particular interface. The erroneous messages are highlighted in red.
-
-   The message list depends on the corresponding service type. In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
-
+    The message list depends on the corresponding service type, the selected business scenario and the selected time frame. 
+    
+    In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
+    
+    You can see relevant integration flows relevant for the *ExternalWorkforce scenario* in the header section already:
+    - Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA
+    - Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass_ERS
+    - Replicate Purchase Order from SAP Fieldglass to SAP S4HANA
+        
+    Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
    
 11.	*Click* on the first message .....
 
-   <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
-   
-   Text
-   
-13.	*Scroll down* to the *Related Messages & Exceptions* section to see the visualized message path
+    <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
 
-   <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
+    Text
    
-   In this *single message details view page* you can analyze the message details and the assembled end-to-end message path.
-   
-   The message *S43..* has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
-   
-14.	*Click* on *Technical Correlation* to see the parameters of **SAP Passport**
+12.	*Scroll down* to the *Related Messages & Exceptions* section to see the visualized message path
 
-   <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
+
+    In this *single message details view page* you can analyze the message details and the assembled end-to-end message path.
+
+    The message *S43..* has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
    
-   Single messages in the hybrid landscape are correlated to each other to an end-to-end message flow. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
-   
-   
+13.	*Click* on *Technical Correlation* to see the parameters of **SAP Passport**
+
+    <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
+
+    Single messages in the hybrid landscape are correlated to each other to an end-to-end message flow. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
    
 ## Summary
 
