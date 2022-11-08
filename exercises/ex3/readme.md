@@ -100,49 +100,53 @@ Run through the exercise steps in the given order.
     > Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
     >
 
-10.	*Click* on the first message to navigate to the **message view**
+10.	*Click* on the first message to navigate to the **single message details view page**
 
     <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
 
-11. *Analyze* the message in the *message view*. This page consists of two sections:
+11. *Analyze* the message. This page consists of two sections:
      
-     a. *Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
-
-    <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
-
-    In this *single message details view page* you can analyze the message details and the assembled end-to-end message path.
-
-    The message `S43..` has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
-   
-     b. *Click* on *Technical Correlation* to see the parameters of **SAP Passport**
+     a. In the *Message Details* section *click* on *Technical Correlation* to see the parameters of **SAP Passport**
 
     <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
     
     >
-    > Single messages in a hybrid landscape are correlated to each other to understand the end-to-end message path. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
+    > Single messages in a hybrid landscape are correlated to each other to **assemble an end-to-end message path**. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
     > 
+
+     b. *Click* on the tab *Related Messages & Exceptions* to see a **message path**
+
+    <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
+
+    The message `S43..` has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
    
 12. Go back to the *SAP Integration Suite Messages* page leveraging the *breadcrumb* and *select* the only *failed message* `1EGT...`
 
      <br>![](/exercises/ex3/images/IMWorkforceFailedMessage.png)
      
-13. In the *message details* you see that the status of message `1EGT...` is `Failed`
+13. In the *message details* you see that the status of message `1EGT...` is failed
 
      <br>![](/exercises/ex3/images/IMWorkforceMessageDetailsFailed.png)
 
-14. In the *Related messages & excpetions* secion you get some hints where to find the issue
+14. In the *Related messages & excpetions* section you get some hints where to find the issue
 
     <br>![](/exercises/ex3/images/IMWorkforceFailedMessagePath.png)
 
-    There is a *Java script execption* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to the **local Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. As we are in a demo environment this isn't possible.
+    There is a *Java script execption* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to the **local Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. 
     
-15. We want to watch the alert that has been raised for the failed message. Click on the **!** in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
+    >
+    > *Note:* As we are in a demo environment this isn't possible.
+    > 
+    
+15. We want to watch the alert that has been raised for the failed message. Click on the *exclamation mark* **!** icon in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
 
     <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessage.png)
     
-16. Within this page you see all failed messages for grouped together for the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*.
+16. Within this page you see all failed messages grouped together for the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*.
 
     <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessageDetails.png)
+    
+    It is possible to assign a processor ..
     
     From the *alert details page* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT...`.
     
