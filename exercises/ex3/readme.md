@@ -66,23 +66,23 @@ Run through the exercise steps in the given order.
     > Each node represents a service. Also the border of the nodes may change depending on the status of the incoming and outgoing messages transferred and depending on the exceptions that may occur. All three services have some issues with the message exchange.
     >
    
-6.	*Optionally* *click* on the SAP Fieldglass node *MyFieldGlass_01*
+6.	*Optionally* *click* on the SAP Fieldglass node `MyFieldGlass_01`
 
     <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
     
     > *Integration & Exception Monitoring* is is retrieving monitoring information from SAP Fieldglass a webservice.
 
-7.	*Optionally* *click* on the SAP S/4HANA Cloud node *MyS4HANACloud_01*
+7.	*Optionally* *click* on the SAP S/4HANA Cloud node `MyS4HANACloud_01`
 
     <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
     
     > *Integration & Exception Monitoring* is retrieving monitoring information from SAP S/4HANA over AIF (SAP Application Interface Framework) messages
     
-8.	Click on the Cloud Integration node *MyCPI_01* and to *SAP Integration Suite Messages* on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
+8.	Click on the Cloud Integration node `MyCPI_01` and to *SAP Integration Suite Messages* on the right side to drill down to the next level
 
     <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
      
-9.	*Familiarize* yourself with the **SAP Integration Suite messages** page
+9.	*Familiarize* yourself with the **SAP Integration Suite messages** page showing the Cloud Integration artifacts and messages exchanged within the selected integration scenario.
 
     <br>![](/exercises/ex3/images/IMWorkforceCPIMessages.png) 
 
@@ -100,21 +100,21 @@ Run through the exercise steps in the given order.
     > Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
     >
 
-10.	*Click* on the first message to navigate to the **message view**. It consists of two sections:
-     
-     - *Click* on the first message to navigate to the **message view**
+10.	*Click* on the first message to navigate to the **message view**
 
     <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
-   
-     - *Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
+
+11. *Analyze* the message in the *message view*. This page consists of two sections:
+     
+     a. *Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
 
     <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
 
     In this *single message details view page* you can analyze the message details and the assembled end-to-end message path.
 
-    The message *S43..* has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
+    The message `S43..` has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
    
-     - *Click* on *Technical Correlation* to see the parameters of **SAP Passport**
+     b. *Click* on *Technical Correlation* to see the parameters of **SAP Passport**
 
     <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
     
@@ -122,28 +122,34 @@ Run through the exercise steps in the given order.
     > Single messages in a hybrid landscape are correlated to each other to understand the end-to-end message path. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
     > 
    
+12. Go back to the *SAP Integration Suite Messages* page leveraging the *breadcrumb* and *select* the only *failed message* `1EGT...`
+
+     <br>![](/exercises/ex3/images/IMWorkforceFailedMessage.png)
+     
+13. In the *message details* you see that the status of message `1EGT...` is `Failed`
+
+     <br>![](/exercises/ex3/images/IMWorkforceMessageDetailsFailed.png)
+
+14. In the *Related messages & excpetions* secion you get some hints where to find the issue
+
+    <br>![](/exercises/ex3/images/IMWorkforceFailedMessagePath.png)
+
+    There is a *Java script execption* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to the **local Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. As we are in a demo environment this isn't possible.
+    
+15. We want to watch the alert that has been raised for the failed message. Click on the **!** in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
+
+    <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessage.png)
+    
+16. Within this page you see all failed messages for grouped together for the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*.
+
+    <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessageDetails.png)
+    
+    From the *alert details page* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT...`.
+    
+
 ## Summary
 
 You've now monitored end-to-end a message that has been sent from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite.
 
 Next we will search for message. Continue to - [Exercise 31](../ex31/readme.md)
-
-<!--
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
--->
 
