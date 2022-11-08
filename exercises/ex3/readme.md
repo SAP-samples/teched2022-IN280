@@ -153,7 +153,7 @@ Run through the exercise steps in the given order.
 
 ## Summary
 
-You've now monitored end-to-end a message that has been sent from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite.
+You've now monitored end-to-end messages that have been sent from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages in the overview page already but also in the alerting section of *Integration & Exception Monitoring*. 
 
-Next we will search for message. Continue to - [Exercise 31](../ex31/readme.md)
+Next we will analyze *Cloud Integration* resource leveraging the *Health Monitoring* application of SAP Cloud ALM.Continue to - [Exercise 4](/exercises/ex4/readme.md)
 
