@@ -49,14 +49,16 @@ Run through the exercise steps in the given order
 
     By means of **rating colors** it is easy to track all monitored metrics briefly. Any rating in red or orange attracts attention and likely will be examined more closely.
 
-    For identification purposes of various metrics of the same type **labels** has been introduced: 
+    For identification purposes of various metrics of the same type **labels** have been introduced: 
 
-    - Each JMS queue has a label 'queue* for its name. 
-    - Certificates have the labels *alias* and *type* for the differentiation between a certificate and a key pair.
+    - Each JMS queue has a label 'queue* for its name
+    - Certificates have the labels *alias* and *type* for the differentiation between a certificate and a key pair
 
-    In the lower section, one can also see also tiles for each JMS queue, titled with their label. They have their own metrics such as its *activation*, the *status*, and the *number of messages*, therefore they are visualized as separate tiles.
+    In the lower section, one can also see also tiles for each JMS queue, titled by their label. They have own metrics and are visualized as separately: *activation status*, *queue status*, and the *number of messages*
 
-6. [Check alerts in Health Monitoring](/exercises/ex4/ex44/)
+6. Check alerts
+
+    Check raised alerts in the alerting section and configure your managed Cloud Integration to raise the alerts while performing the steps in [Check alerts in Health Monitoring](/exercises/ex4/ex44/)
 
 7. Customize thresholds
 
