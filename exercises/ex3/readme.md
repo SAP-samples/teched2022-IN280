@@ -40,57 +40,49 @@ Run through the exercise steps in the given order.
 
    d)  Select the *ExternalWorkforce* scenario
 
-   d)  Click on the button *Apply* to save the configuration
+   e)  Click on the button *Apply* to save the configuration
 
      <br>![](/exercises/ex3/images/ScopeSelectionService.png)
 
-3.	*Optionally* you may *add* this scenario to your *favorites*
+3.	*Click* on the information icon **(i)** and recognize that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
 
-     <br>![](/exercises/ex3/images/IMWorkforceFavorite.png) 
+     <br>![](/exercises/ex3/images/IMWorkforce.png)
 
-4.	*Click* on the information icon **(i)** and understand the color coding of a service’s status
+     If you want to familiarize yourself with the overview page and understand the color-coding of a service's status please go through [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercise/ex2/ex21/)
 
-   >
-   > Each card in the overview page represents a service or a business scenario. The left-side color reflects the overall status for the selected time.
-   >
-
-   <br>![](/exercises/ex3/images/IMOverviewCardInfo.png) 
-   
-   All three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception
-
-5.	*Click* on the three dots and select *Go to Details* to navigate to the **topology page**
+4.	*Click* on the three dots and select *Go to Details* to navigate to the **topology page**
 
    <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
    
-6.	Oversee the numbers in the **Topology view**: 36 messages have been exchanged, more than 100 exceptions detected, and 5 alerts has been raised
+5.	Oversee the numbers in the **topology view**: 36 messages have been exchanged, more than 100 exceptions detected, and 5 alerts has been raised
 
    <br>![](/exercises/ex3/images/IMWorkforceTopology.png) 
    
    >
-   > In the *topology view* of the *Monitoring* section you see the involved services of a scenario. It offers you the collected stats of the selected time period.
+   > In the *topology view* of the *Monitoring* section you see the involved services of a scenario. It offers you the collected stats within a selected time period.
    >
-   > Each node represents a service. Again, the node border changes the color depending on the status of the incoming and outgoing messages transferred or depending on the occurred exceptions. All three services have some issues with the message exchange.
+   > Each node represents a service. Also the border of the nodes may change depending on the status of the incoming and outgoing messages transferred and depending on the exceptions that may occur. All three services have some issues with the message exchange.
    >
    
-7.	*Optionally* *click* on the SAP Fieldglass node *MyFieldGlass_01*
+6.	*Optionally* *click* on the SAP Fieldglass node *MyFieldGlass_01*
 
    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
    
-8.	Click on the Cloud Integration node *MyCPI_01* and to messages on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
+7.	Click on the Cloud Integration node *MyCPI_01* and to messages on the right side to drill down to the next level, the artifacts used in Cloud Integration for this integration scenario.
 
    <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
    
-9.	....
+8.	....
 
    <br>![](/exercises/ex3/images/IMWorkforceTopoS4.png) 
     
-10.	Use the *arrow* on the right of the first interface to drill down to the next level of information, the **interface list**
+9.	Use the *arrow* on the right of the first interface to drill down to the next level of information, the **interface list**
 
    <br>![](/exercises/ex3/images/IMWorkforceCPIInterfaceList.png) 
    
    All relevant integration flows of Cloud Integration relevant for the selected business scenario are listed.
    
-11.	*Optionally* adapt the message list as per your needs
+10.	*Optionally* adapt the message list as per your needs
 
    <br>![](/exercises/ex3/images/IMWorkforceMessageListAdapt.png) 
    
@@ -99,7 +91,7 @@ Run through the exercise steps in the given order.
    The message list depends on the corresponding service type. In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
 
    
-12.	*Click* on the first message .....
+11.	*Click* on the first message .....
 
    <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
    
