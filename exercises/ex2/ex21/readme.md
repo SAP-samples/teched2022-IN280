@@ -1,22 +1,24 @@
-# Understand the Integration & Exception Monitoring overview page
+# Familiarize yourself with the Integration & Exception Monitoring overview page
 
-In this exercise, you will understand which information you may retrieve from the overpage page of Integration & Exception Monitoring.
+In this exercise, you will understand which information you may retrieve from the overpage page of Integration & Exception Monitoring. All these steps are optional and only for your information.
 
-All these steps are optional and only for your information.
+>
+> *Note*: Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
+> You may identify the scenarios by the boxes of the involved services
+> The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
+>
 
-*Note*: The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for these exercises. <br>
-
-Please focus on the card *ExternalWorkforce*.
+We are focusing on the card of the business scenario *ExternalWorkforce*. You may try it out with Cloud Integration service you are managing.
 
 <br>![](/exercises/ex2/images/IMOverviewpageDetails.png)
 
 1. *Click* on the *quality icon* and check whether the **data collection** is running successfully for the involved services.
 
-    Within the popup that shows up *click* on the *Cloud Integration* service ´H2RCPI`. The status of monitoring messages and integration artifact exceptions is displayed seperately.
+    Within the popup that shows up *click* on the *Cloud Integration* service ´H2RCPI`. The status of monitoring messages and integration artifact exceptions is displayed seperately from each other.
 
     <br>![](/exercises/ex2/images/IMDataQuality.png)
 
-2. In case of raised alerts you would be able to jump directly to the embedded **alerting**
+2. In case of raised alerts you would be able to jump directly to the embedded **alerting** by clicking on the *number of alerts* in the footer of each card
 
 3. *Check* the **status of business service events** with the time-calender-icon
 
@@ -26,10 +28,6 @@ Please focus on the card *ExternalWorkforce*.
 
 5. *Click* on the *information* icon **(i)** and get an understanding of the **color-coding** of a service's status
     
-    >
-    > Each card in the overview page represents a service or a business scenario. The left-side color reflects the overall status for the selected time.
-    >
-
     The color of the left side of each card is the overall status of the integration scenario or the service. It depends on the selected time frame.
 
     Inside of a card you may distinguish:
