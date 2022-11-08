@@ -80,26 +80,27 @@ Run through the exercise steps in the given order.
 
     <br>![](/exercises/ex3/images/IMWorkforceCPIMessages.png) 
 
-    The message list depends on the corresponding service type, the selected business scenario and the selected time frame. 
-    
-    In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
-    
-    You can see relevant integration flows relevant for the *ExternalWorkforce scenario* in the header section already:
-    - Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA
-    - Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass_ERS
-    - Replicate Purchase Order from SAP Fieldglass to SAP S4HANA
-        
-    Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
-   
-11.	*Click* on the first message .....
+    >
+    > The message list depends on the corresponding service type, the selected business scenario and the selected time frame. 
+    >
+    > In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
+    >
+    > You can see relevant integration flows relevant for the *ExternalWorkforce scenario* in the header section already:
+    > - Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA
+    > - Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass_ERS
+    > - Replicate Purchase Order from SAP Fieldglass to SAP S4HANA
+    >
+    >
+    > Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
+    >
+
+11.	*Click* on the first message to navigate to the **message view**
 
     <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
-
-    Text
    
-12.	*Scroll down* to the *Related Messages & Exceptions* section to see the visualized message path
+12.	*Click* on the tab *Related Messages & Exceptions* to see a **visualized message path**
 
-    <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
 
     In this *single message details view page* you can analyze the message details and the assembled end-to-end message path.
 
@@ -108,8 +109,10 @@ Run through the exercise steps in the given order.
 13.	*Click* on *Technical Correlation* to see the parameters of **SAP Passport**
 
     <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
-
-    Single messages in the hybrid landscape are correlated to each other to an end-to-end message flow. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
+    
+    >
+    > Single messages in a hybrid landscape are correlated to each other to understand the end-to-end message path. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
+    > 
    
 ## Summary
 
