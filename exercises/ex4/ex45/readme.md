@@ -1,4 +1,4 @@
-# Activate alerts
+# Exercise 4.5 - Activate alerts
 In this exercise, we will activate the alerting for a particular Cloud Integration service.
 *This exercise is only necessary if you want to perform all configuration in SAP Cloud ALM yourself.*
 
