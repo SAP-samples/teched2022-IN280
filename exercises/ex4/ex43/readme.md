@@ -1,4 +1,4 @@
-# Details on how to work with Cloud Integration metrics
+# Exercise 4.3 - Details on how to work with Cloud Integration metrics
 
 In this exercise, we will ...
 
