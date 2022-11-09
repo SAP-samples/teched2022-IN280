@@ -1,4 +1,4 @@
-# Add an HTTP endpoint to a managed service
+# Exercise 1.2 - Add an HTTP endpoint to a managed service
 
 In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectivity to a registered Cloud Integration instance. This endpoint will be valid for all ALM monitoring use cases.
 
