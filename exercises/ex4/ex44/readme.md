@@ -11,9 +11,9 @@ Health Monitoring comes with embedded alerting leveraged for various ALM use cas
 
 Run through the exercise steps in the given order
 
-1. *If you are performing configurations yourself:* in the [Exercise 4.5 - Activate alerts](../ex45/readme.md) you activate events for the Cloud Integration service that you have registered.
+1. *If you are performing configurations yourself:* in the [Exercise 4.5 - Activate alerts](../ex45/readme.md) you activate events for the Cloud Integration service that you have registered
       
-    If you are using the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` the alerting is already activated and nothing has to be done. The step can be skipped.
+    If you are using the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` the alerting is already activated and nothing has to be done. The step can be skipped
 
 2. *Navigate* to the *Alerting* section using the *exclamation mark* icon in the left-navigation
 
@@ -22,23 +22,23 @@ Run through the exercise steps in the given order
     In the *Alerting* page one alert per registered cloud service and since the last data collection is listed. 
     
     >
-    > *Note:* for the TechEd session we are not in a real environment. As attendees have registered own Cloud Integration services in SAP Cloud ALM connected you will find same kind of alerts several times for the same Cloud Integration tenant.
+    > *Note:* for the TechEd session we are not in a real environment. As attendees have registered own Cloud Integration services in SAP Cloud ALM connected you will find the same kind of alerts several times for a particular Cloud Integration tenant.
     >
-    > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection yuntil your activated alert get listed in the alerting section
+    > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection until your activated alert get listed in the alerting section
     >
 
-3. Use the *Filter* icon the right side to filger for alerts *JMS Queue Capacity* 
+3. Use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
 
     *Enter* `JMS Queue Capacity` in field *Alert Name* and *apply* for the filter
     
     <br>![](/exercises/ex4/images/HMAlertingFilterCapacity.png)
     
     >
-    > As the resulting list may be long you may have to use the brower search for looking for the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
+    > As the resulting list may be long you may have to use the browser search to squeeze down the list and see the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
     > In real environments this kind of browser search isn't necessary.
     >
 
-4. *Click* on on the alert *JMS Queue Capacity* 
+4. *Click* on the alert *JMS Queue Capacity* 
 
     <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
 
@@ -77,7 +77,7 @@ Run through the exercise steps in the given order
 
     - [Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
 
-        If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address in the separate *Notfication Management* application.
+        If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address in the separate *Notification Management* application.
 
         <br>![](/exercises/ex4/images/HMAlertingActions.png)
 
