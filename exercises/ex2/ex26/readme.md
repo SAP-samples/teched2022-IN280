@@ -1,4 +1,4 @@
-# Configure the ProcessDirect channels correctly and deploy integration flow successfully
+# Exercise 2.6 - Configure the ProcessDirect channels correctly and deploy integration flow successfully
 
 In this exercise you will configure the integration fow  using correct ProcessDirect adapters and deploy it successfully.
 
