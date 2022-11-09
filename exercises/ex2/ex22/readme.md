@@ -1,4 +1,4 @@
-# Activate alerts for deployment exceptions of integration artifacts
+# Exercise 2.2 - Activate alerts for deployment exceptions of integration artifacts
 
 In this exercise, you will activate the **monitoring** and the **alerting** of integration exceptions for a particular Cloud Integration service. 
 *This exercise is only required if you want to perform all configurations yourself.*
