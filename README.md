@@ -39,7 +39,7 @@ In the following, the complete list of exercise steps are listed. You can run th
 - [Getting Started](/exercises/ex0/)
 - [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/README.md)
 - [Exercise 2 - Monitoring a deployment issue](/exercises/ex2/README.md)
-- [Exercise 3 - Central monitoring of an integration scneario ent-to-end](/exercises/ex3/readme.md)
+- [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/readme.md)
     - [Search for a specific message via application context](/exercises/ex3/ex31/)
 - [Exercise 4 - Analyze exhausted resources](/exercises/ex4/readme.md)
 
