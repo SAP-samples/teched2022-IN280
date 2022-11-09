@@ -1,4 +1,4 @@
-# Understand the Health Monitoring overview page
+# Exercise 4.2 - Understand the Health Monitoring overview page
 
 In this exercise, you will understand which information you may retrieve from the overpage page of Health Monitoring.
 
