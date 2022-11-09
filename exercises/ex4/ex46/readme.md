@@ -1,4 +1,4 @@
-# Overwrite thresholds
+# Exercise 4.6 - Overwrite thresholds
 
 In this exercise, we will ...
 
