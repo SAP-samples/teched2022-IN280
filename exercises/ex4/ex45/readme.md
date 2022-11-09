@@ -41,6 +41,6 @@ Run through the  steps in the given order.
 
 You've now activated alerts for events to selected metrics of a particular Cloud Integraion service. These alerts will be displayed in the *Alerting* section.
 
-Go back to [Exercise 4](../../ex4/readme.md)
+Go back to [Exercise 4.4 - Check alerts in Health Monitoring](../../ex4/ex44/readme.md) and continue with step 2.
 
 
