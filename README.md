@@ -1,9 +1,11 @@
 # IN280 - Central monitoring of integration scenarios using SAP Cloud ALM
 
-## Description
+## Overview
 
 As IT landscapes with cloud applications and on-premise solutions are evolving quickly it is crucial today to oversee and react on business-critical issues instantly. The Integration & Exception Monitoring application of SAP Cloud ALM helps integration experts in their daily work to centrally get an overview of exceptions and failed messages across the entire landscape. 
-In this session you will get a detailed overview on the capabilities of Integration Monitoring in SAP Cloud ALM. You will learn how to navigate through the application in order to monitor and analyze integration related issues and complete end-to-end message flows, how to search specific messages via application context information, how to configure scenarios and alerts and how to use the alert inbox.
+
+In this session you will get a detailed overview on the capabilities of Integration & Exception Monitoring application in SAP Cloud ALM. You will learn 
+- How to navigate through the application in order to monitor and analyze integration related issues and complete end-to-end message flows, how to search specific messages via application context information, how to configure scenarios and alerts and how to use the alert inbox.
 
 ## Overview
 
@@ -36,12 +38,31 @@ When you run through the exercise steps, you need to ensure that the technical I
 
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Getting Started](/exercises/ex0/)
+- [Exercise 0 - Prerequisites and additional information](/exercises/ex0/)
+    - [Exercise 0.1 - Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)
+    - [Exercise 0.2 - Retrieve user / password](/exercises/ex0/ex02/)
 - [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/README.md)
+    - [Exercise 1.1 - Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
+    - [Exercise 1.2 - Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
+    - [Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
 - [Exercise 2 - Monitoring a deployment issue](/exercises/ex2/README.md)
-- [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/readme.md)
-    - [Search for a specific message via application context](/exercises/ex3/ex31/)
-- [Exercise 4 - Analyze exhausted resources](/exercises/ex4/readme.md)
+    - [Exercise 2.0 - Understand the integration flow that might lead to a deployment exception](/exercises/ex2/ex20/)         
+    - [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex21/)
+    - [Exercise 2.2 - Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/)
+    - [Exercise 2.3 - Deploy a faulty integration flow](/exercises/ex2/ex23/)
+    - [Exercise 2.4 - Display the deployment exception](/exercises/ex2/ex24/)
+    - [Exercise 2.5 - Watch a deployment exception in alerting](/exercises/ex2/ex25/)
+    - [Exercise 2.6 - Configure the ProcessDirect channels correctly and deploy integration flow successfully](/exercises/ex2/ex26/)
+    - [Exercise 2.7 - Watch the resolved deployment exception](/exercises/ex2/ex27/)
+- [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/)
+- [Exercise 4 - Analyze exhausted resources](/exercises/ex4/)
+    - [Exercise 4.1 - Understand how a tenant's health rating is calculated](/exercises/ex4/ex41/)
+    - [Exercise 4.2 - Understand the Health Monitoring overview page](/exercises/ex4/ex42/)
+    - [Exercise 4.3 - Details on how to work with Cloud Integration metrics](/exercises/ex4/ex43/)
+    - [Exercise 4.4 - Check alerts in Health Monitoring](/exercises/ex4/ex44/)
+    - [Exercise 4.5 - Activate alerts](/exercises/ex4/ex45/)
+    - [Exercise 4.6 - Overwrite thresholds](/exercises/ex4/ex46/)
+    - [Exercise 4.7 - Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
 
 ## How to obtain support
 
@@ -54,7 +75,7 @@ Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This
 <!--
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
+
 - [Exercise 1 - First Exercise Description](exercises/ex1/)
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
