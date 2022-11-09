@@ -29,11 +29,13 @@ Run through the steps in the given order.
       -- `Health Monitoring` 
     - Root URL: copy/paste the URL *Tenant URL for SAP Cloud Integration* from the *Tenant Booker application* and removing the ending path `/itspaces/`. 
     
-    <br>![](/exercises/ex1/images/LMSAddEndpoint.png)
+    <br>![](/exercises/ex1/images/BookerAppResultEndpoint.png)
     
 3.	Under *Authentication* maintain the OAuth credentials:
     - Authentication type: `OAuth2ClientCredentials`
-    - Copy/paste the *client ID, client secret*, and *token service URL* provided via the Tenant Booker app.
+    - Copy/paste the *client ID, client secret*, and *token service URL* provided via the Tenant Booker app. See details here:
+   
+       <br>![](/exercises/ex1/images/LMSAddEndpoint.png)
     
 4. *Check* the *network connection* to verify if the entered parameters are correct
 
