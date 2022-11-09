@@ -1,4 +1,4 @@
-# Activate data collection for the use case Integration & Exception Monitoring 
+# Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring 
 
 In this exercise, you will learn how to activate the data collection specifically for the use case *Integration & Exception Monitoring*.
 *This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.*
