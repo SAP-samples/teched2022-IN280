@@ -1,4 +1,4 @@
-# Display the deployment exception
+# Exercise 2.4 - Display the deployment exception
 
 In this exercise you will check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
 
