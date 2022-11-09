@@ -1,4 +1,4 @@
-# Watch the resolved deployment exception
+# Exercise 2.7 - Watch the resolved deployment exception
 
 In this exercise you will check the same integration flow with an exception in the past and now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
 
