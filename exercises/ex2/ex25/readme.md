@@ -1,4 +1,4 @@
-# Watch a deployment exception in alerting
+# Exercise 2.5 - Watch a deployment exception in alerting
 
 In this exercise you will see a deployment exception as an example of an alert in *Integration & Exception Monitoring*.
 
