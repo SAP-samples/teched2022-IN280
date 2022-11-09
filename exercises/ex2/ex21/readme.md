@@ -1,4 +1,4 @@
-# Familiarize yourself with the Integration & Exception Monitoring overview page
+# Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page
 
 In this exercise, you will understand which information you may retrieve from the overpage page of Integration & Exception Monitoring. All these steps are optional and only for your information.
 
