@@ -1,4 +1,4 @@
-# Exercise 0 - Prerequisites and additional information
+# Prerequisites and additional information
 
 The tenants we use to perform this IN280 exercise are configured as per their needs. If you want to understand the configuration please see
 - [Prereq configurations in SAP Integration Suite subaccounts](./ex01/)
