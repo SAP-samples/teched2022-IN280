@@ -1,4 +1,4 @@
-# Register a Cloud Integration service in LMS
+# Exercise 1.1 - Register a Cloud Integration service in LMS
 
    >(Should we create the service upfront?
     >
