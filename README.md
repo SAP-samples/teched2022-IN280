@@ -48,7 +48,7 @@ Please start with [Exercise 1 - Configure the monitoring of Cloud Integration te
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
     - [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
     - [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
-- [Exercise 2 - Monitoring a deployment issue](/exercises/ex2/README.md)
+- [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
     - [Understand the integration flow that might lead to a deployment exception](/exercises/ex2/ex20/)         
     - [Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex21/)
     - [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/)
