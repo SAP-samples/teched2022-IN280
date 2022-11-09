@@ -29,7 +29,7 @@ Run through the steps in the given order.
 
 4. After the verification you should see your email address listed as verified
 
-    <br>![](/exercises/ex1/images/NMEmailVerified.png) 
+    <br>![](/exercises/ex4/images/NMEmailVerified.png) 
     
 
 ## Summary
