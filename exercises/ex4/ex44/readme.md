@@ -1,4 +1,4 @@
-# Check alerts in Health Monitoring
+# Exercise 4.4 - Check alerts in Health Monitoring
 
 In this exercise, we will ...
 Health Monitoring comes with embedded alerting leveraged for various ALM use cases as for *Health Monitoring* or for *Integration & Exception Monitoring*.
