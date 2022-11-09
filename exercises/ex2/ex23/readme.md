@@ -1,4 +1,4 @@
-# Deploy a faulty integration flow
+# Exercise 2.3 - Deploy a faulty integration flow
 
 In this exercise you will copy a prepared integration flow, configure, deploy it, and provoke a deployment exception.
 
