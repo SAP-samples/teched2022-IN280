@@ -8,7 +8,7 @@ Run through the steps in the given order.
 
 1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
  
-2. [Register a Cloud Integration tenant in SAP Cloud ALM](./ex11/)
+2. [Register a Cloud Integration service in SAP Cloud ALM](./ex11/)
 
 3. [Add an HTTP endpoint to a managed service](./ex12/)
     
