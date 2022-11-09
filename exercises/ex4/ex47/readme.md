@@ -1,4 +1,4 @@
-# Add your email address to SAP Cloud ALM
+# Exercise 4.7 - Add your email address to SAP Cloud ALM
 
 In this exercise, we will add an email recipient to SAP Cloud ALM and verify this email address. This might be relevant whenever you want to get alert notifications in your email inbox. 
 Also in the alerting section you may assign a processor to a particular alert. This is only possible with verified email addresses.
