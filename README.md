@@ -18,9 +18,13 @@ In this session you get a deeper insight how to monitor integration scenarios ce
 
 There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration or ALM platform from SAP  However, you will be able to derive increased value from this session if you have some knowledge on what SAP Integration Suite is all about and how it helps with enterprise-wide integration needs.
 
-You can check out this SAP Discovery Center mission that will help you in getting started with SAP Integration Suite:
+You can check out these material:
 
-- [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
+- SAP Discovery Center mission that helps you in getting started with SAP Integration Suite: [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
+
+- SAP Community blog posts [Central monitoring of integration scenarios](https://blogs.sap.com/2021/12/21/central-monitoring-of-integration-scenarios-using-sap-cloud-alm/) and [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/)
+
+- List of supported products and how to setup: [SAP Cloud ALM for Operations - Expert Portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal.html)
 
 ## System details
 
