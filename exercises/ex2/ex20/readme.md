@@ -1,4 +1,4 @@
-# Understand the integration flow that might lead to a deployment exception
+# Exercise 2 - Understand the integration flow that might lead to a deployment exception
 
 We are using a very simple *Hallo World* integration flow for this exercise. The flow is leveraging ProcessDirect sender and receiver adapters that are typically used for  flow-to-flow between a standard SAP and a custom-specific integration flow. 
 
