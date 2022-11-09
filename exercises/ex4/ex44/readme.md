@@ -6,7 +6,6 @@ Health Monitoring comes with embedded alerting leveraged for various ALM use cas
 #### Prerequisites:
 - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to [*Health Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=sap.crun.hmapp.ui)
 - *If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>`  should be connected to the Cloud Integration tenant
--  If you are using a *preconfigured Cloud Integration service* in SAP Cloud ALM nothing has to be done
 
 ## Exercise steps
 
@@ -23,14 +22,16 @@ Run through the exercise steps in the given order
     In the *Alerting* page one alert per registered cloud service and since the last data collection is listed. 
     
     >
-    > *Note:* for the TechEd session we are not in a real environment. As attendees have registered own Cloud Integration services in SAP Cloud ALM connected to a particular real Cloud Integration tenant in SAP Integration Suite you will find same kind of alerts several times.
+    > *Note:* for the TechEd session we are not in a real environment. As attendees have registered own Cloud Integration services in SAP Cloud ALM connected you will find same kind of alerts several times for the same Cloud Integration tenant.
     >
     > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection yuntil your activated alert get listed in the alerting section
     >
 
-3. *Filter* for alerts *JMS Queue Capacity* 
+3. Use the *Filter* icon the right side to filger for alerts *JMS Queue Capacity* 
 
-    *Enter* `Capacity`in field *Alert Name* and *apply* for the filter
+    *Enter* `JMS Queue Capacity` in field *Alert Name* and *apply* for the filter
+    
+    <br>![](/exercises/ex4/images/HMAlertingFilterCapacity.png)
     
     >
     > As the resulting list may be long you may have to use the brower search for looking for the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
@@ -39,6 +40,8 @@ Run through the exercise steps in the given order
 
 4. *Click* on on the alert *JMS Queue Capacity* 
 
+    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+
     The **alert details page** opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. .........
     Under *Rating* you see how the rating or has changed over time. In case of the metric *JMS Queue Capacity* you see that the situation regarding total number of messages in JMS queues has been improved. You may also loop in to figure out, when the status has been changed.
     
@@ -46,41 +49,54 @@ Run through the exercise steps in the given order
     
 5. *Click* on the *information* icon (i) of a single alert to get the data pulled from the Cloud Integration capability of SAP Integration Suite
 
-    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+
     
     , all raised messages (single alerts), operation automation logs, and *ServiceNow* tickets
 
-    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+    <br>![](/exercises/ex4/images/HMAlertingCapacityInfo.png)
 
 6. *Click* on the *history* icon on the right of a single alert
 
-    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+    <br>![](/exercises/ex4/images/HMAlertingCapacityHistory.png)
     
     You may adapt the time frame to zoom in the history curve for further investigations
     
 7. Click on *Actions* and then on *Processor* and *Assign*
 
+    It is not necessary to assign someone
+
     >
-    > A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else to collaboratively work on it, add useful comments, or start an operation flow. 
-    >
+    > A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else for collaboration.
+    > 
+    > It is also possible to add useful comments or to start an operation flow. These actions are not part of the exercise.
+    > 
     
-    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
+    <br>![](/exercises/ex4/images/HMAlertingAssignProcessor.png)
     
-8. *Optional*: [Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
+8. *Optional*: 
 
-    If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address. This is done in the separate *Notfication Management* application.
+    - [Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
 
-    <br>![](/exercises/ex4/images/HMAlertingActions.png)
+        If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address in the separate *Notfication Management* application.
 
-    Back in alert inbox you can assign a processor for the alert and *save* it
+        <br>![](/exercises/ex4/images/HMAlertingActions.png)
 
-9. Next *filter* for alerts *Expired Certificates* 
+    - Afer adding yourself as a new recipient you can assign yourself as a processor for the alert. *Save* the assignment.
 
-    *Enter* `Expired Certificates`in field *Alert Name* and *apply* for the filter
+        <br>![](/exercises/ex4/images/HMAlertingCapacityAssignProcessor.png)
+        
+9. *Close* the alert *JMS Queue Capacity* by using the *cross* icon. *Filter* now for all alerts called *Expired Certificates* 
+
+    *Enter* `Expired Certificates` in field *Alert Name* and *apply* for the filter
     
-10. *Click* on the alert *Expired Certificates*
+    <br>![](/exercises/ex4/images/HMAlertingCertifcates.png)
+    
+    
+10. *Click* on the alert *Expired Certificate* for the Cloud Integration tenant `CloudIntegration-TECHED-EU01`
 
-    This alert is rated as ......
+    This tenant is prepared this way that 3 certificates are expired already and another will expire soon.
+    
+    You can see the alert details in *full screen modus* by clicking in the middle on the right side
 
     <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
 
@@ -88,6 +104,29 @@ Run through the exercise steps in the given order
     > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the active alerts since the last data collection are displayed with their properties. Cloud Integration is actively pulled every 5 minutes and therefore you might get alerts in this frequency. An alert is active, if one of the metric’s entries (labels) is in a *Warning* or *Critical* state. All alerts related to the same metric and service instance are aggregated to avoid overwhelming the alert inbox.
     >    
 
+11. *Filter* now for all alerts on *JMS Queue Status* 
+
+    - *Enter* `JMS Queue Status` in field *Alert Name* and *apply* for the filter 
+
+        You can see that you may get several alerts depending on the queue
+        
+        
+    - *Click* on the alert *JMS Queue Status*  for the Cloud Integration tenant `CloudIntegration-TECHED-US01` and the queue `SFSF_EMPLOYEE_ERROR`
+
+        <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
+
+        In the description of the single alert you can recognize that a JMS queue has been stopped.
+    
+    - *Click* on the alert *JMS Queue Status*  for the Cloud Integration tenant `CloudIntegration-TECHED-US01` and the queue `CX_SRVORDER_ASYNC`
+
+        <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
+
+        This queue is in *Warning* state because the resources are getting exhauted.
+        
+    >
+    > In the local monitoring of Cloud Integration you may be able to resolve the issue
+    > 
+    
 ## Summary
 
 You've now ...
