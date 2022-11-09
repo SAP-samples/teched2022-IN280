@@ -1,4 +1,4 @@
-# Add an email recipient using Notification Management	
+# Add your email address to SAP Cloud ALM
 
 In this exercise, we will add an email recipient to SAP Cloud ALM and verify this email address. This might be relevant whenever you want to get alert notifications in your email inbox. 
 Also in the alerting section you may assign a processor to a particular alert. This is only possible with verified email addresses.
@@ -25,7 +25,7 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex4/images/NMAddEmail.png) 
     
-3. *Go* into your email inbox and *verify* the email address
+3. *Go* into your email inbox, give your consent, and *verify* the email address
 
 4. After the verification you should see your email address listed as verified
 
