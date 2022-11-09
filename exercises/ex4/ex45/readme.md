@@ -4,13 +4,13 @@ In this exercise, we will activate the alerting for a particular Cloud Integrati
 
 #### Prerequisites
 - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to [*Health Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=sap.crun.hmapp.ui)
-- The Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` you are managing is selected to scope
+- The Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` you are managing is in scope
 
 ## Exercise steps
 
 Run through the  steps in the given order.
 
-1. Click on the *configuration icon*, *expand* the *Services* section, and *select* the Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` you have registered
+1. Click on the *configuration* icon, *expand* the *Services* section, and *select* the Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` you have registered
 
     <br>![](/exercises/ex4/images/HMSelectConfiguration.png)
 
@@ -32,9 +32,9 @@ Run through the  steps in the given order.
     
     <br>![](/exercises/ex4/images/HMConfigActiveAlerts.png)
 
-    Keep in mind this configuration is valid for a particular registered service and not for all Cloud Integration services
+    Keep in mind this configuration is valid only for the selected Cloud Integration service
 
-5. *Close* the configuration and click again on the configuration icon to close the right configuration frame.
+5. *Close* the configuration and click again on the configuration icon to close the right configuration frame
    
 
 ## Summary
