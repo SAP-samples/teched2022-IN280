@@ -1,4 +1,4 @@
-# Understand how a tenant's health rating is calculated
+# Exercise 4.1 - Understand how a tenant's health rating is calculated
 
 This section servies for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM.
 
