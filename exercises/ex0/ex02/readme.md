@@ -7,6 +7,8 @@
     As a result you to get *user* and *password* for the login in to **SAP Integration Suite** as well as for **SAP Cloud ALM**. 
 
     Additionally the Tenant Booker app provides you all relevant roles necessary to run the hands-on session *IN280*.
+    
+    When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, take the *user ID* of it*s digital numbers.
 
     <br>![](/exercises/ex1/images/BookerAppResult.png)   
 
