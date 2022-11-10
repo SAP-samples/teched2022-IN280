@@ -1,78 +1,67 @@
-# Exercise 2.3 - Deploy a faulty integration flow
+# Exercise 2.3 - Activate alerts for deployment exceptions of integration artifacts
 
-In this exercise you will copy a prepared integration flow, configure, deploy it, and provoke a deployment exception.
+In this exercise, you will activate the **monitoring** and the **alerting** of integration exceptions for a particular Cloud Integration service. 
 
 #### Prerequisites:
 
-Your Cloud Integration service is already registered. If not please run through exercise [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/).
-*If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>` should be connected already to the Cloud Integration tenant and alerting should be activated. If not please run through exercise [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/readme.md).
-
-
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` or `CloudIntegration-<tenant_name>` in scope
+- You have activited the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/).
 
 ## Exercise steps
 
-Run through the steps in the given order
+Run through the steps in the given order.
 
-1. *Login* to *SAP Integration Suite* leveraging user / password retrieved from the *Tenant Booker application*
+1. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
 
-    <br>![](/exercises/ex2/images/Login.png)
+   <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
 
-2. *Move* to the *Integration Designer* 
+2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
-    The new SAP Integration Suite home page offers a new left-side navigation. *Click* on *Design* and then on *Integration* to get to the integration packages. 
-    
-    <br>![](/exercises/ex2/images/SuiteMoveDesigner.png)
-    
-3. *Select* the prepared integration package *TechEd 2022 IN280*
+   <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
 
-    <br>![](/exercises/ex2/images/SuiteDesignerSelectPackage.png)
-    
-4. *Switch* to the *Artifacts* tab, *select* the button *Actions* and then *click* on **Copy** to copy the prepared integration flow.
-    
-    **Please don't use the original integration flow!**
+3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
 
-    <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
-  
-5. In the **copy dialog** *replace* the `userID` in field *Name* with the userID you got from the Tenant Booker application. 
+   <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
+   
+    During setting up the service for the *Cloud Integration* tenant in the *Landscape Management Service* application we have selected three use cases. The below **two use cases** are displayed in *Integration & Exception Monitoring* as *monitoring categories*:
+   - *SAP Integration Suite Messages* for **Integration Monitoring**
+   - *Integration Artifact Deployments* for **Exception Monitoring**
 
-    The new integration flow should be named *Hallo World -* `userID` and be part of the existing integration package.
+   If there are several endpoints available *select* one.
 
-    <br>![](/exercises/ex2/images/SuiteDesignerCopyFlow.png)
+4. *Add a filter* on integration artifact deployments
+	
+	a. *Click* on the button *Add*
+	
+	b. *Specify* the name of the filter: `<userID> exceptions` while `userID` is the one provided to you
+	
+	c. Add an additional filter criteria: the *Artifact Name* should contain ´Hallo´. Adapt the tree fields accordingly
+	
+	d. *Save* the filter
+	
+	>
+	> By means of this filter you will see exception that occur on all *Hallo World* integration flows that all participants will deploy. The filter can be adpated later to display only your exceptions.
+	> 
+	
+	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
+	
+5. Switch to the *Events* tab 
 
-6. *Click* on *Actions* of your integration flow and then on **Configure**
+	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-    <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
-    
-7. *Move* to the tab **More** and *set* in field **userID** the userID you have got via the Tenant Booker application. 
-    
-    **Don't change any other channel fields as we want to provoke a deployment error**.
-    
-    *Deploy* the integration flow *Hallo World -* `userID`.
-    
-    <br>![](/exercises/ex2/images/SuiteDesignerConfigureUser.png)
-    
-    A popup appears to save the configuration. *Save* it.
-    
-    Another popup appears regarding the deployment, *click* on *Ok*.
+6. *Add* a new *event* 
 
-8. *Move* to the *Integration Monitor* 
+	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
+	
+7. *Choose* the event type **Erroneous Integration Artifact**  and *activate* the alert for the *Alerting* section by switching the *toggle* 
 
-    <br>![](/exercises/ex2/images/SuiteMoveMonitor.png)
-
-9. *Select* the tile *All* in the section *Manage Integration Content* 
-
-    <br>![](/exercises/ex2/images/SuiteMonitorMoveToContent.png)
-
-10. *Reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* status to status *Error*
-
-    <br>![](/exercises/ex2/images/SuiteMPLConsumer001ExistsAlready.png)
-
-    >
-    > Note: The deployment exception *Multiple consumers not supported: consumer channel_001 already exists* shows up because there is in parallel another integration flow running using the same ProcessDirect channel ID. 
-    > 
+	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
+	
+8. *Save*  the configuration for this event and *close* the configuration
+   
 
 ## Summary
 
-You've now copied an existing integration flow, configured and deployed it and provoke an exception error. 
+You've now activated events and alerts for all deployment exception that might occor in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
 
-Go back to the main [Exercise 2](/exercises/ex2/) to check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
+<br>Continue to - [Exercise 2.4 - Deploy a faulty integration flow](/exercises/ex2/ex24/)
