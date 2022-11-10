@@ -55,7 +55,7 @@ Run through the steps in the given order.
    - *alias*: certificate name
    - *type*: certificate type (certificate, key pair) 
    
-7. Click on the button *History* of the metric ???? 
+7. Click on the button *History* of the metric *JMS Qeueu Capacity*
 
    The graph shows how the metric has evolved in chronological development, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
 
@@ -63,7 +63,6 @@ Run through the steps in the given order.
 
    Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
 
-<br>
 ## Summary
 
 You've understood how to work with Cloud Integration metrics.
