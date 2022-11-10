@@ -2,7 +2,7 @@
 
 In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectivity to a registered Cloud Integration instance. This endpoint will be valid for all ALM monitoring use cases.
 
-### Prerequisites
+#### Prerequisites
 
 - Login to *SAP Cloud ALM* and navigate to the *Landscape Management* service.
 
@@ -70,4 +70,4 @@ After completing these steps you will have added an HTTP endpoint in LMS for all
 
 Next we will activate the data collection for monitoring the Cloud Integration tenant. 
 
-Continue to - [Exercise 1.3](../ex13/)
+Continue to - [Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring](../ex13/)
