@@ -1,33 +1,31 @@
 # Exercise 1.1 - Register a Cloud Integration service in LMS
 
-   >(Should we create the service upfront?
-    >
-    > Usually, your cloud services are imported from the System Landscape Information Service (SLIS). As we are not in a customer landscape, we have to add the cloud service to the Landscape Management Service (LMS). 
-    >
-    > As SAP Integration Suite has to be pulled for monitoring information from SAP Cloud ALM and this set up isn’t configured by default the instance has to be registered manually.
+In this exercise, you will learn how to register a Cloud Integration service in the *Landscape Management Service (LMS)* of SAP Cloud ALM that is monitoring a Cloud Integration tenant as part of SAP Integration Suite. 
 
-
-In this exercise, you will learn how to register a Cloud Integration instance in Landscape Management Service (LMS.
 
 ### Overview on available SAP Integration Suite tenants and SAP Cloud ALM tenant for this session
 
 <br>![](/exercises/ex1/images/RegisteredServicesToSuiteTenants.png)
 
-### Prerequisites
+#### Prerequisites
 
-- Login to *SAP Cloud ALM* using the link [https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
-
-- Within the SAP Cloud ALM landing page navigate to section *Administration* and click on *Landscape Management* tile. 
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 
 ## Exercise steps
 
 Run through the steps in the given order.
 
-1. Use the *Add* button in the upper right corner
+1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
 
-      <br>![](/exercises/ex1/images/LMSAdd.png)
+2. Navigate to the section *Administration* and click on *Landscape Management* tile. 
+
+    <br>![](/exercises/ex1/images/CALMLandscapeAdministration.png)   
+
+3. Use the *Add* button in the upper right corner
+
+    <br>![](/exercises/ex1/images/LMSAdd.png)   
       
-2.	Enter all mandatory parameters under *General Properties*
+4.	Enter all mandatory parameters under *General Properties*
 
 	<br>![](/exercises/ex1/images/LMSAddCPIservice.png)
 	
@@ -43,12 +41,10 @@ Run through the steps in the given order.
     - *Tenant Type*: `Test`
     - *Root URL*: Copy the URL provided by the Tenant Booker application under the field *Tenant URL for SAP Cloud Integration*. Please remove the ending `/itspaces/`.
    
-
-
-  3. When done, click on *Save*
+ 5. When done, click on *Save*
   
 ## Summary
 
 After completing these steps you will have registered a new instance of a Cloud Integration capability of SAP Integration Suite to the SAP Cloud ALM by leveraging the Landscape Management Service (LMS) service.
 
-Next we will create an HTTP endpoint to establish authenticated connectivity to this tenant. Continue to - [Exercise 1.2](../ex12/)
+<br>Continue to - [Exercise 1.2 -Add an HTTP endpoint to a managed service](../ex12/)
