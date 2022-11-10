@@ -15,17 +15,14 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex4/images/CALMLandingHealthMon.png)
 
-2. *Select* the *Scope selection* icon in the black top row
+2. *Select* the *Scope selection* icon in the black top row, the *Cloud Integration service* you want to monitor, and *apply* the selection
 
     <br>![](/exercises/ex4/images/HMScoping.png)
-
-3. *Select* the *Cloud Integration* service you want to monitor
 
     *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
     
     You may add further services if you want but this isn't necessary for the exercise.
     
-6. Click on the button *Apply* to save the configuration
 
 ## Summary
 
