@@ -2,7 +2,7 @@
 
 In this exercise, we will establish an authenticated connection to a Cloud Integration tenant to get it monitored.
 
-:warning: This exercise is not necessary to perform the exercises of IN280. Instead it is targeted to those attendees who would like to understand how to setup an authenticated connectivity to SAP Integration Suite. If you are not interested in the configuration you can use a pre-configured *Cloud Integration* service and jump directly to [Exercise 2](/exercises/ex2/)
+:warning: This exercise is not necessary to perform the exercises of IN280. Instead it is targeted to those attendees who would like to understand how to setup an authenticated connectivity to SAP Integration Suite. If you are not interested in the configuration you can use a pre-configured *Cloud Integration* service and jump directly to [Exercise 2](../ex2/README.md)
 
 ## Exercise steps
 
