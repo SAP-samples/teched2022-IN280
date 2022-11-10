@@ -12,19 +12,23 @@ Run through the steps in the given order.
 
 1. *Click* on the card *Certificate Validity*
 
-   A *Details page* opens showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value. You oversee the certificates that have to be updated.
+   <br>![](/exercises/ex4/images/HMMetricOverviewCertificateDetails.png)   
    
-   *Click* on one *info* icon to see the API result from Cloud Integration. 
+   A *Details page* opens showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value and you oversee the certificates at the top that have to be updated most urgently
    
-2. *Inspect* the queue issue 
+2. *Click* on one *info* icon to see the API result from pulling the Cloud Integration tenant
+
+   <br>![](/exercises/ex4/images/HMMetricCertificateInfo.png)   
    
+3. Inspect the queue issue and *click* on the card *JMS Queues Status* and examine which queue caused the rating
+
    From the left metric overview side you see that a queue is rated as *Critical* or *Fatal*. Also the card *JMS Queue Capacity* shows that the may queue capacity has been reached. 
-
-   *Click* on the card *JMS Queues Status* and examine which queue caused the rating.
+      
+   <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)
    
-   <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)   
+   From the right metric details you get in the insight, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped
 
-3. *Click* on the tab *All Metrics*
+4. *Click* on the tab *All Metrics*
 
    <br>![](/exercises/ex4/images/HMSwitchToAllMetrics.png)   
 
@@ -33,26 +37,25 @@ Run through the steps in the given order.
    <br>![](/exercises/ex4/images/HMCloudIntegrationMetrics.png)
    
    >
-   > *Information*: As default, Cloud Integration tenants are pulled every 5 minutes using the OData APIs.
+   > *Information*: As default, Cloud Integration tenants are pulled every 5 minutes using an OData APIs.
    > 
 
-2. Filtering, sorting, and group metrics
+    As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels
 
-   As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels. In the screenshot below one can see all metrics of type ‘Certificate validity’ grouped by the label ‘type’ (certificate, key pair).
-   
-   a. Filter for metrics in *Critical*, *Fatal*, or *Warning* state
-   
+5. *Filter* for metrics in state *Critical*, *Fatal*, or *Warning*
+
    <br>![](/exercises/ex4/images/HMMetricsFilterData.png)   
    
-   Reset the filter again.
-   
-   c. Group the list per certificate *Type* and additional search for *certificate* to exclude JMS queues
+6. Reset the filter again and *group* the list per certificate *Type* and additional search for *certificate* to exclude JMS queues
 
    <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
    
-   The certificate metric *CPI.Certificate.Expiry* has two different labels: ===the *alias* is the certificate name, and *type* is the certificate type ....===Link to docu===
-
-3. Click on the button *History* of the metric ???? 
+   The certificate metric *CPI.Certificate.Expiry* has two different labels: 
+   
+   - *alias*: certificate name
+   - *type*: certificate type (certificate, key pair) 
+   
+7. Click on the button *History* of the metric ???? 
 
    The graph shows how the metric has evolved in chronological development, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
 
