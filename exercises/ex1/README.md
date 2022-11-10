@@ -2,21 +2,19 @@
 
 In this exercise, we will establish an authenticated connection to a Cloud Integration tenant to get it monitored.
 
+:warning: This exercise is not necessary to perform the exercises of IN280. Instead it is targeted to those attendees who would like to understand how to setup an authenticated connectivity to SAP Integration Suite. If you are not interested in the configuration you can use a pre-configured *Cloud Integration* service and jump directly to [Exercise 2](/exercises/ex2/)
+
 ## Exercise steps
 
 Run through the steps in the given order.
 
-1. [Retrieve user / password](../ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
- 
-2. [Register a Cloud Integration service in SAP Cloud ALM](./ex11/)
+1. [Register a Cloud Integration service in LMS](./ex11/)
 
-3. [Add an HTTP endpoint to a managed service](./ex12/)
+2. [Add an HTTP endpoint to a managed service](./ex12/)
     
-4. Activate the data collection of the selected monitoring use cases
+3. [Activate data collection for the use case Integration & Exception Monitoring](./ex13/)
 
    For *Health Monitoring* the data collection is already activated automaticalls after the creation of the HTTP endpoint.
-   
-   For the *Integration & Expception Monitoring* perform the steps descripbed in [Activate data collection for the use case Integration & Exception Monitoring](./ex13/)
 
 ## Summary
 
