@@ -1,40 +1,40 @@
-# Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page
+# Exercise 2.1 - Bring a Cloud Integration service into scope
 
-In this exercise, you will understand which information you may retrieve from the overpage page of Integration & Exception Monitoring. All these steps are optional and only for your information.
+In this exercise, you will bring a *Cloud Integration* service into scope.
 
->
-> *Note*: Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
-> You may identify the scenarios by the boxes of the involved services
-> The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
->
+#### Prerequisites:
 
-We are focusing on the card of the business scenario *ExternalWorkforce*. You may try it out with Cloud Integration service you are managing.
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+- *If you are performing configurations yourself:* your Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` should be already registered and a secure connection established as outlined in [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/)
 
-<br>![](/exercises/ex2/images/IMOverviewpageDetails.png)
+## Exercise steps
 
-1. *Click* on the *quality icon* and check whether the **data collection** is running successfully for the involved services.
+Run through the steps in the given order.
 
-    Within the popup that shows up *click* on the *Cloud Integration* service ´H2RCPI`. The status of monitoring messages and integration artifact exceptions is displayed seperately from each other.
+1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
 
-    <br>![](/exercises/ex2/images/IMDataQuality.png)
+    <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
-2. In case of raised alerts you would be able to jump directly to the embedded **alerting** by clicking on the *number of alerts* in the footer of each card
+2. *Select* the *Scope selection* icon in the black top row
 
-3. *Check* the **status of business service events** with the time-calender-icon
+    <br>![](/exercises/ex2/images/ScopeSelectionService.png)    
 
-    It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
+3. *Filter* for *Services*
 
-4. *Click* on the *Star* icon to set an entry to your **favorite** ones and track them more easily also in cases there are **not selected to your scope**
+4. *Click* on *Go* in the upper right corner for filtering
 
-5. *Click* on the *information* icon **(i)** and get an understanding of the **color-coding** of a service's status
+5. *Select* the *Cloud Integration* service you want to monitor
+
+    *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
     
-    The color of the left side of each card is the overall status of the integration scenario or the service. It depends on the selected time frame.
+    You may add further services if you want but this isn't necessary for the exercise.
+    
+6. Click on the button *Apply* to save the configuration
 
-    Inside of a card you may distinguish:
-    - In case of monitoring a single cloud service the status of monitoring messages is separated from monitoring exceptions. Clicking on the red bar you may get directly to the list of faulty messages. Same for the others. 
-    - In case of monitoring an integration scenario you see the status of each involved service by it's color
+       
+## Summary
 
-    <br>![](/exercises/ex2/images/IMOverviewInfoButton.png)
+Now the *Cloud Integration* service you want to monitor is in your scope.
 
-<br><br><br>Go back to the main [Exercise 2](../../ex2/)
+<br>Continue to - [Exercise 2.2](/exercises/ex2/ex22/)
 
