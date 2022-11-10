@@ -54,4 +54,4 @@ Run through the steps in the given order.
 
 After completing these steps you will have activated the data collection in *Integration & Exception Monitoring* for a managed Cloud Integration service `CloudIntegration-<tenant_name>_<userID>`.
 
-Return back to [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../../ex1/README.md) <br>or to [Exercise 2.2 - Activate alerts for deployment exceptions of integration artifacts](../../ex2/ex22/) 
+Congratulation. You have finalized Exercise 1. Return back to the main page of [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/) or to [Exercise 2.2 - Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/) 
