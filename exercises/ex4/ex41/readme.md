@@ -1,57 +1,34 @@
-# Exercise 4.1 - Understand how a tenant's health rating is calculated
+# Exercise 4.1 - Bring a Cloud Integration service into scope for health monitoring
 
-This section servies for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM.
+In this exercise, you will bring a *Cloud Integration* service into scope.
 
-The technical metrics from a monitored services can be used to calculate the overall health of a monitored service. E.g. Cloud Integration is pulled every 5 minutes.
+#### Prerequisites:
 
-Each service type offers its own metrics and ratings to Cloud ALM. 
-<br>E.g. Cloud Integration offers exhaustion of JMS resources and expiry of certificates. On the other hand a SAP Integration Business Planning service offers metrics such as Active Users in a ABAP system or Delayed application jobs.
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+- *If you are performing configurations yourself:* your Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` should be already registered and a secure connection established as outlined in [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/)
 
-The service health is **calculated bottom up**: each metric, as a specific certificate validity or the activation status of a JMS (Java Messaging Service) queue, gets rated individually. 
+## Exercise steps
 
-Thresholds define when a metric receives a certain rating, such as *OK* or *Critical*. The metric rating is mapped to a metric health score to automate the calculation of the overall service’s health score. 
+Run through the steps in the given order.
 
-The health score of the overall service is determined by the mean score of all individual metrics. A service health percentage of less than 100% determines a service as in Warning, with less than 80% as in *Critical* state. And as soon as one metric is rated as Fatal the entire service has a health score of 0% and is in *Critical* state.
+1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Health Monitoring*.
 
-<br>![](/exercises/ex4/images/HMRatingDiagram.png)
+    <br>![](/exercises/ex4/images/CALMLandingHealthMon.png)
 
-Some metrics have only **informative** character, such as the total number of messages in a JMS queue. They are not included in the health calculation of a service.
+2. *Select* the *Scope selection* icon in the black top row
 
-*Example:* A Cloud Integration tenant offers 41 metrics. 3 metrics have only informative values and are not counted. Therefore only 38 are relevant for the calculation.
-Sum up 10 metrics in *Critical* state mapped to a score of 0%, 1 in *Warning* 50%, and 27 with *Ok* 100%, the sum is 27,5 divided by 38, and rounded. 
-<br>This results to a service health percentage of 72% and the service is rated as *Critical*.
+    <br>![](/exercises/ex4/images/HMScoping.png)
 
-<br>![](/exercises/ex4/images/HMRatingExample.png)
+3. *Select* the *Cloud Integration* service you want to monitor
 
-Continue to the main page of [Exercise 4](../../ex4/)
+    *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
+    
+    You may add further services if you want but this isn't necessary for the exercise.
+    
+6. Click on the button *Apply* to save the configuration
 
-<!--
-## Exercise 2.1 Sub Exercise 1 Description
+## Summary
 
-After completing these steps you will have created...
+Now the *Cloud Integration* service you want to monitor is in your scope.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
-
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
--->
-
+<br>Continue to - [Exercise 4.2 - Check key data of all monitored services in overview page](/exercises/ex4/ex42/)
