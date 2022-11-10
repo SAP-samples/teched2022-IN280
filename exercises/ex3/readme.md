@@ -1,169 +1,26 @@
 # Exercise 3 - Central monitoring of an integration scenario end-to-end
 
-For the following end-to-end monitoring exercise, one part of the integrated workflow of the **SAP S/4HANA Lean Procurement** has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging a prebuilt integration package (**[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)**) from [SAP API Business Hub](https://api.sap.com/). 
-
-The relevant integration flows for the scenario are the following:
-- [Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA](https://api.sap.com/integrationflow/Replicate_Purchase_Requisition_from_Fieldglass_to_S4HANA)
-- [Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass](https://api.sap.com/integrationflow/Purchase_Order_Status_Replication_from_S4HANA_to_Fieldglass)
-
-
-See also the documentation of the process flow [Purchase Order and Invoicing](https://help.sap.com/docs/SAP_FIELDGLASS_INTEGRATION/bf3d1caf8c1f4f69801b37a45ac1d1b3/046b0d5f642346bd8624f1b741956585.html)
-
-Below you see an overview of the integration scenario, relevant for this exercise.
-
-<br>![](/exercises/ex3/images/IMDiagramFieldglassS4Int.png)
-
->
-> *Note*: As we don’t have any chance to integrate real services in a TechEd demo environment, we have injected demo data to the SAP Cloud ALM tenant. The demo data had been extracted from a real service landscape. Therefore, you see valid data but jumping to local monitoring of the respective cloud services isn’t possible.
->
+In this exercise, you will get experience with an integration scenario that spans several cloud applications such as SAP Fieldglass to SAP S/4HANA Cloud. You will monitor the exchanged messages in the *Integration & Exceptions Monitoring* of SAP Cloud ALM end-to-end.
 
 #### Prerequisites:
-- You are logged in to  [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home).
+- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
-1.	Navigate to section *SAP Cloud ALM for Operation* and open the application *Integration & Exception Monitoring*.
+[Scenario introduction: Central monitoring of an integration scenario end-to-end](/exercises/ex3/ex30/)
 
-     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
-
-2. Bring the **end-to-end business scenario *ExternalWorkforce* into the scope**
-
-   a) Select the *Scope selection* icon in the black top row
-
-     <br>![](/exercises/ex3/images/IMScopeSelectionWorkforce.png)
-
-   b)  Filter for *Business Services*
-
-   c)  Click on *Go* in the upper right corner for filtering
-
-   d)  Select the *ExternalWorkforce* scenario
-
-   e)  Click on the button *Apply* to save the configuration
-
-     <br>![](/exercises/ex3/images/ScopeSelectionService.png)
-
-3.	*Recognize* that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
-
-     <br>![](/exercises/ex3/images/IMWorkforce.png)
-
-     You may also *click* on the information icon *i*. 
-     
-     If you want to know more about the overview page and understand the color-coding of a service's status please go through [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercise/ex2/ex21/)
-
-4.	*Click* on the *three dots ...* and select *Go to Details* to navigate to the **topology page**
-
-    <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
-   
-5.	Oversee the numbers in the **topology view** of the *ExternalWorkforce* scenario: 29 messages have been exchanged, no exceptions have been detected, and 2 alerts have been raised
-
-    <br>![](/exercises/ex3/images/IMWorkforceTopology.png) 
-
-    >
-    > In the *topology view* of the *Monitoring* section you see the involved services of a scenario. It offers you the collected stats within a selected time period.
-    >
-    > Each node represents a service. Also the border of the nodes may change depending on the status of the incoming and outgoing messages transferred and depending on the exceptions that may occur. All three services have some issues with the message exchange.
-    >
-   
-6.	*Optionally* *click* on the SAP Fieldglass node `MyFieldGlass_01`
-
-    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
-    
-    > *Integration & Exception Monitoring* is is retrieving monitoring information from SAP Fieldglass a webservice.
-
-7.	*Optionally* *click* on the SAP S/4HANA Cloud node `MyS4HANACloud_01`
-
-    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
-    
-    > *Integration & Exception Monitoring* is retrieving monitoring information from SAP S/4HANA over AIF (SAP Application Interface Framework) messages
-    
-8.	Click on the Cloud Integration node `MyCPI_01` and to *SAP Integration Suite Messages* on the right side to drill down to the next level
-
-    <br>![](/exercises/ex3/images/IMWorkforceTopoCPI.png) 
-     
-9.	*Familiarize* yourself with the **SAP Integration Suite messages** page showing the Cloud Integration artifacts and messages exchanged within the selected integration scenario.
-
-    <br>![](/exercises/ex3/images/IMWorkforceCPIMessages.png) 
-
-    >
-    > The message list depends on the corresponding service type, the selected business scenario and the selected time frame. 
-    >
-    > In case of the Cloud Integration capability of SAP Integration Suite you see beyond the message status the package name, artifact name, and other fields.
-    >
-    > You can see relevant integration flows relevant for the *ExternalWorkforce scenario* in the header section already:
-    > - Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA
-    > - Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass_ERS
-    > - Replicate Purchase Order from SAP Fieldglass to SAP S4HANA
-    >
-    >
-    > Below you see the list of messages transferred in the selected time frame. Erroneous messages are highlighted in red.
-    >
-
-10.	*Click* on the first message to navigate to the **single message details view page**
-
-    <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
-
-11. *Analyze* the message. This page consists of two sections:
-     
-     a. In the *Message Details* section *click* on *Technical Correlation* to see the parameters of **SAP Passport**
-
-    <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
-    
-    >
-    > Single messages in a hybrid landscape are correlated to each other to **assemble an end-to-end message path**. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
-    > 
-
-     b. *Click* on the tab *Related Messages & Exceptions* to see a **message path**
-
-    <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
-
-    The message `S43..` has been sent from the *SAP Fieldglass* instance `MyFieldGlass_01` to the *Cloud Integration capability of SAP Integration Suite* instance `MyCPI_01` and further to the receiver *SAP S/4HANA Cloud* instance `MyS4HANACloud_01`.
-   
-12. Go back to the *SAP Integration Suite Messages* page leveraging the *breadcrumb* and *select* the only *failed message* `1EGT...`
-
-     <br>![](/exercises/ex3/images/IMWorkforceFailedMessage.png)
-     
-13. In the *message details* you see that the status of message `1EGT...` is failed
-
-     <br>![](/exercises/ex3/images/IMWorkforceMessageDetailsFailed.png)
-
-14. In the *Related messages & excpetions* section you get some hints where to find the issue
-
-    <br>![](/exercises/ex3/images/IMWorkforceFailedMessagePath.png)
-
-    There is a *Java script execption* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to the **local Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. 
-    
-    >
-    > *Note:* As we are in a demo environment this isn't possible.
-    > 
-    
-15. We want to search the failed message in the *tracking* section. *Click* on the *magnifying glass.* icon in the left-side navigation. 
-
-     *Select* the business service *ExternalWorkforce*. All business scenarios in scope are proposed in a drop down list.
-     
-     *Enter* the search criteria `1EGT*` or `1EGT0e1kEW2C6kPVvE3GCitCRHyw` and start the search
-
-    <br>![](/exercises/ex3/images/IMWorkforceTrackingFailedMessage.png)
-    
-     From the *tracking results* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw`.
-
-16. We want to watch the alert that has been raised for the failed message. *Click* on the *exclamation mark* **!** icon in the left-side navigation and *select* the *Erroneous CPI Messages Detected(Grouped)* alert for the *Cloud Integration service* `MyCPI_01`.
-
-    <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessage.png)
-    
-16. Within this page you see all failed messages grouped together for the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*.
-
-    <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessageDetails.png)
-    
-    It is possible to assign a processor ..
-    
-    From the *alert details page* it is possible to navigate directly the *message details page* using the link behind the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw`.
-    
+1. [Bring a business scenario into scope](/exercises/ex3/ex31)
+2. [Get an overview on the business scenario topology](/exercises/ex3/ex32)
+3. [Watch the SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
+4. [Anayze the path of a single message](/exercises/ex3/ex34)
+5. [Search a failed message under tracking](/exercises/ex3/ex35)
+6. [Watch alerts that have been raised for failed messages](/exercises/ex3/ex36)
+7. :warning: *Optional:* Send email notification for raised alerts
 
 ## Summary
 
-You've now monitored end-to-end messages that have been sent from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages in the overview page already but also in the alerting section of *Integration & Exception Monitoring*. 
+You've now monitored end-to-end integrtion scenario *ExternalWorkforce* that that is sending messages from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages in the overview page already but also in the alerting section of *Integration & Exception Monitoring*. ......
 
-Next we will analyze *Cloud Integration* resource leveraging the *Health Monitoring* application of SAP Cloud ALM.Continue to - [Exercise 4](/exercises/ex4/readme.md)
-
+Next we will analyze the technical health of *Cloud Integration* resources leveraging the *Health Monitoring* application of SAP Cloud ALM. Continue to - [Exercise 4](/exercises/ex4/readme.md)
