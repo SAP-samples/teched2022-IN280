@@ -1,50 +1,52 @@
-# Exercise 2.7 - Watch the resolved deployment exception
+# Exercise 2.7 - Configure the ProcessDirect channels correctly and deploy integration flow successfully
 
-In this exercise you will check the same integration flow with an exception in the past and now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
+In this exercise you will configure the integration fow  using correct ProcessDirect adapters and deploy it successfully.
 
-#### Prerequisites:
+#### Prequisites:
 
-- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
-- You should corrected the ProcessAdapter channel configuration correctly running through [Exercise 2.6](../..ex26/)
+- You are logged in to the SAP Integration Suite tenant and navigated to the integration package *TechEd 2022 IN280*
+- You had deployed the incorrect integration flow *Hallo World -* `userID`
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*.
+1. *Click* on *Actions* of your integration flow *Hallo World - *`userID`* and then on *Configure*
 
-	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
-
-	After receiving the event the number of exceptions and the number of alerts increase. *Reset* the *automatic refresh* to default.
-
-2. *Navigate* to the **Exception page** by *clicking* on the *Exceptions* link of your *Cloud Integration* service
+    <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
     
-    <br>![](/exercises/ex2/images/IMExceptionsLink.png)
+2. *Set* the fields *consumerChannel* and *producerChannel* to `channel_userID`and the field *userID* to `userID`
     
-3. Recognize that the switch of the *status* icon in the first column meaning that the *message has run successfully*. The deployment exception has been resolved.
+    **The channel IDs should be unique and identical**.
+    
+    *Deploy* the integration flow *Hallo World -* `userID`.
+    
+    <br>![](/exercises/ex2/images/SuiteDesignerConfigureCorrectly.png)
+    
+    A popup appears to save the configuration. *Save* it.
+    
+    Another popup appears regarding the deployment, *click* on *Ok*.
 
-    <br>![](/exercises/ex2/images/IMExceptPageSuccessMoveToDetails.png)
+3. *Switch* to the *Integration Content Monitor* as done in [exercise 2.3](../../ex2/ex23/) step 8 and *reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* to status *Started*
 
-4. *Navigate* to the *exception details page* using the *arrow* icon on the right side (see screenshot above) and see the successful message.
+    <br>![](/exercises/ex2/images/SuiteMPLSuccess.png)
+    
+4. Switch to the *MPL monitor*
 
-    <br>![](/exercises/ex2/images/IMExceptDetailsSuccessfulMessage.png)
+    a. Use the *Overview* link of the breadcrumb  in the top row to get back to the *Monitor Overview Page*
 
-5. *Click* on the *exclamation mark* icon on the left navigation to navigate to the **alerting section**
+    b. *Click* on the first tile *All Integration Flows* of the section *Monitor Message Processing* to switch to the *MPL monitor*
 
-6. In case you have to filter for the alert related to integration flow you have deployed, use the *filter* icon in the light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+5. *Click* on your message that has been exchanged successfully: *Hallo World -  `userID`*
 
-   You will see the alert details, highlighting not only that the exception is resolved but also when. .....
-   
-   > MARKUS: kindly ask you to add here more info
-
-    <br>![](/exercises/ex2/images/IMExceptAlertDetailsSuccessfulMessage.png)
+    <br>![](/exercises/ex2/images/SuiteMPLMessageSuccess.png)
 
 
 ## Summary
 
-You've now seen that a resolved integration exception shows up in SAP Cloud ALM as an event and an alert.
+You've now configure the integration flow correclty and deployed it successfully.
 
-Congratulation. You have finalized [Exercise 2](/exercises/ex2/ex25).
+<br>Continue to - [Exercise 2.8 - Watch the resolved deployment exception](./ex28/readme.md)
 
 
 
