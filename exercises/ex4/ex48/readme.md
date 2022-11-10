@@ -10,9 +10,6 @@ Health Monitoring comes with embedded alerting leveraged for various ALM use cas
 
 Run through the exercise steps in the given order
 
-     
-
-
 1. *Navigate* to the *Alerting* section using the *exclamation mark* icon in the left-navigation
 
     <br>![](/exercises/ex4/images/HMAlerting.png)
@@ -25,14 +22,14 @@ Run through the exercise steps in the given order
     > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection until your activated alert get listed in the alerting section
     >
 
-3. Use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
+2. If you have several services in your scope, use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
 
     *Enter* `JMS Queue Capacity` in field *Alert Name* and *apply* for the filter
     
     <br>![](/exercises/ex4/images/HMAlertingFilterCapacity.png)
     
     >
-    > As the resulting list may be long you may have to use the browser search to squeeze down the list and see the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
+    > As the resulting list still may be long because of the number of services you have in scope you may have to use the browser search to squeeze down the list and see the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
     > In real environments this kind of browser search isn't necessary.
     >
 
@@ -40,14 +37,12 @@ Run through the exercise steps in the given order
 
     <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
 
-    The **alert details page** opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. .........
-    Under *Rating* you see how the rating or has changed over time. In case of the metric *JMS Queue Capacity* you see that the situation regarding total number of messages in JMS queues has been improved. You may also loop in to figure out, when the status has been changed.
+    The **alert details page** opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. The worst rating has been *Critical* but currently it is *Ok* again.
+    Under *Rating* you see  again this behavior but also how the rating  has changed over time. You see that the situation regarding total number of messages in JMS queues has been improved. You may also zoom in to figure out, when the status has been changed.
     
     Under *Messages* you find single alerts. 
     
 5. *Click* on the *information* icon (i) of a single alert to get the data pulled from the Cloud Integration capability of SAP Integration Suite
-
-
     
     , all raised messages (single alerts), operation automation logs, and *ServiceNow* tickets
 
