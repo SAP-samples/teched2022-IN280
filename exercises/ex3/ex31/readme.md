@@ -1,0 +1,47 @@
+# Exercise 3.1 - Bring the business scenario into scope
+
+In this exercise, you will bring the **end-to-end business scenario *ExternalWorkforce* into the scope**
+
+#### Prerequisites:
+
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+
+## Exercise steps
+
+Run through the steps in the given order.
+
+1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+
+    <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
+
+2. *Select* a *Scope selection* icon in the black top row
+
+    <br>![](/exercises/ex3/images/IMScopeSelectionWorkforce.png)
+    
+3. *Filter* for *Business Services*
+
+4. *Click* on *Go* in the upper right corner for filtering
+
+5. *Select* the *ExternalWorkforce* scenario
+
+6. *Apply* the selection
+
+7. If no data has been collected adapt do the following
+
+    - *Check* whether data collection is activated as outlined in [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
+    - *Adapt* the time frame 
+
+8. *Recognize* that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
+
+ <br>![](/exercises/ex3/images/IMWorkforce.png)
+
+ You may also *click* on the information icon *i* for a legend regarding the used color-coding. Or see again the [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex21/)
+
+
+   
+
+## Summary
+
+Now you have brought the business scenario *ExternalWorkforce* into your scope.
+
+<br>Continue to - [Exercise 3.2 - Get an overview on the business scenario topology](/exercises/ex3/ex32/)
