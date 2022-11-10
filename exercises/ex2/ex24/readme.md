@@ -1,54 +1,80 @@
-# Exercise 2.4 - Display the deployment exception
+# Exercise 2.4 - Deploy a faulty integration flow
 
-In this exercise you will check whether the deployment exception is displayed in *Integration & Exception Monitoring*.
+In this exercise you will copy a prepared integration flow, configure, deploy it, and provoke a deployment exception.
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
-- *If you are performing configurations yourself:* Events for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
-- You should have provoked a deployment exception of an integration flow in SAP Integration Suite
+- You are logged in to the SAP Integration Suite tenant you are assigned to by the *Tenant Booker application*
+- *If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>` should be connected to the respective Cloud Integration tenant 
+- Alerting should be activated in *Integration & Exception Monitoring*.
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Optionally* *click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*. 
-	
-	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
-	
-	After receiving the event the number of exceptions and the number of alerts increase in the card of the Cloud Integration service you are watching. *Reset* the *automatic refresh* to *5 Minutes*.
+1. *Login* to *SAP Integration Suite* leveraging user / password retrieved from the *Tenant Booker application*
 
-	<br>![](/exercises/ex2/images/IMExceptRefresh15sec.png)
+    <br>![](/exercises/ex2/images/Login.png)
 
-3. *Click* on the *Exceptions* link of your *Cloud Integration* service and familiarize yourself with the **Exception page** 
+2. *Move* to the *Integration Designer* 
 
-	<br>![](/exercises/ex2/images/IMExceptionsLink.png)
+    The new SAP Integration Suite home page offers a new left-side navigation. *Click* on *Design* and then on *Integration* to get to the integration packages. 
+    
+    <br>![](/exercises/ex2/images/SuiteMoveDesigner.png)
+    
+3. *Select* the prepared integration package *TechEd 2022 IN280*
 
-4. *Navigate* to the details page
+    <br>![](/exercises/ex2/images/SuiteDesignerSelectPackage.png)
+    
+4. *Switch* to the *Artifacts* tab, *select* the button *Actions* and then *click* on **Copy** to copy the prepared integration flow.
+    
+    **Please don't use the original integration flow!**
 
-    <br>![](/exercises/ex2/images/IMExceptPageNavigateToDetails.png)
-	
-	>
-	> Description of the page necessary ...
-	> 
+    <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
+  
+5. In the **copy dialog** *replace* the `userID` in field *Name* with the userID you got from the Tenant Booker application. 
 
-5. Within the *exception details page* you can see that an integration exception shows up. Also the related integration artifact and the responsible user are listed.
+    The new integration flow should be named *Hallo World -* `userID` and be part of the existing integration package.
 
-    <br>![](/exercises/ex2/images/IMExceptDetailsHalloUser.png)
+    <br>![](/exercises/ex2/images/SuiteDesignerCopyFlow.png)
 
-	>
-	> In future there will be the possibility to navigate forward directly to the *Integration Content Monitor* of the responsible Cloud Integration tenant to resolve the deployment exception occurred.
-	>
+6. *Click* on *Actions* of your integration flow and then on **Configure**
 
+    <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
+    
+7. *Move* to the tab **More** and *set* in field **userID** the userID you have got via the Tenant Booker application. 
+    
+    **Don't change any other channel fields as we want to provoke a deployment error**.
+    
+    *Deploy* the integration flow *Hallo World -* `userID`.
+    
+    <br>![](/exercises/ex2/images/SuiteDesignerConfigureUser.png)
+    
+    A popup appears to save the configuration. *Save* it.
+    
+    Another popup appears regarding the deployment, *click* on *Ok*.
+
+8. *Move* to the *Integration Monitor* 
+
+    <br>![](/exercises/ex2/images/SuiteMoveMonitor.png)
+
+9. *Select* the tile *All* in the section *Manage Integration Content* 
+
+    <br>![](/exercises/ex2/images/SuiteMonitorMoveToContent.png)
+
+10. *Reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* status to status *Error*
+
+    <br>![](/exercises/ex2/images/SuiteMPLConsumer001ExistsAlready.png)
+
+    >
+    > Note: The deployment exception *Multiple consumers not supported: consumer channel_001 already exists* shows up because there is in parallel another integration flow running using the same ProcessDirect channel ID. 
+    > 
 
 ## Summary
 
-You've now seen how an integration exception shows up in SAP Cloud ALM and where to get the details.
+You've now copied an existing integration flow, configured and deployed it and provoke an exception error. 
 
-Continue with the next exercise [Exercise 2](/exercises/ex2/ex25) to watch the same exception in the altering section of SAP Cloud ALM.
-
-
-
+<br>Continue to - [Exercise 2.5 - Display the deployment exception](./ex25/readme.md)
 
 
 
