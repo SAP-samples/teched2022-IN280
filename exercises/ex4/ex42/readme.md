@@ -9,21 +9,19 @@ All these steps are optional and only for your information.
 
 <br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
 
-a. *Click* on the *quality icon* and check whether the d**data collection** is running successfully
-
-   Select the instance you have created in exercise [Register a Cloud Integration tenant in LMS](../../ex1/ex11/readme.md) and see that data collection has run successfully.
+1. *Click* on the *quality icon*, *select* an instance, and *check* whether the **data collection** is running successfully
 
    <br>![](/exercises/ex4/images/HMDataQuality.png)
 
-b. In case of raised alerts you would be able to jump directly to the embedded **alerting**
+2. In case of raised alerts you would be able to jump directly to the embedded **alerting**
 
-c. Check the **status of business service events** with the time-calender-icon
+3. Check the **status of business service events** with the time-calender-icon
 
-   It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
+    It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here
 
-d. *Click* on the *Star* icon to set tenants of type *Cloud Integration* capability to your **favorite** ones and track them more easily.
+4. *Click* on the *Star* icon to set tenants of type *Cloud Integration* capability to your **favorite** ones and track them more easily
 
-e. *Click* on the *info* icon. For each Cloud Integration instance you may get a first overview on it's **rating**.
+5. *Click* on the *info* icon. For each Cloud Integration instance you may get a first overview on it's **rating**
 
    <br>![](/exercises/ex4/images/HMOverviewCIRating.png)
 
