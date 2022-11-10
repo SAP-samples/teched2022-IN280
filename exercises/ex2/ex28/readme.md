@@ -38,4 +38,4 @@ Run through the steps in the given order.
 
 Now the *Cloud Integration* service you want to monitor is in your scope.
 
-Continue to - [Exercise 2.1](/exercises/ex2/ex21/)
+<br>Continue to - [Exercise 2.1](/exercises/ex2/ex21/)
