@@ -4,7 +4,7 @@ In this exercise you will understand how to get an **overview on all metrics** t
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and are in the *monitoring page* of *Health Monitoring*
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and are in the *monitoring page* of all Cloud Integration services
 - The Cloud Integration service(s) to be monitored are registerd in LMS and selected to the scope
 
 ## Exercise steps
@@ -13,10 +13,11 @@ Run through the steps in the given order.
 
 1. *Click* on one of the Cloud Integration services and drill down one level 
 
-    <br>![](/exercises/ex4/images/HMMetricOverview.png)
+    <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
     
 2. Famliarize yourself with the **metric overview of a Cloud Integration service**
 
+    <br>![](/exercises/ex4/images/HMMetricOverview.png)
     >
     > This page is the centerpiece of Health Monitoring and offers a quick health overview for a particular service, in our case the selected Cloud Integration service. The grouping of available metrics is pre-configured and depends on the service type and offered metrics. Cloud Integration offers as of today the status of **JMS queue resources** and the **validity of certificates**. The default thresholds are the same as you know them from the local Cloud Integration monitoring. The blog [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/) explains in detail all metrics that are available in Health Monitoring for Cloud Integration.
     >
