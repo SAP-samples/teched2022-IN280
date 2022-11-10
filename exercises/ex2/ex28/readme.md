@@ -1,41 +1,47 @@
-# Bring a Cloud Integration service into scope
+# Exercise 2.8 - Watch the resolved deployment exception
 
-In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in *Integration & Exception Monitoring*. 
+In this exercise you will check the same integration flow with an exception in the past and now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- *If you are performing configurations yourself:* your Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` should be already registered and a secure connection established. If not please run through exercise [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/)
+- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
+- You should have corrected the ProcessAdapter channel configuration correctly
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
-1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+1. *Click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*.
 
-    <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
+	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
 
-2. *Select* the *Scope selection* icon in the black top row
+	After receiving the event the number of exceptions and the number of alerts increase. *Reset* the *automatic refresh* to default.
 
-    <br>![](/exercises/ex2/images/ScopeSelectionService.png)    
-
-3. *Filter* for *Services*
-
-4. *Click* on *Go* in the upper right corner for filtering
-
-5. *Select* the *Cloud Integration* service you want to monitor
-
-    *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
+2. *Navigate* to the **Exception page** by *clicking* on the *Exceptions* link of your *Cloud Integration* service
     
-    You may add further services if you want but this isn't necessary for the exercise.
+    <br>![](/exercises/ex2/images/IMExceptionsLink.png)
     
+3. Recognize that the switch of the *status* icon in the first column meaning that the *message has run successfully*. The deployment exception has been resolved.
+
+    <br>![](/exercises/ex2/images/IMExceptPageSuccessMoveToDetails.png)
+
+4. *Navigate* to the *exception details page* using the *arrow* icon on the right side (see screenshot above) and see the successful message.
+
+    <br>![](/exercises/ex2/images/IMExceptDetailsSuccessfulMessage.png)
+
+5. *Click* on the *exclamation mark* icon on the left navigation to navigate to the **alerting section**
+
+6. In case you have to filter for the alert related to integration flow you have deployed, use the *filter* icon in the light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+
+   You will see the alert details, highlighting not only that the exception is resolved but also when. .....
+   
+   > MARKUS: kindly ask you to add here more info
+
+    <br>![](/exercises/ex2/images/IMExceptAlertDetailsSuccessfulMessage.png)
 
 
-6. Click on the button *Apply* to save the configuration
-
-       
 ## Summary
 
-Now the *Cloud Integration* service you want to monitor is in your scope.
+You've now seen that a resolved integration exception shows up in SAP Cloud ALM as an event and an alert.
 
-<br>Continue to - [Exercise 2.1](/exercises/ex2/ex21/)
+Congratulation. You have finalized [Exercise 2](/exercises/ex2/ex25).
