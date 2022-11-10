@@ -60,13 +60,16 @@ Please start with [Exercise 1 - Configure the monitoring of Cloud Integration te
     - [Watch the resolved deployment exception](/exercises/ex2/ex28/)
 - [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/readme.md)
 - [Exercise 4 - Analyze exhausted resources](/exercises/ex4/readme.md)
-    - [Understand how a tenant's health rating is calculated](/exercises/ex4/ex41/)
-    - [Understand the Health Monitoring overview page](/exercises/ex4/ex42/)
-    - [Details on how to work with Cloud Integration metrics](/exercises/ex4/ex43/)
-    - [Check alerts in Health Monitoring](/exercises/ex4/ex44/)
-    - [Activate alerts](/exercises/ex4/ex45/)
-    - [Overwrite thresholds](/exercises/ex4/ex46/)
-    - [Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
+    - [Scenario introduction](/exercises/ex4/ex40)
+    - [Bring a Cloud Integration service into scope](/exercises/ex4/ex41)
+    - [Check key data of all monitored services in overview page](/exercises/ex4/ex42)
+    - [Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
+    - [Understand how the health rating of a service is calculated](/exercises/ex4/ex44)
+    - [Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45)
+    - [Details on how to work with Cloud Integration metrics](/exercises/ex4/ex46/)
+    - [Activate alerts](/exercises/ex4/ex47/)
+    - [Check alerts in Health Monitoring](/exercises/ex4/ex48/)
+    - [Overwrite thresholds](/exercises/ex4/ex49/)
 
 ## How to obtain support
 
