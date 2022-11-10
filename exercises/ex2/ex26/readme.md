@@ -1,49 +1,38 @@
-# Exercise 2.6 - Configure the ProcessDirect channels correctly and deploy integration flow successfully
+# Exercise 2.6 - Watch a deployment exception
 
-In this exercise you will configure the integration fow  using correct ProcessDirect adapters and deploy it successfully.
+In this exercise you will see a deployment exception as an example of an alert in *Integration & Exception Monitoring*.
 
-#### Prequisites:
+#### Prerequisites:
 
-- You are logged in to the SAP Integration Suite tenant and navigated to the integration package *TechEd 2022 IN280*
-- You had deployed the incorrect integration flow *Hallo World -* `userID` in exercice [Deploy a faulty integration flow](../../ex2/ex23/)
+- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and have navigated to [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
+- *If you are performing all configurations yourself:* Alerting for *Integration Exceptions* should be activated for that Cloud Integration service you have registered: `CloudIntegration-<tenant_name>_<userID>`
+    
+    In the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` the alerting to integration exceptions is already activated and nothing had to be done.
+    
+- You have provoked a deployment exception in the Cloud Integration capability of SAP Integration Suite
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Click* on *Actions* of your integration flow *Hallo World - *`userID`* and then on *Configure*
+1. There are two options to **jump to the alerting section**:
 
-    <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
-    
-2. *Set* the fields *consumerChannel* and *producerChannel* to `channel_userID`and the field *userID* to `userID`
-    
-    **The channel IDs should be unique and identical**.
-    
-    *Deploy* the integration flow *Hallo World -* `userID`.
-    
-    <br>![](/exercises/ex2/images/SuiteDesignerConfigureCorrectly.png)
-    
-    A popup appears to save the configuration. *Save* it.
-    
-    Another popup appears regarding the deployment, *click* on *Ok*.
+	- *Click* on the *exclamation mark* icon on the left navigation to see all alerts raised for the services and scenarios in scope
+	- *Click* on the *number* of Alters mentioned in the footer row of the card. Please use this option.
 
-3. *Switch* to the *Integration Content Monitor* as done in [exercise 2.3](../../ex2/ex23/) step 8 and *reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* to status *Started*
+	<br>![](/exercises/ex2/images/IMExceptOverviewMoveToAlerting.png)
 
-    <br>![](/exercises/ex2/images/SuiteMPLSuccess.png)
-    
-4. Switch to the *MPL monitor*
+2. *Familiarize yourself* with the alerting page ...
 
-    a. Use the *Overview* link of the breadcrumb  in the top row to get back to the *Monitor Overview Page*
+	<br>![](/exercises/ex2/images/IMExceptAlerting.png)
+	
+3. 	*Click* on the alert link, the *Alert Details page* opens
 
-    b. *Click* on the first tile *All Integration Flows* of the section *Monitor Message Processing* to switch to the *MPL monitor*
+	<br>![](/exercises/ex2/images/IMExceptAlertDetails.png)
 
-5. *Click* on your message that has been exchanged successfully: *Hallo World -  `userID`*
-
-    <br>![](/exercises/ex2/images/SuiteMPLMessageSuccess.png)
-
-
+	
 ## Summary
 
-You've now configure the integration flow correclty and deployed it successfully.
+You've now seen how an alert reaches the embedding alerting in *Integration & Exception Monitoring*.
 
-Go back to the main [Exercise 2](../../ex2/) to check again the *exception page* in *Integration & Exception Monitoring*.
+<br>Continue to - [Exercise 2.7 - Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/readme.md)
