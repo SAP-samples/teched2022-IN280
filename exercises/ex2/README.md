@@ -1,58 +1,31 @@
-# Exercise 2 - Monitoring a deployment issue
+# Exercise 2 - Monitoring a deployment exception
 
 In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in *Integration & Exception Monitoring*. 
-
-#### Prerequisites:
-
-- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/) and to the respective SAP Integration Suite tenant you have been assigned to (see Tenant Booker application)
-- *If you want to perform configurations yourself:* your Cloud Integration service in SAP Cloud ALM has to connected to the real Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../ex1/readme.md).
 
 ## Exercise steps
 
 Run through the steps in the given order.
 
-1.	Navigate to section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+[Scenario introduction: Deployment exception of an integration flow](/exercises/ex2/ex20/)
+	
+1. [Bring a Cloud Integration service into scope](/exercises/ex2/ex21/)
 
-     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
-
-2. Bring the *Cloud Integration* service that you have registered **into scope**
-
-   a) Select the *Scope selection* icon in the black top row
-
-     <br>![](/exercises/ex2/images/ScopeSelectionService.png)
-
-   b)  Filter for *Services*
-
-   c)  Click on *Go* in the upper right corner for filtering
-
-   d)  Select the *Cloud Integration* service that you have registered in Exercise ....
-
-   e)  Click on the button *Apply* to save the configuration
-
-     <br>![](/exercises/ex2/images/ScopeSelectionService.png)
-
-3.	Familiarize yourself with the **Integration & Exception Monitoring overview page**
-
-     This central view shows the status of integration scenarios and services in scope or set to favorites. It offers a first indicator where faulty messages or in case of Cloud Integration deployment exceptions of integration artifacts occurred.
-
-     The exercise [Understand the Integration & Exception Monitoring overview page](./ex21/readme.md) provides you the insights of the color-coding and functionalities this page is offering.
+2. [Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)
        
-5. *If you perform configurations yourself* [Activate alerts for deployment exceptions of integration artifacts](./ex22/readme.md)
+3. [Activate alerts for deployment exceptions of integration artifacts](./ex23/readme.md)
 
-5. [Deploy faulty integration flow](./ex23/readme.md)
+4. [Deploy a faulty integration flow](./ex24/readme.md)
 
-6. [Understand the integration flow that might lead to a deployment exception](./ex20/readme.md)
+5. [Display the deployment exception](./ex25/readme.md) in SAP Cloud ALM
 
-7. [Display the deployment exception](./ex24/readme.md) in SAP Cloud ALM
+6. [Watch a deployment exception alert](/exercises/ex2/ex26)
 
-8. [Watch a deployment exception in altering](/exercises/ex2/ex25)
+7. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/)
 
-8. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex26/)
-
-9. [Watch the resolved deployment exception](./ex27/) in the SAP Cloud ALM
+8. [Watch the resolved deployment exception](./ex28/) in the SAP Cloud ALM
 
 ## Summary
 
-You've now got experience with an integration flow that cannot be deployed. 
+You've now got experience with an integration flow that cannot be deployed and are able to monitor the exception in Integration & Exception Monitoring of SAP Cloud ALM.
 
 With the next exercise you will monitor messages of a business scenario end-to-end. Continue to - [Exercise 3](/exercises/ex3/readme.md)
