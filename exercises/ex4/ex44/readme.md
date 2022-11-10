@@ -1,176 +1,30 @@
-# Exercise 4.4 - Check alerts in Health Monitoring
+# Exercise 4.4 - Understand how the health rating of a service is calculated
 
-In this exercise, we will ...
-Health Monitoring comes with embedded alerting leveraged for various ALM use cases as for *Health Monitoring* or for *Integration & Exception Monitoring*.
+This exercise serves for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM. It is only optional and if you want to perform only necessary steps you can jump directly to [Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45).
 
-#### Prerequisites:
-- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) and navigated to [*Health Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=sap.crun.hmapp.ui)
-- *If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>`  should be connected to the Cloud Integration tenant
+The technical metrics from a monitored services can be used to calculate the overall health of a monitored service. E.g. Cloud Integration is pulled every 5 minutes.
 
-## Exercise steps
+Each service type offers its own metrics and ratings to Cloud ALM. 
+<br>E.g. Cloud Integration offers exhaustion of JMS resources and expiry of certificates. On the other hand a SAP Integration Business Planning service offers metrics such as Active Users in a ABAP system or Delayed application jobs.
 
-Run through the exercise steps in the given order
+The service health is **calculated bottom up**: each metric, as a specific certificate validity or the activation status of a JMS (Java Messaging Service) queue, gets rated individually. 
 
-1. *If you are performing configurations yourself:* in the [Exercise 4.5 - Activate alerts](../ex45/readme.md) you activate events for the Cloud Integration service that you have registered
-      
-    If you are using the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` the alerting is already activated and nothing has to be done. The step can be skipped
+Thresholds define when a metric receives a certain rating, such as *OK* or *Critical*. The metric rating is mapped to a metric health score to automate the calculation of the overall service’s health score. 
 
-2. *Navigate* to the *Alerting* section using the *exclamation mark* icon in the left-navigation
+The health score of the overall service is determined by the mean score of all individual metrics. A service health percentage of less than 100% determines a service as in Warning, with less than 80% as in *Critical* state. And as soon as one metric is rated as Fatal the entire service has a health score of 0% and is in *Critical* state.
 
-    <br>![](/exercises/ex4/images/HMAlerting.png)
+<br>![](/exercises/ex4/images/HMRatingDiagram.png)
 
-    In the *Alerting* page one alert per registered cloud service and since the last data collection is listed. 
-    
-    >
-    > *Note:* for the TechEd session we are not in a real environment. As attendees have registered own Cloud Integration services in SAP Cloud ALM connected you will find the same kind of alerts several times for a particular Cloud Integration tenant.
-    >
-    > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection until your activated alert get listed in the alerting section
-    >
+Some metrics have only **informative** character, such as the total number of messages in a JMS queue. They are not included in the health calculation of a service.
 
-3. Use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
+*Example:* A Cloud Integration tenant offers 41 metrics. 3 metrics have only informative values and are not counted. Therefore only 38 are relevant for the calculation.
+Sum up 10 metrics in *Critical* state mapped to a score of 0%, 1 in *Warning* 50%, and 27 with *Ok* 100%, the sum is 27,5 divided by 38, and rounded. 
+<br>This results to a service health percentage of 72% and the service is rated as *Critical*.
 
-    *Enter* `JMS Queue Capacity` in field *Alert Name* and *apply* for the filter
-    
-    <br>![](/exercises/ex4/images/HMAlertingFilterCapacity.png)
-    
-    >
-    > As the resulting list may be long you may have to use the browser search to squeeze down the list and see the relevant Cloud Integration service. The service is listed in column *Managed Components*. 
-    > In real environments this kind of browser search isn't necessary.
-    >
-
-4. *Click* on the alert *JMS Queue Capacity* 
-
-    <br>![](/exercises/ex4/images/HMAlertingCapacity.png)
-
-    The **alert details page** opens for the selected alert. In the screenshot the total queue capacity of the tracked Cloud Integration tenant exceeds the max queue capacity. .........
-    Under *Rating* you see how the rating or has changed over time. In case of the metric *JMS Queue Capacity* you see that the situation regarding total number of messages in JMS queues has been improved. You may also loop in to figure out, when the status has been changed.
-    
-    Under *Messages* you find single alerts. 
-    
-5. *Click* on the *information* icon (i) of a single alert to get the data pulled from the Cloud Integration capability of SAP Integration Suite
-
-
-    
-    , all raised messages (single alerts), operation automation logs, and *ServiceNow* tickets
-
-    <br>![](/exercises/ex4/images/HMAlertingCapacityInfo.png)
-
-6. *Click* on the *history* icon on the right of a single alert
-
-    <br>![](/exercises/ex4/images/HMAlertingCapacityHistory.png)
-    
-    You may adapt the time frame to zoom in the history curve for further investigations
-    
-7. Click on *Actions* and then on *Processor* and *Assign*
-
-    It is not necessary to assign someone
-
-    >
-    > A reported alert can be treated as a ticket. Somebody can work on it or hand it over to someone else for collaboration.
-    > 
-    > It is also possible to add useful comments or to start an operation flow. These actions are not part of the exercise.
-    > 
-    
-    <br>![](/exercises/ex4/images/HMAlertingAssignProcessor.png)
-    
-8. *Optional*: 
-
-    - [Add your email address to SAP Cloud ALM](/exercises/ex4/ex47/)
-
-        If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address in the separate *Notification Management* application.
-
-        <br>![](/exercises/ex4/images/HMAlertingActions.png)
-
-    - Afer adding yourself as a new recipient you can assign yourself as a processor for the alert. *Save* the assignment.
-
-        <br>![](/exercises/ex4/images/HMAlertingCapacityAssignProcessor.png)
-        
-9. *Close* the alert *JMS Queue Capacity* by using the *cross* icon. *Filter* now for all alerts called *Expired Certificates* 
-
-    *Enter* `Expired Certificates` in field *Alert Name* and *apply* for the filter
-    
-    <br>![](/exercises/ex4/images/HMAlertingCertifcates.png)
-    
-    
-10. *Click* on the alert *Expired Certificate* for the Cloud Integration tenant `CloudIntegration-TECHED-EU01`
-
-    This tenant is prepared this way that 3 certificates are expired already and another will expire soon.
-    
-    You can see the alert details in *full screen modus* by clicking in the middle on the right side
-
-    <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
-
-    > 
-    > Alerts originating from *Health Monitoring* are based on the **rating of the related metric**. In the *Alert Details page* the active alerts since the last data collection are displayed with their properties. Cloud Integration is actively pulled every 5 minutes and therefore you might get alerts in this frequency. An alert is active, if one of the metric’s entries (labels) is in a *Warning* or *Critical* state. All alerts related to the same metric and service instance are aggregated to avoid overwhelming the alert inbox.
-    >    
-
-11. *Filter* now for all alerts on *JMS Queue Status* 
-
-    - *Enter* `JMS Queue Status` in field *Alert Name* and *apply* for the filter 
-
-        You can see that you may get several alerts depending on the queue
-        
-        
-    - *Click* on the alert *JMS Queue Status*  for the Cloud Integration tenant `CloudIntegration-TECHED-US01` and the queue `SFSF_EMPLOYEE_ERROR`
-
-        <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
-
-        In the description of the single alert you can recognize that a JMS queue has been stopped.
-    
-    - *Click* on the alert *JMS Queue Status*  for the Cloud Integration tenant `CloudIntegration-TECHED-US01` and the queue `CX_SRVORDER_ASYNC`
-
-        <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
-
-        This queue is in *Warning* state because the resources are getting exhauted.
-        
-    >
-    > In the local monitoring of Cloud Integration you may be able to resolve the issue
-    > 
-    
-## Summary
-
-You've now ...
-
-Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
-
-
-
-
-
-<!--
-# Available metrics for Cloud Integration
-
-In this exercise, we will ...
-
-## Exercise steps
-
-Run through the exercise steps in the given order.
-
-#### Prequisites:
-The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
-
-If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
-
-1.	Navigate t...
-
-   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
-   
-    >
-    > *Important:*
-    > Health monitoring do.....
-    >
+<br>![](/exercises/ex4/images/HMRatingExample.png)
 
 ## Summary
 
-You've now ...
-After completing these steps you will have created...
+Now ...
 
-Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
-
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
-
--->
+<br>Continue to - [Exercise 4.5 - Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45/)
