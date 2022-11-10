@@ -1,6 +1,9 @@
-# Exercise 4.2 - Understand the Health Monitoring overview page
+# Exercise 4.2 - Check key data of all monitored services in overview page
 
-In this exercise, you will understand which information you may retrieve from the overpage page of Health Monitoring.
+In this exercise, you will understand which information you may retrieve from this central page of Health Monitoring. It shows the healthiness of connected services on the level of *service types* such as Cloud Integration services. With that offers a first indicator where crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
+
+
+## Exercise steps
 
 All these steps are optional and only for your information.
 
@@ -24,49 +27,8 @@ e. *Click* on the *info* icon. For each Cloud Integration instance you may get a
 
    <br>![](/exercises/ex4/images/HMOverviewCIRating.png)
 
-
-
-<br><br><br>Go back to the main [Exercise 4](../../ex4/readme.md)
-
-
-
-
-
-<!--
-# Available metrics for Cloud Integration
-
-In this exercise, we will ...
-
-## Exercise steps
-
-Run through the exercise steps in the given order.
-
-#### Prequisites:
-The Cloud Integration tenant is already registered. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/).
-
-If not already done, please login to [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/).  
-
-1.	Navigate t...
-
-   <br>![](/exercises/ex1/images/CALMLandingHealthMon.png)
-   
-    >
-    > *Important:*
-    > Health monitoring do.....
-    >
-
 ## Summary
 
-You've now ...
-After completing these steps you will have created...
+Now you know how to use the central overview page in *Health Monitoring* to oversee the entire IT landscape with the services you have in scope. You understand the color-coding used and know the main functionality of the page.
 
-Next we will ....... Continue to - [Exercise 5](../ex5/README.md)
-
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
-
--->
-
+<br>Continue to - [Exercise 4.3 - Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43/)
