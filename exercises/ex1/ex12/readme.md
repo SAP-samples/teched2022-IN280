@@ -1,40 +1,39 @@
 # Exercise 1.2 - Add an HTTP endpoint to a managed service
 
-In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectivity to a registered Cloud Integration instance. This endpoint will be valid for all ALM monitoring use cases.
+In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectiion to a Cloud Integration tenant of SAP Integration Suite. This endpoint will be leveraged for all ALM monitoring use cases.
 
 #### Prerequisites
 
-- Login to *SAP Cloud ALM* and navigate to the *Landscape Management* service.
-
-- A *Cloud Integration* service is registered as described in [Exercise 1.1](/exercises/ex1/ex11/)
+- You are logged in the [Landscape Management service](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=sap.crun.landscape) of [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+- A *Cloud Integration* service is registered as outlined in [Exercise 1.1](/exercises/ex1/ex11/)
 
 ## Exercise steps
 
 Run through the steps in the given order. 
 
-1. *Click* on the button *Add* in the *Endpoints* section
+1. *Click* on the button **Add** in the *Endpoints* section
 
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
 2.	In the upcoming window under *General* maintain the fields:
     
-    - Endpoint name: `<tenantID>-<userID-digits>`. 
-        
-        Take the `<userID-digits>` from the tenant booker application.
+    - *Endpoint name*: `<tenantID>-<userID>`
+       
+        *Copy* your `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
 		
     - Optionally maintain a description
-    - Use Case: select all monitoring use cases
-      -- `Exception Monitoring`
-      -- `Integration Monitoring`
-      -- `Health Monitoring` 
-    - Root URL: copy/paste the URL *Tenant URL for SAP Cloud Integration* from the *Tenant Booker application* and removing the ending path `/itspaces/`. 
+    - *Use Case*: select all monitoring use cases
+        - Exception Monitoring
+        - Integration Monitoring
+        - Health Monitoring
+     - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
     
   
 3.	Under *Authentication* maintain the OAuth credentials:
 	
 	- Authentication type: `OAuth2ClientCredentials`
 	
-	- Copy/paste the *client ID, client secret*, and *token service URL* provided via the Tenant Booker app. 
+	- Copy/paste the *client ID, client secret*, and *token service URL* provided via the  [Tenant Booker app](/exercises/ex0/ex02/) 
 
 	   <br>![](/exercises/ex1/images/LMSAddEndpoint.png)
 
@@ -42,21 +41,23 @@ Run through the steps in the given order.
 
 		 <br>![](/exercises/ex1/images/BookerAppResultEndpoint.png)
     
-4. *Check* the *network connection* to verify if the entered parameters are correct
+4. *Check* the **network connection** to verify whether the entered parameters are correct
 
     <br>![](/exercises/ex1/images/LMSEndpointConnectionCheck.png)
     
-5. When done, click on *Save*
+    If you don't see the three use cases add them. If the connectivity fails check the parameters.
+    
+5. When done, click on **Save**
 
 6. In the service configuration page, get an overview about all created endpoints and monitoring use cases assigned to them
 
-6. You can also check the connectivity using the *Ping Endpoints* button. 
+6. You can also check the connectivity using the **Ping Endpoints** button. 
 
     <br>![](/exercises/ex1/images/LMSPingConnection.png)
     
     A popup shows up, close it. The rectangle icon in the *Status* column will switch to green indicating that the connection is established successfully.
     
-    Close the detailed page for the selected service.
+    **Close** the detailed page for the selected service.
     
 7.  Oversee the lifecycle status of all managed services
 
@@ -66,8 +67,6 @@ Run through the steps in the given order.
     
 ## Summary
 
-After completing these steps you will have added an HTTP endpoint in LMS for all monitoring use cases to establish an authenticated connectivity from your registered Cloud Integration service to the *Cloud Integration tenant*.
+Now you have established authenticated connectivity from your registered Cloud Integration service to the *Cloud Integration tenant* of SAP Integration Suite for all use cases integration, exception, and health monitoring.
 
-Next we will activate the data collection for monitoring the Cloud Integration tenant. 
-
-Continue to - [Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring](../ex13/)
+Continue to - [Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
