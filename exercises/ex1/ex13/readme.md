@@ -31,7 +31,7 @@ Run through the steps in the given order
     
         **Note:** a demo landscape is very artificial. Therefore a large amount of Cloud Integration services are available, even for the same Cloud Integration tenant
         
-        **Note:** you may select **additional services into your scop**e as it is typical to have 2 to 3 integration tenant in an IT landscape. Keep the service `CloudIntegration-<tenant_name>_<userID>` in mind that you have registered. It is your **main service** the exercises are referencing.
+        **Note:** you may select **additional services into your scope** as it is typical to have 2 to 3 integration tenants in an IT landscape. Keep the service `CloudIntegration-<tenant_name>_<userID>` in mind that you have registered. It is your **main service** the exercises are referencing.
         
     - **Apply** the configuration
       
