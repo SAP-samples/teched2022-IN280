@@ -48,4 +48,4 @@ Run through the steps in the given order.
 
 Now you have searched for messages based on a specific business context attributes available with the custom header properties and you have navigated forward to the SAP Integration Suite monitoring 
 
-<br>Continue to - [Exercise 3.6 - Watch alerts that have been raised for failed messages](/exercises/ex3/ex36/)
+<br>Congratulation. You have finalized [Exercise 2](/exercises/ex2/ex25)
