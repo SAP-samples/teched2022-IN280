@@ -1,10 +1,12 @@
 # Exercise 1.3 - Activate data collection for the use case Integration & Exception Monitoring 
 
-In this exercise, you will learn how to activate the data collection specifically for the use case *Integration & Exception Monitoring*.
-*This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.*
+In this exercise, you will learn how to activate data collection specifically for the use case *Integration & Exception Monitoring*.
+
+**Note:** This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.
 
 #### Prerequisites:
-The Cloud Integration tenant `CloudIntegration-<tenant_name>_<userID>` is already registered and an endpoint is created for the use cases *Integration Monitoring* and *Exception Monitoring*. If not please run through exercises [Register a Cloud Integration tenant in LMS](../ex11/) and [Add an HTTP endpoint to a managed service](../ex12/).
+- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+- A own managed *Cloud Integration* service `CloudIntegration-<tenant_name>_<userID>` should be already registered in LMS
 
 ## Exercise steps
 
@@ -16,19 +18,24 @@ Run through the steps in the given order.
   
 2. Bring the **Cloud Integration service into the scope**, if not already done
 
-   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* Diaglog opens automatically.
+   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* Diaglog opens automatically
+   
+   If not *click* the *scope selection* icon in the black top row
    
     <br>![](/exercises/ex1/images/InitialScopeSelection.png)
    
-    a)  Filter for *Services*
+    - *Filter* for **Services**
+    - In field *Service Type* select the *SAP Integration Suite (Cloud Integration)* from the drop down list
+    - *Click* on **Go** in the upper right corner for filtering
+    - *Search and select* at least the **Cloud Integration service** that you have registered in [Register a Cloud Integration service in LMS](exercises/ex1/ex11)
     
-    b)  Click on *Go* in the upper right corner for filtering
-    
-    c)  Search and select the Cloud Integration service instance that you have registered in Exercise [Register a Cloud Integration tenant in SAP Cloud ALM](exercises/ex1/ex11)
-
-    d)  Click on the button *Apply* to save the configuration
+        **Note:** a demo landscape is very artifical. Therefore a large amount of Cloud Integration services are available, even for the same Cloud Integration tenant
+        
+        **Note:** you may select **additional services into your scop**e as it is typical to have 2 to 3 integration tenant in an IT landscape. Keep the service `CloudIntegration-<tenant_name>_<userID>` in mind that you have registered. It is your **main service** the exercises are referencing.
+        
+    - **Apply** the configuration
       
-     <br>![](/exercises/ex1/images/ScopeSelectionService.png)
+     <br>![](/exercises/ex1/images/ScopeSelectionRegisteredService.png)
       
 3. **Activate data collection**
 
