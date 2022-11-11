@@ -6,19 +6,19 @@ In this exercise, you will learn how to activate data collection specifically fo
 
 #### Prerequisites:
 - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- A own managed *Cloud Integration* service `CloudIntegration-<tenant_name>_<userID>` should be already registered in LMS
+- An own managed *Cloud Integration* service `CloudIntegration-<tenant_name>_<userID>` should be already registered in LMS
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
-1. Navigate to section *SAP Cloud ALM for Operations* and click on the card *Integration & Exception Monitoring* if are not already there
+1. Navigate to section *SAP Cloud ALM for Operations* and click on the card **Integration & Exception Monitoring** 
       
     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
   
-2. Bring the **Cloud Integration service into the scope**, if not already done
+2. Bring the **Cloud Integration service into the scope**
 
-   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* Diaglog opens automatically
+   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* dialog opens automatically
    
    If not *click* the *scope selection* icon in the black top row
    
@@ -27,9 +27,9 @@ Run through the steps in the given order.
     - *Filter* for **Services**
     - In field *Service Type* select the *SAP Integration Suite (Cloud Integration)* from the drop down list
     - *Click* on **Go** in the upper right corner for filtering
-    - *Search and select* at least the **Cloud Integration service** that you have registered in [Register a Cloud Integration service in LMS](exercises/ex1/ex11)
+    - *Search and select* at least the **Cloud Integration service** that you have registered in [Register a Cloud Integration service in LMS](/exercises/ex1/ex11)
     
-        **Note:** a demo landscape is very artifical. Therefore a large amount of Cloud Integration services are available, even for the same Cloud Integration tenant
+        **Note:** a demo landscape is very artificial. Therefore a large amount of Cloud Integration services are available, even for the same Cloud Integration tenant
         
         **Note:** you may select **additional services into your scop**e as it is typical to have 2 to 3 integration tenant in an IT landscape. Keep the service `CloudIntegration-<tenant_name>_<userID>` in mind that you have registered. It is your **main service** the exercises are referencing.
         
@@ -39,15 +39,15 @@ Run through the steps in the given order.
       
 3. **Activate data collection**
 
-    In the footer of your service's card you can recognize that no data has been collect so far.
+    In the footer of your service's card you can recognize that no data has been collect so far
     
    <br>![](/exercises/ex1/images/IMOverviewNoData.png)
 
-    a. *Click* on the *three dots* and then on *Edit Configuration*
+    a. *Click* on the **three dots** and then on **Edit Configuration**
     
     <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
     
-    b. *Switch on* the data collection using the *toggle button*, save the configuration, and close the dialog
+    b. *<*Switch on** the data collection using the *toggle button*, save the configuration, and close the dialog
     
     <br>![](/exercises/ex1/images/IMConfigDataCollection.png)
 	
@@ -55,10 +55,12 @@ Run through the steps in the given order.
     
     <br>![](/exercises/ex1/images/IMOverviewDataCollectionActivated.png)
 
-    It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card is updated.
+    **Note:** It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card gets updated
     
 ## Summary
 
-After completing these steps you will have activated the data collection in *Integration & Exception Monitoring* for a managed Cloud Integration service `CloudIntegration-<tenant_name>_<userID>`.
+You have activated the data collection for your own-managed Cloud Integration service `CloudIntegration-<tenant_name>_<userID>`
 
-Congratulation. You have finalized Exercise 1. Return back to the main page of [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/) or to [Exercise 2.2 - Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex22/) 
+Congratulation. You have finalized Exercise 1. 
+
+Continue to [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/) 
