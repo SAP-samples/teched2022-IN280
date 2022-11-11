@@ -1,4 +1,4 @@
-# Exercise 1 - Configure the monitoring of Cloud Integration in SAP CLoud ALM
+# Exercise 1 - Register an own-managed Cloud Integration service in SAP CLoud ALM
 
 In this exercise, we will establish an authenticated connection to a Cloud Integration tenant to get it monitored.
 
