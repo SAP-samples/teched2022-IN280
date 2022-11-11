@@ -44,7 +44,7 @@ Please start with [Exercise 1 - Configure the monitoring of Cloud Integration te
 - [Prerequisites and additional information](/exercises/ex0/)
     - [Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)
     - [Retrieve user / password](/exercises/ex0/ex02/)
-- [Exercise 1 - Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](/exercises/ex1/README.md)
+- [Exercise 1 - Configure the monitoring of Cloud Integration in SAP CLoud ALM](/exercises/ex1/README.md)
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
     - [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
     - [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
