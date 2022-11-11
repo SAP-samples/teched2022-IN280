@@ -39,7 +39,7 @@ Run through the steps in the given order.
 
 	   <br>![](/exercises/ex1/images/LMSAddEndpoint.png)
 
-	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below
+	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below. These credentials relate to the *Process Integration* **API plan**!
 
 		 <br>![](/exercises/ex1/images/BookerAppResultEndpoint.png)
     
