@@ -46,7 +46,7 @@ Run through the steps in the given order
 
 You've now configure the integration flow correclty and deployed it successfully.
 
-<br>Continue to - [Exercise 2.8 - Watch the resolved deployment exception](./ex28/readme.md)
+<br>Continue to - [Exercise 2.8 - Watch the resolved deployment exception](/exercises/ex2/ex28/readme.md)
 
 
 
