@@ -44,4 +44,4 @@ Run through the steps in the given order
 
 You've now seen that a resolved integration exception shows up in SAP Cloud ALM as an event and an alert.
 
-Congratulation. You have finalized [Exercise 2](/exercises/ex2/ex25).
+<br>Continue to - [Exercise 2.9 - Search for customer header properties](/exercises/ex2/ex29/)
