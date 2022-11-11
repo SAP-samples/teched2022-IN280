@@ -21,6 +21,6 @@ Run through the exercise steps in the given order.
 
 ## Summary
 
-You've now monitored end-to-end integrtion scenario *ExternalWorkforce* that that is sending messages from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages in the overview page already but also in the alerting section of *Integration & Exception Monitoring*. ......
+You've now monitored end-to-end integration scenario *ExternalWorkforce* that that is sending messages from SAP Fieldglass to SAP S/4HANA Cloud mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages in the overview page already but also in the alerting section of *Integration & Exception Monitoring*. ......
 
 Next we will analyze the technical health of *Cloud Integration* resources leveraging the *Health Monitoring* application of SAP Cloud ALM. Continue to - [Exercise 4](/exercises/ex4/readme.md)
