@@ -26,6 +26,10 @@ Run through the steps in the given order
 3. After receiving the event from the deployment exception that you have provoked in [Excercise 2.4](./ex24/readme.md) the number of exceptions and the number of alerts should increase. 
 
 	<br>![](/exercises/ex2/images/IMExceptionsLink.png)
+    
+    >
+    > *Note:* please use the breadcrump instead of the browser*s back button to go one level up
+    > 
 	
 4. *Click* on the **Exceptions** link of the *Cloud Integration* service you are monitoring, either one of the six default ones or your self-managed service  `CloudIntegration-<tenant_name>_<userID>` (depending on the services you have in scope)
 
@@ -42,12 +46,14 @@ Run through the steps in the given order
     <br>![](/exercises/ex2/images/IMExceptDetailsHalloUser.png)
 	
 	Within the **exception details page** you can see the related integration artifact and the deploying user along with the deployment time stamp and the status, whether the exception is resolved or not.
+	
+7. Go back to the 
 
 ## Summary
 
 You've now seen how an integration exception shows up in SAP Cloud ALM and where to get the details.
 
-<br>Continue to - [Exercise 2.6 - Watch a deployment exception alert](./ex26/readme.md)
+<br>Continue to - [Exercise 2.6 - Watch a deployment exception alert](/exercises/ex2/ex26/)
 
 
 
