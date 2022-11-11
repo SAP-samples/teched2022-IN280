@@ -4,18 +4,17 @@ In this exercise you will check the same integration flow with an exception in t
 
 #### Prerequisites:
 
-- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
+- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>-<userID>`
 - You should have corrected the ProcessAdapter channel configuration correctly
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Click* on the *Automatic Refresh* icon at the black top row and change the refresh frequency to every *15 sec*.
+1. *Optionally* click on **Refresh** at the black top row to get your user interface updated
 
-	SAP Cloud ALM is polling the Cloud Integration tenant for monitoring data as default every 5 minutes and we want to avoid waiting. 
-
-	After receiving the event the number of exceptions and the number of alerts increase. *Reset* the *automatic refresh* to default.
+	
+2. After receiving the event the number of exceptions and the number of alerts decrease
 
 2. *Navigate* to the **Exception page** by *clicking* on the *Exceptions* link of your *Cloud Integration* service
     
