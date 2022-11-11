@@ -14,15 +14,17 @@ Run through the steps in the given order.
        
 3. [Activate alerts for deployment exceptions of integration artifacts](./ex23/readme.md)
 
-4. [Deploy a faulty integration flow](./ex24/readme.md)
+4. [Deploy a faulty integration flow](./ex24/readme.md) in SAP Integration Suite
 
 5. [Display the deployment exception](./ex25/readme.md) in SAP Cloud ALM
 
 6. [Watch a deployment exception alert](/exercises/ex2/ex26)
 
-7. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/)
+7. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/) in SAP Integration Suite
 
 8. [Watch the resolved deployment exception](./ex28/) in the SAP Cloud ALM
+
+9. [Exercise 2.9 - Search for customer header properties](/exercises/ex2/ex29/) 
 
 ## Summary
 
