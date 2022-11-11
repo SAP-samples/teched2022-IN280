@@ -19,9 +19,9 @@ Run through the steps in the given order.
        
 2.	In the upcoming window under *General* maintain the fields:
     
-    - *Endpoint name*: `<tenantID>-<userID>`
+    - *Endpoint name*: `<tenant_name>-<userID>`
        
-        *Copy* your `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
+        *Copy* your `<tenant_name>` and `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
 		
     - Optionally maintain a description
     - *Use Case*: select all monitoring use cases
@@ -47,7 +47,7 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex1/images/LMSEndpointConnectionCheck.png)
     
-    If you don't see the three use cases add them. If the connectivity fails check the parameters.
+    :warning: If you don't see the three use cases add them. If the connectivity fails check the parameters.
     
 5. When done, click on **Save**
 
