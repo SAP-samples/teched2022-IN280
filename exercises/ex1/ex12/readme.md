@@ -2,6 +2,8 @@
 
 In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectiion to a Cloud Integration tenant of SAP Integration Suite. This endpoint will be leveraged for all ALM monitoring use cases.
 
+**Note:** This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.
+
 #### Prerequisites
 
 - You are logged in the [Landscape Management service](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=sap.crun.landscape) of [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
