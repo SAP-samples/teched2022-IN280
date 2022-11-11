@@ -58,6 +58,7 @@ Please start with [Exercise 1 - Configure the monitoring of Cloud Integration te
     - [Watch a deployment exception alert](/exercises/ex2/ex26)
     - [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/)
     - [Watch the resolved deployment exception](/exercises/ex2/ex28/)
+    - [Search for customer header properties](/exercises/ex2/ex29/)
 - [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/readme.md)
     - [Scenario introduction: Central monitoring of an integration scenario end-to-end](/exercises/ex3/ex30/)
     - [Bring a business scenario into scope](/exercises/ex3/ex31)
