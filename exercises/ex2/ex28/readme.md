@@ -1,40 +1,52 @@
 # Exercise 2.8 - Watch the resolved deployment exception
 
-In this exercise you will check the same integration flow with an exception in the past and now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
+In this exercise you will check the integration flow again now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
 
 #### Prerequisites:
 
-- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>-<userID>`
-- You should have corrected the ProcessAdapter channel configuration correctly
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
+- You should have corrected the ProcessAdapter channel configuration as outlined in [Exercise 2.7](/exercises/ex2/ex27/)
+- *If you are performing configurations yourself:* Eventing and alerting for *Integration Exceptions* should be activated for your own-managed `CloudIntegration-<tenant_name>-<userID>` service
+
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Optionally* click on **Refresh** at the black top row to get your user interface updated
-
-	
-2. After receiving the event the number of exceptions and the number of alerts decrease
-
-2. *Navigate* to the **Exception page** by *clicking* on the *Exceptions* link of your *Cloud Integration* service
+1. *Navigate* to the **Exception page** by *clicking* on the *Exceptions* link of your *Cloud Integration* service
     
     <br>![](/exercises/ex2/images/IMExceptionsLink.png)
     
-3. Recognize that the switch of the *status* icon in the first column meaning that the *message has run successfully*. The deployment exception has been resolved.
+2. *Optionally* click on **Refresh** at the black top row to get your user interface updated
+
+	
+3. After receiving the event the number of exceptions and the number of alerts should decrease
+
+
+4. *Click* on the **Integration Artifacts Deployments** link of the *Cloud Integration* service you are monitoring, either one of the six default ones or your self-managed `CloudIntegration-<tenant_name>-<userID>` service
+
+    Recognize that you can see that the integration flow has changed it's **exceptions status** from *Error* to *Resolved*. This is visible in the lower list where the icon in the first column has changed to **green**. Also in the upper overview section you see now *resolved exceptions*
 
     <br>![](/exercises/ex2/images/IMExceptPageSuccessMoveToDetails.png)
 
-4. *Navigate* to the *exception details page* using the *arrow* icon on the right side (see screenshot above) and see the successful message.
+5. *Navigate* to the **exception details page** using the *arrow* icon on the right side (see screenshot above) and see the successful message
 
     <br>![](/exercises/ex2/images/IMExceptDetailsSuccessfulMessage.png)
 
 5. *Click* on the *exclamation mark* icon on the left navigation to navigate to the **alerting section**
 
-6. In case you have to filter for the alert related to integration flow you have deployed, use the *filter* icon in the light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+#### Now we want to oversee the exception alerts
 
-   You will see the alert details, highlighting not only that the exception is resolved but also when. .....
+6. **Filter** for alerts related to integration flows you have deployed
+
+    *Click* on the *filter* icon in the upper light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+
+    <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
+    
+    - In case your are using one of the default pre-configured *Cloud Integration services* the alert name is **Errorneous Integratio Artifact**
+    - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be `userID` **Exceptions**
    
-   > MARKUS: kindly ask you to add here more info
+7. See the **Alert Details** via *clicking* on the alert link
 
     <br>![](/exercises/ex2/images/IMExceptAlertDetailsSuccessfulMessage.png)
 
