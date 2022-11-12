@@ -1,6 +1,6 @@
 # Scenario introduction: Deployment exception of an integration flow
 
-A integration flow has been prepared in the Cloud Integration capability of SAP Integration Suite that cannot be deployed in the way it is configured. It is a very simple *Hallo World* flow that is leveraging **ProcessDirect sender and receiver adapters** that are typically used for flow-to-flow communication between a standard SAP and a custom-specific integration flow. 
+An integration flow has been prepared in the Cloud Integration capability of SAP Integration Suite that cannot be deployed in the way as it is configured. It is a very simple *Hallo World* flow that is leveraging **ProcessDirect sender and receiver adapters** that are typically used for flow-to-flow communication between a standard SAP and a custom-specific integration flow. 
 
 <br>![](/exercises/ex2/images/IFlowHalloWorld.png)
 
@@ -13,3 +13,5 @@ The integration flow is timer triggered and run only once after deployment. We d
 >  
 
 Some information as the *userID* are written to *custom header properties *. These can be tracked in *Integration & Exception Monitoring* in the tracking section.
+
+Continue to [Exercise 2.1](/exercises/ex2/ex21/)
