@@ -39,7 +39,7 @@ Run through the steps in the given order
     - Optionally maintain a description
     - *Tenant ID*: `01234567<userID-digits>` removing the beginning character of your `userId`
     - *Service Type*: `SAP Integration Suite (Cloud Integration)`
-    - *Tenant Type*: `Test`
+    - *Tenant Role*: `Test`
     - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
    
  5. When done, click on *Save*
