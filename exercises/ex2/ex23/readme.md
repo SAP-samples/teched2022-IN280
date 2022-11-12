@@ -4,7 +4,7 @@ In this exercise, you will activate  **monitoring** and  **alerting** of integra
 
 #### Prerequisites:
 
-- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or own-managed *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` in scope
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or self-managed *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` in scope
 - *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
 
 ## Exercise steps
@@ -19,18 +19,17 @@ Run through the steps in the given order
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
    
-    A *Cloud Integration service* in SAP Cloud ALM serves three use cases: integration, exception, and health monitoring. The below **use cases** are part of *Integration & Exception Monitoring* displayed as **monitoring categories**:
-        - *SAP Integration Suite Messages* for **integration monitoring**
-        - *Integration Artifact Deployments* for **exception monitoring**
+    A *Cloud Integration service* in SAP Cloud ALM serves three use cases: integration, exception, and health monitoring. The below **use cases** are part of *Integration & Exception Monitoring* and are displayed as **monitoring categories**:
+    
+	- *SAP Integration Suite Messages* for **integration monitoring**
+	- *Integration Artifact Deployments* for **exception monitoring**
 
 #### Adapt the **monitoring filter**
 
-The default preconfigured *Cloud Integration services* are already prepared and nothing has to be done. **You can jump to the step 7**
+❗ If you are using the default preconfigured *Cloud Integration services* the monitoring filter is a generic one and can't be changed. Filtering is with the purpose of this exercise not allowed **Please jump to the step 6**
 
-If you configure your *own-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
-You will change the filter in that way that you will monitor only artifacts that cover your *user ID* in the name.
-
-:heavy_exlamation_mark: the default preconfigured *Cloud Integration services* such as `TECHED-EU02` show all integration deployment exceptions. The ones managed by attendees are adapted to see only their integration artifacts
+If you configure your *self-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
+You will change the filter in a way that you will monitor only artifacts with *user ID* in the name.
 
 3. *Select* the **Integration Artifact Deployments** by *clickig* the *arrow* icon
 
@@ -47,19 +46,19 @@ You will change the filter in that way that you will monitor only artifacts that
 
 5. Go back to the *Configuration monitoring overview page* by using the **breadcrumb**
 
-	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
+	<br>![](/exercises/ex2/images/IMExceptConfigAddFilterResult.png)
     
     You should see now an additional *Integration Artifact Deployments* entry that is activated automatically
 	
-### Adapt the 
+### Add a new event
 
-7. Switch to the **Events tab** and **add* a new *event*
+6. Switch to the **Events tab** and **add* a new *event*
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-8. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
+7. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
