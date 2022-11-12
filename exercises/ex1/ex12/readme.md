@@ -2,7 +2,7 @@
 
 In this exercise, you will learn how to add an HTTP endpoint for establishing an authenticated connectiion to a Cloud Integration tenant in SAP Integration Suite. This endpoint will be leveraged by all ALM monitoring use cases.
 
-**Note:** This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.
+❗ **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself**
 
 #### Prerequisites
 
@@ -11,15 +11,17 @@ In this exercise, you will learn how to add an HTTP endpoint for establishing an
 
 ## Exercise steps
 
-Run through the steps in the given order. 
+Run through the steps in the given order
 
 1. *Click* on the button **Add** in the *Endpoints* section
 
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
-2. In the upcoming window under *General* maintain the fields:
+2. In the upcoming window under *General* maintain the fields
 
-    <br>![](/exercises/ex1/images/LMSAddEndpointGeneral.png)
+    <br>![Replace the highlighted parts by the Tenant Booker app info](/exercises/ex1/images/LMSAddEndpointGeneral.png)
+    
+    Highlighted are the *tenant specific* information you have to replace
     
     - *Endpoint name*: `<tenant_name>-<userID>` with *tenant names* such as TECHED-US01, TECHED-US02, TECHED-EU01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02
        
@@ -32,30 +34,37 @@ Run through the steps in the given order.
         - Health Monitoring
      - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
 
-    <br>![](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
+    <br>![Highlighted is the *tenant name* you will monitor](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
+    
 
-3.	Under *Authentication* maintain the **OAuth credentials**:
-	
+
+3.	Under *Authentication* maintain the **OAuth credentials**
+
+    <br>![Highlighted the tenant name](/exercises/ex1/images/LMSAddEndpointAuthentication.png)
+    
+    Highlighted are the *tenant specific* information you have to replace
+    
 	- Authentication type: `OAuth2ClientCredentials`
 	
 	- Copy/paste the *client ID, client secret*, and *token service URL* from the  [Tenant Booker app](/exercises/ex0/ex02/) 
 
-    <br>![Highlighted the tenant name](/exercises/ex1/images/LMSAddEndpointAuthentication.png)
-  
 
+      <br>![Highlighted the tenant name](/exercises/ex1/images/BookerAppResultEndpointAuthentication.png)
+  
+       Highlighted the tenant name
+       
 	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below. These credentials relate to the *Process Integration* **API plan**!
 
-		 <br>![](/exercises/ex1/images/BookerAppResultEndpoint.png)
-    
+   
 4. *Check* the **network connection** to verify whether the entered parameters are correct
 
     <br>![](/exercises/ex1/images/LMSEndpointConnectionCheck.png)
     
     :warning: If you don't see the three use cases add them. If the connectivity fails check the parameters.
     
-5. When done, click on **Save**
+5. When done, **save** the endpoint configuration
 
-6. In the service configuration page, get an overview about all created endpoints and monitoring use cases assigned to them
+6. In the **service configuration page**, get an overview of all created endpoints and monitored use cases
 
 6. You can also check the connectivity using the **Ping Endpoints** button. 
 
@@ -67,7 +76,7 @@ Run through the steps in the given order.
     
 7.  Oversee the lifecycle status of all managed services
 
-    The service you have registered should be now in status *Active*. If not do a browser refresh to get the page updated.
+    The service you have registered will be in status **Active**. This will take a while, and do a browser refresh to get the page updated.
 
     <br>![](/exercises/ex1/images/LMSManagedServices.png)
     
