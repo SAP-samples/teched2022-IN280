@@ -24,16 +24,13 @@ Run through the steps in the given order
     
 	<br>![](/exercises/ex2/images/IMExceptAlerting.png)
 	
-2. 	**Filter** for alerts related to your *userID* 
+2. **Filter** for alerts related to integration flows you have deployed
 
-    - *Click* on the *Filter* icon in the upper right corner
-    - *Enter* your **ser ID* into the field *Object Details*
-    - *Apply* the filter
+    *Click* on the *filter* icon in the upper light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+
     
     <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
-    
-    You will see in the list of alerts only those deployment exceptions related to the integration flow you have deployed. 
-    
+     
     - In case your are using one of the default pre-configured *Cloud Integration services* the alert name is **Errorneous Integratio Artifact**
     - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be `userID` **Exceptions**
     
