@@ -21,18 +21,31 @@ Run through the steps in the given order
 	- *Click* on the *number* of Alters mentioned in the footer row of the card. Please use this option.
 
 	<br>![](/exercises/ex2/images/IMExceptOverviewMoveToAlerting.png)
-
-2. *Familiarize yourself* with the alerting page ...
-
+    
 	<br>![](/exercises/ex2/images/IMExceptAlerting.png)
 	
-3. 	*Click* on the alert link, the *Alert Details page* opens
+2. 	**Filter** for alerts related to your *userID* 
+
+    - *Click* on the *Filter* icon in the upper right corner
+    - *Enter* your **ser ID* into the field *Object Details*
+    - *Apply* the filter
+    
+    <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
+    
+    You will see in the list of alerts only those deployment exceptions related to the integration flow you have deployed. 
+    
+    - In case your are using one of the default pre-configured *Cloud Integration services* the alert name is **Errorneous Integratio Artifact**
+    - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be `userID` **Exceptions**
+    
+
+3. See the **Alert Details** via *clicking* on the alert link
 
 	<br>![](/exercises/ex2/images/IMExceptAlertDetails.png)
 
+    
 	
 ## Summary
 
 You've now seen how an alert reaches the embedding alerting in *Integration & Exception Monitoring*.
 
-<br>Continue to - [Exercise 2.7 - Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/readme.md)
+<br>Continue to - [Exercise 2.7 - Configure the ProcessDirect channels correctly and deploy integration flow successfully](/exercises/ex2/ex27/)
