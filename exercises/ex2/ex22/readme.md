@@ -1,14 +1,18 @@
 # Exercise 2.2 - Familiarize yourself with the Integration & Exception Monitoring overview page
 
-The overview page offers a central view that shows the status of integration scenarios and services in scope. It provides a first indicator where faulty messages or in case of Cloud Integration deployment exceptions of integration artifacts occurred. In this exercise, you will get insights of the used color-coding and the functionalities this page is offering. *All these steps are optional and only for your information.*
+The overview page offers a **central view** that shows the status of integration scenarios and services that are in scope. It provides a first indicator where faulty messages or in case of Cloud Integration deployment exceptions occurred. In this exercise, you will get insights of the used color-coding and the functionalities this page is offering. 
+
+*All these steps are optional and only for your information.* You may jump directly to [Exercise 2.3](/exercises/ex2/ex23/)
 
 >
-> *Note*: Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
-> You may identify the scenarios by the boxes of the involved services
-> The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
+> **The below screenshots you can't see in our TechEd IN280 SAP Cloud ALM tenant. They are captured from another demo tenant but provides you an idea how an IT landscape is reflected in SAP Cloud ALM**
 >
 
-We are focusing on the card of the business scenario *ExternalWorkforce*. You may try it out with Cloud Integration service you are managing.
+**Note:** Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
+You may identify the scenarios by the boxes of the involved services
+The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
+
+We are focusing on the card of the business scenario *ExternalWorkforce*. You may try it out with one of the Cloud Integration service you have in your scope
 
 <br>![](/exercises/ex2/images/IMOverviewpageDetails.png)
 
