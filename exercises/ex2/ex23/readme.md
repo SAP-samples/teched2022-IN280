@@ -1,67 +1,73 @@
 # Exercise 2.3 - Activate alerts for deployment exceptions of integration artifacts
 
-In this exercise, you will activate the **monitoring** and the **alerting** of integration exceptions for a particular Cloud Integration service. 
+In this exercise, you will activate  **monitoring** and  **alerting** of integration exceptions for a particular *Cloud Integration service*
 
 #### Prerequisites:
 
-- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` or `CloudIntegration-<tenant_name>` in scope
-- You have activited the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/).
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or own-managed *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` in scope
+- *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
 1. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
 
    <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
 
-2. *Click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
+2. *Check* whether the data collection is activated and *click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
 
    <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
+   
+    A *Cloud Integration service* in SAP Cloud ALM serves three use cases: integration, exception, and health monitoring. The below **use cases** are part of *Integration & Exception Monitoring* displayed as **monitoring categories**:
+        - *SAP Integration Suite Messages* for **integration monitoring**
+        - *Integration Artifact Deployments* for **exception monitoring**
 
-3. *Click* on the *arrow* on the right side of the row *Integration Artifact Deployments*
+#### Adapt the **monitoring filter**
+
+The default preconfigured *Cloud Integration services* are already prepared and nothing has to be done. **You can jump to the step 7**
+
+If you configure your *own-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
+You will change the filter in that way that you will monitor only artifacts that cover your *user ID* in the name.
+
+:heavy_exlamation_mark: the default preconfigured *Cloud Integration services* such as `TECHED-EU02` show all integration deployment exceptions. The ones managed by attendees are adapted to see only their integration artifacts
+
+3. *Select* the **Integration Artifact Deployments** by *clickig* the *arrow* icon
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
    
-    During setting up the service for the *Cloud Integration* tenant in the *Landscape Management Service* application we have selected three use cases. The below **two use cases** are displayed in *Integration & Exception Monitoring* as *monitoring categories*:
-   - *SAP Integration Suite Messages* for **Integration Monitoring**
-   - *Integration Artifact Deployments* for **Exception Monitoring**
+4. Within the *Integration Artifact Deployments filter page* **add a new filter** 
 
-   If there are several endpoints available *select* one.
-
-4. *Add a filter* on integration artifact deployments
-	
-	a. *Click* on the button *Add*
-	
-	b. *Specify* the name of the filter: `<userID> exceptions` while `userID` is the one provided to you
-	
-	c. Add an additional filter criteria: the *Artifact Name* should contain ´Hallo´. Adapt the tree fields accordingly
-	
-	d. *Save* the filter
-	
-	>
-	> By means of this filter you will see exception that occur on all *Hallo World* integration flows that all participants will deploy. The filter can be adpated later to display only your exceptions.
-	> 
-	
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
+
+    - *Set* the field **Filter Name** to `ERROR <userID>`
+    - *Change* the *Operator* of the line **Artifact Name** to `Contains`and the field *Value* to `userID`
+    - *Add* in line *Status* the *Value* `ERROR`
+    - **Save** the *filter*
+
+5. Go back to the *Configuration monitoring overview page* by using the **breadcrumb**
+
+	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
+    
+    You should see now an additional *Integration Artifact Deployments* entry that is activated automatically
 	
-5. Switch to the *Events* tab 
+### Adapt the 
+
+7. Switch to the **Events tab** and **add* a new *event*
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-6. *Add* a new *event* 
-
 	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-7. *Choose* the event type **Erroneous Integration Artifact**  and *activate* the alert for the *Alerting* section by switching the *toggle* 
+8. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-8. *Save*  the configuration for this event and *close* the configuration
+8. **Save** and **close** the configuration
    
 
 ## Summary
 
-You've now activated events and alerts for all deployment exception that might occor in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
+You've now activated events and alerts for all deployment exception that might occur in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
 
 <br>Continue to - [Exercise 2.4 - Deploy a faulty integration flow](/exercises/ex2/ex24/)
