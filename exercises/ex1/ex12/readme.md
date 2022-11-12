@@ -1,6 +1,6 @@
 # Exercise 1.2 - Add an HTTP endpoint to a managed service
 
-In this exercise, you will learn how to add an HTTP endpoint to establish authenticated connectiion to a Cloud Integration tenant of SAP Integration Suite. This endpoint will be leveraged for all ALM monitoring use cases.
+In this exercise, you will learn how to add an HTTP endpoint for establishing an authenticated connectiion to a Cloud Integration tenant in SAP Integration Suite. This endpoint will be leveraged by all ALM monitoring use cases.
 
 **Note:** This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.
 
@@ -17,27 +17,31 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
-2.	In the upcoming window under *General* maintain the fields:
+2. In the upcoming window under *General* maintain the fields:
+
+    <br>![](/exercises/ex1/images/LMSAddEndpointGeneral.png)
     
-    - *Endpoint name*: `<tenant_name>-<userID>`
+    - *Endpoint name*: `<tenant_name>-<userID>` with *tenant names* such as TECHED-US01, TECHED-US02, TECHED-EU01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02
        
         *Copy* your `<tenant_name>` and `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
 		
-    - Optionally maintain a description
+    - *Optionally* maintain a description
     - *Use Case*: select all monitoring use cases
         - Exception Monitoring
         - Integration Monitoring
         - Health Monitoring
      - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
-    
-  
-3.	Under *Authentication* maintain the OAuth credentials:
+
+    <br>![](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
+
+3.	Under *Authentication* maintain the **OAuth credentials**:
 	
 	- Authentication type: `OAuth2ClientCredentials`
 	
-	- Copy/paste the *client ID, client secret*, and *token service URL* provided via the  [Tenant Booker app](/exercises/ex0/ex02/) 
+	- Copy/paste the *client ID, client secret*, and *token service URL* from the  [Tenant Booker app](/exercises/ex0/ex02/) 
 
-	   <br>![](/exercises/ex1/images/LMSAddEndpoint.png)
+    <br>![Highlighted the tenant name](/exercises/ex1/images/LMSAddEndpointAuthentication.png)
+  
 
 	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below. These credentials relate to the *Process Integration* **API plan**!
 
