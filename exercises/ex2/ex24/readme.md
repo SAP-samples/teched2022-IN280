@@ -4,49 +4,52 @@ In this exercise you will copy a prepared integration flow, configure, deploy it
 
 #### Prerequisites:
 
-- You are logged in to the SAP Integration Suite tenant you are assigned to by the *Tenant Booker application*
-- *If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>` should be connected to the respective Cloud Integration tenant 
-- Alerting should be activated in *Integration & Exception Monitoring*.
+- You are logged in to the SAP Integration Suite tenant you are assigned to by the  [Tenant Booker application](/exercises/ex0/ex02/)
+- *If you are performing configurations yourself*: alerting should be activated for your `CloudIntegration-<tenant_name>_<userID>` service
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Login* to *SAP Integration Suite* leveraging user / password retrieved from the *Tenant Booker application*
+1. **Login** to *SAP Integration Suite* 
 
     <br>![](/exercises/ex2/images/Login.png)
+    
+    Leveraging the information from the *Tenant Booker application* and *click* the check box *Remember me*
+    
+    <br>![](/exercises/ex2/images/SuiteLoginInfo.png) 
 
-2. *Move* to the *Integration Designer* 
+2. *Move* to the **Integration Designer** 
 
     The new SAP Integration Suite home page offers a new left-side navigation. *Click* on *Design* and then on *Integration* to get to the integration packages. 
     
     <br>![](/exercises/ex2/images/SuiteMoveDesigner.png)
     
-3. *Select* the prepared integration package *TechEd 2022 IN280*
+3. *Select* the prepared integration package ***TechEd 2022 IN280***
 
     <br>![](/exercises/ex2/images/SuiteDesignerSelectPackage.png)
     
-4. *Switch* to the *Artifacts* tab, *select* the button *Actions* and then *click* on **Copy** to copy the prepared integration flow.
+4. *Switch* to the ***Artifacts*** tab, *select* the button ***Actions*** and then *click* on ***Copy*** to copy the prepared integration flow.
     
-    **Please don't use the original integration flow!**
+    **Note:** **Please don't use the original integration flow!** You will use your own one *Hallo World -* `userID` throughout all exercises and you have to *configure* it only. Edit is not necesssary.
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
   
-5. In the **copy dialog** *replace* the `userID` in field *Name* with the userID you got from the Tenant Booker application. 
+5. In the **copy dialog** *replace* the `userID` in field *Name* with the userID you got from the [Tenant Booker appl](/exercises/ex0/ex02/)
 
     The new integration flow should be named *Hallo World -* `userID` and be part of the existing integration package.
 
     <br>![](/exercises/ex2/images/SuiteDesignerCopyFlow.png)
 
-6. *Click* on *Actions* of your integration flow and then on **Configure**
+6. *Click* on ***Actions*** of your integration flow and then on ***Configure***
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsConfigure.png)
     
-7. *Move* to the tab **More** and *set* in field **userID** the userID you have got via the Tenant Booker application. 
+7. *Move* to the tab **More** and *set* in field ***userID*** your userID 
     
-    **Don't change any other channel fields as we want to provoke a deployment error**.
+    **Important: Don't change any other channel fields as we want to provoke a deployment error**.
     
-    *Deploy* the integration flow *Hallo World -* `userID`.
+    ***Deploy*** the integration flow *Hallo World -* `userID`.
     
     <br>![](/exercises/ex2/images/SuiteDesignerConfigureUser.png)
     
@@ -54,15 +57,15 @@ Run through the steps in the given order
     
     Another popup appears regarding the deployment, *click* on *Ok*.
 
-8. *Move* to the *Integration Monitor* 
+8. *Move* to the **Integration Monitor** 
 
     <br>![](/exercises/ex2/images/SuiteMoveMonitor.png)
 
-9. *Select* the tile *All* in the section *Manage Integration Content* 
+9. *Select* the first tile in section ***Manage Integration Content***
 
     <br>![](/exercises/ex2/images/SuiteMonitorMoveToContent.png)
 
-10. *Reload* the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* status to status *Error*
+10. ***Reload*** the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* status to status ***Error***
 
     <br>![](/exercises/ex2/images/SuiteMPLConsumer001ExistsAlready.png)
 
@@ -72,9 +75,9 @@ Run through the steps in the given order
 
 ## Summary
 
-You've now copied an existing integration flow, configured and deployed it and provoke an exception error. 
+You've now copied an existing integration flow, configured and deployed it, and with that provoked an exception error. 
 
-<br>Continue to - [Exercise 2.5 - Display the deployment exception](./ex25/readme.md)
+<br>Continue to - [Exercise 2.5 - Display the deployment exception](/exercises/ex2/ex25/readme.md)
 
 
 
