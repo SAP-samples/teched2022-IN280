@@ -29,6 +29,10 @@ Run through the steps in the given order
     Below you see the list of messages transferred in the selected time frame and for each message beyond the message status also the package name, artifact name, and other fields.
     
     Erroneous messages are highlighted in red. As you can see one message sent by the SAP Fieldglass instance has failed, others have completed successfully. 
+    
+3. *Click* on **number of messages in ERROR** in the header section and the below message list will be filtered. 
+
+    You may gain experience in filtering of message by sender, receiver , or flows by using the charts of the header section
 
 ## Summary
 
