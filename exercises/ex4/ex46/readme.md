@@ -1,48 +1,50 @@
 # Exercise 4.6 - Details on how to work with Cloud Integration metrics
 
-In this exercise, we will ...
+In this exercise, we will get an understanding how to work with the *metrics page*. You oversee resources of *Cloud Integration* at a glance and exhausted resources get attention quickly.
 
-#### Prequisites:
+#### Prerequisites:
 
 - You have opened the *metric overview page* of a Cloud Integration service
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
-1. *Click* on the card *Certificate Validity*
+1. *Click* on the *metric card* **Certificate Validity**
 
    <br>![](/exercises/ex4/images/HMMetricOverviewCertificateDetails.png)   
    
-   A *Details page* opens showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value and you oversee the certificates at the top that have to be updated most urgently
+   A **Details page** opens that is showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value and you oversee the certificates at the top that have to be updated most urgently
    
-2. *Click* on one *info* icon to see the API result from pulling the Cloud Integration tenant
+2. *Click* on one *info* icon to see the **API result** from polling the *Cloud Integration tenant*
 
    <br>![](/exercises/ex4/images/HMMetricCertificateInfo.png)   
    
-3. Inspect the queue issue and *click* on the card *JMS Queues Status* and examine which queue caused the rating
+3. Now inspect the queue issue and *click* on the *metric card* **JMS Queues Status** and examine which queues have caused the rating
 
-   From the left metric overview side you see that a queue is rated as *Critical* or *Fatal*. Also the card *JMS Queue Capacity* shows that the may queue capacity has been reached. 
-      
+   From the left metric overview side you see that queues are rated as *Warning* or *Error*. 
+        
    <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)
    
-   From the right metric details you get in the insight, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped
+   In the list you see, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped and the queue `CX_SRVORDER_ASYNC` is in state *Critical*
 
-4. *Click* on the tab *All Metrics*
+4. *Click* on the tab **All Metrics**
 
    <br>![](/exercises/ex4/images/HMSwitchToAllMetrics.png)   
 
-   See all metrics that are offered by Cloud Integration such as all *certificate validities* including the remaining days until their expiry. 
+   In the **All Metrics page** all metrics that are offered by Cloud Integration are listed 
 
-   <br>![](/exercises/ex4/images/HMCloudIntegrationMetrics.png)
+   <br>![](/exercises/ex4/images/HMCIMetrics.png)
    
    >
-   > *Information*: As default, Cloud Integration tenants are pulled every 5 minutes using an OData APIs.
-   > 
-
+   > Different metric types exist such as *Quota*, Status* or *Performance* 
+   >
+   > Some metrics have only informative character and are not counted during rating calculation (see [Understand how the health rating of a service is calculated](/exercises/ex4/ex44))
+   >
+   
     As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels
 
-5. *Filter* for metrics in state *Critical*, *Fatal*, or *Warning*
+5. **Filter** for metrics in state *Critical*, *Fatal*, or *Warning*
 
    <br>![](/exercises/ex4/images/HMMetricsFilterData.png)   
    
@@ -50,19 +52,25 @@ Run through the steps in the given order.
 
    <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
    
-   The certificate metric *CPI.Certificate.Expiry* has two different labels: 
+   The certificate metric *CPI.Certificate.Expiry* has two different labels. You may search in the list by a label
    
    - *alias*: certificate name
    - *type*: certificate type (certificate, key pair) 
    
-7. Click on the button *History* of the metric *JMS Qeueu Capacity*
+7. Go back to the ... page, select the    service and *click* on the button **History** of the metric **JMS Queue Capacity**
 
-   The graph shows how the metric has evolved in chronological development, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
+    >
+    > The graph shows how the metric has evolved in chronological development, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
+    > 
+    > It is possible to see the collected data of selected labels for the last 30 days. 
+    >
 
-   It is possible to see the collected data of selected labels for the last 30 days. 
-
-   Below you see the obvious behaviors of the certificate validity of all key pairs. Linear lines represent the number of remaining days until expiry. Directly within this popup you may filter on all labels available for the metric (alias and type for Certificate Validity).
-
+    <br>![](/exercises/ex4/images/HMMetricCapacityHistory.png)
+    
+    The queues on this tenant have been prepared Nov 8th, 2022. Therefore you will see a hop that day. *Find* the hop using the *picker*
+    
+     :heavy_exclamation_mark: **It is not possible to resolve any issue in SAP Cloud ALM. For the issue resolution you have to use SAP Integration Suite!**
+    
 ## Summary
 
 You've understood how to work with Cloud Integration metrics.
