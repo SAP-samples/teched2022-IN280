@@ -31,7 +31,7 @@ Run through the steps in the given order
     > *Note:* The activation of email notification, starting of an operation flow, and creating a ServiceNow ticket is out of scope of the TechEd session IN280
     > 
 
-4. *Activate* all other events *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* in the same matter as described in steps 2 and 3
+4. *Activate* all other events *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* in the same manner as described in steps 2 and 3
 
     After the configuration you see all events activated
     
