@@ -1,4 +1,4 @@
-# Exercise 4.5 - Get an overview on monitored metrics of a Cloud Integration service
+# Exercise 4.5 - Get an overview of Cloud Integration metrics
 
 In this exercise you will understand how to get an **overview of all metrics** that are monitored for a particular Cloud Integration service.
 
