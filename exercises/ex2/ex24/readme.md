@@ -4,8 +4,7 @@ In this exercise you will copy a prepared integration flow, configure, deploy it
 
 #### Prerequisites:
 
-- You are logged in to the SAP Integration Suite tenant you are assigned to by the  [Tenant Booker application](/exercises/ex0/ex02/)
-- *If you are performing configurations yourself*: alerting should be activated for your `CloudIntegration-<tenant_name>_<userID>` service
+- :construction_worker: *If you are performing configurations yourself*: alerting should be activated for your `CloudIntegration-<tenant_name>_<userID>` service
 
 ## Exercise steps
 
@@ -13,10 +12,14 @@ Run through the steps in the given order
 
 1. **Login** to *SAP Integration Suite* 
 
+    Use the information from the  [Tenant Booker application](/exercises/ex0/ex02/)
+    
+    - first link to access the SAP Integration Suite tenant 
+    - user / password
+    
     <br>![](/exercises/ex2/images/Login.png)
     
-    Leveraging the information from the *Tenant Booker application* and *click* the check box *Remember me*
-    
+  
     <br>![](/exercises/ex2/images/SuiteLoginInfo.png) 
 
 2. *Move* to the **Integration Designer** 
