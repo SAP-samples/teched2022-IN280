@@ -6,7 +6,7 @@ In this exercise you will examine deployment exceptions in *Integration & Except
 
 - You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
 - You should have provoked a deployment exception via an integration flow in SAP Integration Suite
-- :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service*:  Events and alerts for *Integration Exceptions* should be activated
+- :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service*:  Events and alerts for *Integration Exceptions* must be activated
 
 
 ## Exercise steps
