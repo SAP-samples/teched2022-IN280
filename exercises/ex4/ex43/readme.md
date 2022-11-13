@@ -1,4 +1,4 @@
-# Exercise 4.3 - Get an overview of all Cloud Integration tenants of SAP Integration Suite
+# Exercise 4.3 - Get an overview of all Cloud Integration services of SAP Integration Suite
 
 In this exercise you will understand how to get an **overview on Cloud Integration services** along with their technical health rating. The color-coding of a service's rating can be taken as an indicator where you have to look into the details. 
 
