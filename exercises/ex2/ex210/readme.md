@@ -1,4 +1,4 @@
-# Exercise 2.9 - Search for customer header properties
+# Exercise 2.10 - Search for customer header properties
 
 In this exercise, you will search single messages based on a specific business context attribute, your *userID*. Searches are performed in the *tracking section* of *Integration & Exception Monitoring*. From the resulting messages it is possible to navigate forward to the SAP Integration Suite monitoring 
 
