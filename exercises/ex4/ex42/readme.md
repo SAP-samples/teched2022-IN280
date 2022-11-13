@@ -5,8 +5,6 @@ In this exercise, you will understand which information you may retrieve from th
  
 ## Exercise steps
 
-All these steps are optional and only for your information. You may jump directly to [Exercise 4.3](/exercises/ex4/ex43/)
-
 <br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
 
 :grey_exclamation: **Note:** As this is only a exercise landscape and therefore we can't see a large IT landscape. Please image that you can see also other cards such as SAP HANA Cloud, SAP S/4HANA, SAP S/4HANA Cloud. See the complete list of supported solutions in the [SAP Cloud ALM expert portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html).
