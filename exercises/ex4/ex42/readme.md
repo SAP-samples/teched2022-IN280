@@ -1,29 +1,35 @@
-# Exercise 4.2 - Check key data of all monitored services in overview page
+# Exercise 4.2 - Familiarize yourself with the Health Monitoring overview page
 
-In this exercise, you will understand which information you may retrieve from this central page of Health Monitoring. It shows the healthiness of connected services on the level of *service types* such as Cloud Integration services. With that offers a first indicator where crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
+In this exercise, you will understand which information you may retrieve from this central page of Health Monitoring. It shows the healthiness of connected services on the level of *service types* such as Cloud Integration services. With that it offers a first indicator where crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
 
 
 ## Exercise steps
 
-All these steps are optional and only for your information.
+All these steps are optional and only for your information. You may jump directly to [Exercise 4.3](/exercises/ex4/ex43/)
 
 <br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
 
-1. *Click* on the *quality icon*, *select* an instance, and *check* whether the **data collection** is running successfully
+1. *Click* on the **quality icon**, *select* a *Cloud Integration service*, and *check* whether the **data collection** is running successfully
 
    <br>![](/exercises/ex4/images/HMDataQuality.png)
+   
+   **Close** the popup again
 
-2. In case of raised alerts you would be able to jump directly to the embedded **alerting**
+2. By *clicking* on the **number of alerts** you may able to jump directly to the **alerting page**
 
-3. Check the **status of business service events** with the time-calender-icon
+3. Check the **status of business service events** with the *time-calendar-icon*
 
-    It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here
+    It shows the events from the **Cloud Availability Center**. If a maintenance, disruption or degradation events raise up for a service it will be displayed here
 
-4. *Click* on the *Star* icon to set tenants of type *Cloud Integration* capability to your **favorite** ones and track them more easily
+4. *Click* on the *Star* icon to set the type *Cloud Integration service* to your **favorite** ones and track them more easily
 
-5. *Click* on the *info* icon. For each Cloud Integration instance you may get a first overview on it's **rating**
+    A new card appears in the *Favorites* section that shows not only the services in scope. Instead all registered services of that type are included
+
+5. *Click* on the *info* icon. For each *Cloud Integration service* you may get a first overview on it's **rating**
 
    <br>![](/exercises/ex4/images/HMOverviewCIRating.png)
+   
+   All the services are currently rating in the *Warning level*
 
 ## Summary
 
