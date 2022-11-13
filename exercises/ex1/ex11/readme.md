@@ -2,11 +2,7 @@
 
 In this exercise, you will learn how to register a Cloud Integration service in the *Landscape Management Service (LMS)* of SAP Cloud ALM. This service has a secure connection to a respective Cloud Integration tenant as part of SAP Integration Suite. 
 
-**Note:** This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself.
-
-:warning: to be added: Overview on available SAP Integration Suite tenants and SAP Cloud ALM tenant for this session
-
-<br>![](/exercises/ex1/images/RegisteredServicesToSuiteTenants.png)
+**Note:** This exercise is only necessary if you configure a *Cloud Integration service* in SAP Cloud ALM yourself
 
 #### Prerequisites
 
@@ -32,7 +28,8 @@ Run through the steps in the given order
 	
     - *Name*: `CloudIntegration-<tenant_name>-<userID>`
        		
-		- Copy the tenant name from  the [Tenant Booker application](/exercises/ex0/ex02/): either TECHED-US01, TECHED-US02, TECHED-E01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02
+		- Copy the tenant name from  the [Tenant Booker application](/exercises/ex0/ex02/): either TECHED-US01, TECHED-US02, TECHED-E01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02 (see also [System landscape](/exercises/ex0/)
+			
 		- Use your `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
 		
 	   
