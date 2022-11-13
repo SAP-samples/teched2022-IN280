@@ -32,7 +32,7 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex3/images/IMWorkforceFailedMessage.png)
 
-5. In the *message details* you see that the status of message `1EGT...` is failed
+5. In the *message details* you see that the status of message `1EGT...` has failed
 
     <br>![](/exercises/ex3/images/IMWorkforceMessageDetailsFailed.png)
 
