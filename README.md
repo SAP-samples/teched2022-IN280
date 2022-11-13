@@ -20,7 +20,7 @@ There are no prior requirements to this exercise. You can perform this even if y
 
 You can check out these material:
 
-- SAP Discovery Center mission that helps you in getting started with SAP Integration Suite: [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
+- SAP Discovery Center mission that helps you [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
 
 - SAP Community blog posts [Central monitoring of integration scenarios](https://blogs.sap.com/2021/12/21/central-monitoring-of-integration-scenarios-using-sap-cloud-alm/) and [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/)
 
@@ -30,8 +30,8 @@ You can check out these material:
 
 For running through the exercise steps, we will provide you access to the following systems:
 
-- [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/)
-- 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions) are provided and you will be assigned to one of them via a Tenant Booker application
+- 1 [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/)
+- 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions) are provided. You will be assigned to one of them via a [Tenant Booker application](/exercises/ex0/ex02/)
 - See also the [System landscape](/exercises/ex0/)
 
 When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse the digital numbers of your user.
