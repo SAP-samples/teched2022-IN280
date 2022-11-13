@@ -25,6 +25,6 @@ Sum up 10 metrics in *Critical* state mapped to a score of 0%, 1 in *Warning* 50
 
 ## Summary
 
-Now ...
+Now you understand how the rating of a tenant's health is calculated.
 
 <br>Continue to - [Exercise 4.5 - Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45/)
