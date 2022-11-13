@@ -28,8 +28,6 @@ Run through the exercise steps in the given order
 7. *If you are performing configurations yourself:* [Activate alerts](/exercises/ex4/ex47/)
 
 8. [Check alerts in Health Monitoring](/exercises/ex4/ex48/)
-
-9. [Overwrite thresholds](/exercises/ex4/ex49/)
    
 >
 > *Important*: Health monitoring does not offer any tools to update certificates or queues directly. This is only possible in the *keystore monitor* or *manage stores monitor* of Cloud Integration itself. 
