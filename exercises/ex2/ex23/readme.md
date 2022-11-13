@@ -26,43 +26,45 @@ Run through the steps in the given order
 
 #### Adapt the **monitoring filter**
 
-❗ If you are using the default preconfigured *Cloud Integration services* the monitoring filter is a generic one and can't be changed. Filtering is with the purpose of this exercise not allowed **Please jump to the step 6**
+❗ If you are using the default preconfigured *Cloud Integration services* the monitoring filter is a generic one and should't be changed. **Please jump to the step 6**
 
 If you configure your *self-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
-You will change the filter in a way that you will monitor only artifacts with *user ID* in the name.
+You will change the filter in a way that you will monitor only artifacts with *user ID*.
 
 3. *Select* the **Integration Artifact Deployments** by *clickig* the *arrow* icon
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
    
-4. Within the *Integration Artifact Deployments filter page* **add a new filter** 
+4. Within the *Integration Artifact Deployments filter page* **change the filter** 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 
     - *Set* the field **Filter Name** to `ERROR <userID>`
     - *Change* the *Operator* of the line **Artifact Name** to `Contains`and the field *Value* to `userID`
-    - *Add* in line *Status* the *Value* `ERROR`
+    - If not available *Add* in line *Status* the *Value* `ERROR`
     - **Save** the *filter*
 
 5. Go back to the *Configuration monitoring overview page* by using the **breadcrumb**
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilterResult.png)
     
-    You should see now an additional *Integration Artifact Deployments* entry that is activated automatically
+    You should see now an additional *Integration Artifact Deployments* entry that has been activated automatically
 	
 ### Add a new event
 
-6. Switch to the **Events tab** and **add* a new *event*
+6. Switch to the **Events tab**
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
+7. **Add* a new *event*
+
 	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-7. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
+8. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-8. **Save** and **close** the configuration
+9. **Save** and **close** the configuration
    
 
 ## Summary
