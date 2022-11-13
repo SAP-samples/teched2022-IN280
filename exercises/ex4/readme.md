@@ -15,7 +15,7 @@ Run through the exercise steps in the given order
 
 1. [Bring a Cloud Integration service into scope](/exercises/ex4/ex41)
 
-2. [Check key data of all monitored services in overview page](/exercises/ex4/ex42)
+2. [Check monitored services in overview page](/exercises/ex4/ex42)
 
 3. [Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
 
