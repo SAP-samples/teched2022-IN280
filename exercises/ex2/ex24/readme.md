@@ -68,7 +68,11 @@ You will change the filter in a way that you will monitor only artifacts with *u
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
-9. **Save** and **close** the configuration
+9. *Optional:* if you want to **get email notification** on this event and have added your email address to SAP Cloud ALM as outlined in the previous [Exercise 2.3](/exercises/ex2/ex23/) then *switch the toggle* of the *Send Email To* section, *press* the **Add** button,  and *select* your available and **valid email address**.
+
+    <br>![](/exercises/ex2/images/IMExceptConfigActivateEmail.png)
+
+10. **Save** and **close** the configuration
    
 
 ## Summary
