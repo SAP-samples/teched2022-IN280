@@ -1,78 +1,40 @@
-# Exercise 2.3 - Activate alerts for deployment exceptions of integration artifacts
+# Exercise 2.3 - Add your email address to SAP Cloud ALM
 
-In this exercise, you will activate the **alerting** of integration exceptions for a particular *Cloud Integration service*. 
+In this exercise, we will add your email address to SAP Cloud ALM and verify it. Email recipients are relevant whenever you want to get alert notifications in your email inbox or collaborate in a team.
 
- :heavy_exclamation_mark: *This exercise is only relevant if you are configuring a self-managed `CloudIntegration-<tenant_name>-<userID>` service*. If you use a preconfigured *Cloud Integration service* you can jump directly to - [Exercise 2.4 - Deploy a faulty integration flow](/exercises/ex2/ex24/)
+:heavy_exclamation_mark: :heavy_exclamation_mark: In the IN280 exercises you might recognize the email addresses `<userID>@opensapusers.com`. These are no valid email addresses and cannot be used in any of the SAP Cloud ALM actions.  
+
+**After adding you as new recipient others will see your email-address. Please be aware of this!**  :heavy_exclamation_mark: :heavy_exclamation_mark:
+
+If you want to skip these steps continue with [Exercise 2.4 - Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex24/)
 
 #### Prerequisites:
-
-- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or self-managed *Cloud Integration service* in scope
-- :construction_worker: *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
+You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home) 
 
 ## Exercise steps
 
-Run through the steps in the given order
+Run through the steps in the given order.
 
-1. *Click* on the *three dots* and then on **Edit Configuration** on the card of the *Cloud Integration* service you have registered
+1. From the SAP Cloud ALM homepage *click* on the card **Notification Management**
 
-   <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
-
-2. *Check* whether the data collection is activated and *click* on the service link or the arrow on the right side and navigate to the details of the **service configuration**
-
-   <br>![](/exercises/ex2/images/IMExceptConfigSelectService.png)
+    <br>![](/exercises/ex4/images/CALMLandingNotifMgmt.png) 
    
-    A *Cloud Integration service* in SAP Cloud ALM serves three use cases: integration, exception, and health monitoring. The below **use cases** are part of *Integration & Exception Monitoring* and are displayed as **monitoring categories**:
+2. *Click* on the **+** icon on the right side, *add* your email address, and *save* the configuration
+
+    <br>![](/exercises/ex4/images/NMAddEmail.png) 
     
-	- *SAP Integration Suite Messages* for **integration monitoring**
-	- *Integration Artifact Deployments* for **exception monitoring**
+3. *Go* into your email inbox, give your consent, and *verify* the email address
 
-#### Adapt the **monitoring filter**
+4. After the verification you should see your email address listed as verified
 
-You will change the filter in a way that you will monitor only artifacts with *user ID*.
-
-3. *Select* the **Integration Artifact Deployments** by *clicking* the *arrow* icon
-
-   <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
-   
-4. Within the *Integration Artifact Deployments filter page* **change the filter** 
-
-	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
-
-    - *Set* the field **Filter Name** to `ERROR <userID>`
-    - *Change* the *Operator* of the line **Artifact Name** to `Contains` and the field *Value* to `userID`
-    - If not available *Add* in line *Status* the *Value* `ERROR`
-    - **Save** the *filter*
-
-5. Go back to the *Configuration monitoring overview page* by using the **breadcrumb**
-
-	<br>![](/exercises/ex2/images/IMExceptConfigAddFilterResult.png)
+    <br>![](/exercises/ex4/images/NMEmailVerified.png) 
     
-    You should see now an additional *Integration Artifact Deployments* entry that has been activated automatically
-	
-### Add a new event
-
-6. Switch to the **Events tab**
-
-	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
-
-7. **Add** a new *event*
-
-	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
-	
-8. *Enter* the following fields
-
-    - *Select* the *Event Name* **Erroneous Integration Artifact**  
-    - *Set* the *Display Name* to  `<tenant_name> Deployment Exception` whereas `<tenant_name>` is one of `US01`, `US02`, `EU01`, `EU02`, `APJ01`, or `APJ02` corresponding to your service
-    
-    Then **activate** the alert by switching the *toggle* 
-
-	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
-	
-9. **Save** and **close** the configuration
-   
 
 ## Summary
 
-You've now activated events and alerts for all deployment exception that might occur in the *Cloud Integration* service your have registered. Future deployment exceptions will be displayed in the *Overview* page and in the *Exception* section, alerts will be displayed in the section *Alerting*.
+You've now added your email address to SAP Cloud ALM and verified it. You will be able to receive alerts in your email inbox and use the address in SAP Cloud ALM actions.
 
-<br>Continue to - [Exercise 2.4 - Deploy a faulty integration flow](/exercises/ex2/ex24/)
+<br>Continue to - [Exercise 2.4 - [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex24/)
+
+
+
