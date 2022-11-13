@@ -1,16 +1,16 @@
-# Exercise 3.1 - Bring the business scenario into scope
+# Exercise 3.1 - Bring a business scenario into scope
 
 In this exercise, you will bring the **end-to-end business scenario *ExternalWorkforce* into the scope**
 
 #### Prerequisites:
 
-- You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 
 ## Exercise steps
 
 Run through the steps in the given order.
 
-1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Integration & Exception Monitoring*.
+1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card **Integration & Exception Monitoring**
 
     <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
 
@@ -18,24 +18,23 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex3/images/IMScopeSelectionWorkforce.png)
     
-3. *Filter* for *Business Services*
+3. *Filter* for **Business Services**
 
-4. *Click* on *Go* in the upper right corner for filtering
+4. *Click* on **Go** in the upper right corner for filtering
 
-5. *Select* the *ExternalWorkforce* scenario
+5. *Select* the **ExternalWorkforce** scenario
 
-6. *Apply* the selection
+6. **Apply** the selection
 
-7. If no data has been collected adapt do the following
+7. The card in the **overview page** should look like below. 
 
-    - *Check* whether data collection is activated as outlined in [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
-    - *Adapt* the time frame 
+    <br>![](/exercises/ex3/images/IMWorkforce.png)
+     
+    All three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* should appear in color red
+    
+    If not **adapt the time frame** by *clicking* the *calendar* icon in the black top row and *select* **This Week**
 
-8. *Recognize* that all three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* have faulty messages or an exception.
-
- <br>![](/exercises/ex3/images/IMWorkforce.png)
-
- You may also *click* on the information icon *i* for a legend regarding the used color-coding. Or see again the [Exercise 2.1 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex21/)
+8. You may also *click* on the information icon *i* for a legend regarding the used color-coding. Or see again the [Exercise 2.2 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)
 
 
    
