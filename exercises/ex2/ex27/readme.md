@@ -47,7 +47,7 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex2/images/SuiteMPLMessageSuccess.png)
 
-    You might have to filter for your artifact  *Hallo World -* `userID` if the list of messages is lenghty 
+    You might have to filter for your artifact  *Hallo World -* `userID` if the list of messages is lengthy 
     
 ## Summary
 
