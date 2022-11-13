@@ -15,6 +15,8 @@ Run through the steps in the given order
 2. *Select* the **Erroneous CPI Messages Detected(Grouped)** alert for the *Cloud Integration service* `MyCPI_01`
 
     <br>![](/exercises/ex3/images/IMWorkforceAlertingFailedMessage.png)
+    
+    Highlighted you see some information from SAP Integration Suite, mainly in related integration flow of this erroneous message. Also the SAP Fiedglass tenant has sent an error message and with that raised an alert 
 
 2. In the **alert details page** you see all failed messages grouped together for the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*.
 
