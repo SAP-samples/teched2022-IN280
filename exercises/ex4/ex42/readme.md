@@ -1,13 +1,17 @@
-# Exercise 4.2 - Familiarize yourself with the Health Monitoring overview page
+# Exercise 4.2 - Comprehensive health overview of IT landscape
 
-In this exercise, you will understand which information you may retrieve from this central page of Health Monitoring. It shows the healthiness of connected services on the level of *service types* such as Cloud Integration services. With that it offers a first indicator where crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
+In this exercise, you will understand which information you may retrieve from this **central Health Monitoring overview page**. It shows the healthiness of services on the level of *service types* in both domains cloud and on-premise. It offers a first indicator for which service type crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
 
-
+ 
 ## Exercise steps
 
 All these steps are optional and only for your information. You may jump directly to [Exercise 4.3](/exercises/ex4/ex43/)
 
 <br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
+
+:grey_exclamation: **Note:** As this is only a exercise landscape and therefore we can't see a large IT landscape. Please image that you can see also other cards such as SAP HANA Cloud, SAP S/4HANA, SAP S/4HANA Cloud. See the complete list of supported solutions in the [SAP Cloud ALM expert portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html).
+
+By means of the color-coding and rating services with issues easily get attention. In the screenshot below you see that four Clodu 
 
 1. *Click* on the **quality icon**, *select* a *Cloud Integration service*, and *check* whether the **data collection** is running successfully
 
