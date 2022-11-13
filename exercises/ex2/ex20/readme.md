@@ -16,4 +16,4 @@ The integration flow is timer triggered and run only once after deployment. We d
 
 Some information as the *userID* are written to *custom header properties *. These can be tracked in *Integration & Exception Monitoring* in the tracking section.
 
-Continue to [Exercise 2.1](/exercises/ex2/ex21/)
+Continue to [Exercise 2.1 - Bring a Cloud Integration service into scope](/exercises/ex2/ex21/)
