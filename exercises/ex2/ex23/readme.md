@@ -1,6 +1,8 @@
 # Exercise 2.3 - Activate alerts for deployment exceptions of integration artifacts
 
-In this exercise, you will activate  **monitoring** and  **alerting** of integration exceptions for a particular *Cloud Integration service*
+In this exercise, you will activate the **alerting** of integration exceptions for a particular *Cloud Integration service*. 
+
+ :heavy_exclamation_mark: *This exercise is only relevant if you are configuring a self-managed `CloudIntegration-<tenant_name>-<userID>` service*. If you use a preconfigured *Cloud Integration service* you can jump directly to - [Exercise 2.4 - Deploy a faulty integration flow](/exercises/ex2/ex24/)
 
 #### Prerequisites:
 
@@ -26,12 +28,9 @@ Run through the steps in the given order
 
 #### Adapt the **monitoring filter**
 
-❗ If you are using the default preconfigured *Cloud Integration services* the monitoring filter is a generic one and should't be changed. **Please jump to the step 6**
-
-:construction_worker: If you configure your *self-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
 You will change the filter in a way that you will monitor only artifacts with *user ID*.
 
-3. *Select* the **Integration Artifact Deployments** by *clickig* the *arrow* icon
+3. *Select* the **Integration Artifact Deployments** by *clicking* the *arrow* icon
 
    <br>![](/exercises/ex2/images/IMExceptSelectUsecase.png)
    
@@ -40,7 +39,7 @@ You will change the filter in a way that you will monitor only artifacts with *u
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 
     - *Set* the field **Filter Name** to `ERROR <userID>`
-    - *Change* the *Operator* of the line **Artifact Name** to `Contains`and the field *Value* to `userID`
+    - *Change* the *Operator* of the line **Artifact Name** to `Contains` and the field *Value* to `userID`
     - If not available *Add* in line *Status* the *Value* `ERROR`
     - **Save** the *filter*
 
@@ -56,11 +55,16 @@ You will change the filter in a way that you will monitor only artifacts with *u
 
 	<br>![](/exercises/ex2/images/IMExceptConfigSwitchToEvents.png)
 
-7. **Add* a new *event*
+7. **Add** a new *event*
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddEventButton.png)
 	
-8. *Choose* the event type **Erroneous Integration Artifact**  and **activate** the alert by switching the *toggle* 
+8. *Enter* the following fields
+
+    - *Select* the *Event Name* **Erroneous Integration Artifact**  
+    - *Set* the *Display Name* to  `<tenant_name> Deployment Exception` whereas `<tenant_name>` is one of `US01`, `US02`, `EU01`, `EU02`, `APJ01`, or `APJ02` corresponding to your service
+    
+    Then **activate** the alert by switching the *toggle* 
 
 	<br>![](/exercises/ex2/images/IMExceptConfigActivateAlert.png)
 	
