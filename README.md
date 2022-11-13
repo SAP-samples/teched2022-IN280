@@ -75,7 +75,7 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
     - [Scenario introduction](/exercises/ex4/ex40)
     - [Bring a Cloud Integration service into scope](/exercises/ex4/ex41)
     - [Familiarize yourself with the Health Monitoring overview page](/exercises/ex4/ex42)
-    - [Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
+    - [Get an overview of all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
     - [Understand how the health rating of a service is calculated](/exercises/ex4/ex44)
     - [Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45)
     - [Details on how to work with Cloud Integration metrics](/exercises/ex4/ex46/)
