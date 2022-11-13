@@ -8,23 +8,21 @@ In this exercise, you will analyze a single message that is part of the integrat
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
 1.	*Click* on the first message to navigate to the **single message details view page**
 
     <br>![](/exercises/ex3/images/IMWorkforceFirstMessage.png) 
 
-    This page consists of two sections:
+    The **single message details view page** consists of two sections:
      
-2. In the *Message Details* section *click* on *Technical Correlation* to see the parameters of **SAP Passport**
-
-    <br>![](/exercises/ex3/images/IMWorkforceSAPPassport.png)
+2. In the **Message Details section** you get the *Technical Correlation*
 
     >
     > Single messages in a hybrid landscape are correlated to each other to **assemble an end-to-end message path**. To accomplish this the **SAP Passport mechanism** is leveraged. SAP applications are using this approach to mix in a *transaction ID* and a unique *correlation ID*.
     > 
 
-3. *Click* on the tab *Related Messages & Exceptions* to see the assembled **message path**
+3. *Click* on the tab **Related Messages & Exceptions** to see the **message path**
 
     <br>![](/exercises/ex3/images/IMWorkforceMessagePath.png) 
 
@@ -42,7 +40,7 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex3/images/IMWorkforceFailedMessagePath.png)
 
-    There is a *Java script exception* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to the **local Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. 
+    There is a *Java script exception* with the integration flow *Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA*. To localize the error in details you may navigate to **Cloud Integration monitoring** using the link *Local Monitoring* in section *Message Details*. 
 
     >
     > *Note:* As we are in a demo environment this isn't possible.
