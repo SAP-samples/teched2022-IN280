@@ -14,6 +14,6 @@ The integration flow is timer triggered and run only once after deployment. We d
 > **Important**: The ProcessDirect adapters use a channel for the flow-to-flow communication. The channelId must be unique and identical. If not, a deployment exception is raised. This behavior is used for this exercise.
 >  
 
-Some information as the *userID* are written to *custom header properties *. These can be tracked in *Integration & Exception Monitoring* in the tracking section.
+Some information as the *userID* are written to *custom header properties*. These can be tracked in *Integration & Exception Monitoring* in the tracking section.
 
 Continue to [Exercise 2.1 - Bring a Cloud Integration service into scope](/exercises/ex2/ex21/)
