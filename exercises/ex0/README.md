@@ -1,8 +1,6 @@
-# Prerequisites and additional information
+# System landscape
 
 The tenants we use for this IN280 virtual hands-on session are pre-configured. 
-
-### System landscape
 
 We have **one** *SAP Cloud ALM* tenant and **six** *SAP Integration Suite* tenants (all running in Cloud Foundry environment) prepared, two in three regions:
 
