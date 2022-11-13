@@ -1,51 +1,59 @@
-# Exercise 2.9 - Search for customer header properties
+# Exercise 2.8 - Watch the resolved deployment exception
 
-In this exercise, you will search single messages based on a specific business context attribute, your *userID*. Searches are performed in the *tracking section* of *Integration & Exception Monitoring*. From the resulting messages it is possible to navigate forward to the SAP Integration Suite monitoring 
+In this exercise you will check the integration flow again now running successfully. This change is visible in the exception page and also in the alerting section of SAP Cloud ALM.
 
 #### Prerequisites:
 
-- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the Cloud Integration service in scope where you had deployed the integration flow successfully.
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
+- You should have corrected the ProcessAdapter channel configuration as outlined in [Exercise 2.7](/exercises/ex2/ex27/)
+ - :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service* : Eventing and alerting for *Integration Exceptions* should be activated
+
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
-1. *Click* on the *magnifying glass* icon in the left-side navigation
-
-    > You can search attributes that are exposed by the service to SAP Cloud ALM. For Cloud Integration these are:
-    > - **Technical properties** such as *message ID, correlation ID* (relates integration flows that belong to one execution)
-    > - **Artifact details** such as *name* and *ID*, also *package name* and *ID*
-    > - **Business and payload related content** if added to the MPL during runtime
-    >    - *Sender ID, Receiver ID, custom status, application message ID* and *type*, set by means of a content modifier step
-    >    - **Custom header properties** (name value pair) containing business or payload-related information to be set by means of scripts
-    >
-
-2. *Enter* your `userID` as a criteria and *start* the search
-
-    The prepared integration flow *Hallo World - `userID`* adds your `userID` to the custom header properties via Groovy script
-        
-    <br>![](/exercises/ex2/images/IMExceptTrackingMoveToDetails.png)
-
-    In the result list you see all the messages that have been transferred along with the corresponding SAP Integration Suite tenant and the transfer time stamp 
+1. *Navigate* to the **Exception page** by clicking on the *warning* icon in the left-side navigation
     
-    The search in SAP Cloud ALM is executed cross all services
-       
-3. *Click on an entry* and navigate to the **single message details page**
+    <br>![](/exercises/ex2/images/IMExceptionsLink.png)
     
-    Here you get information regarding the assembled message path with the possibility to jump to local monitoring in Cloud Integration to react on an issue
+2. *Optionally* click on **Refresh** at the black top row to get your user interface updated
+	
+3. After receiving the event the number of exceptions and the number of alerts should decrease
 
-4. Within the *Status Details* section *click* on **Local monitoring**
+    :clock1: It can take up to 5 minutes until data collection has been executed
 
-    <br>![](/exercises/ex2/images/IMExceptTrackingMessageDetailsLocalMonitoring.png)
 
-5. You have been navigated forward to the local *MPL monitoring* of SAP Integration Suite
+4. *Click* on the **Integration Artifacts Deployments** link of the *Cloud Integration* service you are monitoring, either default or your self-managed `CloudIntegration-<tenant_name>-<userID>` service
 
-    <br>![](/exercises/ex2/images/IMExceptTrackingMessageInMPL.png)
+    Recognize that you can see that the integration flow has changed it's **exceptions status** from *Error* to **Resolved**. This is visible in the lower list where the icon in the first column has changed to **green**. Also in the upper overview section you see now *resolved exceptions*
 
-    From the *monitoring page* you have any possibility such as to navigate to the *integration designer* to do changes on the integration flow
+    <br>![](/exercises/ex2/images/IMExceptPageSuccessMoveToDetails.png)
+
+5. *Navigate* to the **exception details page** using the *arrow* icon on the right side (see screenshot above) and see the successful message
+
+    <br>![](/exercises/ex2/images/IMExceptDetailsSuccessfulMessage.png)
+
+5. *Click* on the *exclamation mark* icon on the left navigation to navigate to the **alerting section**
+
+#### Now we want to oversee the exception alerts
+
+6. **Filter** for alerts related to integration flows you have deployed
+
+    *Click* on the *filter* icon in the upper light grey row on the right and filter for the *Object Details* **Hallo_World_`<userID>`**
+
+    <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
     
+    - In case you are using one of the default pre-configured *Cloud Integration services* the alert name is **Erroneous Integration Artifact**
+    - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be `userID` **Exceptions**
+   
+7. See the **Alert Details** via *clicking* on the alert link
+
+    <br>![](/exercises/ex2/images/IMExceptAlertDetailsSuccessfulMessage.png)
+
+
 ## Summary
 
-Now you have searched for messages based on a specific business context attributes available with the custom header properties and you have navigated forward to the SAP Integration Suite monitoring 
+You've now seen that a resolved integration exception shows up in SAP Cloud ALM as an event and an alert.
 
-<br>Congratulation. You have finalized Exercise 2. Continue to [Exercise 3](/exercises/ex3/)
+<br>Continue to - [Exercise 2.10 - Search for customer header properties](/exercises/ex2/ex210/)
