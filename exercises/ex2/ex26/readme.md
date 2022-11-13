@@ -31,7 +31,7 @@ Run through the steps in the given order
     
     <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
      
-    - In case your are using one of the default pre-configured *Cloud Integration services* the alert name is **Errorneous Integratio Artifact**
+    - In case you are using one of the default pre-configured *Cloud Integration services* the alert name is **Erroneous Integration Artifact**
     - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be `userID` **Exceptions**
     
 
