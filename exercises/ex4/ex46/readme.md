@@ -73,6 +73,6 @@ Run through the steps in the given order
     
 ## Summary
 
-You've understood how to work with Cloud Integration metrics.
+You've understood how to work with Cloud Integration metrics. You can get into the details of each metric and see also the chronological development for trend analysis.
 
 <br>Continue to - [Exercise 4.7 - Activate alerts](/exercises/ex4/ex47/)
