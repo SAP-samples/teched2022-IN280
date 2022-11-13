@@ -35,4 +35,4 @@ All these steps are optional and only for your information. You may jump directl
 
 Now you know how to use the central overview page in *Health Monitoring* to oversee the entire IT landscape with the services you have in scope. You understand the color-coding used and know the main functionality of the page.
 
-<br>Continue to - [Exercise 4.3 - Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43/)
+<br>Continue to - [Exercise 4.3 - Get an overview of all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43/)
