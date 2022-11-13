@@ -20,7 +20,7 @@ Run through the exercise steps in the given order
     > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection until your activated alert get listed in the alerting section
     >
 :exclamation_mark:  :heavy_exclamation_mark:
-*Note:* for the TechEd session we are not in a real environment. As attendees have registered additioanl *Cloud Integration services* all connected to the same *Cloud Integration tenant* you will find the same kind of alerts several times
+*Note:* for the TechEd session we are not in a real environment. As attendees have registered additional *Cloud Integration services* all connected to the same *Cloud Integration tenant* you will find the same kind of alerts several times
     
 
 2. If you have several services in your scope, use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
@@ -115,7 +115,7 @@ Run through the exercise steps in the given order
 
         <br>![](/exercises/ex4/images/HMAlertingRatingOverTime.png)
 
-        This queue is in *Warning* state because the resources are getting exhauted.
+        This queue is in *Warning* state because the resources are getting exhausted.
         
     >
     > In the local monitoring of Cloud Integration you may be able to resolve the issue
@@ -125,4 +125,4 @@ Run through the exercise steps in the given order
 
 You've now learned how to work with the alerts in the alerting section. 
 
-<br>Continue to - [Exercise 4.9 - Overwrite thresholds](/exercises/ex4/ex49/)
+Congratulation. You have finalized all exercises. Go back to the main page - [IN280 - Central monitoring of integration scenarios using SAP Cloud ALM](../../../)
