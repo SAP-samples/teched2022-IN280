@@ -6,7 +6,7 @@ In this exercise you will examine deployment exceptions in *Integration & Except
 
 - You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home)
 - You should have provoked a deployment exception via an integration flow in SAP Integration Suite
-- *If you are performing configurations yourself:* Events and alerts for *Integration Exceptions* should be activated for that Cloud Integration service you are managing: `CloudIntegration-<tenant_name>_<userID>`
+- :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service*:  Events and alerts for *Integration Exceptions* should be activated
 
 
 ## Exercise steps
@@ -29,11 +29,11 @@ Run through the steps in the given order
     
     **Note:** please use the *breadcrumb* instead of the browser*s back button whenever you want to go one level up
 	
-4. *Click* on the **Integration Artifacts Deployments** link of the *Cloud Integration* service you are monitoring, either one of the six default ones or your self-managed service  `CloudIntegration-<tenant_name>-<userID>` 
+4. *Click* on the **Integration Artifacts Deployments** link of the *Cloud Integration* service you are monitoring, either one of the six default ones or your self-managed  `CloudIntegration-<tenant_name>-<userID>` service
 
     *Note:* the displayed cards depend on the services you have in scope
 
-    This **exception page** is related to a **particular registered service** such as one of the default Cloud Integration services or your owned-managed `CloudIntegration-<tenant_name>-<userID>`
+    This **exception page** is related to a **particular registered service** such as one of the default Cloud Integration services or your self-managed one
 	
 	- It displays not only the current exceptions, but also the ones that have had a deployment exception in the past and have been **resolved** in the meanwhile
 	- In the first section you get an overview on the number of deployment exception and resolved ones
