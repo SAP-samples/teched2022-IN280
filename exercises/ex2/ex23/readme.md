@@ -4,14 +4,14 @@ In this exercise, you will activate  **monitoring** and  **alerting** of integra
 
 #### Prerequisites:
 
-- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or self-managed *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` in scope
-- *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
+- You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or self-managed *Cloud Integration service* in scope
+- :construction_worker: *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
 
 ## Exercise steps
 
 Run through the steps in the given order
 
-1. *Click* on the *three dots* and then on *Edit Configuration* on the card of the *Cloud Integration* service you have registered
+1. *Click* on the *three dots* and then on **Edit Configuration** on the card of the *Cloud Integration* service you have registered
 
    <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
 
@@ -28,7 +28,7 @@ Run through the steps in the given order
 
 ❗ If you are using the default preconfigured *Cloud Integration services* the monitoring filter is a generic one and should't be changed. **Please jump to the step 6**
 
-If you configure your *self-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
+:construction_worker: If you configure your *self-managed Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` you can adapt the **monitoring filter** as per your needs.
 You will change the filter in a way that you will monitor only artifacts with *user ID*.
 
 3. *Select* the **Integration Artifact Deployments** by *clickig* the *arrow* icon
