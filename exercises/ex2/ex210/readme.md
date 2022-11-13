@@ -48,4 +48,4 @@ Run through the steps in the given order.
 
 Now you have searched for messages based on a specific business context attributes available with the custom header properties and you have navigated forward to the SAP Integration Suite monitoring 
 
-<br>Congratulation. You have finalized Exercise 2. Continue to [Exercise 3](/exercises/ex3/)
+<br>Continue to [Exercise 2.11 - Check the inbox for email notifications](/exercises/ex2/ex211/)
