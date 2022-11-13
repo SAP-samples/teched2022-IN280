@@ -5,20 +5,20 @@ The overview page offers a **central view** that shows the status of integration
 *All these steps are optional and only for your information.* You may jump directly to [Exercise 2.3](/exercises/ex2/ex23/)
 
 >
-> **The below screenshots you can't see in our TechEd IN280 SAP Cloud ALM tenant. They are captured from another demo tenant but provides you an idea how an IT landscape is reflected in SAP Cloud ALM**
+> **The below screenshots you can't see in our TechEd IN280 SAP Cloud ALM tenant. They are captured from another demo tenant but provides you an idea how an IT landscape could look like**
 >
 
 **Note:** Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
 You may identify the scenarios by the boxes of the involved services
 The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
 
-We are focusing on the card of the business scenario *ExternalWorkforce*. You may try it out with one of the Cloud Integration service you have in your scope
+In the screenshots below we are focusing on the card of the business scenario *ExternalWorkforce*. **During the exercise you may try it out with one of the Cloud Integration service you have in your scope**
 
 <br>![](/exercises/ex2/images/IMOverviewpageDetails.png)
 
 1. *Click* on the *quality icon* and check whether the **data collection** is running successfully for the involved services.
 
-    Within the popup that shows up *click* on the *Cloud Integration* service ´H2RCPI`. The status of monitoring messages and integration artifact exceptions is displayed seperately from each other.
+    Within the popup that shows up *click* on the **Cloud Integration service**. The status of monitoring messages and integration artifact exceptions is displayed seperately from each other.
 
     <br>![](/exercises/ex2/images/IMDataQuality.png)
 
@@ -26,7 +26,7 @@ We are focusing on the card of the business scenario *ExternalWorkforce*. You ma
 
 3. *Check* the **status of business service events** with the time-calender-icon
 
-    It shows the events from the Cloud Availability Center. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
+    It shows the events from the **Cloud Availability Center**. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
 
 4. *Click* on the *Star* icon to set an entry to your **favorite** ones and track them more easily also in cases there are **not selected to your scope**
 
@@ -45,7 +45,7 @@ We are focusing on the card of the business scenario *ExternalWorkforce*. You ma
 
 Now you have understood the color-coding the Integration & Exception Monitoring is using and the functionalities the overview page is offering.
 
-<br>Continue to - [Exercise 2.3](/exercises/ex2/ex23/)
+<br>Continue to - [Exercise 2.3 - Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex23/)
 
 
 
