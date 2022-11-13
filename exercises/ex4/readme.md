@@ -3,9 +3,9 @@
 In this exercise, you will leverage the *Health Monitoring* application of SAP Cloud ALM and track resources of Cloud Integration as JMS queues and certificates. 
 
 #### Prerequisites:
-- You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- *If you are performing configurations yourself*, your Cloud Integration service in SAP Cloud ALM `CloudIntegration-<tenant_name>_<userID>`  should be connected to the Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP Cloud ALM](/exercises/ex1/)
--  If you are using the *preconfigured Cloud Integration service* in SAP Cloud ALM `CloudIntegration-<tenant_name>` nothing has to be done
+ - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
+ - :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service* it should be connected to the Cloud Integration tenant. If not please run through exercise [Configure the monitoring of Cloud Integration tenant in SAP Cloud ALM](/exercises/ex1/)
+
 
 ## Exercise steps
 
