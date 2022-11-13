@@ -28,7 +28,7 @@ Run through the steps in the given order
 
 6. *Search and select* at least the **Cloud Integration service** you are assigned to. Please check the  [Tenant Booker application](/exercises/ex0/ex02/) 
 
-    :construction_worker: If you have registered an own *Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` select this one.
+    :construction_worker: If you have registered an own *Cloud Integration service* `CloudIntegration-<tenant_name>-<userID>` select this one
     
     **Note:** every demo landscape is very artificial. Within this hands-on a large amount of Cloud Integration services is excepted, even for the same Cloud Integration tenant
 
@@ -36,9 +36,9 @@ Run through the steps in the given order
 
     *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
     
-    You may add further services if you want but this isn't necessary for the exercise.
+    You may add further services if you want but this isn't necessary for the exercise
     
-7. **Apply** the configuration
+7. **Apply** the selection
 
 
        
