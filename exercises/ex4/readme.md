@@ -17,7 +17,7 @@ Run through the exercise steps in the given order
 
 2. [Familiarize yourself with the Health Monitoring overview page](/exercises/ex4/ex42)
 
-3. [Get an overview about all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
+3. [Get an overview of all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
 
 4. *Optional:* [Understand how the health rating of a service is calculated](/exercises/ex4/ex44)
 
