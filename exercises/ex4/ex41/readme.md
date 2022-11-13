@@ -1,27 +1,31 @@
 # Exercise 4.1 - Bring a Cloud Integration service into scope for health monitoring
 
-In this exercise, you will bring a *Cloud Integration* service into scope.
+In this exercise, you will bring a *Cloud Integration service* into scope.
 
 #### Prerequisites:
 
 - You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- *If you are performing configurations yourself:* your Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` should be already registered and a secure connection established as outlined in [Register a Cloud Integration tenant in LMS](/exercises/ex1/ex11/)
+- :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service:* it should be connected to the *Cloud Integration tenant*
 
 ## Exercise steps
 
-Run through the steps in the given order.
+Run through the steps in the given order
 
-1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card *Health Monitoring*.
+1.	*Navigate* to the section *SAP Cloud ALM for Operation* and click on the card **Health Monitoring**
 
     <br>![](/exercises/ex4/images/CALMLandingHealthMon.png)
 
-2. *Select* the *Scope selection* icon in the black top row, the *Cloud Integration service* you want to monitor, and *apply* the selection
+2. *Select* the **scope selection** icon in the black top row and *search* for the **tenant name**
 
     <br>![](/exercises/ex4/images/HMScoping.png)
 
-    *If you are performing configurations yourself:* select at least the `CloudIntegration-<tenant_name>_<userID>` service. Otherwise select `CloudIntegration-<tenant_name>`. 
+3. *Select* the **Cloud Integration service** you want to monitor (either the preconfigured or self-managed one)
+
+    You may select also further preconfigured *Cloud Integration services*
     
-    You may add further services if you want but this isn't necessary for the exercise.
+4. *Apply* the selection
+
+
     
 
 ## Summary
