@@ -32,6 +32,7 @@ For running through the exercise steps, we will provide you access to the follow
 
 - [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/)
 - 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions) are provided and you will be assigned to one of them via a Tenant Booker application
+- See also the [System landscape](/exercises/ex0/)
 
 When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse the digital numbers of your user.
 
@@ -80,7 +81,6 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
     - [Details on how to work with Cloud Integration metrics](/exercises/ex4/ex46/)
     - [Activate alerts](/exercises/ex4/ex47/)
     - [Check alerts in Health Monitoring](/exercises/ex4/ex48/)
-    - [Overwrite thresholds](/exercises/ex4/ex49/)
 
 ## How to obtain support
 
