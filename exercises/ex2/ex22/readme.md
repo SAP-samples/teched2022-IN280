@@ -10,7 +10,7 @@ The overview page offers a **central view** that shows the status of integration
 
 **Note:** Each card in the overview page represents a **service** or a **business scenario**. The left-side color reflects the overall status for the selected time.
 You may identify the scenarios by the boxes of the involved services
-The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partically out of scope for the IN280 hands-on. <br>
+The screenshot below is taken from a demo tenant and shows an extended view covering a mix of business services and cloud services partially out of scope for the IN280 hands-on. <br>
 
 In the screenshots below we are focusing on the card of the business scenario *ExternalWorkforce*. **During the exercise you may try it out with one of the Cloud Integration service you have in your scope**
 
@@ -18,13 +18,13 @@ In the screenshots below we are focusing on the card of the business scenario *E
 
 1. *Click* on the *quality icon* and check whether the **data collection** is running successfully for the involved services.
 
-    Within the popup that shows up *click* on the **Cloud Integration service**. The status of monitoring messages and integration artifact exceptions is displayed seperately from each other.
+    Within the popup that shows up *click* on the **Cloud Integration service**. The status of monitoring messages and integration artifact exceptions is displayed separately from each other.
 
     <br>![](/exercises/ex2/images/IMDataQuality.png)
 
 2. In case of raised alerts you would be able to jump directly to the embedded **alerting** by clicking on the *number of alerts* in the footer of each card
 
-3. *Check* the **status of business service events** with the time-calender-icon
+3. *Check* the **status of business service events** with the time-calendar-icon
 
     It shows the events from the **Cloud Availability Center**. If a maintenance, disruption or degradation events raise up for a service it will be displayed here.
 
