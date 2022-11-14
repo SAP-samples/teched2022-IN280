@@ -1,8 +1,8 @@
 # Scenario introduction: Central monitoring of an integration scenario end-to-end
 
-For the following end-to-end monitoring exercise, one part of the integrated workflow of the **SAP S/4HANA Lean Procurement** has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging a prebuilt integration package (**[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)**) from [SAP API Business Hub](https://api.sap.com/). 
+For the following end-to-end integration monitoring exercise, one part of the integrated workflow of the **SAP S/4HANA Lean Procurement** has been chosen. A work order is created in SAP Fieldglass and the purchase requisition is replicated to SAP S/4HANA Cloud leveraging a prebuilt integration package (**[SAP S/4HANA Integration with SAP Fieldglass](https://api.sap.com/package/SAPS4HANAintegrationwithSAPFieldglass/overview)**) from [SAP API Business Hub](https://api.sap.com/). 
 
-The relevant integration flows for the scenario are the following:
+The relevant integration flows for the integration scenario are as follows:
 - [Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA](https://api.sap.com/integrationflow/Replicate_Purchase_Requisition_from_Fieldglass_to_S4HANA)
 - [Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass](https://api.sap.com/integrationflow/Purchase_Order_Status_Replication_from_S4HANA_to_Fieldglass)
 
