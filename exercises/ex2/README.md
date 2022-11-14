@@ -20,9 +20,9 @@ Run through the steps in the given order.
 
 6. [Watch a deployment exception alert](/exercises/ex2/ex26)
 
-7. [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/) in SAP Integration Suite
+7. [Configure the ProcessDirect channels correctly](/exercises/ex2/ex27/) in SAP Integration Suite
 
-8. [Watch the resolved deployment exception](./ex28/) in the SAP Cloud ALM
+8. [Watch the resolved deployment exception](/exercises/ex2/ex28/) in the SAP Cloud ALM
 
 9. [Search for customer header properties](/exercises/ex2/ex29/) 
 
