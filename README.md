@@ -72,7 +72,6 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
     - [Anayze the path of a single message](/exercises/ex3/ex34)
     - [Search a failed message under tracking](/exercises/ex3/ex35)
     - [Watch alerts that have been raised for failed messages](/exercises/ex3/ex36)
-    - :warning: *Optional:* Send email notification for raised alerts
 - [Exercise 4 - Health monitoring of Cloud Integration resources](/exercises/ex4/readme.md)
     - [Scenario introduction](/exercises/ex4/ex40)
     - [Bring a Cloud Integration service into scope](/exercises/ex4/ex41)
