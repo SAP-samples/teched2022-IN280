@@ -1,4 +1,4 @@
-# Exercise 4.0 - Scenario introduction
+# Exercise 4.0 - Scenario introduction: Health monitoring of Cloud Integration resources
 
 Health monitoring is focusing on **technical aspects** to identify service disruptions and degradations. All the checks that can be performed are very **service specific**. 
 
