@@ -67,17 +67,11 @@ Run through the exercise steps in the given order
     
     <br>![](/exercises/ex4/images/HMAlertingAssignProcessor.png)
     
-7. *Optional*: 
+7. *Optional*: If you have added your email address to SAP Cloud ALM in [Exercise 2.3](/exercises/ex2/ex23/) you may assign yourself as a processor for the alert. 
 
-    - [Add your email address to SAP Cloud ALM](/exercises/ex4/ex10/)
+    <br>![](/exercises/ex4/images/HMAlertingCapacityAssignProcessor.png)
 
-        If you want to assign a colleagues to an alert you have to use a verified email address. As the email addresses we are using in this TechEd session `userID@opensapusers.com` are not valid you have to add your email address in the separate *Notification Management* application.
-
-        <br>![](/exercises/ex4/images/HMAlertingActions.png)
-
-    - Afer adding yourself as a new recipient you can assign yourself as a processor for the alert. *Save* the assignment.
-
-        <br>![](/exercises/ex4/images/HMAlertingCapacityAssignProcessor.png)
+    *Save* the assignment.
         
 8. *Close* the alert *JMS Queue Capacity* by using the *cross* icon. *Filter* now for all alerts called *Expired Certificates* 
 
