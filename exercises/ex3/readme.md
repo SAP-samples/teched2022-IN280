@@ -9,7 +9,7 @@ In this exercise, you will get experience with an integration scenario that span
 
 Run through the exercise steps in the given order.
 
-[Scenario introduction: Central monitoring of an integration scenario end-to-end](/exercises/ex3/ex30/)
+[Scenario introduction](/exercises/ex3/ex30/)
 
 1. [Bring a business scenario into scope](/exercises/ex3/ex31)
 2. [Overview on business scenario topology](/exercises/ex3/ex32)
