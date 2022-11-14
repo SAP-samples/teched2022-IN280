@@ -1,4 +1,4 @@
-# Exercise 3.2 - Get an overview on the business scenario topology
+# Exercise 3.2 - Overview on business scenario topology
 
 In this exercise, you get an understanding of the topology of the selected integration scenario *ExternalWorkforce*. You see the sender `MyFieldglass_01`, the receiver `MyS4HANACloud_01`and the integration platform in the middle `MyCPI_01`. The view shows the number of exchanged messages and occurred exceptions. As alerts had been activated already, also the number of alerts are listed.
 
@@ -46,4 +46,4 @@ Run through the steps in the given order
 
 Now you got an understanding of the topology of the selected integration scenario *ExternalWorkforce*.
 
-<br>Continue to - [Exercise 3.3 - Watch the SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
+<br>Continue to - [Exercise 3.3 - Watch all SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
