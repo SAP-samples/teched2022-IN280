@@ -32,4 +32,4 @@ Run through the steps in the given order
 
 Now the *Cloud Integration* service you want to monitor is in your scope.
 
-<br>Continue to - [Exercise 4.2 - Familiarize yourself with the Health Monitoring overview page](/exercises/ex4/ex42/)
+<br>Continue to - [Exercise 4.2 - Health overview of IT landscape](/exercises/ex4/ex42/)
