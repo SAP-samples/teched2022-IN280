@@ -1,6 +1,6 @@
 # Exercise 2 - Monitoring a deployment exception
 
-In this exercise, we will get experience with an integration flow that cannot be deployed. The deployment exception will be displayed in *Integration & Exception Monitoring*. 
+In this exercise, we will focus on integration related exceptions. Within the *Integration & Exception Monitoring* of SAP Cloud ALM for Operations you are able to track deployment exceptions of integration artifacts. Get experience with the monitoring of a prepared integration flow that cannot be deployed, see how find the issue and navigate to SAP Integration Suite to start the issue resolution.
 
 ## Exercise steps
 
