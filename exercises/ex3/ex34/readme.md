@@ -51,4 +51,4 @@ Run through the steps in the given order
 
 Now you have analyzed a single message that is part of the integration scenario *ExternalWorkforce*
 
-<br>Continue to - [Exercise 3.5 - Search a failed message under tracking](/exercises/ex3/ex35/)
+<br>Continue to - [Exercise 3.5 - Search for a failed message](/exercises/ex3/ex35/)
