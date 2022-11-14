@@ -1,4 +1,4 @@
-# Exercise 4.3 - Get an overview of all Cloud Integration services of SAP Integration Suite
+# Exercise 4.3 - Health overview of all Cloud Integration services of SAP Integration Suite
 
 In this exercise you will understand how to get an **overview on Cloud Integration services** along with their technical health rating. The color-coding of a service's rating can be taken as an indicator where you have to look into the details. 
 
@@ -28,4 +28,4 @@ Run through the steps in the given order
 
 Now you know where to find an overview on all Cloud Integration services together with an indicator of their technical health rating.
 
-<br>Continue to - [Exercise 4.4 - Understand how the health rating of a service is calculated](/exercises/ex4/ex44/)
+<br>Continue to - [Exercise 4.4 - Calculation of a service's health rating](/exercises/ex4/ex44/)
