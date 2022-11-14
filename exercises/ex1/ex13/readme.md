@@ -47,7 +47,7 @@ Run through the steps in the given order
     
     <br>![](/exercises/ex1/images/IMOverviewEditConfiguration.png)
     
-    b. *<*Switch on** the data collection using the *toggle button*, save the configuration, and close the dialog
+    b. **Switch on** the data collection using the *toggle button*, **save** the configuration, and **close** the dialog
     
     <br>![](/exercises/ex1/images/IMConfigDataCollection.png)
 	
@@ -55,7 +55,9 @@ Run through the steps in the given order
     
     <br>![](/exercises/ex1/images/IMOverviewDataCollectionActivated.png)
 
-    **Note:** It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card gets updated
+     :custard: It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card gets updated
+     
+    d. **Refresh** the user interface to see whether the data collection has been started 
     
 ## Summary
 
