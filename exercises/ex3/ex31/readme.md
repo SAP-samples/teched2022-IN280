@@ -43,4 +43,4 @@ Run through the steps in the given order.
 
 Now you have brought the business scenario *ExternalWorkforce* into your scope.
 
-<br>Continue to - [Exercise 3.2 - Get an overview on the business scenario topology](/exercises/ex3/ex32/)
+<br>Continue to - [Exercise 3.2 - Overview on business scenario topology](/exercises/ex3/ex32/)
