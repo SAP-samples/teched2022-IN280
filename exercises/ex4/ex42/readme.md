@@ -1,4 +1,4 @@
-# Exercise 4.2 - Comprehensive health overview of IT landscape
+# Exercise 4.2 - Health overview of IT landscape
 
 In this exercise, you will understand which information you may retrieve from this **central Health Monitoring overview page**. It shows the healthiness of services on the level of *service types* in both domains cloud and on-premise. It offers a first indicator for which service type crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
 
@@ -37,4 +37,4 @@ By means of the color-coding and rating services with issues easily get attentio
 
 Now you know how to use the central overview page in *Health Monitoring* to oversee the entire IT landscape with the services you have in scope. You understand the color-coding used and know the main functionality of the page.
 
-<br>Continue to - [Exercise 4.3 - Get an overview of all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43/)
+<br>Continue to - [Exercise 4.3 - Health overview of all Cloud Integration services of SAP Integration Suite](/exercises/ex4/ex43/)
