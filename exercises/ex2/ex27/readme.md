@@ -26,7 +26,7 @@ Run through the steps in the given order
 	
 2. **Filter** for alerts related to integration flows you have deployed
 
-    *Click* on the *filter* icon in the upper light grey row on the right and filter for *Object Details* **Hallo_World_-_`<userID>`**
+    *Click* on the *filter* icon in the upper light grey row on the right and filter for *Object Details* **`<userID>`**
 
     
     <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
