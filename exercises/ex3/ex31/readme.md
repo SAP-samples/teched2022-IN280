@@ -26,18 +26,18 @@ Run through the steps in the given order.
 
 6. **Apply** the selection
 
-7. The card in the **overview page** should look like below. 
+7. The card in the **overview page** should look like below
 
     <br>![](/exercises/ex3/images/IMWorkforce.png)
      
     All three cloud services *SAP S/4HANA Cloud, SAP Integration Suite*, and *SAP Fieldglass* should appear in color red
     
-    If not **adapt the time frame** by *clicking* the *calendar* icon in the black top row and *select* **This Week**
+8. If not please **adapt the time frame** by *clicking* the *calendar* icon in the black top row and *select* **This Week**
+
+    <br>![](/exercises/ex3/images/IMWorkforceTimeFrame.png)
 
 8. You may also *click* on the information icon *i* for a legend regarding the used color-coding. Or see again the [Exercise 2.2 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)
-
-
-   
+  
 
 ## Summary
 
