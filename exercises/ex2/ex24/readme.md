@@ -7,7 +7,7 @@ In this exercise, you will activate the **alerting** of integration exceptions f
 #### Prerequisites:
 
 - You are in [*Integration & Exception Monitoring*](https://teched22-cloudalm-003.eu10.alm.cloud.sap/shell/run?sap-ui-app-id=com.sap.crun.imapp.ui#/Home) and have the respective default or self-managed *Cloud Integration service* in scope
-- :construction_worker: *If you are performing configurations yourself:* you have activated the data collection as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
+- Data collection is activated as outlined in [Exercise 1.3](/exercises/ex1/ex13/)
 
 ## Exercise steps
 
