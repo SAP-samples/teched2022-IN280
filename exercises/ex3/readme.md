@@ -1,6 +1,6 @@
 # Exercise 3 - End-to-end monitoring of an integration scenario
 
-In this exercise, we will focus on monitoring integration scenarios end-to-end leveraging the Integration & Exception Monitoring of SAP Cloud ALM for Operations.  Get experience with the monitoring of a prepared integration scenario *ExternalWorkforce* that spans the cloud applications *SAP Fieldglass* and  *SAP 4HANA Cloud*. You will monitor the exchanged messages and check alerts for failed messages.
+In this exercise, we will focus on end-to-end monitoring of an integration scenarios leveraging the Integration & Exception Monitoring of SAP Cloud ALM for Operations. Get experience with the monitoring of a prepared integration scenario *ExternalWorkforce* that span across the cloud applications *SAP Fieldglass* and  *SAP 4HANA Cloud*. You will be able to monitor the exchanged messages and check alerts for failed messages as well.
 
 #### Prerequisites:
 - You are logged in to [SAP Cloud ALM](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
@@ -20,6 +20,6 @@ Run through the exercise steps in the given order
 
 ## Summary
 
-You've now monitored end-to-end the integration scenario *ExternalWorkforce* that that is sending messages from *SAP Fieldglass* to *SAP S/4HANA Cloud* mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages very quickly in the overview page but also in the alerting section of *Integration & Exception Monitoring* or in your email inbox.
+You've now monitored the integration scenario *ExternalWorkforce* that is sending messages from *SAP Fieldglass* to *SAP S/4HANA Cloud* mediated by the Cloud Integration capability of SAP Integration Suite. You have seen how to detect faulty messages very quickly in the overview page, also in the alerting section of *Integration & Exception Monitoring* along with your email inbox.
 
 Next we will analyze the technical health of *Cloud Integration* resources leveraging the *Health Monitoring* application of SAP Cloud ALM. Continue to - [Exercise 4](/exercises/ex4/readme.md)
