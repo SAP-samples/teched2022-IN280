@@ -22,8 +22,6 @@ Run through the steps in the given order
 
 	<br>![](/exercises/ex2/images/IMExceptOverviewMoveToAlerting.png)
     
-	<br>![](/exercises/ex2/images/IMExceptAlerting.png)
-	
 2. **Filter** for alerts related to integration flows you have deployed
 
     *Click* on the *filter* icon in the upper light grey row on the right and filter for *Object Details* **`<userID>`**
@@ -31,8 +29,8 @@ Run through the steps in the given order
     
     <br>![](/exercises/ex2/images/IMExceptAlertFilter.png)
      
-    - In case you are using one of the default pre-configured *Cloud Integration services* the alert name is **Erroneous Integration Artifact**
-    - In case you have added own alert to the *Cloud Integration service* you are managing yourself the alert name should be **`<userID>` Exceptions**
+    - In case you are using one of the **default and pre-configured** *Cloud Integration services* the alert name is **<tenant_name> Deployment Exception**
+    - :construction_worker: you had created the event name in [Excercise 2.4](/exercises/ex2/ex24/), proposed was **<tenant_name> Deployment Exception `<userID>`**
     
 
 3. See the **Alert Details** via *clicking* on the alert link
