@@ -64,7 +64,7 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
     - [Check the resolved deployment exception](/exercises/ex2/ex29/)
     - [Search for customer header properties](/exercises/ex2/ex210/)
     - [Check the inbox for email notifications](/exercises/ex2/ex211/)
-- [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/)
+- [Exercise 3 - End-to-end monitoring of an integration scenario](/exercises/ex3/)
     - [Scenario introduction](/exercises/ex3/ex30/)
     - [Bring a business scenario into scope](/exercises/ex3/ex31)
     - [Overview on business scenario topology](/exercises/ex3/ex32)
