@@ -38,9 +38,9 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
   
-5. In the **copy dialog** *replace* the `userID` in field *Name* with the userID you got from the [Tenant Booker appl](/exercises/ex0/ex02/)
+5. In the **copy dialog** *replace* in field *Name* the *_copy*  by `- <userID>` with the userID you got from the [Tenant Booker appl](/exercises/ex0/ex02/)
 
-    The new integration flow should be named *Hallo World -* `userID` and be part of the existing integration package.
+    The new integration flow should be named *Hallo World -* `<userID>` and be part of the existing integration package.
 
     <br>![](/exercises/ex2/images/SuiteDesignerCopyFlow.png)
 
