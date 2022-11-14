@@ -36,7 +36,7 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex3/images/IMWorkforceTimeFrame.png)
 
-8. You may also *click* on the information icon *i* for a legend regarding the used color-coding. Or see again the [Exercise 2.2 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)
+8. You may also *click* on the information icon *`i`* for a legend regarding the used color-coding. Or see again the [Exercise 2.2 - Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)
   
 
 ## Summary
