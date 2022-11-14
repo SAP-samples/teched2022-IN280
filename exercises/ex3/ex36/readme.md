@@ -1,4 +1,4 @@
-# Exercise 3.6 - Watch alerts that have been raised for failed messages
+# Exercise 3.6 - Check failed message alerts
 
 In this exercise, you will watch alerts that have been raised for failed messages
 
