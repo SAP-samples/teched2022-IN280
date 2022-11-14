@@ -38,7 +38,9 @@ Run through the steps in the given order
     - *Service Type*: `SAP Integration Suite (Cloud Integration)`
     - *Tenant Role*: `Test`
     - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
-   
+
+    <br>![Highlighted is the *tenant name* you will monitor](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
+
  5. When done, click on *Save*
   
 ## Summary
