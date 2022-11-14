@@ -1,4 +1,4 @@
-# Exercise 2.8 - Configure the ProcessDirect channels correctly and deploy integration flow successfully
+# Exercise 2.8 - Configure the ProcessDirect channels correctly
 
 In this exercise you will deploy the integration flow successfully by configuring unique and identical ProcessDirect channel IDs
 
