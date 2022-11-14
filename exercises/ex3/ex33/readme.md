@@ -1,4 +1,4 @@
-# Exercise 3.3 - Watch the SAP Integration Suite messages of an integration scenario
+# Exercise 3.3 - Watch all SAP Integration Suite messages of an integration scenario
 
 In this exercise, you will see all messages exchanged via SAP Integration Suite for the integration scenario *ExternalWorkforce* in a selected time frame
 
