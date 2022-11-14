@@ -1,6 +1,6 @@
 # Exercise 4 - Health monitoring of Cloud Integration resources
 
-The *Health Monitoring* application of SAP Cloud ALM helps is a central place for tracking exhausting or expiring resources. In this exercise, you will retrieve centrally at one place the technical health rating of available Cloud Integration tenants of SAP Integration Suite and track resources as *JMS queues* or *certificates*.
+The *Health Monitoring* application of SAP Cloud ALM provides a central place for tracking exhausting and expiring resources. In this exercise, you will retrieve centrally at one place the technical health rating of available Cloud Integration tenants of SAP Integration Suite and track resources like *JMS queues* and *certificates*.
 
 ## Exercise steps
 
