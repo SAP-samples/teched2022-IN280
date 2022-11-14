@@ -12,11 +12,11 @@ Run through the exercise steps in the given order.
 [Scenario introduction: Central monitoring of an integration scenario end-to-end](/exercises/ex3/ex30/)
 
 1. [Bring a business scenario into scope](/exercises/ex3/ex31)
-2. [Get an overview on the business scenario topology](/exercises/ex3/ex32)
-3. [Watch the SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
+2. [Overview on business scenario topology](/exercises/ex3/ex32)
+3. [Watch all SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
 4. [Anayze the path of a single message](/exercises/ex3/ex34)
-5. [Search a failed message under tracking](/exercises/ex3/ex35)
-6. [Watch alerts that have been raised for failed messages](/exercises/ex3/ex36)
+5. [Search for a failed message](/exercises/ex3/ex35)
+6. [Check failed message alerts](/exercises/ex3/ex36)
 
 ## Summary
 
