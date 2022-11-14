@@ -20,7 +20,7 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex3/images/IMWorkforceTrackingFailedMessage.png)
 
-    You can already recognize in **tracking result list** that the message has a Java script issue. From the entry it is possible to navigate directly to the *message details page* using the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw` link. There you get the information regarding the assembled message path with the possibility to navigate further to local monitoring to do the issue resolution in Cloud Integration.
+    You can already recognize in **tracking result list** that the message has a Java script issue. From the entry it is possible to navigate directly to the *message details page* using the *Message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw` link. There you get the information regarding the assembled message path with the possibility to navigate further to local monitoring to do the issue resolution in Cloud Integration.
 
     
     
