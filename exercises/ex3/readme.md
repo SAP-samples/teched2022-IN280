@@ -17,7 +17,6 @@ Run through the exercise steps in the given order.
 4. [Anayze the path of a single message](/exercises/ex3/ex34)
 5. [Search a failed message under tracking](/exercises/ex3/ex35)
 6. [Watch alerts that have been raised for failed messages](/exercises/ex3/ex36)
-7. :warning: *Optional:* Send email notification for raised alerts
 
 ## Summary
 
