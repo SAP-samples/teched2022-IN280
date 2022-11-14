@@ -2,7 +2,7 @@
 
 The overview page offers a **central view** that shows the status of integration scenarios and services that are in scope. It provides a first indicator where faulty messages or in case of Cloud Integration deployment exceptions occurred. In this exercise, you will get insights of the used color-coding and the functionalities this page is offering. 
 
-*All these steps are optional and only for your information.* You may jump directly to [Exercise 2.3](/exercises/ex2/ex23/)
+*All these steps are **optional** and only for your information.* You may jump directly to [Exercise 2.3](/exercises/ex2/ex23/)
 
 >
 > **The below screenshots you can't see in our TechEd IN280 SAP Cloud ALM tenant. They are captured from another demo tenant but provides you an idea how an IT landscape could look like**
