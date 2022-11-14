@@ -35,7 +35,7 @@ Run through the steps in the given order
 
 4. **Reload** the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployment status changed from *Starting* to **Started**
 
-    <br>![](/exercises/ex2/images/SuiteMPLSuccessHallo.png)
+    <br>![](/exercises/ex2/images/SuiteMPLSuccess.png)
     
 5. *Move* to the **MPL monitor**
 
