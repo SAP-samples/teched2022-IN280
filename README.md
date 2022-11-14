@@ -2,11 +2,11 @@
 
 ## Overview
 
-As IT landscapes with cloud applications and on-premise solutions are evolving quickly it is crucial today to oversee and react on business-critical issues instantly. 
+As IT landscapes with cloud applications and on-premise solutions are evolving quickly, it is crucial today to oversee and react to business-critical issues instantly. 
 The Integration & Exception Monitoring application of SAP Cloud ALM helps integration experts in their daily work to centrally get an overview of exceptions and failed messages across the entire landscape. 
-The Health Monitoring application of SAP Cloud ALM is a central place for tracking exhausting or expiring resources as certificates or JMS queues in SAP Integration Suite.
+The Health Monitoring application of SAP Cloud ALM is a central place for tracking exhausting or expiring resources like certificates or JMS queues in SAP Integration Suite.
 
-In this session you get a deeper insight how to monitor integration scenarios centrally in SAP Cloud ALM:
+In this session you get a deeper insights on how to monitor integration scenarios centrally in SAP Cloud ALM:
 
 - How to setup secure connectivity between SAP Integration Suite and SAP Cloud ALM to enable integration and exception monitoring or health monitoring  centrally
 - How to navigate through the applications in order to monitor and analyze integration related issues
