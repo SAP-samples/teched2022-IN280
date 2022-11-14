@@ -2,7 +2,7 @@
 
 In this exercise, you will learn how to add an HTTP endpoint for establishing an authenticated connectiion to a Cloud Integration tenant in SAP Integration Suite. This endpoint will be leveraged by all ALM monitoring use cases.
 
-❗ **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself**
+:construction_worker: **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself**
 
 #### Prerequisites
 
@@ -32,29 +32,21 @@ Run through the steps in the given order
         - Exception Monitoring
         - Integration Monitoring
         - Health Monitoring
-     - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
-
-    <br>![Highlighted is the *tenant name* you will monitor](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
-    
-
+     - *Root URL*: thies field is available automatically
 
 3.	Under *Authentication* maintain the **OAuth credentials**
 
     <br>![Highlighted the tenant name](/exercises/ex1/images/LMSAddEndpointAuthentication.png)
     
-    Highlighted are the *tenant specific* information you have to replace
+    Highlighted are the *tenant specific* information you have to enter
     
 	- Authentication type: `OAuth2ClientCredentials`
 	
 	- Copy/paste the *client ID, client secret*, and *token service URL* from the  [Tenant Booker app](/exercises/ex0/ex02/) 
-
-
-      <br>![Highlighted the tenant name](/exercises/ex1/images/BookerAppResultEndpointAuthentication.png)
   
-       Highlighted the tenant name
-       
 	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below. These credentials relate to the *Process Integration* **API plan**!
 
+      <br>![Highlighted the tenant name](/exercises/ex1/images/BookerAppResultEndpointAuthentication.png)
    
 4. *Check* the **network connection** to verify whether the entered parameters are correct
 
