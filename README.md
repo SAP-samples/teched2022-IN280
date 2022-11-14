@@ -30,7 +30,7 @@ You can check out the following material:
 
 For running through the exercise steps, we will provide you access to the following systems:
 
-- 1 [SAP Cloud ALM tenant](https://teched22-cloudalm-003.authentication.eu10.hana.ondemand.com/)
+- 1 [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 - 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions) are provided. You will be assigned to one of them via a [Tenant Booker application](/exercises/ex0/ex02/)
 - See also the [System landscape](/exercises/ex0/)
 
