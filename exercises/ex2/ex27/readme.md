@@ -45,4 +45,4 @@ Run through the steps in the given order
 
 You've now seen how an alert reaches the embedding alerting in *Integration & Exception Monitoring*.
 
-<br>Continue to - [Exercise 2.8 - Configure the ProcessDirect channels correctly and deploy integration flow successfully](/exercises/ex2/ex28/)
+<br>Continue to - [Exercise 2.8 - Configure the ProcessDirect channels correctly](/exercises/ex2/ex28/)
