@@ -1,4 +1,4 @@
-# Exercise 3.5 - Search a failed message under tracking 
+# Exercise 3.5 - Search for a failed message
 
 In this exercise, you will search for a failed message that is part of the integration scenario *ExternalWorkforce* in the *tracking* section of *Integration & Exception Monitoring*
 
@@ -28,4 +28,4 @@ Run through the steps in the given order.
 
 Now you have searched for a failed message that is part of the integration scenario *ExternalWorkforce*
 
-<br>Continue to - [Exercise 3.6 - Watch alerts that have been raised for failed messages](/exercises/ex3/ex36/)
+<br>Continue to - [Exercise 3.6 - Check failed message alerts](/exercises/ex3/ex36/)
