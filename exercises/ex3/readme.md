@@ -1,4 +1,4 @@
-# Exercise 3 - Central monitoring of an integration scenario end-to-end
+# Exercise 3 - End-to-end monitoring of an integration scenario
 
 In this exercise, we will focus on monitoring integration scenarios end-to-end leveraging the Integration & Exception Monitoring of SAP Cloud ALM for Operations.  Get experience with the monitoring of a prepared integration scenario *ExternalWorkforce* that spans the cloud applications *SAP Fieldglass* and  *SAP 4HANA Cloud*. You will monitor the exchanged messages and check alerts for failed messages.
 
