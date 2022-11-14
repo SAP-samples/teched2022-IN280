@@ -8,19 +8,19 @@ The Health Monitoring application of SAP Cloud ALM is a central place for tracki
 
 In this session you get a deeper insights on how to monitor integration scenarios centrally in SAP Cloud ALM:
 
-- How to setup secure connectivity between SAP Integration Suite and SAP Cloud ALM to enable integration and exception monitoring or health monitoring  centrally
-- How to navigate through the applications in order to monitor and analyze integration related issues
-- How monitor end-to-end integration scenarios, perform a drill-down to single message details, and navigate to the local monitoring for issue resolution
-- How to track exhausting resources as JMS queues or expiring certificates
+- How to setup secure connectivity between SAP Integration Suite and SAP Cloud ALM to enable integration, exception and health monitoring  centrally
+- How to navigate through the applications in order to monitor and analyze integration specific issues
+- How to monitor end-to-end integration scenarios, perform a drill-down to single message details, and navigate to the local monitoring for issue resolution
+- How to track exhausting resources like JMS queues or expiring certificates
 - How to activate alerts, track them, and receive auto-notifications through email
 
 ## Requirements
 
-There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration or ALM platform from SAP  However, you will be able to derive increased value from this session if you have some knowledge on what SAP Integration Suite is all about and how it helps with enterprise-wide integration needs.
+There are no prior requirements to this exercise. You can perform this even if you do not have any experience with integration or Cloud ALM platform from SAP. However, you will be able to derive increased value from this session if you have some knowledge on what SAP Integration Suite is all about and how it helps with enterprise-wide integration needs.
 
-You can check out these material:
+You can check out the following material:
 
-- SAP Discovery Center mission that helps you [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
+- SAP Discovery Center mission that helps you to [Get Started with Integration Suite](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3258/3327)
 
 - SAP Community blog posts [Central monitoring of integration scenarios](https://blogs.sap.com/2021/12/21/central-monitoring-of-integration-scenarios-using-sap-cloud-alm/) and [Centralized health monitoring of SAP Cloud Integration using SAP Cloud ALM](https://blogs.sap.com/2022/02/07/centralized-health-monitoring-of-sap-cloud-integration-using-sap-cloud-alm/)
 
