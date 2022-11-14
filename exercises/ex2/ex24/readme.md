@@ -38,7 +38,7 @@ You will change the filter in a way that you will monitor only artifacts with *u
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilter.png)
 
-    - *Set* the field **Filter Name** to `ERROR <userID>`
+    - Optional *Set* the field **Filter Name** to `ERROR <userID>`
     - *Change* the *Operator* of the line **Artifact Name** to `Contains` and the field *Value* to `userID`
     - If not available *Add* in line *Status* the *Value* `ERROR`
     - **Save** the *filter*
@@ -46,8 +46,6 @@ You will change the filter in a way that you will monitor only artifacts with *u
 5. Go back to the *Configuration monitoring overview page* by using the **breadcrumb**
 
 	<br>![](/exercises/ex2/images/IMExceptConfigAddFilterResult.png)
-    
-    You should see now an additional *Integration Artifact Deployments* entry that has been activated automatically
 	
 ### Add a new event
 
@@ -61,7 +59,7 @@ You will change the filter in a way that you will monitor only artifacts with *u
 	
 8. *Enter* the following fields
 
-    - *Select* the *Event Name* **Erroneous Integration Artifact**  
+    - *Select* the *Event Name* **Erroneous Integration Artifact** from the *drop down list*
     - *Set* the *Display Name* to  `<tenant_name> Deployment Exception` whereas `<tenant_name>` is one of `US01`, `US02`, `EU01`, `EU02`, `APJ01`, or `APJ02` corresponding to your service
     
     Then **activate** the alert by switching the *toggle* 
