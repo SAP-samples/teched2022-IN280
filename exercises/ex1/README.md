@@ -2,7 +2,7 @@
 
 In this exercise, we will establish an authenticated connection to a Cloud Integration tenant to get it monitored.
 
-**Note:** This exercise is not necessary to perform the Exercises 2 to 4. It is targeted to those attendees you are interested in understanding how to do all configuration steps such as register a new service in SAP Cloud ALM or activate alerts. If you are not interested in you will use a **pre-configured /default *Cloud Integration* service** and can jump directly to [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
+**Note:** This exercise is not necessary to perform the Exercises 2 to 4. It is targeted to those attendees who are interested in understanding how to do all configuration steps such as register a new service in SAP Cloud ALM or activate alerts. If you are not interested in you will use a **pre-configured /default *Cloud Integration* service** and can jump directly to [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
 
 ## Exercise steps
 
