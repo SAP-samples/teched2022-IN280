@@ -4,7 +4,7 @@
 
 As IT landscapes with cloud applications and on-premise solutions are evolving quickly it is crucial today to oversee and react on business-critical issues instantly. 
 The Integration & Exception Monitoring application of SAP Cloud ALM helps integration experts in their daily work to centrally get an overview of exceptions and failed messages across the entire landscape. 
-The Health Monitoring application of SAP Cloud ALM helps is a central place for tracking exhausting or expiring resources as certificates or JMS queues in SAP Integration Suite.
+The Health Monitoring application of SAP Cloud ALM is a central place for tracking exhausting or expiring resources as certificates or JMS queues in SAP Integration Suite.
 
 In this session you get a deeper insight how to monitor integration scenarios centrally in SAP Cloud ALM:
 
@@ -54,14 +54,16 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
 - [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
     - [Scenario introduction: Deployment exception of an integration flow](/exercises/ex2/ex20/)
     - [Bring a Cloud Integration service into scope](/exercises/ex2/ex21/)
-    - [Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)     
-    - [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex23/readme.md)
-    - [Deploy a faulty integration flow](/exercises/ex2/ex24/readme.md)
-    - [Display the deployment exception](/exercises/ex2/ex25/readme.md)
-    - [Watch a deployment exception alert](/exercises/ex2/ex26)
-    - [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex27/)
-    - [Watch the resolved deployment exception](/exercises/ex2/ex28/)
-    - [Search for customer header properties](/exercises/ex2/ex29/)
+    - [Familiarize yourself with the Integration & Exception Monitoring overview page](/exercises/ex2/ex22/)    
+    - [Add your email address to SAP Cloud ALM](/exercises/ex2/ex23/) 
+    - [Activate alerts for deployment exceptions of integration artifacts](/exercises/ex2/ex24/readme.md)
+    - [Deploy a misconfigured integration flow](/exercises/ex2/ex25/readme.md)
+    - [Display the deployment exception](/exercises/ex2/ex26/readme.md)
+    - [Watch a deployment exception alert](/exercises/ex2/ex27)
+    - [Configure the ProcessDirect channels correctly and deploy integration flow successfully](./ex28/)
+    - [Watch the resolved deployment exception](/exercises/ex2/ex29/)
+    - [Search for customer header properties](/exercises/ex2/ex210/)
+    - [Exercise 2.11 - Check the inbox for email notifications](/exercises/ex2/ex211/)
 - [Exercise 3 - Central monitoring of an integration scenario ent-to-end](/exercises/ex3/readme.md)
     - [Scenario introduction: Central monitoring of an integration scenario end-to-end](/exercises/ex3/ex30/)
     - [Bring a business scenario into scope](/exercises/ex3/ex31)
@@ -71,14 +73,14 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
     - [Search a failed message under tracking](/exercises/ex3/ex35)
     - [Watch alerts that have been raised for failed messages](/exercises/ex3/ex36)
     - :warning: *Optional:* Send email notification for raised alerts
-- [Exercise 4 - Analyze exhausted resources](/exercises/ex4/readme.md)
+- [Exercise 4 - Health monitoring of Cloud Integration resources](/exercises/ex4/readme.md)
     - [Scenario introduction](/exercises/ex4/ex40)
     - [Bring a Cloud Integration service into scope](/exercises/ex4/ex41)
-    - [Familiarize yourself with the Health Monitoring overview page](/exercises/ex4/ex42)
-    - [Get an overview of all Cloud Integration tenants of SAP Integration Suite](/exercises/ex4/ex43)
-    - [Understand how the health rating of a service is calculated](/exercises/ex4/ex44)
-    - [Get an overview on monitored metrics of a Cloud Integration service](/exercises/ex4/ex45)
-    - [Details on how to work with Cloud Integration metrics](/exercises/ex4/ex46/)
+    - [Health overview of IT landscape](/exercises/ex4/ex42)
+    - [Health overview of all Cloud Integration services of SAP Integration Suite](/exercises/ex4/ex43)
+    - [Calculation of a service's health rating](/exercises/ex4/ex44)
+    - [Monitored metrics of Cloud Integration](/exercises/ex4/ex45)
+    - [Details on metric page](/exercises/ex4/ex46/)
     - [Activate alerts](/exercises/ex4/ex47/)
     - [Check alerts in Health Monitoring](/exercises/ex4/ex48/)
 
