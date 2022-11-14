@@ -14,7 +14,7 @@ Run through the exercise steps in the given order
 1. [Bring a business scenario into scope](/exercises/ex3/ex31)
 2. [Overview on business scenario topology](/exercises/ex3/ex32)
 3. [Watch all SAP Integration Suite messages of an integration scenario](/exercises/ex3/ex33/)
-4. [Anaylze the path of a single message](/exercises/ex3/ex34)
+4. [Analyze the path of a single message](/exercises/ex3/ex34)
 5. [Search for a failed message](/exercises/ex3/ex35)
 6. [Check failed message alerts](/exercises/ex3/ex36)
 
