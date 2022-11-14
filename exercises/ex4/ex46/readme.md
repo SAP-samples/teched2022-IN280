@@ -1,4 +1,4 @@
-# Exercise 4.6 - Details on how to work with Cloud Integration metrics
+# Exercise 4.6 - Details on metric page
 
 In this exercise, we will get an understanding how to work with the *metrics page*. You oversee resources of *Cloud Integration* at a glance and exhausted resources get attention quickly.
 
@@ -39,7 +39,7 @@ Run through the steps in the given order
    >
    > Different metric types exist such as *Quota*, Status* or *Performance* 
    >
-   > Some metrics have only informative character and are not counted during rating calculation (see [Understand how the health rating of a service is calculated](/exercises/ex4/ex44))
+   > Some metrics have only informative character and are not counted during rating calculation (see [Calculation of a service's health rating](/exercises/ex4/ex44))
    >
    
     As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels
