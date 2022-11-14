@@ -33,7 +33,7 @@ Run through the steps in the given order
     
     b. *Click* on the first tile of *Manage Integration Content*
 
-4. **Reload** the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployed switches from *Starting* to status **Started**
+4. **Reload** the list of deployed artifacts until the integration flow *Hallo World -* `userID` you have deployment status changed from *Starting* to **Started**
 
     <br>![](/exercises/ex2/images/SuiteMPLSuccessHallo.png)
     
