@@ -24,7 +24,7 @@ Run through the steps in the given order
 
     It is possible to assign a processor ..
 
-    You may navigate directly to the *message details page* using the *message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw` link
+    You may navigate directly to the *message details page* using the *Message ID* `1EGT0e1kEW2C6kPVvE3GCitCRHyw` link
     
 ## Summary
 
