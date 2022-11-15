@@ -1,7 +1,7 @@
 # Configurations done in SAP Integration Suite subaccounts as a prerequisite for this session (for your information only)
 
 To enable OAuth authentication between SAP Cloud ALM and SAP Integration Suite a setup has to be performed. 
-To minimize the additional effort for you, we have prepared some configurations already. In case you want to practice this configuration yourself you may read the below steps. They are only for your information and necessary to perform the exercises.
+To minimize the additional effort for you, we have prepared some configurations already. In case you want to practice this configuration yourself you may read the below steps. They are only for your information and necessary to perform the exercises of this session.
 
 Please ensure for the **SAP Integration Suite** subaccount that the following steps have been made in the BTP Cockpit:
 - Creation of a service instance of a service *Process Integration Runtime* with *api* plan and the roles:
