@@ -30,12 +30,14 @@ Run through the steps in the given order
     
     Erroneous messages are highlighted in red. As you can see one message sent by the SAP Fieldglass instance has failed, others have completed successfully. 
     
-3. *Click* on **number of messages in ERROR** in the header section and the below message list will be filtered. 
+3. *Click* on **number of messages in ERROR** in the *header section* for filtering the message list below
 
-    You may gain experience in filtering of message by sender, receiver , or flows by using the charts of the header section
+    <br>![](/exercises/ex3/images/IMWorkforceCPIMessageFailed.png) 
+
+    If you want you may gain further experience in filtering messages by sender, receiver, or flows
 
 ## Summary
 
-Now you saw all messages exchanged via SAP Integration Suite for the integration scenario *ExternalWorkforce*
+Now you saw all messages exchanged via *SAP Integration Suite* for the integration scenario *ExternalWorkforce*
 
 <br>Continue to - [Exercise 3.4 - Analyze the path of a single message](/exercises/ex3/ex34/)
