@@ -12,7 +12,7 @@ In this exercise, you will learn how to register a Cloud Integration service in 
 
 Run through the steps in the given order
 
-1. [Retrieve user / password](/exercises/ex0/ex02/) for SAP Integration Suite and SAP Cloud ALM
+1. Retrieve user and password for SAP Integration Suite and SAP Cloud ALM through the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) 
 
 2. Navigate to the section *Administration* and click on *Landscape Management* tile. 
 
@@ -28,16 +28,16 @@ Run through the steps in the given order
 	
     - *Name*: `CloudIntegration-<tenant_name>-<userID>`
        		
-		- Copy the tenant name from  the [Tenant Booker application](/exercises/ex0/ex02/): either TECHED-US01, TECHED-US02, TECHED-E01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02 (see also [System landscape](/exercises/ex0/)
+		- Copy the tenant name from  the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) : either TECHED-US01, TECHED-US02, TECHED-E01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02 (see also [System landscape](/exercises/ex0/) )
 			
-		- Use your `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
+		- Use your `userID` from  the Tenant Booker application
 		
 	   
     - Optionally maintain a description
     - *Tenant ID*: `01234567<userID-digits>` removing the beginning character of your `userId`
     - *Service Type*: `SAP Integration Suite (Cloud Integration)`
     - *Tenant Role*: `Test`
-    - *Root URL*: Copy the URL provided by the [Tenant Booker application](/exercises/ex0/ex02/), this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
+    - *Root URL*: Copy the URL provided by the Tenant Booker application, this is the second link *Tenant URL for SAP Cloud Integration*. **Please remove the ending `/itspaces/`**
 
     <br>![Highlighted is the *tenant name* you will monitor](/exercises/ex1/images/BookerAppInfoEndpointGeneral.png)
 
