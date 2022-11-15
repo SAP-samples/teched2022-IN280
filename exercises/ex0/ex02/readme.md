@@ -27,6 +27,6 @@ The example screenshot shows a tenant `TECHED-US01`.
 - Please ignore *Client ID* and *Client Secret* credentials and use only the API credentials
 - Use the second link *Tenant URL for SAP Cloud Integration* as *Root URL* but without `/itspaces/` at the end
 
-**Note:** Best practice is to keep the browser tab open for accessing *username, password* and other tenant details that is assigned to you.
+**Note:** Best practice is to keep the browser tab open for accessing the *username, password* and other tenant details that is assigned to you.
 
 <br>Return back to your last exercise using the *browser back*
