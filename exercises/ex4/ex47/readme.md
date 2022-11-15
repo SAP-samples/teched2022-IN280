@@ -2,7 +2,7 @@
 
 In this exercise, we will activate the alerting for a particular Cloud Integration service to raise alerts
 
-:warning: *This exercise is only necessary if you have a **self-managed *Cloud Integration service***
+:warning: This exercise is only necessary if you have a **self-managed *Cloud Integration service***
 
 For all *preconfigured Cloud Integration service* the alerting is already activated and you can jump directly to [Exercise 4.8 - Check alerts in Health Monitoring](/exercises/ex4/ex48/)
 
@@ -15,7 +15,7 @@ For all *preconfigured Cloud Integration service* the alerting is already activa
 
 Run through the steps in the given order
 
-1. *Click* on the **configuration** icon, *expand* the *Services* section, and *select* the Cloud Integration service `CloudIntegration-<tenant_name>_<userID>` you have registered
+1. *Click* on the **configuration** icon, *expand* the *Services* tray, and *select* the *Cloud Integration service* `CloudIntegration-<tenant_name>_<userID>` you have registered
 
     <br>![](/exercises/ex4/images/HMSelectConfiguration.png)
 
