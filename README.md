@@ -37,17 +37,15 @@ When you run through the exercise steps, you need to ensure that the technical I
 
 ## Exercises
 
-The Exercises 2, 3, and 4 are independent form each other. 
-
-Regarding Exercise 2
-- If you want to do configuration steps yourself and register a *Cloud Integration service* in SAP Cloud ALM, please start with [Exercise 1](/exercises/ex1/README.md)
-- If you want to reuse pre-configured services in SAP Cloud ALM start with [Exercise 2](/exercises/ex2/README.md)
+If you want to do configuration steps by yourself and register a *Cloud Integration service* in SAP Cloud ALM, please start with [Exercise 1](/exercises/ex1/README.md)</br>
+If you want to reuse pre-configured services in SAP Cloud ALM start with [Exercise 2](/exercises/ex2/README.md)
 
 <br>![](/exercises/ex0/images/IN280Exercises.png)
 
+The Exercises 2, 3, and 4 are independent from each other. 
 
-
-In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
+The complete list of exercises are listed below. You can run through them in the given order and can use this section as table of contents. <br/>
+Kindly use the breadcrumb navigation on top of the pages to come back to this section.
 
 - [Exercise 1 - Register a self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
