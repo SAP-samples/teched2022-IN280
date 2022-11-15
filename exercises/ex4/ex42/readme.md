@@ -2,28 +2,32 @@
 
 In this exercise, you will understand which information you may retrieve from this **central Health Monitoring overview page**. It shows the healthiness of services on the level of *service types* in both domains cloud and on-premise. It offers a first indicator for which service type crucial changes and adjustments are necessary. Understand the color-coding and available functionalities this page is offering.
 
+*All these steps are **optional** and only for your information.* You may jump directly to [Exercise 4.3](/exercises/ex4/ex43/)
  
 ## Exercise steps
 
 <br>![](/exercises/ex4/images/HMOverviewpageDetails.png)
 
-:grey_exclamation: **Note:** As this is only a exercise landscape and therefore we can't see a large IT landscape. Please image that you can see also other cards such as SAP HANA Cloud, SAP S/4HANA, SAP S/4HANA Cloud. See the complete list of supported solutions in the [SAP Cloud ALM expert portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html).
+:grey_exclamation: **Note:** As this is only a exercise landscape and therefore we can't see a large IT landscape. Please imagine that you can see also other cards such as for SAP HANA Cloud, SAP S/4HANA, SAP S/4HANA Cloud. See the complete list of supported solutions in the [SAP Cloud ALM expert portal](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/health-monitoring/health-mon-content.html).
 
-By means of the color-coding and rating services with issues easily get attention. In the screenshot below you see that four Clodu 
+You get attention on services with technical issues very easily by means of the **color-coding** and **rating**
 
-1. *Click* on the **quality icon**, *select* a *Cloud Integration service*, and *check* whether the **data collection** is running successfully
+
+1. *Click* on the **quality icon**, *select* a *Cloud Integration service*, and *check* the **data collection**
 
    <br>![](/exercises/ex4/images/HMDataQuality.png)
    
-   **Close** the popup again
+   It is running successfully and the last data collection has taken plase as display next to the *Timestamp* field
+   
+   **Close** the popup
 
-2. By *clicking* on the **number of alerts** you may able to jump directly to the **alerting page**
+2. By *clicking* on the **number of alerts** you may able to jump directly to the **alerting page**. We will do this later.
 
-3. Check the **status of business service events** with the *time-calendar-icon*
+3. *Check* the **status of business service events** with the *time-calendar-icon*
 
-    It shows the events from the **Cloud Availability Center**. If a maintenance, disruption or degradation events raise up for a service it will be displayed here
+    It shows the events from the **Cloud Availability Center**. Whenever a maintenance, degradation, or disruption event will startF it will be displayed here
 
-4. *Click* on the *Star* icon to set the type *Cloud Integration service* to your **favorite** ones and track them more easily
+4. *Click* on the *Star* icon to set the type *Cloud Integration service* to your **favorite** ones
 
     A new card appears in the *Favorites* section that shows not only the services in scope. Instead all registered services of that type are included
 
