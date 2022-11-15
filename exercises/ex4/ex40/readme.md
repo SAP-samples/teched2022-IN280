@@ -8,9 +8,9 @@ At the current state the *Cloud Integration capability of SAP Integration Suite*
 
 The **benefit** of *SAP Cloud ALM* is to get an overview of the **health rating across all monitored Cloud Integration services** or even **across all connected services and systems of your IT landscape**. Operation teams benefit from this overview and can concentrate their efforts on the most important tasks and do not have to inspect all local monitoring tools separately. 
 
-*Important*: Health monitoring does not offer any tools to update certificates or queues. This is only possible in the *keystore monitor* or *manage stores monitor* of Cloud Integration itself. 
+**Important**: Health monitoring does not offer any tools to update certificates or queues. This is only possible in the *keystore monitor* or *manage stores monitor* of Cloud Integration itself. 
 
-### System preparation
+### Prepared system landscpae
 
 - Several certificates have been uploaded that are partially already expired or will soon expire
 - JMS queues have been created and filled with messages
