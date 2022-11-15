@@ -14,15 +14,9 @@ Run through the steps in the given order
 
 1. Navigate to section *SAP Cloud ALM for Operations* and click on the card **Integration & Exception Monitoring** 
       
-    <br>![](/exercises/ex1/images/CALMLandingIntExMon.png)
-  
 2. Bring the **Cloud Integration service into the scope**
 
-   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* dialog opens automatically
-   
-   If not *click* the *scope selection* icon in the black top row
-   
-    <br>![](/exercises/ex1/images/InitialScopeSelection.png)
+   If you start *Integration & Exception Monitoring* the first time the *Scope Selection* dialog opens automatically. If not *click* the **scope selection** icon in the black top row
    
     - *Filter* for **Services**
     - In field *Service Type* select the *SAP Integration Suite (Cloud Integration)* from the drop down list
