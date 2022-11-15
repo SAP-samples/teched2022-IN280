@@ -5,7 +5,7 @@
 The technical metrics from a monitored services can be used to calculate the overall health of a monitored service. E.g. Cloud Integration is pulled every 5 minutes.
 
 Each service type offers its own metrics and ratings to Cloud ALM. 
-<br>E.g. Cloud Integration offers exhaustion of JMS resources and expiry of certificates. On the other hand a SAP Integration Business Planning service offers metrics such as Active Users in a ABAP system or Delayed application jobs.
+<br>E.g. Cloud Integration offers exhaustion of JMS resources and expiry of certificates. On the other hand a SAP Integration Business Planning service offers metrics such as Active Users in a ABAP system or delayed application jobs.
 
 The service health is **calculated bottom up**: each metric, as a specific certificate validity or the activation status of a JMS (Java Messaging Service) queue, gets rated individually. 
 
