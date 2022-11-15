@@ -1,6 +1,6 @@
 # Exercise 4.4 - Calculation of a service's health rating
 
-This exercise serves for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM. It is only optional and if you want to perform only necessary steps you can jump directly to [Monitored metrics of Cloud Integration](/exercises/ex4/ex45).
+:grey_exclamation: This exercise serves for your understanding how the rating of a tenant's health is calculated in the Health Monitoring use case of SAP Cloud ALM. It is only optional and if you want to perform only necessary steps you can jump directly to [Exercise 4.5 - Monitored metrics of Cloud Integration](/exercises/ex4/ex45).
 
 The technical metrics from a monitored services can be used to calculate the overall health of a monitored service. E.g. Cloud Integration is pulled every 5 minutes.
 
