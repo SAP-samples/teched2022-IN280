@@ -35,6 +35,8 @@ Run through the steps in the given order
     <br>![](/exercises/ex3/images/IMWorkforceCPIMessageFailed.png) 
 
     If you want you may gain further experience in filtering messages by sender, receiver, or flows
+    
+4. **Clear all filters** again be *clicking* on the appropiate link in the upper right corner
 
 ## Summary
 
