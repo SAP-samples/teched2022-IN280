@@ -10,7 +10,7 @@ Health Monitoring comes with embedded alerting leveraged for various ALM use cas
 
 Run through the exercise steps in the given order
 
-1. *Navigate* to the *Alerting* section using the *exclamation mark* icon in the left-navigation
+1. *Navigate* to the **Alerting** section using the *exclamation mark* icon in the left-navigation
 
     <br>![](/exercises/ex4/images/HMAlerting.png)
     
@@ -23,7 +23,7 @@ Run through the exercise steps in the given order
 :grey_exclamation:  *Note:* for the TechEd session we are not in a real environment. As attendees have registered further *Cloud Integration services* and they might  connected to the same *Cloud Integration tenant* you will find the same kind of alerts several times
     
 
-2. If you have several services in your scope, use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
+2. If you have several services in your scope, use the *Filter* icon the right side to filter for alerts **JMS Queue Capacity** 
 
     *Enter* `JMS Queue Capacity` in field *Alert Name* and *apply* for the filter
     
