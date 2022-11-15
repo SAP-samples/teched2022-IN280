@@ -119,4 +119,4 @@ Run through the exercise steps in the given order
 
 You've now learned how to work with the alerts in the alerting section. 
 
-Congratulation. You have finalized all exercises. Go back to the main page - [IN280 - Central monitoring of integration scenarios using SAP Cloud ALM](../../../../)
+Congratulation. You have finalized all exercises. Go back to the main page - [IN280 - Central monitoring of integration scenarios using SAP Cloud ALM](../../../README.md)
