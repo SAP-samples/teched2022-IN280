@@ -17,7 +17,7 @@ You get attention on services with technical issues very easily by means of the 
 
    <br>![](/exercises/ex4/images/HMDataQuality.png)
    
-   It is running successfully and the last data collection has taken plase as display next to the *Timestamp* field
+   It is running successfully and the last data collection has taken place as displayed next to the *Timestamp* field
    
    **Close** the popup
 
