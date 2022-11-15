@@ -19,8 +19,8 @@ Run through the exercise steps in the given order
     >
     > Every 5 minutes SAP Integration Suite is pulled for monitoring data. Therefore you might have to wait until the next data collection until your activated alert get listed in the alerting section
     >
-:exclamation_mark:  :heavy_exclamation_mark:
-*Note:* for the TechEd session we are not in a real environment. As attendees have registered additional *Cloud Integration services* all connected to the same *Cloud Integration tenant* you will find the same kind of alerts several times
+
+:grey_exclamation:  *Note:* for the TechEd session we are not in a real environment. As attendees have registered further *Cloud Integration services* and they might  connected to the same *Cloud Integration tenant* you will find the same kind of alerts several times
     
 
 2. If you have several services in your scope, use the *Filter* icon the right side to filter for alerts *JMS Queue Capacity* 
