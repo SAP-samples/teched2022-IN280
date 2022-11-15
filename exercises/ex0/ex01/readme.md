@@ -1,4 +1,4 @@
-# Prereq configurations in SAP Integration Suite subaccounts
+# Configurations done in SAP Integration Suite subaccounts as a prerequisite for this session (for your information only)
 
 To enable OAuth authentication between SAP Cloud ALM and SAP Integration Suite a setup has to be performed. 
 To minimize the additional effort for you, we have prepared some configurations already. In case you want to practice this configuration yourself you may read the below steps. They are only for your information and necessary to perform the exercises.
@@ -16,4 +16,4 @@ In the SAP Cloud ALM subaccount the role *Integration Monitoring Integration Arc
 
 For further information on how to the setup especially SAP Integration Suite running in the Neo environment please read the documentation at the [SAP Cloud ALM - Expert Portal pages](https://support.sap.com/en/alm/sap-cloud-alm/operations/expert-portal/setup-managed-services/setup-cpi-neo.html).
 
-Continue to - [Configure the monitoring of Cloud Integration tenant in SAP CLoud ALM](../../ex1/)
+Continue to - [System landscape](../../ex0/README.md)
