@@ -1,8 +1,8 @@
 # Exercise 1.2 - Add an HTTP endpoint to a managed service
 
-In this exercise, you will learn how to add an HTTP endpoint for establishing an authenticated connectiion to a Cloud Integration tenant in SAP Integration Suite. This endpoint will be leveraged by all ALM monitoring use cases.
+In this exercise, you will learn how to add a HTTP endpoint for establishing an authenticated connectiion to a Cloud Integration tenant in SAP Integration Suite. This endpoint will be leveraged by all ALM monitoring use cases.
 
-:construction_worker: **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself**
+:construction_worker: **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM by yourself**
 
 #### Prerequisites
 
@@ -13,7 +13,7 @@ In this exercise, you will learn how to add an HTTP endpoint for establishing an
 
 Run through the steps in the given order
 
-1. *Click* on the button **Add** in the *Endpoints* section
+1. *Click* on the **Add** button in the *Endpoints* section
 
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
