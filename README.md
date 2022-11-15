@@ -30,7 +30,7 @@ You can check out the following material:
 
 For running through the exercise steps, we will provide you access to the following systems:
 
-- [System landscape](/exercises/ex0/readme.md)
+- [System landscape](/exercises/ex0/README.md)
 - [Access information](/exercises/ex0/ex02)
 
 When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse your user ID.
