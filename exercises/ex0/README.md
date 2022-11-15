@@ -19,4 +19,4 @@ The configuration in the SAP BTP cockpit is outlined in **[Prereq configurations
 
 Additionally find all information around how to get user and password and also OAuth credentials under **[Retrieve user / password](/exercises/ex0/ex02/)**.
 
-Continue to - [Exercise 1 - Register an own-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
+Continue to - [Exercise 1 - Register an self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
