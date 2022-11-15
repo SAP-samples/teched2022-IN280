@@ -10,7 +10,7 @@ In this exercise, you get an understanding of the topology of the selected integ
 
 Run through the steps in the given order
 
-1.	*Click* on the *three dots ...* and select **Go to Details** 
+1.	*Click* on the *three dots* and select **Go to Details** 
 
     <br>![](/exercises/ex3/images/IMOverviewSwitchToDetails.png) 
 
