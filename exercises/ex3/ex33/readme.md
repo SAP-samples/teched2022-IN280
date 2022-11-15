@@ -30,13 +30,7 @@ Run through the steps in the given order
     
     Erroneous messages are highlighted in red. As you can see one message sent by the SAP Fieldglass instance has failed, others have completed successfully. 
     
-3. *Click* on **number of messages in ERROR** in the *header section* for filtering the message list below
-
-    <br>![](/exercises/ex3/images/IMWorkforceCPIMessageFailed.png) 
-
-    If you want you may gain further experience in filtering messages by sender, receiver, or flows
-    
-4. **Clear all filters** again be *clicking* on the appropiate link in the upper right corner
+3. **Clear all filters** again be *clicking* on the appropiate link in the upper right corner
 
 ## Summary
 
