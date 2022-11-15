@@ -23,11 +23,11 @@ Run through the steps in the given order
 
 	In the meanwhile you have the possibility to understand how the data collection is working and how to check when the next data collection will happen
 	
-3. After receiving the event from the deployment exception that you have provoked in [Exercise 2.4](./ex24/readme.md) the number of exceptions and the number of alerts should increase. 
+3. After receiving the event from the deployment exception that you have provoked in [Exercise 2.4](./ex24/readme.md) the number of exceptions and the number of alerts should increase (the screenshot doesn't shows this)
 
 4. *Click* on the **Integration Artifacts Deployments** link of the *Cloud Integration* service you are monitoring, either one of the six default ones or your self-managed  `CloudIntegration-<tenant_name>-<userID>` service
 
-	<br>![](/exercises/ex2/images/IMExceptionsLink.png)
+	<br>![](/exercises/ex2/images/IMExceptionsUpdatedAndLink.png)
     
     The **service specific exception page** opens
     
