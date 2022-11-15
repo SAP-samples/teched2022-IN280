@@ -14,21 +14,19 @@ Run through the steps in the given order
 
    <br>![](/exercises/ex4/images/HMMetricOverviewCertificateDetails.png)   
    
-   A **Details page** opens that is showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value and you oversee the certificates at the top that have to be updated most urgently
+   A **Details page** opens that is showing all *Certificate Validity* metrics of the selected Cloud Integration service. By default the metrics are sorted by value and you oversee those certificates at the top that have to be updated most urgently
    
-2. *Click* on one *info* icon to see the **API result** from polling the *Cloud Integration tenant*
+2. *Click* on one *info* icon to see the **API result** that has been polled from the *Cloud Integration tenant*
 
    <br>![](/exercises/ex4/images/HMMetricCertificateInfo.png)   
    
 3. Now inspect the queue issue and *click* on the *metric card* **JMS Queues Status** and examine which queues have caused the rating
 
-   From the left metric overview side you see that queues are rated as *Warning* or *Error*. 
-        
-   <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)
+    <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)
    
-   In the list you see, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped and the queue `CX_SRVORDER_ASYNC` is in state *Critical*
+    From the left metric overview side you see that queues are .  In the list you see, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped and therefore rated as *Error*. The queue `CX_SRVORDER_ASYNC` is in state *Critical*
 
-4. *Click* on the tab **All Metrics**
+4. *Close* the details page by the *plus* icon **(+)** and *click* on the tab **All Metrics**
 
    <br>![](/exercises/ex4/images/HMSwitchToAllMetrics.png)   
 
@@ -37,22 +35,23 @@ Run through the steps in the given order
    <br>![](/exercises/ex4/images/HMCIMetrics.png)
    
    >
-   > Different metric types exist such as *Quota*, Status* or *Performance* 
+   > Different metric types exist such as *Quota*, *Status* or *Performance* 
    >
    > Some metrics have only informative character and are not counted during rating calculation (see [Calculation of a service's health rating](/exercises/ex4/ex44))
    >
    
     As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels
-
+    
+    *The following steps are **optional** and only for your information.* You may jump directly to [Exercise 4.7](/exercises/ex4/ex47/)
 5. **Filter** for metrics in state *Critical*, *Fatal*, or *Warning*
 
    <br>![](/exercises/ex4/images/HMMetricsFilterData.png)   
    
-6. Reset the filter again and *group* the list per certificate *Type* and additional search for *certificate* to exclude JMS queues
+6. *Reset* the filter again in the *filter dialog* and **group** the list per certificate **Type** and additional **search** for **certificate** to exclude JMS queues
 
    <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
    
-   The certificate metric *CPI.Certificate.Expiry* has two different labels. You may search in the list by a label
+   You see that the certificate metric *CPI.Certificate.Expiry* has **two different labels**:
    
    - *alias*: certificate name
    - *type*: certificate type (certificate, key pair) 
