@@ -28,7 +28,7 @@ Run through the steps in the given order
 	
     - *Name*: `CloudIntegration-<tenant_name>-<userID>`
        		
-		- Copy the tenant name from  the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) : either TECHED-US01, TECHED-US02, TECHED-E01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02 (see also [System landscape](/exercises/ex0/) )
+		- Copy the tenant name from  the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) : either TECHED-US01, TECHED-US02, TECHED-EU01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02 (see also [System landscape](/exercises/ex0/) )
 			
 		- Use your `userID` from  the Tenant Booker application
 		
