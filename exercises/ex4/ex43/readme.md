@@ -21,9 +21,9 @@ Run through the steps in the given order
     > It shows the **tenant health rating** along with number of raised alerts, and the information on data quality. If alerts exist for an instance you may jump directly to the embedded alert inbox.
     >
 
-    <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
+    <br>![](/exercises/ex4/images/HMDrillDownToInstanceAPJ01.png)
 
-    The highlighted Cloud Integration service has a **health percentage** of 88% and the service is rated as *Warning*. 
+    The highlighted Cloud Integration service has a **health percentage** of 85% and the service is rated as *Warning*. 
     
     :grey_exclamation: In our live system landscape all the numbers may differ
     
