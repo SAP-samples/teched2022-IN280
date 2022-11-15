@@ -1,23 +1,29 @@
-# Retrieve user / password
+# Access information
 
-1. Go to the *Tenant Booker application* (link will be added directly before the hands-on session will start)
+We have a specific application in place, the **Tenant Booker application** that provides all attendees access to the *SAP Cloud ALM* and all *SAP Integration Suite* tenants. Regarding the *SAP Integration Suite* tenants a load balancing will be practiced.
 
-    <br>![](/exercises/ex1/images/BookerApp.png)
+### Retrieve user and password
 
-    As a result you get *user* and *password* for the logins to **SAP Integration Suite** as well as for **SAP Cloud ALM**
+Go to the *Tenant Booker application* (link will be added directly before the hands-on session will start)
+
+<br>![](/exercises/ex1/images/BookerApp.png)
+
+As a result you get *user* and *password* for the logins to **SAP Integration Suite** as well as for **SAP Cloud ALM**
+
+Please recognize the SAP Integration Suite tenant assigned to you and keep it in mind throughout the exercises. The screenshot shows that a attendee would be assigned to tenant `TECHED-US01`. Check your *tenant_name*, one of the ones mentioned in [System landscape](/exercises/ex0)
+
+<br>![](/exercises/ex1/images/BookerAppResult.png) 
     
-    Please recognize the SAP Integration Suite tenant assigned to you. We have one SAP Cloud ALM tenant and **six SAP Integration Suite tenants prepared (US01, US02, EU01, EU02, APJ01, APJ02)** and the *Tenant Booker application* assigns you to one of them. The URL to the assign tenant is available in the result list of the *Tenant Booker app*, the first link.
+### System access
 
-    Additionally the Tenant Booker app provides you all relevant roles necessary to run the exercises
-    
-    For some exercise steps, you have to ensure that the technical IDs that you will create are unique. Hence, take the digital numbers of your `user ID`
+- *SAP Integration Suite* tenant: first link of the result list of the *Tenant Booker app*
+- [*SAP Cloud ALM* tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
 
-    <br>![](/exercises/ex1/images/BookerAppResult.png)   
+### Additional hints for [Exercise 1.2](/exercises/ex1/ex12)
 
-    While performing the exercises please ignore *Client ID* and *Client Secret*. This info is related to other TechEd sessions that use the *Tenant Booker application*, too.
+- Please ignore *Client ID* and *Client Secret* credentials and use only the API credentials
+- Use the second link *Tenant URL for SAP Cloud Integration* as *Root URL* but without `/itspaces/` at the end
 
-    Regarding the second URL *Tenant URL for SAP Cloud Integration*, we will leverage this URL without `/itspaces/` during the exercise [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12).
+**Note:** Best practice is to keep the browser tab open for accessing *user/password* assigned to you
 
-    :warning: **Best practice is to keep the browser tab open for accessing *user/password* assigned to you**
-
-    Return back to your last exercise using the *browser back*
+<br>Return back to your last exercise using the *browser back*
