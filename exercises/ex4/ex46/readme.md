@@ -2,6 +2,8 @@
 
 In this exercise, we will get an understanding how to work with the *metrics page*. You oversee resources of *Cloud Integration* at a glance and exhausted resources get attention quickly.
 
+<br> :heavy_exclamation_mark: **It is not possible to resolve any issue in SAP Cloud ALM. For the issue resolution you have to use SAP Integration Suite!**  
+
 #### Prerequisites:
 
 - You have opened the *metric overview page* of a Cloud Integration service
@@ -24,9 +26,9 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex4/images/HMMetricQueueIssue.png)
    
-    From the left metric overview side you see that queues are .  In the list you see, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped and therefore rated as *Error*. The queue `CX_SRVORDER_ASYNC` is in state *Critical*
+    In the list you see, that the queue `SFSF_EMPLOYEE_ERROR` has been stopped and therefore rated as *Error*. The queue `CX_SRVORDER_ASYNC` is in state *Warning*
 
-4. *Close* the details page by the *plus* icon **(+)** and *click* on the tab **All Metrics**
+4. *Close* the details page by the *plus* icon **(X)** and *click* on the tab **All Metrics**
 
    <br>![](/exercises/ex4/images/HMSwitchToAllMetrics.png)   
 
@@ -42,21 +44,19 @@ Run through the steps in the given order
    
     As the list of metrics might be large the list can be sorted, filtered by a specific metric type or rating, or one can group the metrics by their labels
     
-    *The following steps are **optional** and only for your information.* You may jump directly to [Exercise 4.7](/exercises/ex4/ex47/)
+    *The following steps are **optional** and only for your information.* You may jump directly to [Exercise 4.7](/exercises/ex4/ex47/)<br>
+    
 5. **Filter** for metrics in state *Critical*, *Fatal*, or *Warning*
 
-   <br>![](/exercises/ex4/images/HMMetricsFilterData.png)   
-   
-6. *Reset* the filter again in the *filter dialog* and **group** the list per certificate **Type** and additional **search** for **certificate** to exclude JMS queues
+    <br>![](/exercises/ex4/images/HMMetricsFilterData.png)    
+ 
+6. *Click* on the button **History** of the metric **JMS Queue Capacity**
 
-   <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
-   
-   You see that the certificate metric *CPI.Certificate.Expiry* has **two different labels**:
-   
-   - *alias*: certificate name
-   - *type*: certificate type (certificate, key pair) 
-   
-7. Go back to the ... page, select the    service and *click* on the button **History** of the metric **JMS Queue Capacity**
+    <br>![](/exercises/ex4/images/HMMetricClickHistoryCapacity.png)    
+    
+7. *Use* the **time picker** to find the best time interval in the curve to see when the queues filled up 
+
+    <br>![](/exercises/ex4/images/HMMetricCapacityHistory.png)
 
     >
     > The graph shows how the metric has evolved in chronological development, to identify trends for the usage of resources, or to analyze when exactly a specific situation has happened. 
@@ -64,11 +64,24 @@ Run through the steps in the given order
     > It is possible to see the collected data of selected labels for the last 30 days. 
     >
 
-    <br>![](/exercises/ex4/images/HMMetricCapacityHistory.png)
+    The queues on this tenant `TECHED-APJ01`have been prepared Nov 15th, 2022, 5:00 - 5:40 pm.  
     
-    The queues on this tenant have been prepared Nov 8th, 2022. Therefore you will see a hop that day. *Find* the hop using the *picker*
-    
-     :heavy_exclamation_mark: **It is not possible to resolve any issue in SAP Cloud ALM. For the issue resolution you have to use SAP Integration Suite!**
+
+   
+   
+   
+8. **Close** the dialog and **reset the filter** in the *filter dialog*
+
+9. Now **group** the list per certificate **Type** and additional **search** for **certificate** to exclude JMS queues
+
+   <br>![](/exercises/ex4/images/HMMetricsGroupPerCertificateType.png)
+   
+   You see that the certificate metric *CPI.Certificate.Expiry* has **two different labels**:
+   
+   - **alias**: certificate name
+   - **type**: certificate type (certificate, key pair) 
+   
+ 
     
 ## Summary
 
