@@ -28,4 +28,4 @@ Run through the steps in the given order
 
 Now you have seen how a failed message alert appears in the *alerting section* of *Integration & Exception Monitoring*
 
-<br>Congratulation. You have finalized Exercise 3. Continue to [Exercise 4](/exercises/ex4/)
+<br>Congratulation. You have finalized Exercise 3. Continue to [Exercise 4](/exercises/ex4/readme.md)
