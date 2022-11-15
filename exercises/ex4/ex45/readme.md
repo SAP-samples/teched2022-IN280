@@ -14,7 +14,8 @@ Run through the steps in the given order.
 
     <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
     
-
+    The **metric overview page** opens
+    
     >
     > This **metric overview of a particular service** is the centerpiece of Health Monitoring and offers a quick health overview, in our case the selected *Cloud Integration service*. 
     >
