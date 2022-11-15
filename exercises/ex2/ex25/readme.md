@@ -12,7 +12,7 @@ Run through the steps in the given order
 
 1. **Login** to *SAP Integration Suite* 
 
-    Use the information from the  [Tenant Booker application](/exercises/ex0/ex02/)
+    Use the information from the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) 
     
     - first link to access the SAP Integration Suite tenant 
     - user / password
@@ -38,7 +38,7 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex2/images/SuiteArtifactsActionsCopy.png)
   
-5. In the **copy dialog** *replace* in field *Name* the *_copy*  by `- <userID>` with the userID you got from the [Tenant Booker appl](/exercises/ex0/ex02/)
+5. In the **copy dialog** *replace* in field *Name* the *_copy*  by `- <userID>` with the userID you got from the **Tenant Booker application**
 
     The new integration flow should be named *Hallo World -* `<userID>` and be part of the existing integration package.
 
