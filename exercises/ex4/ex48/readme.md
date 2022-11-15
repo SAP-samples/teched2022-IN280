@@ -10,7 +10,13 @@ Health Monitoring comes with embedded alerting leveraged for various ALM use cas
 
 Run through the exercise steps in the given order
 
-1. *Navigate* to the **Alerting** section using the *exclamation mark* icon in the left-navigation
+1. *Navigate* to the **Alerting** section using 
+
+    a. either the **Alert** link in the footer of the *SAP Integration Suite** card
+    
+    <br>![](/exercises/ex4/images/HMOverviewpageMoveToAlerts.png)
+    
+    b. or the *exclamation mark* icon in the left-navigation
 
     <br>![](/exercises/ex4/images/HMAlerting.png)
     
