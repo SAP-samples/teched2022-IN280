@@ -5,7 +5,6 @@ In this exercise, you will bring a *Cloud Integration service* into scope.
 #### Prerequisites:
 
 - You are logged in to the [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- :construction_worker: *If you have a self-managed `CloudIntegration-<tenant_name>-<userID>` service:* it should be connected to the *Cloud Integration tenant*
 
 ## Exercise steps
 
