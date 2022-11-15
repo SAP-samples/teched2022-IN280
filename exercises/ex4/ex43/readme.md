@@ -23,7 +23,9 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
 
-    The highlighted Cloud Integration service has a **health percentage** of 88% and the service is rated as *Warning*.
+    The highlighted Cloud Integration service has a **health percentage** of 88% and the service is rated as *Warning*. 
+    
+    :grey_exclamation: In our live system landscape all the numbers may differ
     
 ## Summary
 
