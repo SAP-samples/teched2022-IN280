@@ -32,7 +32,7 @@ Run through the steps in the given order
 
 4.	*Optionally* *click* on the SAP S/4HANA Cloud node `MyS4HANACloud_01`
 
-    <br>![](/exercises/ex3/images/IMWorkforceTopoFieldglass.png) 
+    <br>![](/exercises/ex3/images/IMWorkforceTopoS4.png) 
 
     *Integration & Exception Monitoring* is retrieving monitoring information from SAP S/4HANA over AIF (SAP Application Interface Framework) messages
 
