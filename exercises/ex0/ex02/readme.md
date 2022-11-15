@@ -2,13 +2,14 @@
 
 We have the **Tenant Booker application** that provides all attendees access to the *SAP Cloud ALM* tenant and one of the *SAP Integration Suite* tenant. 
 
-### Retrieve user and password
+### Book Tenant and retrieve username and password
 
 Go to the *Tenant Booker application* (link will be added directly before the hands-on session will start)
 
+Click on the `Book Tenant` button. As a result you get *username* and *password* for login to **SAP Cloud ALM** and **SAP Integration Suite** tenant. 
+
 <br>![](/exercises/ex1/images/BookerApp.png)
 
-Click on the `Book Tenant` button. As a result you get *user* and *password* for login to **SAP Cloud ALM** and **SAP Integration Suite** tenant. 
 
 Please recognize and use the SAP Integration Suite tenant that is assigned to you and keep it noted for the entire session. </br>
 Check your **tenant_name**, it should be one of the 6 **SAP Integration Suite** tenant as mentioned in the [System landscape](/exercises/ex0)</br>
@@ -26,6 +27,6 @@ The example screenshot shows a tenant `TECHED-US01`.
 - Please ignore *Client ID* and *Client Secret* credentials and use only the API credentials
 - Use the second link *Tenant URL for SAP Cloud Integration* as *Root URL* but without `/itspaces/` at the end
 
-**Note:** Best practice is to keep the browser tab open for accessing *user, password* and other tenant details that is assigned to you.
+**Note:** Best practice is to keep the browser tab open for accessing *username, password* and other tenant details that is assigned to you.
 
 <br>Return back to your last exercise using the *browser back*
