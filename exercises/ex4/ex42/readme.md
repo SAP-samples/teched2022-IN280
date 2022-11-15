@@ -25,7 +25,7 @@ You get attention on services with technical issues very easily by means of the 
 
 3. *Check* the **status of business service events** with the *time-calendar-icon*
 
-    It shows the events from the **Cloud Availability Center**. Whenever a maintenance, degradation, or disruption event will startF it will be displayed here
+    It shows the events from the **Cloud Availability Center**. Whenever a maintenance, degradation, or disruption event will start it will be displayed here
 
 4. *Click* on the *Star* icon to set the type *Cloud Integration service* to your **favorite** ones
 
