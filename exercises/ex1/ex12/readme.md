@@ -13,11 +13,15 @@ In this exercise, you will learn how to add a HTTP endpoint for establishing an 
 
 Run through the steps in the given order
 
-1. *Click* on the **Add** button in the *Endpoints* section
+1. *Search* for the *Cloud Integration service* you have created in registered in [Exercise 1.1](/exercises/ex1/ex11/) by your `userID`and *select* it
+
+    <br>![](/exercises/ex1/images/LMSSelectService.png)
+
+21. *Click* on the **Add** button in the *Endpoints* section
 
     <br>![](/exercises/ex1/images/LMSAddEndpointButton.png)
        
-2. In the upcoming window under *General* maintain the fields
+3. In the upcoming window under *General* maintain the fields
 
     <br>![Replace the highlighted parts by the Tenant Booker app info](/exercises/ex1/images/LMSAddEndpointGeneral.png)
     
@@ -34,7 +38,7 @@ Run through the steps in the given order
         - Health Monitoring
      - *Root URL*: this field is available automatically
 
-3.	Under *Authentication* maintain the **OAuth credentials**
+4.	Under *Authentication* maintain the **OAuth credentials**
 
     <br>![Highlighted the tenant name](/exercises/ex1/images/LMSAddEndpointAuthentication.png)
     
@@ -48,17 +52,17 @@ Run through the steps in the given order
 
       <br>![Highlighted the tenant name](/exercises/ex1/images/BookerAppResultEndpointAuthentication.png)
    
-4. *Check* the **network connection** to verify whether the entered parameters are correct
+5. *Check* the **network connection** to verify whether the entered parameters are correct
 
     <br>![](/exercises/ex1/images/LMSEndpointConnectionCheck.png)
     
     :warning: If you don't see the three use cases add them. If the connectivity fails check the parameters.
     
-5. When done, **save** the endpoint configuration
+6. When done, **save** the endpoint configuration
 
-6. In the **service configuration page**, get an overview of all created endpoints and monitored use cases
+7. In the **service configuration page**, get an overview of all created endpoints and monitored use cases
 
-6. You can also check the connectivity using the **Ping Endpoints** button. 
+8. You can also check the connectivity using the **Ping Endpoints** button. 
 
     <br>![](/exercises/ex1/images/LMSPingConnection.png)
     
@@ -66,7 +70,7 @@ Run through the steps in the given order
     
     **Close** the detailed page for the selected service.
     
-7.  Oversee the lifecycle status of all managed services
+9.  Oversee the lifecycle status of all managed services
 
     The service you have registered will be in status **Active**. This will take a while, and do a browser refresh to get the page updated.
 
