@@ -23,21 +23,21 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex4/images/HMConfigSelectEventCertificate.png)
 
-3. The *toggle button* has already switched automatically. **Save** the activation for this particular **metric related event**
+3. *Change* the *toggle button* from *off* to *on* if not changed automatically. **Save** the activation for this particular **metric related event**
 
     <br>![](/exercises/ex4/images/HMConfigTurnOnEventCertificate.png)
      
     >
-    > *Note:* The activation of email notification, starting of an operation flow, and creating a ServiceNow ticket is out of scope of the TechEd session IN280
-    > 
+    > *Note:* If you want you can *activate* email notification
+    >
 
 4. *Activate* all other events *JMS Queue Capacity*, *JMS Queue entries*, *JMS Queue Messages*, *JMS Queue Status* in the same manner as described in steps 2 and 3
 
-    After the configuration you see all events activated
+    After the configuration you should see all events activated
     
     <br>![](/exercises/ex4/images/HMConfigActiveAlerts.png)
 
-5. *Close* the configuration and click again on the *configuration icon* to close the right configuration frame
+5. *Close* the configuration and *click* again on the *configuration* icon to close the right configuration frame
    
 
 ## Summary
