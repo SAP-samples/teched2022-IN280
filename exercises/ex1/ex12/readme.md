@@ -25,14 +25,14 @@ Run through the steps in the given order
     
     - *Endpoint name*: `<tenant_name>-<userID>` with *tenant names* such as TECHED-US01, TECHED-US02, TECHED-EU01, TECHED-EU02, TECHED-APJ01, or TECHED-APJ02
        
-        *Copy* your `<tenant_name>` and `userID` from  the [Tenant Booker application](/exercises/ex0/ex02/)
+        *Copy* your `<tenant_name>` and `userID` from  the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) 
 		
     - *Optionally* maintain a description
     - *Use Case*: select all monitoring use cases
         - Exception Monitoring
         - Integration Monitoring
         - Health Monitoring
-     - *Root URL*: thies field is available automatically
+     - *Root URL*: this field is available automatically
 
 3.	Under *Authentication* maintain the **OAuth credentials**
 
@@ -42,7 +42,7 @@ Run through the steps in the given order
     
 	- Authentication type: `OAuth2ClientCredentials`
 	
-	- Copy/paste the *client ID, client secret*, and *token service URL* from the  [Tenant Booker app](/exercises/ex0/ex02/) 
+	- Copy/paste the *client ID, client secret*, and *token service URL* from the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) 
   
 	  :warning: Just to be clear, please copy/paste the details from the **API Client ID / Secret**, see the screenshot below. These credentials relate to the *Process Integration* **API plan**!
 
