@@ -5,6 +5,7 @@ For the following end-to-end integration monitoring exercise, one part of the in
 The relevant integration flows for the integration scenario are as follows:
 - [Replicate Purchase Requisition from SAP Fieldglass to SAP S4HANA](https://api.sap.com/integrationflow/Replicate_Purchase_Requisition_from_Fieldglass_to_S4HANA)
 - [Purchase Order Status Replication from SAP S4HANA to SAP Fieldglass](https://api.sap.com/integrationflow/Purchase_Order_Status_Replication_from_S4HANA_to_Fieldglass)
+- [Replicate Purchase Order from SAP Fieldglass to SAP S4HANA](https://api.sap.com/integrationflow/Replicate_Purchase_Order_from_Fieldglass_to_S4HANA)
 
 
 See also the documentation of the process flow [Purchase Order and Invoicing](https://help.sap.com/docs/SAP_FIELDGLASS_INTEGRATION/bf3d1caf8c1f4f69801b37a45ac1d1b3/046b0d5f642346bd8624f1b741956585.html)
