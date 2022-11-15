@@ -14,8 +14,8 @@ Run through the steps in the given order
 
     Use the information from the **Tenant Booker application** linked in [Access information](/exercises/ex0/ex02/) 
     
-    - first link to access the SAP Integration Suite tenant 
-    - user / password
+    - **Access** to the SAP Integration Suite tenant assigned to via through the **first link**
+    - User and password are also given
     
     <br>![](/exercises/ex2/images/Login.png)
     
