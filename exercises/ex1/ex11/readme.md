@@ -2,7 +2,7 @@
 
 In this exercise, you will learn how to register a Cloud Integration service in the *Landscape Management Service (LMS)* of SAP Cloud ALM. This service has a secure connection to a respective Cloud Integration tenant as part of SAP Integration Suite. 
 
-**Note:** This exercise is only necessary if you configure a *Cloud Integration service* in SAP Cloud ALM yourself
+:construction_worker: **Note: This exercise is only necessary if you configure a Cloud Integration service in SAP Cloud ALM yourself**
 
 #### Prerequisites
 
