@@ -40,7 +40,7 @@ When you run through the exercise steps, you need to ensure that the technical I
 
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-If you want to manual configuration steps yourself please start with [Exercise 1 - Register an own-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
+If you want to manual configuration steps yourself please start with [Exercise 1 - Register an self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
 
 If you want to reuse pre-configured services in SAP Cloud ALM start with [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
 
