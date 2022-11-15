@@ -18,11 +18,9 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex4/images/HMScoping.png)
 
-3. *Select* the **Cloud Integration service** you want to monitor (either the preconfigured or self-managed one)
-
-    You may select also further preconfigured *Cloud Integration services*
+3. *Select* all default **Cloud Integration services** (and optionally your self-managed service)
     
-4. *Apply* the selection
+4. **Apply** the selection
 
 
     
