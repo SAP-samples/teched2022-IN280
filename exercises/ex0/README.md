@@ -14,10 +14,6 @@ They are all running in Cloud Foundry environment
 
 To differentiate the real **Cloud Integration tenants** of SAP Integration Suite from the representatives in SAP Cloud ALM, we call the ones in SAP Cloud ALM **Cloud Integration services**
 
-Find all information around system access and OAuth credentials under **[Access information](/exercises/ex0/ex02/)**.
+The configuration we have done already in the SAP BTP cockpit is outlined in **[Configurations done in SAP Integration Suite subaccounts as a prerequisite for this session](/exercises/ex0/ex01/)**. 
 
-The configuration we have done already in the SAP BTP cockpit is outlined in **[Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)**. 
-
-
-
-<br>Continue to - [Exercise 1 - Register a self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
+<br>Continue to - **[Access information](/exercises/ex0/ex02/)** for all the information around system access and OAuth credentials
