@@ -28,7 +28,7 @@ Run through the steps in the given order.
     
     <br>![](/exercises/ex4/images/HMMetricOverview.png)
         
-    For the selected Cloud Integration service `CloudIntegration-TECHED-APJ01` you see that a certificate is in state *Warning* and soon expiring. And the JMS resources have to be examined. The queue `SFSF_EMPLOYEE_ERROR` has been stopped with 6 messages in the queue. 2 of 10 queues aren't in state *Ok* and it looks like the total queue capacity is getting exhausted.
+    For the selected Cloud Integration service `CloudIntegration-TECHED-APJ01` you see that one certificate is in state *Warning* and soon expiring. And the JMS resources have to be examined. The queue `SFSF_EMPLOYEE_ERROR` has been stopped with 6 messages in the queue. 2 of 10 queues aren't in state *Ok* and it looks like the total queue capacity is getting exhausted.
     
 ## Summary
 
