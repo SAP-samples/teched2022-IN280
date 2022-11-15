@@ -12,7 +12,7 @@ Run through the steps in the given order.
 
 1. *Click* on any *Cloud Integration service* `CloudIntegration-TECHED-APJ01` and drill down one level 
 
-    <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
+    <br>![](/exercises/ex4/images/HMDrillDownToInstanceAPJ01.png)
     
     The **metric overview page** opens
     
