@@ -6,7 +6,7 @@
 
     As a result you get *user* and *password* for the logins to **SAP Integration Suite** as well as for **SAP Cloud ALM**
     
-    Please recognize the SAP Integration Suite tenant assigned to you. We have one SAP Cloud ALM tenant and **six SAP Integration Suite tenants prepared (US01, US02, EU01, EU02, APJ01, APJ02)** and the *Tenant Booker application* assigns you to own of them. The URL to the assign tenant is available in the result list of the *Tenant Booker app*, the first link.
+    Please recognize the SAP Integration Suite tenant assigned to you. We have one SAP Cloud ALM tenant and **six SAP Integration Suite tenants prepared (US01, US02, EU01, EU02, APJ01, APJ02)** and the *Tenant Booker application* assigns you to one of them. The URL to the assign tenant is available in the result list of the *Tenant Booker app*, the first link.
 
     Additionally the Tenant Booker app provides you all relevant roles necessary to run the exercises
     
