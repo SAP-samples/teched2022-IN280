@@ -30,9 +30,7 @@ You can check out the following material:
 
 For running through the exercise steps, we will provide you access to the following systems:
 
-- 1 [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions)
-- [System landscape](/exercises/ex0/)
+- [System landscape](/exercises/ex0/readme.md)
 - [Access information](/exercises/ex0/ex02)
 
 When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse your user ID.
@@ -51,9 +49,6 @@ Regarding Exercise 2
 
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [System landscape](/exercises/ex0/)
-    - [Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)
-    - [Access information](/exercises/ex0/ex02/)
 - [Exercise 1 - Register a self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
     - [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
