@@ -13,7 +13,7 @@ In this exercise, you will activate the **alerting** of integration exceptions f
 
 Run through the steps in the given order
 
- :heavy_exclamation_mark: **The configuration is currently fragile. Please save after every step and wait a sec before you go to the next step**
+ :custard: **The configuration is currently fragile. Please save after every step and wait a sec before you go to the next step**
 
 1. *Click* on the *three dots* and then on **Edit Configuration** on the card of the *Cloud Integration* service you have registered
 
