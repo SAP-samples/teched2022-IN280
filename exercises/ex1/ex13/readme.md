@@ -47,9 +47,9 @@ Run through the steps in the given order
 	
     c. Proof whether the data collection is running successfully
     
+    :custard: It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card gets updated
+    
     <br>![](/exercises/ex1/images/IMOverviewDataCollectionActivated.png)
-
-     :custard: It takes some minutes until the *Data Quality* icon in the footer of the *Cloud Integration* service card gets updated
      
     d. **Refresh** the user interface to see whether the data collection has been started 
     
