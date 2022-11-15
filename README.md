@@ -31,23 +31,30 @@ You can check out the following material:
 For running through the exercise steps, we will provide you access to the following systems:
 
 - 1 [SAP Cloud ALM tenant](https://teched22-cloudalm-003.eu10.alm.cloud.sap/launchpad#Shell-home)
-- 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions) are provided. You will be assigned to one of them via a [Tenant Booker application](/exercises/ex0/ex02/)
-- See also the [System landscape](/exercises/ex0/)
+- 6 SAP Integration Suite tenants ( 2 tenants each in 3 regions)
+- [System landscape](/exercises/ex0/)
+- [Access information](/exercises/ex0/ex02)
 
-When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse the digital numbers of your user.
+When you run through the exercise steps, you need to ensure that the technical IDs that you will create are unique. Hence, reuse your user ID.
 
 ## Exercises
 
+The Exercises 2, 3, and 4 are independent form each other. 
+
+Regarding Exercise 2
+- If you want to do configuration steps yourself and register a *Cloud Integration service* in SAP Cloud ALM, please start with [Exercise 1](/exercises/ex1/README.md)
+- If you want to reuse pre-configured services in SAP Cloud ALM start with [Exercise 2](/exercises/ex2/README.md)
+
+<br>![](/exercises/ex0/images/IN280Exercises.png)
+
+
+
 In the following, the complete list of exercise steps are listed. You can run through them in the given order. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-If you want to manual configuration steps yourself please start with [Exercise 1 - Register an self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
-
-If you want to reuse pre-configured services in SAP Cloud ALM start with [Exercise 2 - Monitoring a deployment exception](/exercises/ex2/README.md)
-
-- [Prerequisites and additional information](/exercises/ex0/)
+- [System landscape](/exercises/ex0/)
     - [Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)
-    - [Retrieve user / password](/exercises/ex0/ex02/)
-- [Exercise 1 - Register an self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
+    - [Access information](/exercises/ex0/ex02/)
+- [Exercise 1 - Register a self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
     - [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
     - [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
@@ -89,26 +96,3 @@ Support for the content in this repository is available during the actual time o
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
-
-
-<!--
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
-
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-
-
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
--->
