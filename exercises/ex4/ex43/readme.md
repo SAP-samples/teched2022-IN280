@@ -15,10 +15,11 @@ Run through the steps in the given order
 
     <br>![](/exercises/ex4/images/HMDrillDownToType.png)
 
+    > The **monitoring page** offers an overview of all registered services that are in scope.
     >
-    > The **monitoring page** offers an overview of all registered services that are in scope. In case of navigating from the *overview page* and selecting a *service tpye* it shows only the services of this type
     >
     > It shows the **tenant health rating** along with number of raised alerts, and the information on data quality. If alerts exist for an instance you may jump directly to the embedded alert inbox.
+    >
 
     <br>![](/exercises/ex4/images/HMDrillDownToInstance.png)
 
