@@ -12,7 +12,7 @@ The **benefit** of *SAP Cloud ALM* is to get an overview of the **health rating 
 
 ### Prepared system landscpae
 
-- Several certificates have been uploaded that are partially already expired or will soon expire
+- Several certificates have been uploaded. They are partially already expired or will expire soon
 - JMS queues have been created and filled with messages
 - Some queues have been stopped to provoke critical states
 - The queue sizes of some queues have been reduced to reach "earlier" the max capacity
