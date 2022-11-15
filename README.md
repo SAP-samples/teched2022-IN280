@@ -47,7 +47,7 @@ If you want to reuse pre-configured services in SAP Cloud ALM start with [Exerci
 - [Prerequisites and additional information](/exercises/ex0/)
     - [Prereq configurations in SAP Integration Suite subaccounts](/exercises/ex0/ex01/)
     - [Retrieve user / password](/exercises/ex0/ex02/)
-- [Exercise 1 - Register an own-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
+- [Exercise 1 - Register an self-managed Cloud Integration service in SAP CLoud ALM](/exercises/ex1/README.md)
     - [Register a Cloud Integration service in LMS](/exercises/ex1/ex11/)
     - [Add an HTTP endpoint to a managed service](/exercises/ex1/ex12/)
     - [Activate data collection for the use case Integration & Exception Monitoring](/exercises/ex1/ex13/)
