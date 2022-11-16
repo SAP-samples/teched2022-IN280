@@ -9,8 +9,8 @@ The Health Monitoring application of SAP Cloud ALM is a central place for tracki
 In this session you get a deeper insights on how to monitor integration scenarios centrally in SAP Cloud ALM:
 
 - How to setup secure connectivity between SAP Integration Suite and SAP Cloud ALM to enable integration, exception and health monitoring  centrally
-- How to navigate through the applications in order to monitor and analyze integration specific issues
-- How to monitor end-to-end integration scenarios, perform a drill-down to single message details, and navigate to the local monitoring for issue resolution
+- How to navigate through the applications in order to monitor and analyze integration specific issues, and jump context-sensitive to the local monitoring for issue resolution
+- How to monitor end-to-end integration scenarios, perform a drill-down to single message details
 - How to track exhausting resources like JMS queues or expiring certificates
 - How to activate alerts, track them, and receive auto-notifications through email
 
