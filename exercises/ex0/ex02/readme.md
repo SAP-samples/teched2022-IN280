@@ -4,7 +4,7 @@ We have the **Tenant Booker application** that provides all attendees access to 
 
 ### Book Tenant and retrieve username and password
 
-Go to the *Tenant Booker application* (link will be added directly before the hands-on session will start)
+Go to the **[Tenant Booker application](https://techedtenantbookerapplication-ad5b9d48b.dispatcher.hana.ondemand.com/)**
 
 Click on the `Book Tenant` button. As a result you get *username* and *password* for login to **SAP Cloud ALM** and **SAP Integration Suite** tenant. 
 
