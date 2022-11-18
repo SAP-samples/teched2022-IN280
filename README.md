@@ -28,6 +28,8 @@ You can check out the following material:
 
 ## System details
 
+:warning: **The tenant for SAP Cloud ALM has been deleted. Therefore access is for the moment not possible!**
+
 For running through the exercise steps, we will provide you access to the following systems:
 
 - [System landscape](/exercises/ex0/README.md)
